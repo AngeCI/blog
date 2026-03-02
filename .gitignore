@@ -1,0 +1,17 @@
+resources/
+.env
+.env.local
+hugo.log
+
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+.#*
+
+.vscode/
+.idea/
+*.swp
+
+.gitmodules
+node_modules/

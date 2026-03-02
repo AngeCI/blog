@@ -1,0 +1,4 @@
+baseURL = 'https://angeci.github.io/blog/'
+languageCode = 'zh-tw'
+title = 'AngeCI’s Blog'
+theme = 'hugo-theme-stack'
