@@ -1,0 +1,14 @@
+[footer]
+    since      = 2026
+
+[dateFormat]
+    published   = ":date_full"
+    lastUpdated = ":date_full"
+
+[widgets]
+    homepage = [
+        { type = "search" },
+        { type = "archives" },
+        { type = "categories" },
+        { type = "tag-cloud" },
+    ]

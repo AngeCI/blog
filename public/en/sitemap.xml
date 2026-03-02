@@ -11,7 +11,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-yue"
+                hreflang="zh-TW"
                 href="http://localhost:1313/blog/yue/"
                 />
     <xhtml:link
@@ -20,10 +20,36 @@
                 href="http://localhost:1313/blog/"
                 />
   </url><url>
+    <loc>http://localhost:1313/blog/page/archives/</loc>
+    <lastmod>2026-03-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-TW"
+                href="http://localhost:1313/blog/zh/page/archives/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/blog/page/archives/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/blog/page/</loc>
+    <lastmod>2026-03-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-TW"
+                href="http://localhost:1313/blog/zh/page/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/blog/page/"
+                />
+  </url><url>
     <loc>http://localhost:1313/blog/categories/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-yue"
+                hreflang="zh-TW"
                 href="http://localhost:1313/blog/yue/categories/"
                 />
     <xhtml:link
@@ -37,10 +63,22 @@
                 href="http://localhost:1313/blog/categories/"
                 />
   </url><url>
+    <loc>http://localhost:1313/blog/page/search/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-TW"
+                href="http://localhost:1313/blog/zh/page/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/blog/page/search/"
+                />
+  </url><url>
     <loc>http://localhost:1313/blog/tags/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-yue"
+                hreflang="zh-TW"
                 href="http://localhost:1313/blog/yue/tags/"
                 />
     <xhtml:link

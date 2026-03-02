@@ -4,5 +4,5 @@
         <link>http://localhost:1313/blog/yue/</link>
         <description>Recent content on AngeCI’s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>zh-yue</language><atom:link href="http://localhost:1313/blog/yue/index.xml" rel="self" type="application/rss+xml" /></channel>
+        <language>zh-TW</language><atom:link href="http://localhost:1313/blog/yue/index.xml" rel="self" type="application/rss+xml" /></channel>
 </rss>
