@@ -1,4 +1,25 @@
 baseURL = 'https://angeci.github.io/blog/'
-languageCode = 'zh-tw'
 title = 'AngeCI’s Blog'
 theme = 'hugo-theme-stack'
+enableMissingTranslationPlaceholders = true
+
+[languages]
+  [languages.en]
+    contentDir = 'content/en'
+    languageCode = 'en'
+    languageName = 'English'
+    weight = 0
+  [languages.zh]
+    contentDir = 'content/zh'
+    languageCode = 'zh-TW'
+    languageName = '正體中文'
+    weight = 0
+  [languages.yue]
+    contentDir = 'content/yue'
+    languageCode = 'zh-yue'
+    languageName = '粵語'
+    weight = 0
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
