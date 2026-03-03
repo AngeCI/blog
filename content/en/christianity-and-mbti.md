@@ -1,8 +1,9 @@
----
++++
 date = "2026-03-03T12:31:26+00:00"
 title = "Christianity and MBTI"
 translationKey = "christianity-and-mbti"
----
+categories = ["Christianity 基督教", "MBTI"]
++++
 
 It is well known that Christianity does not advocate “superstition”. Some people say that MBTI is “pseudoscience”, so should MBTI be a “superstition”, like Chinese zodiacs and astronomy?
 
