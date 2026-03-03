@@ -1,6 +1,5 @@
 ---
 date: "2026-03-03T16:51:10+00:00"
-draft: true
 title: "Blog Maintenance"
 translationKey: "blog-maintenance"
 categories:
