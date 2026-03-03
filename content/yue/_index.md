@@ -13,3 +13,5 @@ title: "首頁"
 仲未諗到寫啲乜喺首頁度。或者之後先嚟填呢個坑啦。
 
 總之，讀者可以透過電郵 angeci (at) ltgc.cc 嚟搵我。不過呢個域名而家仲未出到電郵，所以回覆將會透過另一個電郵地址發送。
+
+翻譯可以透過電郵提交，或者喺 [GitHub repo](https://github.com/AngeCI/blog) 度出個 PR 都得。

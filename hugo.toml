@@ -16,7 +16,7 @@ enableMissingTranslationPlaceholders = true
     weight = 0
   [languages.yue]
     contentDir = 'content/yue'
-    languageCode = 'zh-TW'
+    languageCode = 'zh-HK'
     languageName = '粵語'
     weight = 0
 
