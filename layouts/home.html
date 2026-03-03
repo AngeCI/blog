@@ -1,7 +1,10 @@
 {{ define "main" }}
+<!-- Very ungly approach, not knowing how to fix this. -->
+<script>document.body.classList.add("article-page")</script>
+
     {{- $paginator := partial "helper/paginator.html" . -}}
 
-    {{ .Content }}
+    {{ partial "article/article" . }}
 
     <section class="article-list">
         {{ range $index, $element := $paginator.Pages }}

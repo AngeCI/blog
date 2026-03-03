@@ -1,9 +1,18 @@
+# Pages placed under these sections will be shown on homepage and archive page.
+mainSections = [""]
+# Output page's full content in RSS.
+rssFullContent = true
+
 [footer]
     since      = 2026
 
 [dateFormat]
     published   = ":date_full"
     lastUpdated = ":date_full"
+
+[article]
+    headingAnchor = true
+    readingTime   = true
 
 [widgets]
     homepage = [
@@ -12,3 +21,8 @@
         { type = "categories" },
         { type = "tag-cloud" },
     ]
+    page = [{ type = "toc" }]
+
+[colorScheme]
+    toggle  = true
+    default = "auto"
