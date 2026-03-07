@@ -1,9 +1,11 @@
-+++
-date = "2026-03-03T12:31:26+00:00"
-title = "基督教與 MBTI"
-translationKey = "christianity-and-mbti"
-categories = ["Christianity 基督教", "MBTI"]
-+++
+---
+date: "2026-03-03T12:31:26+00:00"
+title: "基督教與 MBTI"
+translationKey: "christianity-and-mbti"
+categories: 
+  - "Christianity 基督教"
+  - "MBTI"
+---
 
 眾所周知，基督教不鼓吹「迷信」。有人說 MBTI 是「偽科學」（pseudoscience），那麼 MBTI 是否應該與生肖運程、星座運程一樣，都是一種「迷信」？
 

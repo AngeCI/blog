@@ -1,3 +1,7 @@
+# Markdown renderer configuration
+[goldmark.renderer]
+    unsafe = true
+
 [tableOfContents]
     endLevel   = 4
     ordered    = true
