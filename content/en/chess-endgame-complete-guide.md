@@ -8,7 +8,7 @@ categories:
 
 > This page is still **work in progress**, stay focus for **continuous upcoming updates** on this page!
 
-This page is intended to be used as notes, 文章組織有點混亂請見諒. FEN strings appear on this page are planned to be made into an interactive web gadget at a later stage, in order to make the passage more convenient to read.
+This page is intended to be used as notes, pardon me for the somewhat disorganized passage. FEN strings appear on this page are planned to be made into an interactive web gadget at a later stage, in order to make the passage more convenient to read.
 
 # Bare king endgames
 ## King & queen vs bare king
