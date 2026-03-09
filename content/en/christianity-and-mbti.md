@@ -7,6 +7,10 @@ categories:
   - "MBTI"
 ---
 
+> __⚠️ Notice__
+>
+> This post is a draft translation from [the Chinese version](/blog/zh/christianity-and-mbti/) which have not yet been thoroughly proofread.
+
 It is well known that Christianity does not advocate “superstition”. Some people say that MBTI is “pseudoscience”, so should MBTI be a “superstition”, like Chinese zodiacs and astronomy?
 
 # Pseudoscience = superstition?

@@ -6,6 +6,10 @@ categories:
   - "Financial Management 財務管理"
 ---
 
+> __⚠️ Notice__
+>
+> This post is a draft translation from [the Chinese version](/blog/zh/still-stuck-at-cash-payment/) which have not yet been thoroughly proofread.
+
 I seem to have never really grasped the concept of personal financial management.
 
 So I went out with a group of friends I hadn’t known for very long, and we all had to chip in to pay. I paid with cash on the spot at the first time; On the second time, they stated that they whish to collect the money via PayMe or FPS beforehand, so I found someone who’s more familiar with me to help me out first, since I wasn’t quite familiar with such things at the moment. Though that person ended up ask me to return the money to them via FPS later on. 🤣

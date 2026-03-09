@@ -6,11 +6,35 @@
   [main.params]
     icon = "rss"
     newTab = true
+	
+[[main]]
+  name = "透過 RSS 訂閱（正體中文）"
+  url = "/zh/index.xml"
+  weight = 11
+  identifier = "rss-zh"
+  [main.params]
+    icon = "rss"
+    newTab = true
+	
+[[main]]
+  name = "透過 RSS 訂閱（粵語）"
+  url = "/yue/index.xml"
+  weight = 12
+  identifier = "rss-yue"
+  [main.params]
+    icon = "rss"
+    newTab = true
 
 [[social]]
   identifier = "github"
   name       = "GitHub"
   url        = "https://github.com/AngeCI"
-
   [social.params]
     icon = "brand-github"
+
+[[social]]
+  identifier = "more"
+  name       = "More products"
+  url        = "https://angeci.github.io"
+  [social.params]
+    icon = "dots"
