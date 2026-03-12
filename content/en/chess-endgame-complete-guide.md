@@ -49,7 +49,7 @@ If the attacking sides pawn is on a or h-file, it would be very hard to win if t
 # Rook & pawn endgames
 In the situation of a single rook versus a single pawn (KRKP), the pawn side can draw the game if they can prevent the opponent’s king from approaching their pawn. The rook side should try to approach the pawn with their king, as well as watching the pawn from behind with the rook.
 
-> FEN string: 3r4/8/1PK2p2/5k2/8/8/8/1K6 b - - 0 1
+> FEN string: 3r4/8/1PK2p2/5k2/8/8/8/1R6 b - - 0 1
 >
 > If black moves first, the only solution is Ke4, shouldering the enemy king.
 
