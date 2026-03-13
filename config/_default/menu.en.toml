@@ -1,0 +1,22 @@
+[[main]]
+  name = "Subscribe via RSS"
+  url = "/index.xml"
+  weight = 10
+  identifier = "rss"
+  [main.params]
+    icon = "rss"
+    newTab = true
+
+[[social]]
+  identifier = "github"
+  name       = "GitHub"
+  url        = "https://github.com/AngeCI"
+  [social.params]
+    icon = "brand-github"
+
+[[social]]
+  identifier = "more"
+  name       = "More products"
+  url        = "https://angeci.github.io"
+  [social.params]
+    icon = "dots"

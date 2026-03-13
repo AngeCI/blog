@@ -1,25 +1,7 @@
 [[main]]
-  name = "Subscribe via RSS"
-  url = "/index.xml"
-  weight = 10
-  identifier = "rss"
-  [main.params]
-    icon = "rss"
-    newTab = true
-	
-[[main]]
-  name = "透過 RSS 訂閱（正體中文）"
-  url = "/zh/index.xml"
-  weight = 11
-  identifier = "rss-zh"
-  [main.params]
-    icon = "rss"
-    newTab = true
-	
-[[main]]
-  name = "透過 RSS 訂閱（粵語）"
+  name = "透過 RSS 訂閱"
   url = "/yue/index.xml"
-  weight = 12
+  weight = 10
   identifier = "rss-yue"
   [main.params]
     icon = "rss"
