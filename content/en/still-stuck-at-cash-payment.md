@@ -6,8 +6,7 @@ categories:
   - "Financial Management 財務管理"
 ---
 
-> __⚠️ Notice__
->
+> [!WARNING] Notice
 > This post is a draft translation from [the Chinese version](/blog/zh/still-stuck-at-cash-payment/) which have not yet been thoroughly proofread.
 
 I seem to have never really grasped the concept of personal financial management.

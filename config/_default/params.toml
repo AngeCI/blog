@@ -21,7 +21,11 @@ rssFullContent = true
         { type = "categories" },
         { type = "tag-cloud" },
     ]
-    page = [{ type = "toc" }]
+    page = [
+        { type = "search" },
+        { type = "toc" },
+        { type = "archives" },
+    ]
 
 [colorScheme]
     toggle  = true

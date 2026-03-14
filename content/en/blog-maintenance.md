@@ -6,8 +6,7 @@ categories:
   - "Blog 部落格"
 ---
 
-> __⚠️ Notice__
->
+> [!WARNING] Notice
 > This post is a draft translation from [the Chinese version](/blog/zh/blog-maintenance/) which have not yet been thoroughly proofread.
 
 Finally get a self-hosted blog (somewhat) set up online, but still struggling to get everything working.
