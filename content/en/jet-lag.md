@@ -8,7 +8,7 @@ categories:
 ---
 
 > [!WARNING] Notice
-> This post is a draft translation from [the Chinese version](/blog/zh/perfect-days/) which have not yet been thoroughly proofread.
+> This post is a draft translation from [the Chinese version](/blog/zh/jet-lag/) which have not yet been thoroughly proofread.
 
 > [!TIP] BlogBlog Club!
 > The content of this post seems quite fit the topic “[Am I the only one like this?](https://wiwi.blog/blog/blogblog-party-feb-2026)”, which is the topic of [February 2026’s BlogBlog Club](https://blogblog.club/party), but unfortunately I ended up coming too late! I didn’t even get the inspiration to write it until mid-March.
