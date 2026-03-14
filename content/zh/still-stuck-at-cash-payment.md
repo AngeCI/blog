@@ -1,6 +1,7 @@
 ---
 date: "2026-03-03T17:25:16+00:00"
 title: "還用現金付款？"
+description: "就算別人肯收現金，別人也不一定有零錢可以找給你啊。"
 translationKey: "still-stuck-at-cash-payment"
 categories:
   - "Financial Management 財務管理"

@@ -1,6 +1,7 @@
 ---
 date: "2026-03-03T17:25:16+00:00"
 title: "Still Stuck at Cash Payment?"
+description: "Even if others are willing to accept cash, they can’t even guarantee themselves to have change to give you."
 translationKey: "still-stuck-at-cash-payment"
 categories:
   - "Financial Management 財務管理"

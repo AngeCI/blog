@@ -1,6 +1,7 @@
 ---
 date: "2026-03-03T17:25:16+00:00"
 title: "仲用現金畀錢？"
+description: "就算人哋肯收現金，人哋都未必有散紙找畀你喎。"
 translationKey: "still-stuck-at-cash-payment"
 categories:
   - "Financial Management 財務管理"
