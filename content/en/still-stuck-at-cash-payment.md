@@ -4,11 +4,15 @@ title: "Still Stuck at Cash Payment?"
 description: "Even if others are willing to accept cash, they can’t even guarantee themselves to have change to give you."
 translationKey: "still-stuck-at-cash-payment"
 categories:
+  - "BlogBlog 同樂會"
   - "Financial Management 財務管理"
 ---
 
 > [!WARNING] Notice
 > This post is a draft translation from [the Chinese version](/blog/zh/still-stuck-at-cash-payment/) which have not yet been thoroughly proofread.
+
+> [!TIP] BlogBlog Club!
+> The content of this post seems quite match the topic “[Am I the only one like this?](https://wiwi.blog/blog/blogblog-party-feb-2026)”, which is the topic of [February 2026’s BlogBlog Club](https://blogblog.club/party), but unfortunately I ended up coming too late! I didn’t even get the inspiration to write it until early-March.
 
 I seem to have never really grasped the concept of personal financial management.
 

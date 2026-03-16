@@ -4,8 +4,12 @@ title: "仲用現金畀錢？"
 description: "就算人哋肯收現金，人哋都未必有散紙找畀你喎。"
 translationKey: "still-stuck-at-cash-payment"
 categories:
+  - "BlogBlog 同樂會"
   - "Financial Management 財務管理"
 ---
+
+> [!TIP] BlogBlog 同樂會！
+> 呢篇文章嘅內容似乎幾切合 [BlogBlog 同樂會 2026 年 2 月](https://blogblog.club/party)嘅主題「[得我先係咁？](https://wiwi.blog/blog/blogblog-party-feb-2026)」，可惜嚟遲咗！我居然一直到 3 月頭先諗到寫作嘅靈感。
 
 我似乎一路以嚟都對個人財務管理冇乜概念。
 

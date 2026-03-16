@@ -4,8 +4,12 @@ title: "還用現金付款？"
 description: "就算別人肯收現金，別人也不一定有零錢可以找給你啊。"
 translationKey: "still-stuck-at-cash-payment"
 categories:
+  - "BlogBlog 同樂會"
   - "Financial Management 財務管理"
 ---
+
+> [!TIP] BlogBlog 同樂會！
+> 這篇文章的內容似乎挺切合 [BlogBlog 同樂會 2026 年 2 月](https://blogblog.club/party)的主題「[只有我這樣嗎？](https://wiwi.blog/blog/blogblog-party-feb-2026)」，可惜來晚了！我居然一直到 3 月頭才想到寫作的靈感。
 
 我似乎一直以來都對個人財務管理沒啥概念。
 
