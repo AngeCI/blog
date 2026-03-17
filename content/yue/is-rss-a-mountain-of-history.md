@@ -1,5 +1,6 @@
 ---
 date: "2026-03-16T13:19:00+00:00"
+lastmod: "2026-03-16T14:07:14+00:00"
 title: "RSS 係咪屎山？"
 description: "RSS 真係有大家想像中咁完美？"
 translationsKey: "is-rss-a-mountain-of-history"
