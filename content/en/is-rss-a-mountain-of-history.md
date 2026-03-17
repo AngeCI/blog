@@ -1,7 +1,7 @@
 ---
 date: "2026-03-16T13:19:00+00:00"
 title: "Is RSS a Mountain of History?"
-description: "Is RSS really as perfect as you imagine？"
+description: "Is RSS really as perfect as you imagine?"
 translationsKey: "is-rss-a-mountain-of-history"
 categories:
   - "Computer Science 電腦科學"

@@ -1,5 +1,6 @@
 ---
 date: "2026-03-03T12:31:26+00:00"
+lastmod: "2026-03-03T16:25:53+00:00"
 title: "基督教與 MBTI"
 description: "基督徒採納 MBTI 是自相矛盾嗎？"
 translationKey: "christianity-and-mbti"

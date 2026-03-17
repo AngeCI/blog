@@ -1,5 +1,6 @@
 ---
 date: "2026-03-12T18:00:00+00:00"
+lastmod: "2026-03-14T19:25:51+00:00"
 title: "時差"
 description: "只有我這樣嗎？"
 translationKey: "jet-lag"

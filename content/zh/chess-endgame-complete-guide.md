@@ -1,5 +1,6 @@
 ---
 date: "2026-03-09T19:18:40+00:00"
+lastmod: "2026-03-12T19:14:04+00:00"
 title: "國際象棋殘局完全指南"
 translationKey: "chess-endgame-complete-guide"
 categories:

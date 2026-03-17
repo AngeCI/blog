@@ -3,6 +3,8 @@ mainSections = [""]
 # Output page's full content in RSS.
 rssFullContent = true
 
+SortBy = "lastmod"
+
 [footer]
     since      = 2026
 
@@ -30,3 +32,6 @@ rssFullContent = true
 [colorScheme]
     toggle  = true
     default = "auto"
+
+[comments]
+    enabled  = false

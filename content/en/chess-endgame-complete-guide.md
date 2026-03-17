@@ -1,5 +1,6 @@
 ---
 date: "2026-03-09T19:18:40+00:00"
+lastmod: "2026-03-12T19:14:04+00:00"
 title: "Chess Endgame Complete Guide"
 translationKey: "chess-endgame-complete-guide"
 categories:
@@ -21,7 +22,7 @@ If the rook is attacked by the defending king and cannot proceed, move the rook 
 ## King & two bishops vs bare king
 - First force the defending king to the edge of the board.
 - Arrange the attacking pieces as a “bishop-bishop-king” shape, with one of the bishop and the defending king forming a shape similar to opposition.
-- W manoeuvre the bishops to force the defending king to the corner. If the defending king touches a bishop, move the attacking king to pretect the bishop.
+- W manoeuvre the bishops to force the defending king to the corner. If the defending king touches a bishop, move the attacking king to protect the bishop.
 - After the defending king is trapped on the corner, make good use of middle bishop’s waiting move to make the defending king be only able to move back and forth between two squares at the edge of the board.
 
 > FEN string: k7/8/BBK5/8/8/8/8/8 w - - 0 1
