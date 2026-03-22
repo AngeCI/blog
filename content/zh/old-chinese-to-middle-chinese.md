@@ -19,8 +19,8 @@ tags:
 
 | 擬音 | 韻部 | 1-4 | 2 | 3A | 3B | 1-4 | 2 | 3A | 3B | 1-4 | 2 | 3A | 3B |
 | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
-| -ə | 之 | 咍 | 皆<sub>開</sub> | 之 | 之？ | 灰 | 皆<sub>合</sub> | 尤 | **脂 B<sub>合</sub>** | 灰 | 皆<sub>開</sub> | 尤 | **脂 B<sub>開</sub>** |
-| -ək | 職 | 德<sub>開</sub> | 麥<sub>開</sub> | 職<sub>開</sub> | 職<sub>開</sub>？ | 德<sub>合</sub> | 麥<sub>合</sub> | 職<sub>合</sub> | 職<sub>合</sub>？ | 德<sub>開</sub> | 麥<sub>開</sub> | **屋<sub>三</sub>** | 職<sub>開</sub> |
+| -ə | 之 | 咍 | 皆<sub>開</sub> | 之 | 之 | 灰 | 皆<sub>合</sub> | 尤 | **脂 B<sub>合</sub>** | 灰 | 皆<sub>開</sub> | 尤 | **脂 B<sub>開</sub>** |
+| -ək | 職 | 德<sub>開</sub> | 麥<sub>開</sub> | 職<sub>開</sub> | 職<sub>開</sub>？ | 德<sub>合</sub> | 麥<sub>合</sub> | 職<sub>合</sub>／**屋<sub>三</sub>** | **屋<sub>三</sub>** | 德<sub>開</sub> | 麥<sub>開</sub> | **屋<sub>三</sub>** | 職<sub>開</sub> |
 | -əŋ | 蒸 | 登<sub>開</sub> | 耕<sub>開</sub> | 蒸 | 蒸？ | 登<sub>合</sub> | 耕<sub>合</sub> |  |  | 登<sub>開</sub> | 耕<sub>開</sub> | **東<sub>三</sub>** | 蒸 |
 | -u | 幽 1 | 豪 | 肴 | ？ | 尤 |  |  |  | **脂 B<sub>合</sub>** |  |  |  |  |
 | -uk | 覺 1 | 沃 | 覺 | 屋<sub>三</sub> | 屋<sub>三</sub> |  |  |  |  |  |  |  |  |
@@ -28,17 +28,17 @@ tags:
 | -iu | 幽 2 | 蕭 | 肴 | 幽 | 尤 |  |  |  |  |  |  |  |  |
 | -ikʷ | 覺 2 | 錫 | 覺 | 屋<sub>三</sub> | 屋<sub>三</sub> |  |  |  |  |  |  |  |  |
 | -aw | 宵 1 | 豪 | 肴 | ？ | 宵 B |  |  |  |  |  |  |  |  |
-| -akʷ | 藥 1 | ？ | 覺 | 藥 | 藥 |  |  |  |  |  |  |  |  |
+| -akʷ | 藥 1 | 鐸／沃 | 覺 | 藥 | 藥 |  |  |  |  |  |  |  |  |
 | -ɛw | 宵 2 | 蕭 | 肴 | 宵 A | 宵 B |  |  |  |  |  |  |  |  |
 | -ɛkʷ | 藥 2 | 錫 | 覺 | 藥 | 藥 |  |  |  |  |  |  |  |  |
 | -ɔ | 侯 | 侯 | 侯／尤／肴 | 虞 | 虞 |  |  |  |  | 侯 |  | 虞 |  |
 | -ɔk | 屋 | 屋<sub>一</sub> | 覺 | 燭 |  | 沃 |  | 燭 |  | 屋<sub>一</sub> | 覺 | 燭 |  |
 | -ɔŋ | 東 | 東<sub>一</sub> | 江 | 鍾 |  | 冬 |  | 鍾 |  | 東<sub>一</sub> | 江 | 鍾 |  |
 | -a | 魚 | 模 | 麻<sub>二開</sub> | 魚／麻<sub>三</sub> | 魚 | 模 | 麻<sub>二合</sub> | 虞 | 虞 | 模 | 麻<sub>二開</sub> | 虞 | 虞 |
-| -ak | 鐸 | 鐸<sub>開</sub> | 陌<sub>二開</sub> | 藥<sub>開</sub> | 陌<sub>三開</sub> | 鐸<sub>合</sub> | 陌<sub>二合</sub> | 藥<sub>合</sub> | 陌<sub>三合</sub> | 鐸<sub>開</sub> | 陌<sub>二開</sub> | 藥<sub>合</sub> | 陌<sub>三開</sub> |
+| -ak | 鐸 | 鐸<sub>開</sub> | 陌<sub>二開</sub> | 藥<sub>開</sub>／**昔<sub>開</sub>** | 陌<sub>三開</sub> | 鐸<sub>合</sub> | 陌<sub>二合</sub> | 藥<sub>合</sub> | 陌<sub>三合</sub> | 鐸<sub>開</sub> | 陌<sub>二開</sub> | 藥<sub>合</sub> | 陌<sub>三開</sub> |
 | -aŋ | 陽 | 唐<sub>開</sub> | 庚<sub>二開</sub> | 陽<sub>開</sub> | 庚<sub>三開</sub> | 唐<sub>合</sub> | 庚<sub>二合</sub> | 陽<sub>合</sub> | 庚<sub>三合</sub> | 唐<sub>開</sub> | 庚<sub>二開</sub> | 陽<sub>合</sub> | 庚<sub>三開</sub> |
 | -ɛ | 支 | 齊<sub>開</sub> | 佳<sub>開</sub> | 支 A<sub>開</sub> | 支 B<sub>開</sub> | 齊<sub>合</sub> | 佳<sub>合</sub> | 支 A<sub>合</sub> | 支 B<sub>合</sub> | 齊<sub>開</sub> | 佳<sub>開</sub> | 支 A<sub>開</sub> | 支 B<sub>開</sub> |
-| -ɛk | 錫 | 錫<sub>開</sub> | 麥<sub>開</sub> | 昔<sub>開</sub> | 陌<sub>三開</sub> | 錫<sub>合</sub> | 麥<sub>合</sub> | 昔<sub>合</sub> | | 陌<sub>三合</sub> | 錫<sub>開</sub> | 麥<sub>開</sub> | 昔<sub>合</sub> | 陌<sub>三開</sub> |
+| -ɛk | 錫 | 錫<sub>開</sub> | 麥<sub>開</sub> | 昔<sub>開</sub> | 陌<sub>三開</sub> | 錫<sub>合</sub> | 麥<sub>合</sub> | 昔<sub>合</sub> | 陌<sub>三合</sub> | 錫<sub>開</sub> | 麥<sub>開</sub> | 昔<sub>合</sub> | 陌<sub>三開</sub> |
 | -ɛŋ | 耕 | 青<sub>開</sub> | 耕<sub>開</sub> | 清<sub>開</sub> | 庚<sub>三開</sub> | 青<sub>合</sub> | 耕<sub>合</sub> | 清<sub>合</sub> | 庚<sub>三合</sub> | 青<sub>開</sub> | 耕<sub>開</sub> | 清<sub>開</sub> | 庚<sub>三開</sub> |
 | -aj | 歌 1 | 歌 | 麻<sub>二開</sub> | 支 A<sub>開</sub>／麻<sub>三</sub> | 支 B<sub>開</sub> | 戈<sub>一</sub> | 麻<sub>二合</sub> | 支 A<sub>合</sub> | 支 B<sub>合</sub> | 戈<sub>一</sub> | 麻<sub>二開</sub> | 支 A<sub>開</sub> | 支 B<sub>開</sub> |
 | -as | 祭 1 | 泰<sub>開</sub> | 夬<sub>開</sub> | 廢<sub>開</sub> | 祭 B<sub>開</sub> |  |  |  |  | 泰<sub>開</sub> | 夬<sub>開</sub> | 廢<sub>合</sub> |  |
@@ -47,11 +47,11 @@ tags:
 | -ɛs | 祭 2 | 齊<sub>開</sub> | 皆<sub>開</sub> | 祭 A<sub>開</sub> | 祭 B<sub>開</sub> |  |  |  | |  |  |  |  |  |
 | -ɛt | 月 2 | 屑<sub>開</sub> | 黠<sub>開</sub> | 薛 A<sub>開</sub> | 薛 B<sub>開</sub> | 屑<sub>合</sub> | 黠<sub>合</sub> | 薛 A<sub>合</sub> | 薛 B<sub>合</sub> | 屑<sub>開</sub> | 黠<sub>開</sub> | 薛 A<sub>合</sub> | 薛 B<sub>開</sub> |
 | -ɛn | 元 2 | 先<sub>開</sub> | 山<sub>開</sub> | 仙 A<sub>開</sub> | 仙 B<sub>開</sub> | 先<sub>合</sub> | 山<sub>合</sub> | 仙 A<sub>合</sub> | 仙 B<sub>合</sub> | 先<sub>開</sub> | 山<sub>開</sub> | 仙 A<sub>合</sub> | 仙 B<sub>開</sub> |
-| -i | 脂 | 齊<sub>開</sub> | 皆<sub>開</sub> | 脂 A<sub>開</sub> | 脂 B<sub>開</sub> | 齊<sub>合</sub> | 皆<sub>合</sub> | 脂 A<sub>合</sub> | 脂 B<sub>合</sub> | 齊<sub>開</sub> | 皆<sub>開</sub> | 脂 A<sub>開</sub> | 脂 B<sub>開</sub> |
+| -i, -is | 脂 | 齊<sub>開</sub> | 皆<sub>開</sub> | 脂 A<sub>開</sub> | 脂 B<sub>開</sub> | 齊<sub>合</sub> | 皆<sub>合</sub> | 脂 A<sub>合</sub> | 脂 B<sub>合</sub> | 齊<sub>開</sub> | 皆<sub>開</sub> | 脂 A<sub>開</sub> | 脂 B<sub>開</sub> |
 | -ik | 質 | 屑<sub>開</sub> | 黠<sub>開</sub> | 質 A | 質 B<sub>開</sub> | 屑<sub>合</sub> | 黠<sub>合</sub> | **術** | 質 B<sub>合</sub> | 屑<sub>開</sub> | 黠<sub>開</sub> | 質 A | 質 B<sub>開</sub> |
 | -iŋ | 真 | 先<sub>開</sub> | 山<sub>開</sub> | 真 A | 真 B<sub>開</sub> | 先<sub>合</sub> | 山<sub>合</sub> | **諄** | 真 B<sub>合</sub> | 先<sub>開</sub> | 山<sub>開</sub> | 真 A | 真 B<sub>開</sub> |
 | -əj, -əs | 微 1 | 咍／齊<sub>開</sub> | 皆<sub>開</sub> | 微<sub>開</sub> | 脂 B<sub>開</sub> | 灰 | 皆<sub>合</sub> | 微<sub>合</sub> | 脂 B<sub>合</sub> | 灰 | 皆<sub>開</sub> | 微<sub>合</sub> | 脂 B<sub>開</sub> |
-| -ət | 物 1 | 沒／屑<sub>開</sub> | 黠<sub>開</sub> | 迄 | 質 B<sub>開</sub> | 沒 | 黠<sub>合</sub> | 物 | 質 B<sub>合</sub> | 沒 | 黠<sub>開</sub> | 物 | 質 B<sub>開</sub> |
+| -ət | 物 1 | 麧／屑<sub>開</sub> | 黠<sub>開</sub> | 迄 | 質 B<sub>開</sub> | 沒 | 黠<sub>合</sub> | 物 | 質 B<sub>合</sub> |  | 黠<sub>開</sub> | 物 | 質 B<sub>開</sub> |
 | -ən | 文 1 | 痕／先<sub>開</sub> | 山<sub>開</sub> | 欣 | 真 B<sub>開</sub> | 魂 | 山<sub>合</sub> | 文 | 真 B<sub>合</sub> | 魂 | 山<sub>開</sub> | 文 | 真 B<sub>開</sub> |
 | -uj, -us | 微 2 | 灰 | 皆<sub>合</sub> | 微<sub>合</sub> | 脂 B<sub>合</sub> |  |  |  |  |  |  |  |  |
 | -ut | 物 2 | 沒 | 黠<sub>合</sub> | 物 | 質 B<sub>合</sub> |  |  |  |  |  |  |  |  |
@@ -65,8 +65,61 @@ tags:
 | -ip | 緝 2 | 怗 | 洽 | 緝 A | 緝 B |  |  |  |  |  |  |  |  |
 | -im | 侵 2 | 添 | 咸 | 侵 A | 侵 B |  |  |  |  |  |  |  |  |
 
-## 從先秦到東漢
-## 從東漢到三國
+## 從先秦到兩漢
+- 之部三等合口入幽：-wə &gt; -əu
+- - 例字：否謀又牛臼丘，「右友有」皆從「又」得聲皆屬此類。但 3B 等的「龜」字不屬此類。
+- 幽部 3B 等合口入之，演變為切韻脂韻：-wrə, -wru &gt; -wri
+- - 例字：龜（來自詩經之部）軌（來自詩經幽部）
+- 魚部麻韻入歌，包括所有二等字與一部份三等字，3A 等與另一項音變存在競爭導致隨機分化：-rˤaj &gt; -rˤa, -aj &gt; -a
+- 侯部入魚，實際上應是魚部高化（可能還有侯部的鏈變）：-a &gt; -ɔ &gt; -o
+- 歌部三等入支：-aj &gt; -ɛi̯ ~ -ɛ
+- - 例字：宜義皮
+- 職部三等合口入沃：-wək &gt; -əkʷ ~ -uk
+- - 例字：福服
+- 蒸部三等合口入冬：-wəŋ &gt; -əuŋ &gt; -uŋ
+- - 例字：雄夢弓
+- 主元音為 a e 的中古 3B 等合併，但開韻尾的魚支部不受影響：-ra &gt; -rɛ
+- - 鐸部二等與 3B 等入錫：-rˤak, -rak &gt; -rˤɛk, -rɛk
+- - 陽部二等與 3B 等入耕：-rˤaŋ, -raŋ &gt; -rˤɛŋ, -rɛŋ
+- - 例字：英明京慶
+- 主元音為 ə i 的中古 3B 等合併
+- 物部入質、文部入真，特別在二等介音或銳音聲母後完全合併。
+- - -rˤin, -rˤit &gt; -rˤən,-rˤət（二等元音央化）
+- - Tˤən, Tˤət &gt; Tˤin, Tˤit
+- 侵部合口入冬：-ʷəm &gt; -uŋ。例字：熊風
+
+## 從兩漢到三國
+從東漢到三國的這段時期，發生了大規模的元音大轉移，導致這段時期的用韻較為混亂。
+
+- 幽宵魚三部重新組合：
+- - 幽部非三等入宵，加上接收了來自魚部的侯韻字，流攝成型：Cˤu, -rˤu &gt; Cˤau, -rˤau
+- - 宵部接收了來自幽部的非三等字，效攝成型。
+- - 魚部侯韻（以及少量莊組尤肴韻字）入幽，遇攝成型。
+- 三等與非三等開始分化。
+- - 之部非三等分出咍部：Cˤə &gt; Cˤəi̯, -rˤə &gt; -rˤəi̯
+- - 職部非三等分出德部；蒸部非三等分出登部。
+- - 祭部非三等分出泰部。
+- - 山黠咸洽四韻元音低化，不再跟真文部字押韻。
+- - 月部分為屑曷兩部。屑部含切韻「月屑薛黠」韻、曷部含切韻「曷末鎋」韻。
+- - 元部分為先寒兩部。屑部含切韻「元先仙山」韻、曷部含切韻「寒桓刪」韻。
+- - 質部非三等入屑，包括屑黠兩韻：Cˤit &gt; Cˤet。例字：結節屑切鐵軋。
+- - 真部非三等入先，包括先山兩韻：Cˤin &gt; Cˤen。例字：天田年千。
+- - 葉部盍狎韻字分出盍部；談部鹽添嚴凡韻字分出鹽部。
+- - 緝部非三等分出合部；侵部非三等分出覃部。
+- 藥鐸合流：這是一個非常複雜的變化。
+
 ## 從三國到兩晉
+- 三等與非三等徹底分化。
+- - 脂部非三等分出皆部。
+- - 質部分出沒部；真部分出魂部。
+
+## 從兩晉到南北朝
+- 支部齊韻入皆
+- 脂之合流
+- 冬東二等合併，形成中古江韻。
+- 藥沃屋二等合併，形成中古覺韻。
+- 魚韻合口變為虞韻：-i̯o, -y̯o &gt; -ɨ̯ɤ, -ɨ̯o。
+- 次入韻尾消失：-s &gt; -i̯
+- 冬東兩部一等對調，很神奇的變化。
 
 # 聲母
