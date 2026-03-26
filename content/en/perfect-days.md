@@ -1,9 +1,7 @@
 ---
-date: "2026-03-05T19:39:17+00:00"
-lastmod: "2026-03-26"
-draft: true
+date: "2026-03-26T10:49:18+00:00"
 title: "Perfect Days"
-description: "What should an ideal social system look like?"
+description: "So what should an ideal social system look like?"
 translationKey: "perfect-days"
 categories:
   - "BlogBlog 同樂會"
@@ -15,14 +13,34 @@ categories:
 > [!TIP] BlogBlog Club!
 > This is my submission article for “[BlogBlog Club Party - March 2026](https://blogblog.club/party)”. This month’s topic is “[Perfect Days](https://alexhsu.com/perfect-days)”, hosted by [Alex Hsu](https://alexhsu.com). If you have your own blog, feel free to join us together!
 
-What should an ideal social system look like?
+# Ideal itinerary
+1. 我之前有在另一篇博文提過，本人的生理時鐘處於一個[極其微妙的狀態](/blog/zh/jet-lag/) ，導致我在尋求「正常」（合乎社會常規）的工作極度困難。我自己就曾經嘗試強行堅持了朝十晚六的上班模式幾個月，睡眠狀況還是很飄忽，不總是在那種適宜工作的狀態。但是我又不喜歡在深夜出門（感覺不太不安全）。看來我只能去找一些 freelancer 性質的工作？不過以香港現在的經濟環境而言，這種性質的工作現在已經不太好找了，很難以這樣的工作長期維持生計（這一點得到了長期以 freelance 作為主要收入來源的友人證實）。當然如果能把自己的生理時鐘掰回來那就最好，但是我又該怎麼做呢？難道不得不以醫療手段介入？
+2. 我一直以來都不是一個愛運動的人，甚至可以說有點討厭。可能是我的體能狀況太差了。據說這樣的想法很違反社會常規，不知道是否需要矯正。當然如果社會上的其他人願意接受我這樣的想法那就最好。
+
+| Time | What to do |
+| -- | -- |
+| 11:00-12:00 | Get up, have brunch |
+| 12:00-13:00 | 看書（雖然我手上沒多少實體書）、創作、研究各種我有興趣的知識、開始前往上班的路上（如果有的話） |
+| 13:00-18:00 | 約會或團體活動、或者呆在家裏打電動、編程或泡在主流平台耍廢（雖然所謂的主流平台幾乎也僅剩 YouTube 了，雖然我身邊的友人偶爾會發點 Instagram 或者 Threads 上的東西給我看）、到達工作地點開始工作（如果有的話） |
+| 18:00-19:00 | 結束工作開始回家（如果有的話） |
+| 19:00-21:00 | Take a shower, have dinner |
+| 21:00-02:00 | 繼續鑽研興趣、編程或打電動 |
+| 02:00-11:00 | Go to bed |
+
+# Ideal social relationships
+我的人際關係一直都是一團糟。也許我該找些團體活動讓自己充實一下的。但是在我討厭運動的前提下，我能找到的活動種類就比較有限了。而且我對陌生人的信任度很低，我自己一個出去找合適的團體活動很怕會遇到騙子，所以我基本上只會透過僅有的人際網絡的介紹才會主動參加。而且在我能找到穩定工作之前，我也不能太燒錢。
+
+不過我也不喜歡參加人數太多的團體活動，不然我很容易變成電燈泡。兩三個人一起是對我來說最舒服的狀態。
 
 # An ideal social system
 1. I 人友善：雖然說我一直都有離開香港港到外國生活的憧憬，不過礙於經濟因素在可見的將來不太可行。不過我不知道為什麼總是感覺歐美社會的運作方式不是很 [I 人](/blog/zh/t-or-f/)友善，在歐美地區生活就意味着有更多需要我面對面與他人交流的場合，而這正正是我不太擅長的。我不知道有什麼地方是適合我本人去闖闖的。
-2. 理想的工作環境：我之前有提過，本人的生理時鐘處於一個[很微妙的狀態](/blog/zh/jet-lag/) ，導致我在尋求「正常」（合乎社會常規）的工作極度困難（當然如果能掰回來就最好）。另外我自己偏好的工作風格是，如果我看到一樣東西／一件事情目前的 implementation 是 suboptimal 的，而我又能想出一些具建設性的建議的話，我會期望我能夠對其積極發表意見，哪怕那是我工作範圍以外的東西。
+2. 理想的工作環境：我是那種不太能適應一天就只有上班、下班和休息，生命被大量枯燥乏味的工作佔據、不太重視 work-life balance 的生活模式，所以我未必太能應付全職工作？另外我自己偏好的工作風格是，如果我看到一樣東西／一件事情目前的 implementation 是 suboptimal 的，而我又能想出一些具建設性的建議的話，我會期望我能夠對其積極發表意見，哪怕那是我工作範圍以外的東西。
 3. 理想的工作效率：一個理想的社會，各項服務都應該具備良好且完善的 customer service。很不幸的是，我這個人沒啥耐性，於是很容易就變成了「律己以寬、待人以嚴」的狀態。我自己就有過幾次需要聯繫 customer service 的狀況但對方工作效率很低加上無法處理問題，最後不單止問題處理不好，還搞得我情緒很差。
 
 # Ideal = Unrealistic?
-寫到一半的時候留意到 [Noa](https://noa.bearblog.dev/ideals-are-sunshine/) 和 [Wiwi](https://wiwi.blog/blog/opposite-of-ideal/) 提到，在[教育部國語詞典](https://dict.revised.moe.edu.tw/dictView.jsp?ID=61997)裏，「理想」的相反詞是「現實」。看來也許我這個理想是很難實現的了。
+寫到一半的時候留意到 [Noa](https://noa.bearblog.dev/ideals-are-sunshine/) 和 [Wiwi](https://wiwi.blog/blog/opposite-of-ideal/) 提到，在[教育部國語詞典](https://dict.revised.moe.edu.tw/dictView.jsp?ID=61997)裏，「理想」的相反詞是「現實」。常言道「理想很豐滿，現實很骨感」，有得就一定必有其失。看來也許我這個理想是很難實現的了。
+
+# Conclusion
+因為趕工的緣故，文章內容組織得不是那麼好，我以後可能會再原地更新這篇文章。
 
 <span style="color: transparent;">I actually have some more radical ideas about an ideal world and an ideal social system, but I won’t talk about them publicly here, lest this blog won’t exist anymore one day.</span>
