@@ -22,29 +22,39 @@ tags:
 # 單張牌的表示
 我們可以用兩位元表示花色，四位元表示數字：
 ```js
-function getSuit(n) {
-  return n >> 4;
-};
-
-function getRank(n) {
-  return n & 15;
-};
-
-function toString(n) {
-  const charTable = ["Joker", "A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"];
-  return `${"♠♥♣♦"[n >> 4] + charTable[n & 15]}`;
-};
-
-function toASCIIString(n) {
-  return `${"SHCD"[n >> 4] + ".A23456789TJQK"[n & 15]}`;
-};
-
-function getColor(n) {
-  return n & 16;
+const CardHelper = {
+  getSuit: (n) => n >> 4,
+  getRank: (n) => n & 15,
+  toString: (n) => {
+    const charTable = ["Joker", "A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"];
+    return `${"♠♥♣♦"[n >> 4] + charTable[n & 15]}`;
+  },
+  toASCIIString: (n) => `${"SHCD"[n >> 4] + ".A23456789TJQK"[n & 15]}`,
+  getColor: (n) => n & 16
 };
 ```
 
-我選擇了「♠♥♣♦」作為我的庫中撲克牌花色的順序，在某些接龍類遊戲需要判斷花色「紅黑」屬性的時候會比較簡單。
+我選擇了「♠♥♣♦」作為我的程式庫中撲克牌花色的順序，在某些接龍類遊戲需要判斷花色「紅黑」屬性的時候會比較簡單。
+
+為了維持與某些平台的相容性，我也會需要用到一些其他不同的編號系統，以下是轉換函數：
+```js
+const CardHelper = {
+  s2Tos3SuitMap: new Uint8Array([3, 2, 0, 1]),
+  s3Tos2SuitMap: new Uint8Array([2, 3, 1, 0]),
+  s1tos2: (i) => {
+    const v = i - 1;
+    return ((v >> 4) * 13) + (v & 15);
+  },
+  s2tos1: (i) => (Math.floor(i / 13) << 4) + (i % 13) + 1,
+  s2tos3: (i) => ((i % 13) << 2) + CardHelper.s2To3SuitMap[Math.floor(i / 13)],
+  s3tos2: (i) => (CardHelper.s3Tos2SuitMap[i & 3] * 13) + (i >> 2),
+  s1tos3: (i) => {
+    const v = i - 1;
+    return ((v & 15) << 2) + CardHelper.s2To3SuitMap[v >> 4];
+  },
+  s3tos1: (i) => (CardHelper.s3Tos2SuitMap[i & 3] << 4) + (i >> 2) + 1
+};
+```
 
 ## Unicode 字符
 Unicode 有定義撲克牌字元，不過 mapping 和我用的有點不同，需要做一點轉換：
@@ -52,11 +62,13 @@ Unicode 有定義撲克牌字元，不過 mapping 和我用的有點不同，需
 - 「J」和「Q」之間有個額外的「C」。
 
 ```js
-function toChar(n) {
-  n += (n & 12) === 12; // adjust Q and K
-  n ^= (n & 32) >> 1; // reverse clubs and diamonds
+const CardHelper = {
+  toChar: (n) => {
+    n += (n & 12) === 12; // adjust Q and K
+    n ^= (n & 32) >> 1; // reverse clubs and diamonds
 
-  return `\ud83c${String.fromCharCode(n + 0xdca0)}`;
+    return `\ud83c${String.fromCharCode(n + 0xdca0)}`;
+  }
 };
 ```
 
@@ -228,3 +240,6 @@ indexToDeck(Uint8Array.fromBase64(str), CardHelper.s2tos1); // decode
 
 # 極簡化
 最後就是將整個程式庫的邏輯盡量簡化，然後將看起來適合塞進 WebAssembly 塞進 WebAssembly 就大功告成了。
+
+## 邏輯簡化
+實際上我在上面就有用到一些簡化邏輯的例子了。簡化邏輯手段不是完全純手搓的，有用到 AI 輔助啦。
