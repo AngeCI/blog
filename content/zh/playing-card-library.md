@@ -10,6 +10,8 @@ categories:
   - "Digital Minimalism 數位極簡主義"
 tags:
   - "Playing Cards 撲克牌"
+  - "JavaScript"
+  - "WebAssembly"
 ---
 
 突然手癢想搓一個極簡主義的 WebAssembly + JavaScript 撲克牌程式庫。

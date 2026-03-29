@@ -6,6 +6,8 @@ description: "RSS 真係有大家想像中咁完美？"
 translationsKey: "is-rss-a-mountain-of-history"
 categories:
   - "Computer Science 電腦科學"
+tags:
+  - "RSS"
 ---
 
 最近有一個叫做 [BlogBlog 同樂會](https://blogblog.club) 嘅社羣喺度不斷推廣 RSS 嘅好處，講到 RSS 可以幫助我哋擺脫演算法嘅控制之類，吹到 RSS 天上有地下無咁。介紹 RSS 優點嘅相關文章喺呢個社羣入面大把，我就唔列出嚟喇。**之不過大家有冇諗過，RSS 係咪真係有大家想像中咁完美？**

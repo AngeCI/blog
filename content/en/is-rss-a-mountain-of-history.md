@@ -6,6 +6,8 @@ description: "Is RSS really as perfect as you imagine?"
 translationsKey: "is-rss-a-mountain-of-history"
 categories:
   - "Computer Science 電腦科學"
+tags:
+  - "RSS"
 ---
 
 > [!WARNING] Notice

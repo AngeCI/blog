@@ -10,6 +10,8 @@ categories:
   - "Digital Minimalism 數位極簡主義"
 tags:
   - "Mahjong 麻將"
+  - "JavaScript"
+  - "WebAssembly"
 ---
 
 突然手癢想搓一個極簡主義的 WebAssembly + JavaScript 麻將程式庫。
@@ -26,7 +28,7 @@ const MahjongHelper = {
   getSuit: (n) => n >> 4,
   getRank: (n) => n & 15,
   toString: (n) => {
-    return `${(n & 15) + "psmzf"[n >> 4]}`;
+    return `${(n & 15) + "psmzh"[n >> 4]}`;
   }
 };
 ```
@@ -35,13 +37,20 @@ const MahjongHelper = {
 ```js
 const MahjongHelper = {
   textToHand: (hand) => {
+    if (/[^0-9mpszh]/.test(hand))
+      throw new Error("Invalid characters detected. Only digits and 'mpszh' are allowed.");
+
     const output = [];
 
-    const suits = hand.split(/\d+[psmzf]/gi);
+    const suits = hand.match(/\d+[psmzh]/gi) || [];
+
+    if (segments.join("").length !== hand.length) 
+      throw new Error("Invalid format: Every number sequence must end with a suit character (m, p, s, z, or h).");
+
     for (const set of suits) {
       let arr = Array.from(set);
       const suit = "psmzf".indexOf(arr.splice(-1));
-      output.push(...arr.map(n => parseInt(n) + suit));
+      output.push(...arr.map(n => parseInt(n) + (suit << 4)));
     };
 
     return output;
@@ -56,11 +65,19 @@ const MahjongHelper = {
   s3Tos2SuitMap: new Uint8Array([1, 2, 0, 3]),
   s2Tos4SuitMap: new Uint8Array([25, 16, 7, 0]),
   s3Tos4SuitMap: new Uint8Array([7, 25, 16, 0]),
-  s1tos2: (i) => ((i >> 4) * 9) + (i & 15),
-  s2tos1: (i) => (Math.floor(i / 9) << 4) + (i % 9) + 1,
+  s1tos2: (i) => {
+    const v = i - 1;
+    return ((v >> 4) * 9) + (v & 15);
   },
-  s1tos3: (i) => (s2Tos3SuitMap[i >> 4] * 9) + (i & 15),
-  s3tos1: (i) => (s3Tos2SuitMap[Math.floor(i / 9)] << 4) + (i % 9) + 1,
+  s2tos1: (i) => {
+    return (Math.floor(i / 9) << 4) + (i % 9) + 1,
+  },
+  s1tos3: (i) => {
+    const v = i - 1;
+    return (s2Tos3SuitMap[v >> 4] * 9) + (v & 15),
+  },
+  s3tos1: (i) => {
+    return (s3Tos2SuitMap[Math.floor(i / 9)] << 4) + (i % 9) + 1
   },
   s1tos4: (i) => ((s2Tos4SuitMap[i >> 4]) * 9) + (i & 15),
   s3tos4: (i) => ((s3Tos4SuitMap[i >> 4]) * 9) + (i & 15)
@@ -76,9 +93,59 @@ const MahjongHelper = {
 ```
 
 # 牌堆的表示
+我想制定一個特殊的索引法，方便玩家分享牌堆。
+
 對於 136 張麻將牌而言，組合數 一共有 136! ÷ (4!<sup>34</sup>) ≈ 1.591 × 2<sup>616</sup> 種，需要 617 個二進制位來表示，編碼成 base64 字串需要 103 個字符。
 
 對於 144 張麻將牌而言，組合數 一共有 144! ÷ (4!<sup>34</sup>) ≈ 1.675 × 2<sup>673</sup> 種，需要 674 個二進制位來表示，編碼成 base64 字串需要 113 個字符。
+
+```js
+const factorialCache = [1n, 1n];
+function factorial(n) {
+  if (n < 0) return 0n;
+  while (factorialCache.length <= n) {
+    factorialCache.push(factorialCache[factorialCache.length - 1] * BigInt(factorialCache.length));
+  };
+  return factorialCache[n];
+};
+
+/**
+ * Converts a BigInt into a Uint8Array (Big-Endian).
+ */
+function bigIntToUint8Array(bigInt) {
+  let hex = bigInt.toString(16);
+  // Ensure even length for hex string
+  if ((hex.length & 1) !== 0) hex = "0" + hex;
+
+  const len = hex.length >> 1;
+  const u8 = new Uint8Array(len);
+  for (let i = 0; i < len; i++) {
+    u8[i] = parseInt(hex.substr(i << 1, 2), 16);
+  };
+  return u8;
+};
+
+const MahjongHelper = {
+};
+```
+
+# 牌型分析
+
+# 計分
+## 日本麻將
+```js
+const manganCoef = new Uint8Array([0, 0, 0, 0, 0, 1, 1.5, 1.5, 2, 2, 2, 3, 3, 4]);
+
+function JPMjPoints(fu, fan) {
+  let a = fu * 1 << (fan + 2);
+  return [a, a << 1, a << 2, a * 6];
+}
+
+function (fan) {
+  let a = manganCoef * 2000;
+  return [a, a << 1, a << 2, a * 6];
+}
+```
 
 # 極簡化
 最後就是將整個程式庫的邏輯盡量簡化，然後將看起來適合塞進 WebAssembly 塞進 WebAssembly 就大功告成了。
