@@ -105,60 +105,63 @@ function bigIntToUint8Array(bigInt) {
   return u8;
 };
 
-function deckToIndex(deck, mapFunc, postProcessing = n => bigIntToUint8Array(n).toBase64()) {
-  let n = deck.length;
-  let deck2 = deck;
+const CardHelper = {
+  deckToIndex: function (deck, mapFunc, postProcessing = n => bigIntToUint8Array(n).toBase64()) {
+    let n = deck.length;
+    let deck2 = deck;
 
-  if (mapFunc)
-    deck2 = deck.map(mapFunc);
+    if (mapFunc)
+      deck2 = deck.map(mapFunc);
 
-  let index = 0n;
-  for (let i = 0; i < n; i++) {
-    // Count the number of smaller elements to the right of deck2[i]
-    let smaller = 0n;
-    // Update the index using the factorial number system
-    for (let j = i + 1; j < n; j++) {
-      if (deck2[j] < deck2[i]) {
-        smaller++;
+    let index = 0n;
+    for (let i = 0; i < n; i++) {
+      // Count the number of smaller elements to the right of deck2[i]
+      let smaller = 0n;
+      // Update the index using the factorial number system
+      for (let j = i + 1; j < n; j++) {
+        if (deck2[j] < deck2[i]) {
+          smaller++;
+        };
       };
+      index += smaller * factorial(n - i - 1);
     };
-    index += smaller * factorial(n - i - 1);
-  };
-  return postProcessing(index);
-};
+    return postProcessing(index);
+  },
+  indexToDeck: function (inputIndex, mapFunc, n = 52) {
+    // Convert Uint8Array back to BigInt if necessary
+    let index = typeof inputIndex === "bigint"
+      ? inputIndex
+      : BigInt("0x" + Array.from(inputIndex).map(b => b.toString(16).padStart(2, "0")).join(""));
 
-function indexToDeck(inputIndex, mapFunc, n = 52) {
-  // Convert Uint8Array back to BigInt if necessary
-  let index = typeof inputIndex === "bigint" 
-    ? inputIndex 
-    : BigInt("0x" + Array.from(inputIndex).map(b => b.toString(16).padStart(2, "0")).join(""));
+    const deck = [];
+    const nums = Array.from({ length: n }, (_, i) => i);
 
-  const deck = [];
-  const nums = Array.from({ length: n }, (_, i) => i);
-    
-  for (let i = n - 1; i >= 0; i--) {
-    const fact = factorial(i);
-    const digit = Number(index / fact);
-    index %= fact;
+    for (let i = n - 1; i >= 0; i--) {
+      const fact = factorial(i);
+      const digit = Number(index / fact);
+      index %= fact;
 
-    deck.push(nums[digit]);
-    nums.splice(digit, 1);
-  };
+      deck.push(nums[digit]);
+      nums.splice(digit, 1);
+    };
 
-  if (mapFunc) return deck.map(mapFunc);
-  return deck;
+    if (mapFunc) return deck.map(mapFunc);
+    return deck;
+  }
 };
 ```
 
 ## 例子：通用洗牌算法
 使用標準的 [Fisher–Yates shuffle](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle) 算法，不過從哪裏找來一個支持至少 52! 種狀態的 RNG 是個問題。
 ```js
-function shuffle(deck) {
-  for (let i = deck.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [deck[i], deck[j]] = [deck[j], deck[i]];
+const CardHelper = {
+  shuffle: function (deck) {
+    for (let i = deck.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [deck[i], deck[j]] = [deck[j], deck[i]];
+    };
+    return deck;
   }
-  return deck;
 };
 ```
 
@@ -204,9 +207,6 @@ const RNG = class {
 
 function shuffleFreecell(seed) {
   const deck = new Uint8Array(52);
-  for (let i = 0; i < 52; i++) {
-    deck[i] = i;
-  };
 
   const rand = new RNG(seed);
   for (i = 0; i < 52; i++) deck[i] = 51 - i;
@@ -239,9 +239,67 @@ indexToDeck(Uint8Array.fromBase64(str), CardHelper.s2tos1); // decode
 
 # 五張牌的牌型分析
 > 目標：給定任意五張不重複的撲克牌，分析出它的[牌型](https://zh.wikipedia.org/wiki/%E6%92%B2%E5%85%8B%E7%89%8C%E5%9E%8B)。
+```js
+const CardHelper = {
+  analyzeHand: function (hand) {
+    const ranks = hand.map(CardHelper.getRank);
+    const suits = hand.map(CardHelper.getSuit);
+    const cards = hand.filter(card => CardHelper.getRank(card) !== 0); // filter out jokers
+
+    if (
+      cards.some((card, i, self) => i !== self.indexOf(card))
+        || faces.some(face => face === -1)
+        || suits.some(suit => suit === -1)
+    )
+      return -1; // Invalid
+
+    const flush = suits.every(suit => suit === suits[0]);
+    const groups = new Uint8Array([2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 1]).map((face, i) => faces.filter(j => i === j).length).sort((x, y) => y - x);
+    const shifted = ranks.map(n => (n + 1) % 13);
+    const distance = Math.min(Math.max(...faces) - Math.min(...faces), Math.max(...shifted) - Math.min(...shifted));
+    const straight = groups[0] === 1 && distance < 5;
+    groups[0] += hand.length - cards.length; // number of jokers
+
+    if      (groups[0] === 5)                    return 9; // Five of a kind
+    else if (straight && flush)                  return 8; // Straight flush
+    else if (groups[0] === 4)                    return 7; // Four of a kind
+    else if (groups[0] === 3 && groups[1] === 2) return 6; // Full house
+    else if (flush)                              return 5; // Flush
+    else if (straight)                           return 4; // Straight
+    else if (groups[0] === 3)                    return 3; // Three of a kind
+    else if (groups[0] === 2 && groups[1] === 2) return 2; // two pair
+    else if (groups[0] === 2)                    return 1; // One pair
+    else                                         return 0; // High card
+  }
+};
+```
 
 # 極簡化
 最後就是將整個程式庫的邏輯盡量簡化，然後將看起來適合塞進 WebAssembly 塞進 WebAssembly 就大功告成了。
 
 ## 邏輯簡化
-實際上我在上面就有用到一些簡化邏輯的例子了。簡化邏輯手段不是完全純手搓的，有用到 AI 輔助啦。
+實際上我在上面就有用到一些簡化邏輯的例子了。簡化邏輯的手段不是完全純手搓的，有用到 AI 輔助啦。
+
+```js
+// Given n is an integer between 0 to 63
+if (n & 15 > 11) n++;
+// else do nothing.
+// 上述規則可以簡化成：
+n += (n & 12) === 12;
+```
+
+```js
+// Given n is an integer between 0 to 63
+if (n & 48 == 32) n += 16;
+else if (n & 48 == 48) n -= 16;
+// If both conditions do not meet, do nothing.
+// 上述兩條規則可以簡化成：
+n ^= (n & 32) >> 1;
+```
+
+有些整數除法也可以簡化，比如：
+```js
+[Math.floor(i / 13), i % 13];
+// 可以簡化成：
+[i * 5042 >>> 16, (i * 5042 & 0xffff) * 13 >>> 16];
+```
