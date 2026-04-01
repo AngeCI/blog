@@ -3,7 +3,7 @@ date: "2026-03-25"
 lastmod: ""
 draft: true
 title: "麻將程式庫"
-description: "突然手癢想搓一個極簡主義的 WebAssembly + JavaScript 麻將程式庫。"
+description: "一個極簡主義的 WebAssembly + JavaScript 麻將程式庫。"
 translationKey: "mahjong-library"
 categories:
   - "Computer Science 電腦科學"
@@ -28,7 +28,7 @@ const MahjongHelper = {
   getSuit: (n) => n >> 4,
   getRank: (n) => n & 15,
   toString: (n) => {
-    return `${(n & 15) + "psmzh"[n >> 4]}`;
+    return (n & 15) + "psmzh"[n >> 4];
   }
 };
 ```
@@ -126,10 +126,20 @@ function bigIntToUint8Array(bigInt) {
 };
 
 const MahjongHelper = {
+  deckToIndex: function (deck, mapFunc, postProcessing = n => bigIntToUint8Array(n).toBase64()) {
+  },
+  indexToDeck: function (inputIndex, mapFunc) {
+  }
 };
 ```
 
+# 洗牌算法
+理論上我們可以使用標準的 [Fisher–Yates shuffle](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle) 算法來洗牌，不過如果 RNG 內部狀態不足 136! ÷ (4!<sup>34</sup>) ≈ 1.591 × 2<sup>616</sup> 種的話，洗出來的牌會不夠均勻。從哪裏找來一個支持如此多的內部狀態的 RNG 是個問題。
+
 # 牌型分析
+> 目標：給定任意手牌組合，分析其是否滿足胡牌型（包括基本胡牌型、和一些特殊胡牌型），並計算所有可能的役種。
+
+> 目標：給定任意手牌組合，計算其向聽數，也就是至少要換掉多少張牌才能胡牌。
 
 # 計分
 ## 日本麻將
@@ -137,13 +147,14 @@ const MahjongHelper = {
 const manganCoef = new Uint8Array([0, 0, 0, 0, 0, 1, 1.5, 1.5, 2, 2, 2, 3, 3, 4]);
 
 function JPMjPoints(fu, fan) {
-  let a = fu * 1 << (fan + 2);
-  return [a, a << 1, a << 2, a * 6];
+  // const a = fu * 2 ** (fan + 2);
+  const a = fu * (1 << (fan + 2));
+  return new Uint32Array([a, a << 1, a << 2, a * 6]);
 }
 
 function (fan) {
   let a = manganCoef * 2000;
-  return [a, a << 1, a << 2, a * 6];
+  return new Uint32Array([a, a << 1, a << 2, a * 6]);
 }
 ```
 

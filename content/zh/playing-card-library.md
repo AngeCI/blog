@@ -27,11 +27,8 @@ tags:
 const CardHelper = {
   getSuit: (n) => n >> 4,
   getRank: (n) => n & 15,
-  toString: (n) => {
-    const charTable = ["Joker", "A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"];
-    return `${"♠♥♣♦"[n >> 4] + charTable[n & 15]}`;
-  },
-  toASCIIString: (n) => `${"SHCD"[n >> 4] + ".A23456789TJQK"[n & 15]}`,
+  toString: (n) => "♠♥♣♦"[n >> 4] + ["Joker", "A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"][n & 15],
+  toASCIIString: (n) => "SHCD"[n >> 4] + ".A23456789TJQK"[n & 15],
   getColor: (n) => n & 16
 };
 ```
@@ -43,17 +40,11 @@ const CardHelper = {
 const CardHelper = {
   s2Tos3SuitMap: new Uint8Array([3, 2, 0, 1]),
   s3Tos2SuitMap: new Uint8Array([2, 3, 1, 0]),
-  s1tos2: (i) => {
-    const v = i - 1;
-    return ((v >> 4) * 13) + (v & 15);
-  },
+  s1tos2: (i) => ((--i >> 4) * 13) + (i & 15),
   s2tos1: (i) => (Math.floor(i / 13) << 4) + (i % 13) + 1,
   s2tos3: (i) => ((i % 13) << 2) + CardHelper.s2To3SuitMap[Math.floor(i / 13)],
   s3tos2: (i) => (CardHelper.s3Tos2SuitMap[i & 3] * 13) + (i >> 2),
-  s1tos3: (i) => {
-    const v = i - 1;
-    return ((v & 15) << 2) + CardHelper.s2To3SuitMap[v >> 4];
-  },
+  s1tos3: (i) => ((--i & 15) << 2) + CardHelper.s2To3SuitMap[i >> 4],
   s3tos1: (i) => (CardHelper.s3Tos2SuitMap[i & 3] << 4) + (i >> 2) + 1
 };
 ```
@@ -69,7 +60,10 @@ const CardHelper = {
     n += (n & 12) === 12; // adjust Q and K
     n ^= (n & 32) >> 1; // reverse clubs and diamonds
 
-    return `\ud83c${String.fromCharCode(n + 0xdca0)}`;
+    return String.fromCharCode(
+      0xd83c,
+      (n & 15) ? n + 0xdca0 : !(n & 16) + 0xdcbf // adjust jokers
+    );
   }
 };
 ```
@@ -212,7 +206,7 @@ function shuffleFreecell(seed) {
   for (i = 0; i < 52; i++) deck[i] = 51 - i;
   for (i = 0; i < 51; i++) {
     let j = 51 - rand.next() % (52 - i);
-    seed = deck[i], deck[i] = deck[j], deck[j] = seed;
+    [deck[i], deck[j]] = [deck[j], deck[i]];
   };
 
   return deck.map(CardHelper.s3tos1); // format conversion
@@ -221,8 +215,8 @@ function shuffleFreecell(seed) {
 
 原本的種子編號可以單向轉換為上述的格式：
 ```js
-deckToIndex(shuffleFreecell(seed), CardHelper.s1tos2); // encode
-indexToDeck(Uint8Array.fromBase64(str), CardHelper.s2tos1); // decode
+CardHelper.deckToIndex(shuffleFreecell(seed), CardHelper.s1tos2); // encode
+CardHelper.indexToDeck(Uint8Array.fromBase64(str), CardHelper.s2tos1); // decode
 ```
 ```
 1 → At1i6oKsSCfOM5c3Nm6DdDdeVqsvhE9oQAWeabw
@@ -246,17 +240,13 @@ const CardHelper = {
     const suits = hand.map(CardHelper.getSuit);
     const cards = hand.filter(card => CardHelper.getRank(card) !== 0); // filter out jokers
 
-    if (
-      cards.some((card, i, self) => i !== self.indexOf(card))
-        || faces.some(face => face === -1)
-        || suits.some(suit => suit === -1)
-    )
+    if (cards.some((card, i, self) => i !== self.indexOf(card))) // check for duplicates
       return -1; // Invalid
 
     const flush = suits.every(suit => suit === suits[0]);
-    const groups = new Uint8Array([2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 1]).map((face, i) => faces.filter(j => i === j).length).sort((x, y) => y - x);
-    const shifted = ranks.map(n => (n + 1) % 13);
-    const distance = Math.min(Math.max(...faces) - Math.min(...faces), Math.max(...shifted) - Math.min(...shifted));
+    const groups = new Uint8Array([2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 1]).map((rank, i) => ranks.filter(j => i === j).length).sort((x, y) => y - x);
+    const shifted = ranks.map(n => ++n < 13 ? n : 0);
+    const distance = Math.min(Math.max(...ranks) - Math.min(...ranks), Math.max(...shifted) - Math.min(...shifted));
     const straight = groups[0] === 1 && distance < 5;
     groups[0] += hand.length - cards.length; // number of jokers
 
@@ -267,7 +257,7 @@ const CardHelper = {
     else if (flush)                              return 5; // Flush
     else if (straight)                           return 4; // Straight
     else if (groups[0] === 3)                    return 3; // Three of a kind
-    else if (groups[0] === 2 && groups[1] === 2) return 2; // two pair
+    else if (groups[0] === 2 && groups[1] === 2) return 2; // Two pair
     else if (groups[0] === 2)                    return 1; // One pair
     else                                         return 0; // High card
   }
@@ -282,7 +272,7 @@ const CardHelper = {
 
 ```js
 // Given n is an integer between 0 to 63
-if (n & 15 > 11) n++;
+if ((n & 15) > 11) n++;
 // else do nothing.
 // 上述規則可以簡化成：
 n += (n & 12) === 12;
@@ -290,8 +280,8 @@ n += (n & 12) === 12;
 
 ```js
 // Given n is an integer between 0 to 63
-if (n & 48 == 32) n += 16;
-else if (n & 48 == 48) n -= 16;
+if ((n & 48) == 32) n += 16;
+else if ((n & 48) == 48) n -= 16;
 // If both conditions do not meet, do nothing.
 // 上述兩條規則可以簡化成：
 n ^= (n & 32) >> 1;
