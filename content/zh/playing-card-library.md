@@ -27,13 +27,14 @@ tags:
 const CardHelper = {
   getSuit: (n) => n >> 4,
   getRank: (n) => n & 15,
-  toString: (n) => "♠♥♣♦"[n >> 4] + ["Joker", "A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"][n & 15],
-  toASCIIString: (n) => "SHCD"[n >> 4] + ".A23456789TJQK"[n & 15],
+  toString: (n) => ["Joker", "A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"][n & 15] + "♠♥♣♦"[n >> 4],
+  toEmojiString: (n) => ["Joker", "A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"][n & 15] + "♠♥♣♦"[n >> 4] + "\ufe0f",
+  toASCIIString: (n) => ".A23456789TJQK"[n & 15] + "SHCD"[n >> 4],
   getColor: (n) => n & 16
 };
 ```
 
-我選擇了「♠♥♣♦」作為我的程式庫中撲克牌花色的順序，在某些接龍類遊戲需要判斷花色「紅黑」屬性的時候會比較簡單。
+我選擇了「♠️♥️♣️♦️」作為我的程式庫中撲克牌花色的順序，在某些接龍類遊戲需要判斷花色「紅黑」屬性的時候會比較簡單。
 
 為了維持與某些平台的相容性，我也會需要用到一些其他不同的編號系統，以下是轉換函數：
 ```js
@@ -51,7 +52,7 @@ const CardHelper = {
 
 ## Unicode 字符
 Unicode 有定義撲克牌字元，不過 mapping 和我用的有點不同，需要做一點轉換：
-- 花色的順序是「♠♥♦♣」而不是「♠♥♣♦」。
+- 花色的順序是「♠️♥️♦️♣️」而不是「♠️♥️♣️♦️」。
 - 「J」和「Q」之間有個額外的「C」。
 
 ```js
@@ -231,7 +232,8 @@ CardHelper.indexToDeck(Uint8Array.fromBase64(str), CardHelper.s2tos1); // decode
 10 → P6D37kUy0krxIomXMnDDqdXh6+aor+a/mAloxw
 ```
 
-# 五張牌的牌型分析
+# 其他功能
+## 五張牌的牌型分析
 > 目標：給定任意五張不重複的撲克牌，分析出它的[牌型](https://zh.wikipedia.org/wiki/%E6%92%B2%E5%85%8B%E7%89%8C%E5%9E%8B)。
 ```js
 const CardHelper = {
@@ -264,6 +266,21 @@ const CardHelper = {
 };
 ```
 
+## 找最大牌
+```js
+const CardHelper = {
+  findLargest: function (cards, trump) {
+    if (typeof trump !== "undefined")
+      cards = cards.filter(card => CardHelper.geSuit(card) === trump);
+
+    const ranks = cards.map(CardHelper.getRank);
+    return cards[ranks.indexOf(Math.max(...ranks))];
+  }
+};
+```
+
+# UI 繪製函數
+
 # 極簡化
 最後就是將整個程式庫的邏輯盡量簡化，然後將看起來適合塞進 WebAssembly 塞進 WebAssembly 就大功告成了。
 
@@ -292,4 +309,12 @@ n ^= (n & 32) >> 1;
 [Math.floor(i / 13), i % 13];
 // 可以簡化成：
 [i * 5042 >>> 16, (i * 5042 & 0xffff) * 13 >>> 16];
+```
+
+```js
+const a = new Uint32Array(52);
+for (let i = 1; i < 52; i++) {
+  a[i] = Math.ceiling(65536 / i);
+};
+a.map(e => e.toString(16).padStart(2, "0")).join("\\");
 ```

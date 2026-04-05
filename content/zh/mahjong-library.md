@@ -144,18 +144,27 @@ const MahjongHelper = {
 # 計分
 ## 日本麻將
 ```js
-const manganCoef = new Uint8Array([0, 0, 0, 0, 0, 1, 1.5, 1.5, 2, 2, 2, 3, 3, 4]);
+const MahjongHelper = {
+  jpPoints: (fu, fan) => {
+    if (fan < 1)
+      throw new Error();
 
-function JPMjPoints(fu, fan) {
-  // const a = fu * 2 ** (fan + 2);
-  const a = fu * (1 << (fan + 2));
-  return new Uint32Array([a, a << 1, a << 2, a * 6]);
-}
+    if (fan < 5) {
+      // const a = fu * 2 ** (fan + 2);
+      const a = fu * (1 << (fan + 2));
 
-function (fan) {
-  let a = manganCoef * 2000;
-  return new Uint32Array([a, a << 1, a << 2, a * 6]);
-}
+      if (a < 2000)
+        return new Uint32Array([a, a << 1, a << 2, a * 6]);
+    };
+
+    // Mangan cases
+    const manganCoef = new Uint8Array([0, 0, 0, 0, 0, 1, 1.5, 1.5, 2, 2, 2, 3, 3, 4]);
+    let a = manganCoef[fan] * 2000;
+    if (fan == 6 || fan == 7)
+      a *= 1.5;
+    return new Uint32Array([a, a << 1, a << 2, a * 6]);
+  }
+};
 ```
 
 # 極簡化
