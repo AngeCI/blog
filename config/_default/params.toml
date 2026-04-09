@@ -33,5 +33,10 @@ SortBy = "lastmod"
     toggle  = true
     default = "auto"
 
+[privacy]
+    [privacy.youTube]
+        disable = false
+        privacyEnhanced = true
+
 [comments]
     enabled  = false
