@@ -1,0 +1,121 @@
+/* Place your custom SCSS in HUGO_SITE_FOLDER/assets/scss/custom.scss */
+@import url("https://font.emtech.cc/css/Cubic11");
+@import url("https://font.emtech.cc/css/LXGWZhenKai");
+@import url("https://font.emtech.cc/css/JetBrainsMono");
+
+html[lang=zh-hant-TW] .article-title,
+html[lang=zh-hant-TW] .article-subtitle,
+html[lang=zh-hant-TW] .article-content h1,
+html[lang=zh-hant-TW] .article-content h2,
+html[lang=zh-hant-TW] .article-content h3,
+html[lang=zh-hant-TW] .article-content h4,
+html[lang=zh-hant-TW] .article-content h5,
+html[lang=zh-hant-TW] .article-content h6,
+html[lang=zh-hant-HK] .article-title,
+html[lang=zh-hant-HK] .article-subtitle,
+html[lang=zh-hant-HK] .article-content h1,
+html[lang=zh-hant-HK] .article-content h2,
+html[lang=zh-hant-HK] .article-content h3,
+html[lang=zh-hant-HK] .article-content h4,
+html[lang=zh-hant-HK] .article-content h5,
+html[lang=zh-hant-HK] .article-content h6 {
+    font-family: LXGWZhenKai, var(--article-font-family);
+	font-weight: 400;
+}
+
+.sidebar {
+    font-family: Lato, Cubic11, var(--base-font-family);
+}
+
+.article-meta, .article-category, .article-tags {
+    font-family: Lato, Cubic11, var(--base-font-family);
+}
+
+.article-content {
+    margin: var(--card-padding) 0;
+    color: var(--card-text-color-main);
+}
+
+.article-content .highlight {
+    background-color: #282a36;
+}
+
+.article-content code {
+    font-family: JetBrainsMono, var(--code-font-family);
+}
+
+.read-more-link {
+    display: flex;
+    gap: var(--spacing-sm);
+    flex-wrap: wrap;
+
+    a {
+        color: var(--accent-color-text);
+        background-color: var(--accent-color);
+        padding: 8px 16px;
+        border-radius: var(--tag-border-radius);
+        display: inline-block;
+        font-size: 1.4rem;
+        transition: background-color 0.5s ease;
+
+        &:hover {
+            color: var(--accent-color-text);
+            background-color: var(--accent-color-darker);
+        }
+    }
+}
+
+.read-more-link {
+    font-family: Lato, Cubic11, var(--base-font-family);
+    padding: var(--card-padding);
+    padding-top: 0;
+    z-index: 10;
+}
+
+.article-content-preview {
+    max-height: 50vh;
+    overflow: hidden;
+    margin: 0 !important;
+}
+
+.main-article-preview {
+    position: relative;
+    overflow: hidden;        
+}
+
+.main-article-preview::after {
+    content: "";
+    z-index: 5;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(transparent 0%,var(--card-background) 60%);
+    position: absolute;
+    bottom: 0;
+}
+
+.hovers-blur {
+  opacity: 0.1;
+  filter: blur(5px);
+  transition-duration: 1s;
+}
+
+.hovers-blur:hover {
+  opacity: 1;
+  filter: initial;
+}
+
+.chide, .chide a {
+  background-color: var(--card-text-color-main);
+  color: var(--card-text-color-main);
+  cursor: default;
+  transition: color .13s linear;
+}
+
+.chide::selection {
+  color: var(--accent-color);
+}
+
+.chide:hover, .chide:active {
+  color: var(--accent-color);
+  transition: color .13s linear;
+}

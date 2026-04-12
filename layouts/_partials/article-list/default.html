@@ -1,0 +1,11 @@
+{{ $image := partial "helper/image" (dict "Image" .Params.image "Resources" .Resources "Context" .) }}
+<article class="{{ if $image }}has-image{{ end }} main-article-preview">
+    {{ partial "article/components/header" (dict "Page" . "IsList" true) }}
+    <section class="article-content-preview article-content">
+        {{ $wrappedTable := printf "<div class=\"table-wrapper\">${1}</div>" }}
+        {{ .Content | replaceRE "(<table>(?:.|\n)+?</table>)" $wrappedTable | safeHTML }}
+    </section>
+    <div class="read-more-link">
+        <a href="{{ .RelPermalink }}"> 繼續閱讀 → </a>
+    </div>
+</article>

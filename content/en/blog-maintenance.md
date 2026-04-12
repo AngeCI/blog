@@ -1,6 +1,6 @@
 ---
 date: "2026-03-03T16:51:10+00:00"
-lastmod: "2026-03-14T11:29:15+00:00"
+lastmod: "2026-04-12T16:50:19+00:00"
 title: "Blog Maintenance"
 description: "Technical news about this blog."
 translationKey: "blog-maintenance"
@@ -17,3 +17,6 @@ Since I'm not quite familiar with the framework, there may be a lot of bugs arou
 
 > [!IMPORTANT] Update on 2026/03/14
 > After playing around with various settings, most of the visible UI issues have finally been resolved! Though taking longer than I initially expected. However, I still don’t figure out why the “reading time” isn’t displaying at all.
+
+> [!IMPORTANT] Update on 2026/04/13
+> Major UI revamp. The not-displaying “reading time” issue has been resolved.

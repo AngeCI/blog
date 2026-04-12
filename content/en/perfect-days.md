@@ -43,4 +43,5 @@ categories:
 # Conclusion
 因為趕工的緣故，文章內容組織得不是那麼好，我以後可能會再原地更新這篇文章。
 
-<span style="color: transparent;">I actually have some more radical ideas about an ideal world and an ideal social system, but I won’t talk about them publicly here, lest this blog won’t exist anymore one day.</span>
+I actually have some more radical ideas about an ideal world and an ideal social system, but I won’t talk about them publicly here, lest this blog won’t exist anymore one day.
+{.hovers-blur}
