@@ -7,6 +7,14 @@
     icon = "rss"
     newTab = true
 
+#[[main]]
+#  name = "隨機文章"
+#  url = "#"
+#  weight = 11
+#  identifier = "random"
+#  [main.params]
+#    icon = "random"
+
 [[social]]
   identifier = "github"
   name       = "GitHub"
