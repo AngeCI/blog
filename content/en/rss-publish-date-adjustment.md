@@ -15,18 +15,18 @@ tags:
 > [!WARNING] Notice
 > This post is a draft translation from [the Chinese version](/blog/zh/rss-publish-date-adjustment/) which have not yet been thoroughly proofread.
 
-今天讀到了 Alex Hsu 的這篇《[你的RSS文章壽命可能只有別人的一半](https://alexhsu.com/publish-date)》，馬上檢查了一下自己網站的 RSS 資訊，發現 RSS 輸出裏的 `<pubDate>` 拿的是 `date` 而不是我在 frontmatter 裏指定的 `lastmod` 屬性。後者才是我期望在 RSS 裏顯示的發佈時間。
+After reading about Alex Hsu’s post “[Your RSS posts might only live half as long as everyone else’s](https://alexhsu.com/en/publish-date)” today, I immediately checked the information in my RSS feed, and found out that the `<pubDate>` field inside the RSS feed takes the `date` field instead of the `lastmod` field, specified inside the post’s frontmatter. The publishing time I expect to be displayed in RSS feed should be the latter.
 
-# 我目前的發佈流程
-本站目前是用 Hugo 和 GitHub Pages 架起來的。我在撰寫一篇新文章的時候，會在臨保存文件的時候看一下當下的時間，然後手動把時間填上去 frontmatter 的 `date`，然後盡快推上 GitHub。我在更新舊文的時候，我不會動 `date` 而是動 `lastmod`。殊不知原來這樣的更新方法，反而是把自己給坑了。
+# My current publishing process
+This site is currently built using Hugo and GitHub Pages. When I write a new article, I will look at the current time just before saving the file, then manually fill in the time into the `date` field of the frontmatter, and then push it to GitHub as soon as possible. When I update old articles, I don’t edit the `date` field but `lastmod` instead. Little did I know, that such an update method would actually screw myself up.
 
-# 開工
-要改動 RSS 裏的發佈時間，我們可以從 [`layouts/rss.xml`](https://github.com/CaiJimmy/hugo-theme-stack/blob/master/layouts/rss.xml) （至少我現在用的這個主題是這個文件）這個文件入手。這個文件裏面有一行長這樣：
+# Start working on it
+To modify the publish date inside the RSS feed, we can start with the file [`layouts/rss.xml`](https://github.com/CaiJimmy/hugo-theme-stack/blob/master/layouts/rss.xml) (at least this is the file for the theme I am using now). There is a line in this file that looks like this:
 
 ```xml
 <pubDate>{{ .PublishDate.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
 ```
 
-其中 [`.PublishDate`](https://gohugo.io/methods/page/publishdate/) 代表 frontmatter 的 `date` 屬性，而 `lastmod` 屬性就是 [`.Lastmod`](https://gohugo.io/methods/page/lastmod/)。把這個值替換掉應該就行了。
+Where [`.PublishDate`](https://gohugo.io/methods/page/publishdate/) represents the `date` field  of the frontmatter, and `lastmod` is [`.Lastmod`](https://gohugo.io/methods/page/lastmod/). Just replace this value and it should be done.
 
-我不知道以我目前的發佈流程來看，可不可以做到自動填入和更改發佈日期，如果可以的話以後有空也許會試着做做看。
+I don’t know if it is possible to automatically fill in and change the publish date based on my current publishing process. If possible, I might try it when I have time in the future.

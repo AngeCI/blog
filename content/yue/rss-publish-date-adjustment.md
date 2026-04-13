@@ -12,13 +12,10 @@ tags:
   - "Hugo"
 ---
 
-> [!WARNING] Notice
-> 呢篇文章暫時仲未粵語化，暫時拎住[書面語版本](/blog/zh/rss-publish-date-adjustment/)頂住檔先。我遲啲有時間會更新返粵語版本！
+今天睇咗 Alex Hsu 嘅呢篇《[你的RSS文章壽命可能只有別人的一半](https://alexhsu.com/publish-date)》，即刻 check 下自己網站嘅 RSS 資訊，發現 RSS 輸出入面嘅 `<pubDate>` 係拎 `date` 而唔係我喺 frontmatter 度指定嘅 `lastmod` 屬性。後者先至係我想喺 RSS show 出嚟嘅發佈時間。
 
-今天讀到了 Alex Hsu 的這篇《[你的RSS文章壽命可能只有別人的一半](https://alexhsu.com/publish-date)》，馬上檢查了一下自己網站的 RSS 資訊，發現 RSS 輸出裏的 `<pubDate>` 拿的是 `date` 而不是我在 frontmatter 裏指定的 `lastmod` 屬性。後者才是我期望在 RSS 裏顯示的發佈時間。
-
-# 我目前的發佈流程
-本站目前是用 Hugo 和 GitHub Pages 架起來的。我在撰寫一篇新文章的時候，會在臨保存文件的時候看一下當下的時間，然後手動把時間填上去 frontmatter 的 `date`，然後盡快推上 GitHub。我在更新舊文的時候，我不會動 `date` 而是動 `lastmod`。殊不知原來這樣的更新方法，反而是把自己給坑了。
+# 我而家嘅發佈流程
+呢度而家係用 Hugo 同 GitHub Pages 起出嚟嘅。響我寫一篇新文章嘅時候，會喺臨 save file 嗰陣𥄫下而家個時間，然後手動填個時間上去 frontmatter 嘅 `date`，然後盡快推上 GitHub。響我更新舊文嘅時候，我就唔郁 `date` 而係郁 `lastmod`。殊不知原來咁嘅更新方法，反而係伏咗我自己。
 
 # 開工
 要改動 RSS 裏的發佈時間，我們可以從 [`layouts/rss.xml`](https://github.com/CaiJimmy/hugo-theme-stack/blob/master/layouts/rss.xml) （至少我現在用的這個主題是這個文件）這個文件入手。這個文件裏面有一行長這樣：
@@ -27,6 +24,6 @@ tags:
 <pubDate>{{ .PublishDate.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
 ```
 
-其中 [`.PublishDate`](https://gohugo.io/methods/page/publishdate/) 代表 frontmatter 的 `date` 屬性，而 `lastmod` 屬性就是 [`.Lastmod`](https://gohugo.io/methods/page/lastmod/)。把這個值替換掉應該就行了。
+其中 [`.PublishDate`](https://gohugo.io/methods/page/publishdate/) 代表 frontmatter 嘅 `date` 屬性，而 `lastmod` 屬性就係 [`.Lastmod`](https://gohugo.io/methods/page/lastmod/)。換咗呢個值之後應該就搞掂喇。
 
-我不知道以我目前的發佈流程來看，可不可以做到自動填入和更改發佈日期，如果可以的話以後有空也許會試着做做看。
+我不知道以我而家嘅發佈流程嚟睇，可唔可以做到自動填同改發佈日期，如果得嘅話以後有空也許會試着做做看。
