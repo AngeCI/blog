@@ -9,6 +9,7 @@ categories:
   - "Computer Science 電腦科學"
 tags:
   - "RSS"
+  - "Hugo"
 ---
 
 今天讀到了 Alex Hsu 的這篇《[你的RSS文章壽命可能只有別人的一半](https://alexhsu.com/publish-date)》，馬上檢查了一下自己網站的 RSS 資訊，發現 RSS 輸出裏的 `<pubDate>` 拿的是 `date` 而不是我在 frontmatter 裏指定的 `lastmod` 屬性。後者才是我期望在 RSS 裏顯示的發佈時間。

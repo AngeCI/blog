@@ -9,6 +9,7 @@ categories:
   - "Computer Science 電腦科學"
 tags:
   - "RSS"
+  - "Hugo"
 ---
 
 > [!WARNING] Notice

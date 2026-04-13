@@ -3,51 +3,41 @@
 @import url("https://font.emtech.cc/css/LXGWZhenKai");
 @import url("https://font.emtech.cc/css/JetBrainsMono");
 
-html[lang=zh-hant-TW] .article-title-wrapper .article-title,
-html[lang=zh-hant-TW] .article-subtitle,
-html[lang=zh-hant-TW] .article-content h1,
-html[lang=zh-hant-TW] .article-content h2,
-html[lang=zh-hant-TW] .article-content h3,
-html[lang=zh-hant-TW] .article-content h4,
-html[lang=zh-hant-TW] .article-content h5,
-html[lang=zh-hant-TW] .article-content h6,
-html[lang=zh-hant-HK] .article-title-wrapper .article-title,
-html[lang=zh-hant-HK] .article-subtitle,
-html[lang=zh-hant-HK] .article-content h1,
-html[lang=zh-hant-HK] .article-content h2,
-html[lang=zh-hant-HK] .article-content h3,
-html[lang=zh-hant-HK] .article-content h4,
-html[lang=zh-hant-HK] .article-content h5,
-html[lang=zh-hant-HK] .article-content h6 {
-    font-family: LXGWZhenKai, var(--article-font-family);
-    font-weight: 400;
+.article-title-wrapper .article-title,
+.article-subtitle,
+.article-content h1,
+.article-content h2,
+.article-content h3,
+.article-content h4,
+.article-content h5,
+.article-content h6, {
+    font-family: Lato, LXGWZhenKai, var(--article-font-family);
+    /* font-weight: 400; */
 }
 
 :root {
     text-autospace: normal;
+    --code-font-family: JetBrainsMono, Menlo, Monaco, Consolas, "Courier New", monospace;
+    --pixel-font-family: Lato, Cubic11, var(--base-font-family);
+    --tag-border-radius: 1.2em;
 }
 
 .article-title-wrapper .article-title a {
     transition: all 0.5s;
 }
 
-.sidebar, .article-meta, .article-category, .article-tags, .main .section-title {
-    font-family: Lato, Cubic11, var(--base-font-family);
+.sidebar, .article-meta, .article-toc, .article-category, .article-tags, .main .section-title {
+    font-family: var(--pixel-font-family);
 }
 
-.article-category a, .article-tags a {
-    border-radius: 1.2em;
+.article-category a, .article-tags a, .read-more-link a {
     box-shadow: 0 0.3em 0.5em rgba(0, 0, 0, 0.2);
-    transition: opacity 0.5s;
+    /* transition: opacity 0.5s; */
 }
 
-.tagCloud-tags a {
-    border-radius: 1.2em !important;
-}
-
-.article-category a:hover, .article-tags a:hover {
+/* .article-category a:hover, .article-tags a:hover {
     opacity: 0.8;
-}
+} */
 
 .article-content {
     margin: var(--card-padding) 0;
@@ -56,10 +46,6 @@ html[lang=zh-hant-HK] .article-content h6 {
 
 .article-content .highlight {
     background-color: #282a36;
-}
-
-.article-content code {
-    font-family: JetBrainsMono, var(--code-font-family);
 }
 
 .read-more-link {
@@ -84,7 +70,7 @@ html[lang=zh-hant-HK] .article-content h6 {
 }
 
 .read-more-link {
-    font-family: Lato, Cubic11, var(--base-font-family);
+    font-family: var(--pixel-font-family);
     padding: var(--card-padding);
     padding-top: 0;
     z-index: 10;
