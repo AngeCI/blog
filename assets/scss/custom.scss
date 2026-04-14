@@ -120,10 +120,10 @@
 }
 
 .chide::selection {
-  color: var(--accent-color);
+  color: var(--accent-color-text);
 }
 
-.chide:hover, .chide:active {
-  color: var(--accent-color);
+.chide:hover, .chide a:hover {
+  color: var(--accent-color-text);
   transition: color .13s linear;
 }
