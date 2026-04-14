@@ -13,11 +13,13 @@ enableMissingTranslationPlaceholders = true
     contentDir = 'content/zh'
     languageCode = 'zh-hant-TW'
     languageName = '正體中文'
+    hasCJKLanguage = true
     weight = 2
   [languages.yue]
     contentDir = 'content/yue'
     languageCode = 'zh-hant-HK'
     languageName = '粵語'
+    hasCJKLanguage = true
     weight = 3
 
 [caches]
