@@ -16,4 +16,4 @@ Anyway, I can be contacted via the email address angeci (at) ltgc.cc. Sadly mail
 
 Translations can be submitted through email, or by issuing a PR on this [GitHub repo](https://github.com/AngeCI/blog).
 
-There is no comment section at the beginning stage of the blog. (Would there be one after some time? Who knows.) Comments can be submitted through means like email or private messages, and the comments would be posted at the “Featured Comments” section at the end of each post.
+There is no comment section at the beginning stage of the blog. (Cuz I’m too lazy to find a place to host the comment system; Would there be one after some time? Who knows.) Comments can be submitted through means like email or private messages, and the comments would be posted at the “Featured Comments” section at the end of each post.

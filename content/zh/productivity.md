@@ -7,6 +7,7 @@ translationsKey: "productivity"
 categories:
   - "BlogBlog 同樂會"
   - "Artificial Intelligence 人工智能"
+  - "Game Theory 博弈論"
 ---
 
 > [!TIP] BlogBlog 同樂會！
