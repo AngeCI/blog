@@ -1,6 +1,6 @@
 /* Place your custom SCSS in HUGO_SITE_FOLDER/assets/scss/custom.scss */
 @import url("https://font.emtech.cc/css/Cubic11");
-@import url("https://font.emtech.cc/css/LXGWZhenKai");
+@import url("https://font.emtech.cc/css/Iansui");
 @import url("https://font.emtech.cc/css/JetBrainsMono");
 
 .article-title-wrapper .article-title,
@@ -11,7 +11,7 @@
 .article-content h4,
 .article-content h5,
 .article-content h6, {
-    font-family: Lato, LXGWZhenKai, var(--article-font-family);
+    font-family: Lato, Iansui, var(--article-font-family);
     /* font-weight: 400; */
 }
 
@@ -26,7 +26,9 @@
     transition: all 0.5s;
 }
 
-.sidebar, .article-meta, .article-toc, .article-category, .article-tags, .main .section-title, .site-footer {
+.sidebar, .article-meta, .article-toc, .article-category, .article-tags, .main .section-title, .site-footer,
+.article-list--tile .article-title,
+.article-list--compact .article-title, {
     font-family: var(--pixel-font-family);
 }
 
