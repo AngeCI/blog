@@ -1,8 +1,7 @@
 {{- $pages := .Pages -}}
 
 {{- if .IsHome -}}
-    <!-- {{- $pages = where .Site.RegularPages "Type" "in" .Site.Params.mainSections -}} -->
-    {{- $pages = .Site.RegularPages -}}
+    {{- $pages = where .Site.RegularPages "Layout" "" -}}
 {{- else if or (eq .Kind "section") (eq .Kind "taxonomy") (eq .Kind "term") -}}
     {{- $subsections := .Sections -}}
     {{- $pages = .Pages | complement $subsections -}}

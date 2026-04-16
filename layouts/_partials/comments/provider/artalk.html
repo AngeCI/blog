@@ -6,7 +6,7 @@
 "use strict";
 const isDarkMode = document.documentElement.getAttribute("data-scheme") === "dark";
 const locale = {{ .Site.Language.LanguageCode }};
-cpont isEnglish = locale === "en";
+const isEnglish = locale === "en";
 const artalk = Artalk.init({
   el:        "#artalk-comments",
   pageKey:   "{{ .Permalink }}",
@@ -21,7 +21,7 @@ const artalk = Artalk.init({
   }[locale],
   emoticons: false,
   placeholder: isEnglish ? "Write something..." : "寫點什麼吧...",
-  noComment: isEnglish ? "No comments yet. Start the conversation!" : "就等你來搶頭香！",
+  noComment: isEnglish ? "No comments yet. Start the conversation!" : "還沒有人留言，就等你來搶頭香！",
   pageVote:  false,
   vote:      false
 });

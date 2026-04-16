@@ -3,6 +3,8 @@ date: "2026-03-19T18:46:40+00:00"
 title: "大陸人係咪仲喺度紮腳？"
 description: "點揀都揀唔到合適嘅鞋碼。"
 translationKey: "do-mainlanders-still-bind-their-feet"
+categories:
+  - "Unclassified 未分類"
 tags:
   - "Made in China 中國製造"
 ---

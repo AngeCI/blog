@@ -1,9 +1,11 @@
 ---
-date: "2026-04-15T17:00:00+00:00"
+date: "2026-04-15T17:32:55+00:00"
 lastmod: ""
 title: "𨋢門嘅安慰掣"
 description: ""
 translationsKey: "placebo-button"
+categories:
+  - "Unclassified 未分類"
 ---
 
 據說喺國外（尤其係西方世界，特別是舊啲嘅𨋢更有可能這樣），𨋢門唔一定會提供「閂門」嘅掣。

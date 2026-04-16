@@ -4,6 +4,8 @@ lastmod: "2026-03-25T19:15:43+00:00"
 title: "論漢字書法教育"
 description: "大家認為漢字書法應否列入義務教育的一部份？"
 translationKey: "chinese-calligraphy"
+categories:
+  - "Unclassified 未分類"
 tags:
   - "Language Policy 語言政策"
 ---

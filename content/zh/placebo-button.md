@@ -1,9 +1,11 @@
 ---
-date: "2026-04-15T17:00:00+00:00"
+date: "2026-04-15T17:32:55+00:00"
 lastmod: ""
 title: "電梯門的安慰劑按鈕"
 description: ""
 translationsKey: "placebo-button"
+categories:
+  - "Unclassified 未分類"
 ---
 
 據說在國外（尤其是西方世界，特別是更老的電梯更有可能這樣），電梯門不一定會提供「關門」的按鈕。

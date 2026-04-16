@@ -3,6 +3,8 @@ date: "2026-03-19T18:46:40+00:00"
 title: "Do Mainlanders Still Bind Their Feet?"
 description: "I can’t find the right shoe size no matter how I choose."
 translationKey: "do-mainlanders-still-bind-their-feet"
+categories:
+  - "Unclassified 未分類"
 tags:
   - "Made in China 中國製造"
 ---

@@ -4,6 +4,8 @@ lastmod: "2026-03-25T19:15:43+00:00"
 title: "About Chinese Calligraphy Education"
 description: "Do you think Chinese calligraphy should be included as part of compulsory education?"
 translationKey: "chinese-calligraphy"
+categories:
+  - "Unclassified 未分類"
 tags:
   - "Language Policy 語言政策"
 ---

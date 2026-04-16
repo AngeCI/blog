@@ -1,10 +1,15 @@
 ---
-date: "2026-04-15T17:30:00+00:00"
+date: "2026-04-15T17:32:55+00:00"
 lastmod: ""
 title: "Elevator’s Placebo Button"
 description: ""
 translationsKey: "placebo-button"
+categories:
+  - "Unclassified 未分類"
 ---
+
+> [!WARNING] Notice
+> This post is a draft translation from [the Chinese version](/blog/zh/placebo-button/) which have not yet been thoroughly proofread.
 
 It’s said that in foreign countries (especially the Western world, and particularly in older elevators), elevator doors don’t always provide a “close” button.
 

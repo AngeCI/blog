@@ -3,6 +3,8 @@ date: "2026-04-01T10:30:51+00:00"
 title: "弘揚中華文化"
 description: "讓我們一起來弘揚中華文化吧！"
 translationKey: "promote-chinese-culture"
+categories:
+  - "Unclassified 未分類"
 tags:
   - "Made in China 中國製造"
 ---

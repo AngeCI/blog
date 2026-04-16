@@ -7,13 +7,13 @@
     icon = "rss"
     newTab = true
 
-#[[main]]
-#  name = "Random Post"
-#  url = "#"
-#  weight = 11
-#  identifier = "random"
-#  [main.params]
-#    icon = "random"
+[[main]]
+  name = "Random Post"
+  url = "#"
+  weight = 11
+  identifier = "random"
+  [main.params]
+    icon = "random"
 
 [[social]]
   identifier = "github"
