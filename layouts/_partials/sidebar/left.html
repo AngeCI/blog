@@ -65,12 +65,12 @@
 
 <script>
 "use strict";
-document.querySelector("#main-menu").children[4].children[0].addEventListener("click", (ev) => {
+document.getElementById("main-menu").children[4].children[0].addEventListener("click", (ev) => {
   ev.preventDefault();
   const posts = [
-    {{ range where .Site.RegularPages "Layout" "" }}
-       {{ .RelPermalink }},
-    {{ end }}
+    {{- range where .Site.RegularPages "Layout" "" -}}
+      "{{ .RelPermalink }}",
+    {{- end -}}
   ];
   window.location.href = posts[Math.floor(Math.random() * posts.length)];
 });

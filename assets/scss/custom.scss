@@ -96,7 +96,7 @@
 
 .pagination-nav li {
   border: 1px solid var(--card-text-color-tertiary);
-  border-radius: 0.4rem;
+  border-radius: var(--tag-border-radius);
   padding: 1rem 1.6rem;
   transition: border-color 0.2s cubic-bezier(.08, .52, .52, 1);
   display: block;
@@ -113,26 +113,30 @@
   word-break: break-word;
 }
 
-.pagination-nav-label, .pagination-nav-prev, .pagination-nav-next {
+.pagination-nav-label {
   transition: color 0.2s cubic-bezier(.08, .52, .52, 1);
 }
 
-.pagination-nav-prev:hover, .pagination-nav-next:hover {
+.pagination-nav-label:hover {
   color: var(--accent-color-darker);
 }
 
-.pagination-nav-prev::before {
+.pagination-nav-next {
+  text-align: right;
+}
+
+.pagination-nav-prev span::before {
   content: "« ";
 }
 
-.pagination-nav-next::after {
+.pagination-nav-next span::after {
   content: " »";
 }
 
 #footer-random-post {
   margin: 0 auto;
   border: 1px dashed var(--card-text-color-tertiary);
-  border-radius: 0.4rem;
+  border-radius: 1.35em;
   padding: 1rem 1.5rem;
   transition: all 0.5s;
 }
@@ -187,4 +191,10 @@
 .chide:hover, .chide a:hover {
   color: var(--accent-color-text);
   transition: color .13s linear;
+}
+
+footer.site-footer .totalcount {
+  color: var(--card-text-color-secondary);
+  font-weight: 400;
+  margin-bottom: 5px;
 }
