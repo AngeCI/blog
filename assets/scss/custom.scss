@@ -20,6 +20,62 @@
     --code-font-family: JetBrainsMono, Menlo, Monaco, Consolas, "Courier New", monospace;
     --pixel-font-family: Lato, Cubic11, var(--base-font-family);
     --tag-border-radius: 1.2em;
+    --card-border-radius: 20px;
+
+    &[data-scheme="light"] {
+        --body-background: #f0fffc;
+        --body-text-color: #366b60;
+        --card-background: #f7fffd;
+        /* --card-text-color-main: #1f4a41; */
+        --card-text-color-secondary: #5f998d;
+        --code-text-color: var(--card-text-color-main);
+        --accent-color: #439988;
+        --accent-color-darker: #39a892;
+        --link-background-color: 67, 153, 136;
+        --custom-shadow: 0 0.3em 0.5em rgba(0, 0, 0, 0.2);
+    }
+
+    &[data-scheme="dark"] {
+        --body-background: #0e1a17;
+        --body-text-color: rgba(199, 255, 244, 0.7);
+        --card-background: #162e29;
+        --card-text-color-main: #f2fffc;
+        --card-text-color-secondary: rgba(242, 255, 252, 0.7);
+        --accent-color: #c7fff4;
+        --accent-color-darker: #7be8d2;
+        --link-background-color: 42, 145, 125; /* #2a917d */
+        --custom-shadow: 0 0.3em 0.5em rgba(255, 255, 255, 0.35);
+    }
+}
+
+[data-scheme="light"]::selection {
+    background-color: rgba(86, 196, 174, 0.25);
+    color: var(--card-text-color-main);
+}
+
+[data-scheme="dark"]::selection {
+    background-color: rgba(199, 255, 244, 0.25);
+    color: var(--card-text-color-main);
+}
+
+[data-scheme="light"] body {
+    background-image: radial-gradient(rgba(86, 196, 174, 0.25) 1px, transparent 1px), radial-gradient(rgba(86, 196, 174, 0.25) 1px, transparent 1px);
+    background-size: 20px 20px;
+    background-position: 0 0, 10px 10px;
+}
+
+[data-scheme="dark"] body {
+    background-image: radial-gradient(rgba(199, 255, 244, 0.13) 1px, transparent 1px), radial-gradient(rgba(199, 255, 244, 0.13) 1px, transparent 1px);
+    background-size: 20px 20px;
+    background-position: 0 0, 10px 10px;
+}
+
+[data-scheme=dark] .widget-title.section-title {
+    color: var(--accent-color);
+}
+
+[data-scheme=dark] #TableOfContents li:not(.active-class) > a {
+    color: var(--body-text-color);
 }
 
 .article-title-wrapper .article-title a {
@@ -37,7 +93,7 @@
 }
 
 .article-category a, .article-tags a, .read-more-link a {
-    box-shadow: 0 0.3em 0.5em rgba(0, 0, 0, 0.2);
+    box-shadow: var(--custom-shadow);
     transition: all 0.5s;
 }
 
