@@ -16,45 +16,45 @@ categories:
 > [!TIP] BlogBlog Club!
 > This is my submission article for “[BlogBlog Club Party - April 2026](https://blogblog.club/party)”. This month’s topic is “[Productivity](https://www.wen-lab.tw/blogblog-party-productivity/)”, hosted by [Wen](https://www.wen-lab.tw). If you have your own blog, feel free to join us together!
 
-# 非完全信息博弈：囚徒困境與納什均衡
-這個世界上很多的博弈都是非完全信息的，即參與博弈的各方有着不為其他參與方所知的隱藏資訊。
+# Incomplete information game: Prisoner’s dilemma and Nash equilibrium
+Many games in this world involve incomplete information, meaning that each party involved has hidden information that is unknown to the other parties.
 
-舉個例子，警局和兩名疑犯做認罪協商，如果兩名疑犯都不認罪（共同合作），則二人同樣判監半年；如果其中一名疑犯認罪（背叛）而另一名疑犯保持沉默（合作）的話，認罪的一方將即時獲釋，沉默者將判監十年；如果兩名疑犯一同認罪（互相背叛），則二人同樣判監五年。而兩名疑犯之間並不能互相交流。
+舉個例子，警局和兩名疑犯做認罪協商，如果兩名疑犯都不認罪（共同合作），則二人同樣判監半年；如果其中一名疑犯認罪 (“defects”) 而另一名疑犯保持沉默 (“cooperates”) 的話，認罪的一方將即時獲釋，沉默者將判監十年；如果兩名疑犯一同認罪（互相背叛），則二人同樣判監五年。而兩名疑犯之間並不能互相交流。
 
-|  | 乙合作 | 乙背叛 |
+|  | B cooperates | B defects |
 | -- | -- | -- |
-| 甲合作 | -0.5, -0.5 | -10, 0 |
-| 甲背叛 | 0, -10 | -5, -5 |
+| A cooperates | -0.5, -0.5 | -10, 0 |
+| A defects | 0, -10 | -5, -5 |
 
-這就叫做[**囚徒困境**](https://zh.wikipedia.org/wiki/%E5%9B%9A%E5%BE%92%E5%9B%B0%E5%A2%83)（Prisoner’s dilemma）。你會發現，在雙方都互相無法信任對方的情形下，雙方在只考慮自身利益時的最優策略，居然都是選擇背叛！而相互背叛又不能為雙方帶來更好的整體利益（只能把單獨考慮每名疑犯自身的利益最大化），形成「寧為玉碎，不作瓦全」的雙輸局面。當任何一方都沒有誘因單方面改變其選擇時，**納什均衡**（Nash equilibrium）就形成了。
+This is called the [**prisoner’s dilemma**](https://en.wikipedia.org/wiki/Prisoner%27s_dilemma). You’ll find that when neither side can trust the other, the optimal strategy for both, considering only their own interests, is to defect! However, mutual betrayal doesn’t bring better overall benefit to either side (it only maximizes the individual interests of each suspect), creating a lose-lose situation of “better to die than live in dishonour.” When neither side has any incentive to unilaterally change their choice, a **Nash equilibrium** is formed.
 
-可以說很多非完全信息博弈所導致的後果，實際上是降低了全世界的整體生產力的。[^1]
+It can be said that many consequences of incomplete information games actually reduce the overall productivity of the entire world.[^1]
 
-（如果雙方共同合作的收益大於互相背叛的虧損，那就不叫囚徒困境而是叫[獵鹿博弈](https://zh.wikipedia.org/wiki/%E7%8D%B5%E9%B9%BF%E8%B3%BD%E5%B1%80)。在獵鹿博弈中，「共同合作」和「互相背叛」都是納什均衡。）
+(If the benefits of cooperation outweigh the losses from betrayal, it’s not called the prisoner’s dilemma but a [stag hunt](https://en.wikipedia.org/wiki/Stag_hunt). In a stag hunt, both “cooperation” and “betrayal” are Nash equilibria.)
 
-# 諸神黃昏的雙輸局面
-面對[百年未有之大便局](https://wiwi.blog/blog/notebooklm-enshittification/)，沒有一個現成產品在各方面都是完美的，你只能從各種不同的大便當中挑個最不難聞的，然後試着把他修成你能接受的樣子。
+# Twilight of the gods: A lose-lose situation
+Facing [the never-seen change of lavatories](https://wiwi.blog/blog/notebooklm-enshittification/), there’s no perfect ready-made product in every way. You can only pick the least smelly one from all kinds of shit, and try to make it into a way that you can accept.
 
-## 廣告兩難
-將囚徒困境套用在商業層面，就可以解釋成：每家公司都有兩個選擇，一是將更多的資源投放在廣告上以求削弱或打倒競爭對手（互相背叛）；二是與其競爭對手互相達成協議，減少浪費在廣告的資源（共同合作）。在現實的商業環境中，互相背叛極其常見，結果大量的資源和網絡流量被浪費在廣告上面，而絕大多數的消費者壓根兒就根本不會去瞅一眼。
+## Advertising dilemma
+Applying the prisoner’s dilemma to the business world, it can be interpreted as follows: Each company has two choices: one is to invest more resources in advertising to weaken or defeat competitors (mutual betrayal); the other is to reach an agreement with competitors to reduce wasted resources on advertising (cooperation). In the real business environment, mutual betrayal is extremely common, resulting in a large amount of resources and network traffic being wasted on advertising, while the vast majority of consumers don’t even glance at it.
 
-在這場博弈之中，最終受害的，竟然是終端用戶。各種過於猖狂的廣告迫使終端用戶紛紛開起了廣告攔截器。隨着 Google 對廣告攔截器的宣戰，一場新的兩難博弈正悄然打響。某些（可能有其存在價值的）網站和服務不得不依賴廣告維生不然會餓死，但廣告服務又依賴各種侵犯用戶隱私的追蹤器，把注重隱私的用戶羣嚇走，但用戶的流失又變相威脅到平台的財政，形成兩難局面。
+In this game, the ultimate victims are the end users. Overly aggressive advertising has forced them to activate ad blockers. With Google’s declaration of war on ad blockers, a new dilemma is quietly unfolding. Some websites and services (which may have some value) have to rely on advertising to survive or they will starve, but advertising services rely on various privacy-violating trackers, scaring away privacy-conscious users. However, this user loss indirectly threatens the platform’s finances, creating a dilemma.
 
-## 瀏覽器之戰
-先來看看各位在用的瀏覽器好了。常見的瀏覽器有什麼優缺點？
+## Browser wars
+Let’s first take a look at the browsers you’re using. What are the advantages and disadvantages of common browsers?
 
-- Google Chrome 被罵是間諜軟體和廣告軟體不是第一天了。
-- Microsoft Edge 界面相對較為煩人，而且也被罵是間諜軟體和廣告軟體。
-- Firefox 的背景看起來比較自由，界面比較乾淨，但因為市佔率因素導致某些網頁可能會對 Firefox 不太友善，且 [Pront](https://prontlin.com/posts/leave-chrome/#%E7%82%BA%E4%BB%80%E9%BA%BC%E4%B8%8D%E9%81%B8-firefox) 和（曾經的[^2]）[Wiwi](https://wiwi.blog/use#-%E7%80%8F%E8%A6%BD%E5%99%A8) 指責說它是間諜軟體，而且據說 Firefox Android 版不是那麼好用。
-- Brave 被[光鶯社羣](https://ltgc.cc)共同創辦人之一的 Lumière Élevé 認為其應該得到與「威脅用戶安全」的瀏覽器相同的待遇（在光鶯社羣的服務中屏蔽），並稱 Brave「No one’s going to cry over a crypto bro’s scheme anyway, it’s even using the Chromium kernel controlled by Google.」、「I don’t care if it’s held at gun point or not.」。
-- Safari 是蘋果平台專屬，用了一些不太好看的手段來強行保住它的市佔率。
-- LibreWolf 比較適合隱私愛好者，但要是加載需要硬體加速的頁面的話就不用考慮了。
-- Cromite 應該是在 Chromium 系瀏覽器中最注重隱私的了，也沒有來自加密貨幣圈的大便，但它還是有一些來自 Chromium 的原罪[^3]。
+- It’s not the first day that Google Chrome has been criticized as spyware and adware.
+- Microsoft Edge’s interface is relatively annoying, and has also been criticized as spyware and adware.
+- Firefox’s backgrounds appear more free, and its interface is cleaner, but due to its market share, some websites may not be as Firefox-friendly. Besides, [Pront](https://prontlin.com/posts/leave-chrome/#%E7%82%BA%E4%BB%80%E9%BA%BC%E4%B8%8D%E9%81%B8-firefox) and (past[^2]) [Wiwi](https://wiwi.blog/use#-%E7%80%8F%E8%A6%BD%E5%99%A8) accuse it of being a spyware, and the Android version of Firefox is reportedly not very handful.
+- According to Lumière Élevé, one of the co-founders of [Lightingale Community](https://ltgc.cc), Brave should receive the same treatment as browsers that “threaten user security” (to be blocked in LTGC’s services), and says that “No one’s going to cry over a crypto bro’s scheme anyway, it’s even using the Chromium kernel controlled by Google.”, “I don’t care if it’s held at gun point or not”.
+- Safari is exclusive to Apple platforms, and it used some unsavory methods to forcibly maintain its market share.
+- LibreWolf is quite suitable for privacy enthusiasts, but it’s not worth to be considerated for loading pages that require hardware acceleration.
+- Cromite is probably the most privacy-conscious browser in the Chromium-family, and it doesn’t have any shit from the cryptocurrency communities, but it still has some of the original sins of the Chromium-family[^3].
 
-由上所見，沒有一個現成產品在各方面都是完美的，你只能從各種不同的大便當中挑個最不難聞的，然後試着把他修成你能接受的樣子。
+From above, there’s no perfect ready-made product in every way. You can only pick the least smelly one from all kinds of shit, and try to make it into a way that you can accept.
 
-## 即時通訊軟體的諸神黃昏
-即時通訊軟體也是一團大便，你只能在各種不同的大便中取捨。
+## Ragnarok of instant messaging softwares
+Instant messaging softwares are also a pile of shit, you can only choose from different kinds of shit.
 
 - Discord 商業味太濃，而且還在為年齡驗證的事炎上着呢。
 - Telegram 現在收費功能越搞越多了，「永遠免費」已成絕響。而且 Telegram 的聲音傳輸質量比 Discord 差。
@@ -65,7 +65,7 @@ categories:
 - Signal 雖然加密本身沒有什麼挑剔，但除了加密以外的地方問題就多了，除了私密訊息的通知推送包含消息明文外，背後的團隊也對反審查毫無概念，至今仍向受審查地區的用戶推薦他們有嚴重問題的 TLS 代理，將用戶置身於危險之中。
 - Whatsapp 會把你的資料源源不斷地餵給 Meta，商業味太濃。
 
-# 用愛發電
+# Powered by love
 能夠單靠參與自由軟體專案來維持生活當然很[理想](/blog/zh/perfect-days/)，但現實是能夠單單靠開發自由軟體來維持生計的人並不是太多。
 
 現實當中 FOSS 往往靠以下方式來維生：
@@ -79,12 +79,12 @@ categories:
 
 這些生存手段往往對自由軟體起動時的成功率不高，結果就是自由軟體往往淪為不會被投放充足勞動力的**副業**，造成現在自由軟體市場**質素參差、良莠不齊**。
 
-# 一潭死水的自由軟體市場
-> 「自由軟件要是連事都幹不了，那要它有何用？」——佚名
+# The stagnant free software market
+> “What’s the use of free software if it can’t even get anything done?” — Anonymous
 
-博弈的後果是，很多必要軟體和服務，往往都達不到（所有條件皆）理想的狀況，哪怕現成的選擇其實不少。
+The consequence of games is that many necessary software and services often fail to meet (all) ideal conditions, even though there are actually quite a few readily available options.
 
-Wiwi 就曾經有列出過一個[真·宅男指南](https://wiwi.blog/blog/fake-vs-real-tech-nerd/)。我是覺得他裏面的不少看法（至少在 2026 年當下）實在是有點太激進，一些項目實際上並不太現實。預算不足的情況下甚至會構成對生產力的負累。
+Wiwi once compiled a [guide to real tech nerds](https://wiwi.blog/blog/fake-vs-real-tech-nerd/). 我是覺得他裏面的不少看法（至少在 2026 年當下）實在是有點太激進，一些項目實際上並不太現實。預算不足的情況下甚至會構成對生產力的負累。
 
 - 你以為全世界所有人都能力自架離線 AI？我的話瓶頸不在技術力，而是在某些天龍人意想不到的方面，請見[下文](#如何運用人工智能提升生產力？)。
 - 「對廣告的態度」是個兩難，[上面](#廣告兩難)已經闡述了。
@@ -96,7 +96,7 @@ Wiwi 就曾經有列出過一個[真·宅男指南](https://wiwi.blog/blog/fake-
 
 不過我目前還是經濟拮据。你現在所看到的這個部落格，就連自有網域都還沒有[^4]，更何談各種極其燒錢的自架服務了。
 
-# 人工智能對生產力的影響
+# The impact of artificial intelligence on productivity
 在人工智能能快速完成人類以往需要花更多時間和心力才能完成的工作的背景下，可以說人工智能（在某些領域的）生產力已經超越了人類。在這些被 AI 主導的領域當中，只有最頂尖的人類才能存活，生產力追不上 AI 的人就會被社會淘汰。
 
 - 小時候有點憧憬當軟體工程師，但是現在 vibe coding 大行其道的時代下，單純當個軟體工程師在商業角度上已經不那麼討好了。
@@ -105,16 +105,14 @@ Wiwi 就曾經有列出過一個[真·宅男指南](https://wiwi.blog/blog/fake-
 
 不過運行人工智能很吃電力，在當今全球能源危機的形勢下，人工智能的發展趨勢會否被迫放緩？
 
-# 如何運用人工智能提升生產力？
+# How can artificial intelligence be used to improve productivity?
 在人工智能時代下，我們應該怎樣有效運用人工智能來提升自身的生產力，以免被社會淘汰？
 
 - 我們不應該完全抗拒 vibe coding，但也不應完全依賴它，不應對 AI 生成的代碼囫圇吞棗。<span class="chide">天知道哪天會出現[智能叛變](https://zh.wikipedia.org/wiki/%E6%A9%9F%E6%A2%B0%E5%85%AC%E6%95%B5)？</span>
 - 當藝術工作者的要麼想辦法變成最頂尖的人類，要麼可以先用 AI 打草稿再想辦法精修。
 - 試着強化[人與人的連結](https://uncyclopedia.hk/wiki/%E4%BA%BA%E8%88%87%E4%BA%BA%E7%9A%84%E9%80%A3%E7%B5%90)吧，有些行業會比較強調與人類之間的交流，應該會沒那麼容易被 AI 取代。
 
-# 如何運用人工智能提升生產力？
-
-[^1]: 為了討論方便，我們先不考慮單次囚徒困境與多次囚徒困境之間的差異。
-[^2]: <span class="chide">在寫這篇文章的時候去了查 Wiwi 的網站，發現他已經把「Firefox 是間諜軟體」的描述給靜悄悄移除了。</span>
-[^3]: 例如某些 Chromium-only API、Manifest V3 存廢問題、還有會在你查詢 DNS 的時候偷偷連線到 Google 的伺服器。
-[^4]: 首頁列出的那個僅供收信的信箱，其實也不是完全由本人所擁有，那只是隸屬於一個我有份參與組建的團體。
+[^1]: For the sake of convenience, we will not take the difference between a single-episode prisoner’s dilemma and a multiple-episode one into account for now.
+[^2]: <span class="chide">While writing this article, I checked Wiwi’s website and found that he had quietly removed the description of “Firefox is a spyware”.</span>
+[^3]: For example some Chromium-only APIs, the issue of whether to take down Manifest V3, and that secretly connection to Google’s server when you query DNS.
+[^4]: The mailbox listed on the home page for receiving emails only is not actually completely owned by me, it just belongs to a group that I helped to establish.

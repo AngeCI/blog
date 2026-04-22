@@ -11,7 +11,7 @@ categories:
 > [!WARNING] Notice
 > This post is a draft translation from [the Chinese version](/blog/zh/blog-questions-challenge/) which have not yet been thoroughly proofread.
 
-好吧，這是篇跟風文。本文使用的問題集的原始版本出自 [Kev Quirk](https://kevquirk.com/blog-questions-challenge)，最近繁體中文部落格的不完全跟風名單有：[廢文小天地](https://trashposts.com/blog/blog-questions-challenge/)、[黃宏勝](https://hshuang.blog/posts/blog-questions-challenge/)、[JN](https://blog.giveanornot.com/blog-questions-challenge/)、[侃侃而隨想極短文](https://microblog.ttheng.com/blog-questions-challenge/)、[Ikuka](https://blog.ikukaroom.com/blog-questions-challenge/)、[Shuyu](https://shuyulin1127.com/bearblog-100-memorial/)、[Wiwi](https://wiwi.blog/blog/blog-questions-challenge/)、[Alex Hsu](https://alexhsu.com/blog-questions-challenge)、[黃碩人](https://shuojen.com/blog/2026/04/22/blog_questions/)。
+Well, this is a follow-up post. The original version of the question set used in this post comes from [Kev Quirk](https://kevquirk.com/blog-questions-challenge), an incomplete list of traditional Chinese blogs that have recently followed suit includes: [廢文小天地](https://trashposts.com/blog/blog-questions-challenge/)、[Hong-Sheng Huang](https://hshuang.blog/posts/blog-questions-challenge/)、[JN](https://blog.giveanornot.com/blog-questions-challenge/)、[侃侃而隨想極短文](https://microblog.ttheng.com/blog-questions-challenge/)、[Ikuka](https://blog.ikukaroom.com/blog-questions-challenge/)、[Shuyu](https://shuyulin1127.com/bearblog-100-memorial/)、[Wiwi](https://wiwi.blog/blog/blog-questions-challenge/)、[Alex Hsu](https://alexhsu.com/blog-questions-challenge)、[Shuo-Jen Huang](https://shuojen.com/blog/2026/04/22/blog_questions/)。
 
 # Question list
 > 1. [Why did you start blogging in the first place?](#why-did-you-start-blogging-in-the-first-place)
@@ -23,29 +23,30 @@ categories:
 > 7. [What’s your favourite post on your blog?](#whats-your-favourite-post-on-your-blog)
 > 8. [Any future plans for your blog? Maybe a redesign, a move to another platform, or adding a new feature?](#any-future-plans-for-your-blog)
 
-# Why did you start blogging in the first place?
-主要是開來存[筆記](/blog/zh/categories/notes-筆記/)順道來蹭一下 [BlogBlog 同樂會](/blog/zh/categories/blogblog-同樂會/)？我目前還沒有將我所有的筆記都整理好。
+# My answers
+## Why did you start blogging in the first place?
+Mainly for storing some [notes](/blog/categories/notes-筆記/) and also to check out [BlogBlog Club](/blog/categories/blogblog-同樂會/)? I haven’t finished organizing all my notes yet.
 
-# What platform are you using to manage your blog and why did you choose it?
-目前唯一使用的「平台」是 GitHub Pages，網站界面本身使用 Hugo 生成。也許什麼時候要架留言板的時候得考慮租個 VPS。也許什麼時候會把整個網站搬往別的平台上 host。
+## What platform are you using to manage your blog and why did you choose it?
+Currently, the only “platform” I’m using is GitHub Pages, and the website interface itself is generated using Hugo. Perhaps I’ll consider renting a VPS sometime when I wish to set up a message board. Perhaps I’ll migrate the entire website to another hosting platform sometime in the future.
 
-# Have you blogged on other platforms before?
-很久之前有稍微碰過一下 Blogger，但當時不像現在那樣有這麼多閒情寫 blog，很快就荒廢了。
+## Have you blogged on other platforms before?
+I dabbled in Blogger a long time ago, but I didn’t have as much free time to write blogs back then, so I quickly abandoned it.
 
-# How do you write your posts?
-都是以本地文字編輯器直接編輯 markdown 檔案喔。
+## How do you write your posts?
+All markdown files are edited directly using a local text editor.
 
-這個部落格網站有英語和粵語版本，但由於我目前極少在不諳漢語的圈子宣傳這個網站，所以本站的英語內容大部份都是先以機器翻譯工具粗翻一遍，以後有時間再來慢慢校對了。
+This blog website has English and Cantonese versions, but since I rarely promote this website in circles where people don’t understand Chinese, most of the English content on this site has been roughly translated using machine translation tools, and I’ll proofread it more carefully later when I have time.
 
-# When do you feel most inspired to write?
-It’s difficult to say.
+## When do you feel most inspired to write?
+It’s hard to say, there’s no fixed time.
 
-# Do you publish immediately after writing, or do you let it simmer a bit as a draft?
-兩者皆有。有時候想到靈感之後就立即整篇寫完的就會立刻發佈。有時候只想到一小部份的話也許就會存成草稿，也有可能會先發出來以後再慢慢修改。[BlogBlog 同樂會](/blog/zh/categories/blogblog-同樂會/)之類比較需要灌注心力的文章也是分段完成的。我覺得短期內我應該也不會有能維持日更的毅力，所以也無謂囤稿了。
+## Do you publish immediately after writing, or do you let it simmer a bit as a draft?
+Both. Sometimes, when an idea strikes, I immediately write the whole thing and publish it right away. Other times, if I only have a small part of an idea, I might save it as a draft, or I might publish it first and then revise it later. Those articles for [BlogBlog Club](/blog/categories/blogblog-同樂會/), which require more effort, are also written in parts. I don’t think I’ll have the willpower to maintain daily updates in the short term, so there’s no point in hoarding posts.
 
-# What’s your favourite post on your blog?
-本站文章數量暫時不是很多，很難說。
+## What’s your favourite post on your blog?
+The number of posts on this site is not very large at the moment, so it’s hard to say.
 
-# Any future plans for your blog?
-- [ ] 等到網站人流夠多的時候，也許會考慮架設留言板？
-- [ ] 也許會考慮把整個網站搬到自有網域？
+## Any future plans for your blog?
+- [ ] When the website has enough traffic, I might consider setting up a message board?
+- [ ] Perhaps I’ll consider moving the entire website to its own domain?

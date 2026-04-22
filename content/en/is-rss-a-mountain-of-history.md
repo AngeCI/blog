@@ -19,7 +19,7 @@ There is a community called [BlogBlog Club](https://blogblog.club) which is prom
 RSS is a technology that only supports polling and cannot push, which means that RSS readers need to constantly get data from websites that provide RSS. And this problem became serious after the advent of the AI ​​​​era.
 
 # Battle of webcrawlers
-After the advent of the AI ​​​​era, web crawlers in order to extract data on a large scale for training, began to become unethical, even the ancient gentleman protocol [`robots.txt`](https://zh.wikipedia.org/wiki/Robots.txt) simply ignored, indiscriminately crawled public website pages in large numbers, disguised as DDoS, making webmasters all over the world miserable. Faced with this situation, websites have resorted to various countermeasures. Some websites require login to use certain functions, or enable human-machine verification for filtering. These countermeasures are completely contrary to the mechanism of RSS only supporting polling.
+After the advent of the AI ​​​​era, web crawlers in order to extract data on a large scale for training, began to become unethical, even the ancient gentleman protocol [`robots.txt`](https://en.wikipedia.org/wiki/Robots.txt) simply ignored, indiscriminately crawled public website pages in large numbers, disguised as DDoS, making webmasters all over the world miserable. Faced with this situation, websites have resorted to various countermeasures. Some websites require login to use certain functions, or enable human-machine verification for filtering. These countermeasures are completely contrary to the mechanism of RSS only supporting polling.
 
 # Should we hate RSS?
 I don’t know either. I will provide RSS in this blog for now, but I do have some improvements in mind:
