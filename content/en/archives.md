@@ -7,6 +7,4 @@ menu:
     weight: 2
     params: 
       icon: archives
-#build:
-#  list: "never"
 ---

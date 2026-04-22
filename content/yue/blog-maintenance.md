@@ -1,6 +1,6 @@
 ---
 date: "2026-03-03T16:51:10+00:00"
-lastmod: "2026-04-12T16:50:19+00:00"
+lastmod: "2026-04-22T17:20:00+00:00"
 title: "部落格維護"
 description: "有關呢個部落格嘅技術消息。"
 translationKey: "blog-maintenance"
@@ -17,3 +17,6 @@ categories:
 
 > [!IMPORTANT] 2026/04/13 更新
 > UI 大翻新。上述「閱讀時間」 show 唔到嘅問題解決咗。
+
+> [!IMPORTANT] 2026/04/23 更新
+> 更換全站配色。

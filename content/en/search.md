@@ -10,6 +10,4 @@ menu:
     weight: 3
     params: 
       icon: search
-#build:
-#  list: "never"
 ---

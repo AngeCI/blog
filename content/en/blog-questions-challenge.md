@@ -11,7 +11,7 @@ categories:
 > [!WARNING] Notice
 > This post is a draft translation from [the Chinese version](/blog/zh/blog-questions-challenge/) which have not yet been thoroughly proofread.
 
-好吧，這是篇跟風文。本文使用的問題集的原始版本出自 [Kev Quirk](https://kevquirk.com/blog-questions-challenge)，最近繁體中文部落格的不完全跟風名單有：[廢文小天地](https://trashposts.com/blog/blog-questions-challenge/)、[黃宏勝](https://hshuang.blog/posts/blog-questions-challenge/)、[JN](https://blog.giveanornot.com/blog-questions-challenge/)、[侃侃而隨想極短文](https://microblog.ttheng.com/blog-questions-challenge/)、[Ikuka](https://blog.ikukaroom.com/blog-questions-challenge/)、[Shuyu](https://shuyulin1127.com/bearblog-100-memorial/)、[Wiwi](https://wiwi.blog/blog/blog-questions-challenge/)、[Alex Hsu](https://alexhsu.com/blog-questions-challenge)。
+好吧，這是篇跟風文。本文使用的問題集的原始版本出自 [Kev Quirk](https://kevquirk.com/blog-questions-challenge)，最近繁體中文部落格的不完全跟風名單有：[廢文小天地](https://trashposts.com/blog/blog-questions-challenge/)、[黃宏勝](https://hshuang.blog/posts/blog-questions-challenge/)、[JN](https://blog.giveanornot.com/blog-questions-challenge/)、[侃侃而隨想極短文](https://microblog.ttheng.com/blog-questions-challenge/)、[Ikuka](https://blog.ikukaroom.com/blog-questions-challenge/)、[Shuyu](https://shuyulin1127.com/bearblog-100-memorial/)、[Wiwi](https://wiwi.blog/blog/blog-questions-challenge/)、[Alex Hsu](https://alexhsu.com/blog-questions-challenge)、[黃碩人](https://shuojen.com/blog/2026/04/22/blog_questions/)。
 
 # Question list
 > 1. [Why did you start blogging in the first place?](#why-did-you-start-blogging-in-the-first-place)
