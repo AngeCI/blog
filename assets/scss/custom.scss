@@ -24,15 +24,20 @@
 
     &[data-scheme="light"] {
         --body-background: #f0fffc;
-        --body-text-color: #366b60;
+        /* --body-background: #ebfffb; */
+        --body-text-color: #4d2213;
         --card-background: #f7fffd;
-        /* --card-text-color-main: #1f4a41; */
-        --card-text-color-secondary: #5f998d;
+        --card-text-color-main: #331d15;
+        --card-text-color-secondary: #996e5f;
+        --card-text-color-tertiary: #756058;
         --code-text-color: var(--card-text-color-main);
-        --accent-color: #439988;
-        --accent-color-darker: #39a892;
-        --link-background-color: 67, 153, 136;
+        --accent-color: #804733;
+        --accent-color-darker: #803920;
+        /* --link-background-color: 90, 204, 181; */
+        --link-background-color: 204, 120, 90;
         --custom-shadow: 0 0.3em 0.5em rgba(0, 0, 0, 0.2);
+        --scrollbar-thumb: hsl(0, 0%, 85%);
+        --scrollbar-track: var(--body-background);
     }
 
     &[data-scheme="dark"] {
@@ -45,6 +50,8 @@
         --accent-color-darker: #7be8d2;
         --link-background-color: 42, 145, 125; /* #2a917d */
         --custom-shadow: 0 0.3em 0.5em rgba(255, 255, 255, 0.35);
+        --scrollbar-thumb: hsl(0, 0%, 40%);
+        --scrollbar-track: var(--body-background);
     }
 }
 
@@ -56,6 +63,39 @@
 [data-scheme="dark"]::selection {
     background-color: rgba(199, 255, 244, 0.25);
     color: var(--card-text-color-main);
+}
+
+* {
+    scrollbar-width: auto;
+    scrollbar-color: var(--scrollbar-thumb) transparent;
+}
+
+::-webkit-scrollbar {
+    height: auto;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbar-thumb);
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+[data-scheme=light],
+[data-scheme=light] .left-sidebar .menu,
+[data-scheme=light] .right-sidebar,
+[data-scheme=light] #TableOfContents {
+    scrollbar-color: #803519 #fce8e1; /* #56c4ae #e1fcf7 */
+    scrollbar-width: thin;
+}
+
+[data-scheme=dark],
+[data-scheme=dark] .left-sidebar .menu,
+[data-scheme=dark] .right-sidebar,
+[data-scheme=dark] #TableOfContents {
+    scrollbar-color: #56c4ae #162e29; /* #56c4ae #162e29 */
+    scrollbar-width: thin;
 }
 
 [data-scheme="light"] body {
@@ -78,8 +118,62 @@
     color: var(--body-text-color);
 }
 
+#TableOfContents a {
+    transition: color 0.3s ease;
+}
+
+.widget--toc ::-webkit-scrollbar-thumb {
+    background-color: var(--card-separator-color);
+}
+
+.left-sidebar .site-name a {
+    display: inline-block;
+    transition: color 0.3s cubic-bezier(0.4, 0, 0.2, 1), transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), letter-spacing 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.left-sidebar .site-name a:hover {
+    transform: scale(1.05);
+    /* letter-spacing: 1px; */
+}
+
+.menu-social li a {
+    display: inline-block;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.menu-social li a:hover {
+    color: var(--accent-color);
+	transform: scale(1.15);
+}
+
+.menu-social svg {
+    transition: stroke 0.3s ease, stroke-width 0.3s ease;
+}
+
+.menu-social li a:hover svg, .menu-social li a:focus-visible svg {
+    stroke: var(--accent-color);
+    stroke-width: 2.2;
+}
+
+#main-menu li a {
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+#main-menu li a:hover {
+    color: var(--accent-color);
+    transform: translateX(5px);
+}
+
+.tagCloud .tagCloud-tags a {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tagCloud .tagCloud-tags a:hover {
+    transform: translateY(-2px);
+}
+
 .article-title-wrapper .article-title a {
-    transition: all 0.5s;
+    transition: color 0.5s ease, opacity 0.5s ease;
 }
 
 .sidebar, .article-meta, .article-toc, .article-category, .article-tags, .main .section-title, .site-footer,
@@ -94,7 +188,7 @@
 
 .article-category a, .article-tags a, .read-more-link a {
     box-shadow: var(--custom-shadow);
-    transition: all 0.5s;
+    transition: background-color 0.5s ease, opacity 0.5s ease;
 }
 
 .article-category a:hover/* , .article-tags a:hover */ {
@@ -194,7 +288,7 @@
   border: 1px dashed var(--card-text-color-tertiary);
   border-radius: 1.35em;
   padding: 1rem 1.5rem;
-  transition: all 0.5s;
+  transition: color 0.5s ease, border-color 0.5s ease;
 }
 
 #footer-random-post:hover {
