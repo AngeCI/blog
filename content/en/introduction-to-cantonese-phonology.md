@@ -15,31 +15,30 @@ Standard Cantonese has 20 phonemic initial consonants. Although many people do m
 
 |  | Labial | Dental/Alveolar | Palatal | Velar | Labiovelar | Glottal |
 | -- | -- | -- | -- | -- | -- | -- |
-| Unaspirated Plosive | /p/ | /t/ |  | /k/ | /kʷ/ | /ʔ/ ~ ∅ |
-| Aspirated Plosive | /pʰ/ | /tʰ/ |  | /kʰ/ | /kʰʷ/ |  |
-| Nasal | /m/ | /n/ |  | /ŋ/ |  |  |
-| Unaspirated Affricate |  | /ts/ ~ /tʃ/ |  |  |  |  |
-| Aspirated Affricate |  | /tsʰ/ ~ /tʃʰ/ |  |  |  |  |
-| Fricative | /f/ | /s/ ~ /ʃ/ |  |  |  | /h/ |
-| Lateral |  | /l/ | /j/ |  | /w/ |  |
+| Unaspirated Plosive | b /p/ | d /t/ |  | g /k/ | gw /kʷ/ | ∅ /ʔ/ ~ ∅ |
+| Aspirated Plosive | p /pʰ/ | t /tʰ/ |  | k /kʰ/ | kw /kʰʷ/ |  |
+| Nasal | m /m/ | n /n/ |  | ng /ŋ/ |  |  |
+| Unaspirated Affricate |  | z /ts/ ~ /tʃ/ |  |  |  |  |
+| Aspirated Affricate |  | c /tsʰ/ ~ /tʃʰ/ |  |  |  |  |
+| Fricative | f /f/ | s /s/ ~ /ʃ/ |  |  |  | h /h/ |
+| Lateral |  | l /l/ | j /j/ |  | w /w/ |  |
 
 Alveolar and postalveolar affricates seems to be either allophones or free variation. Some people pronounce /ts/, /tsʰ/, /s/ before unrounded vowels, and /tʃ/, /tʃʰ/, /ʃ/ before rounded vowels, while some people only pronounce the alveolar variant in all positions. Linguistic materials suggest that these two sets of initial consonants are actually distinguished in pre-1950s Cantonese, however. See my other post “[A Brief Discussion on Several Chinese Dialectal Phenomena](/blog/chinese-dialectal-phenomena/#粵語的平翹音)” for further information.
 
 # Rhymes
-There are usually considered 8 main vowel phonemes in standard Cantonese, although there are about 11 realizations of these phonemes.
+There are usually considered 8 main vowel phonemes in standard Cantonese, although there are about 11 realizations of these phonemes. Items marked with an asterisk \* are rare rhymes.
 
 |  | aː | ɐ | ɛː | iː | ɔː | œː | uː | yː | ∅ |
 | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
-| -∅ | aː |  | ɛː | iː | ɔː | œː | uː | yː |  |
-| -i | aːi | ɐi | ei |  | ɔːi | ɵy | uːi |  |  |
-| -u | aːu | ɐu | ɛːu | iːu | ou |  |  |  |  |
-| -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
-| -m | aːm | ɐm | ɛːm | iːm | (om) |  |  |  | m̩ |
-| -p | aːp | ɐp | ɛːp | iːp | (op) |  |  |  |  |
-| -n | aːn | ɐn |  | iːn | ɔːn | ɵn | uːn | yːn |  |
-| -t | aːt | ɐt |  | iːt | ɔːt | ɵt | uːt | yːt |  |
-| -ŋ | aːŋ | ɐŋ | ɛːŋ | ɪŋ | ɔːŋ | œːŋ | ʊŋ |  | ŋ̩ |
-| -k | aːk | ɐk | ɛːk | ɪk | ɔːk | œːk | ʊk |  |  |
+| -∅ | aa /aː/ | a\* /ɐ/ | e /ɛː/ | i /iː/ | o /ɔː/ | oe /œː/ | u /uː/ | yu /yː/ |  |
+| -i | aai /aːi/ | ai /ɐi/ | ei /ei/ |  | oi /ɔːi/ | eoi /ɵy/ | ui /uːi/ |  |  |
+| -u | aau /aːu/ | au /ɐu/ | eu /ɛːu/ | iu /iːu/ | ou /ou/ |  |  |  |  |
+| -m | aam /aːm/ | am /ɐm/ |  em /ɛːm/ | im /iːm/ | om\* /om/ |  |  |  | m /m̩/ |
+| -p | aap /aːp/ | ap /ɐp/ | ep /ɛːp/ | ip /iːp/ | op\* /op/ |  |  |  |  |
+| -n | aan /aːn/ | an /ɐn/ | en\* /ɛːn/ | in /iːn/ | on /ɔːn/ | eon /ɵn/ | un /uːn/ | yun /yːn/ |  |
+| -t | aat /aːt/ | at /ɐt/ | et\* /ɛːt/ | it /iːt/ | ot /ɔːt/ | eot /ɵt/ | ut /uːt/ | yut /yːt/ |  |
+| -ŋ | aang /aːŋ/ | ang /ɐŋ/ | eng /ɛːŋ/ | ing /ɪŋ/ | ong /ɔːŋ/ | oeng /œːŋ/ | ung /ʊŋ/ |  | ng /ŋ̩/ |
+| -k | aak /aːk/ | ak /ɐk/ | ek /ɛːk/ | ik /ɪk/ | ok /ɔːk/ | oek /œːk/ | uk /ʊk/ |  |  |
 
 Older Cantonese also has /om/ and /op/, though they are usually merged into /ɐm/ and /ɐp/ today.
 

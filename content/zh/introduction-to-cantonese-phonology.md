@@ -10,40 +10,41 @@ tags:
   - "Cantonese 粵語"
 ---
 
+本文使用的拼音系統為[粵拼](https://zh.wikipedia.org/wiki/%E7%B2%B5%E6%8B%BC)。
+
 # 聲母
 標準粵語有 20 個聲母音位。雖然說好些人已經把 /n/ 和 /l/, /ŋ/ 和 /ʔ/ ~ ∅ 之類的聲母對混同。
 
 |  | 唇音 | 齒音／齦音 | 硬腭音 | 軟腭音 | 唇化軟腭音 | 聲門音 |
 | -- | -- | -- | -- | -- | -- | -- |
-| 不送氣塞音 | /p/ | /t/ |  | /k/ | /kʷ/ | /ʔ/ ~ ∅ |
-| 送氣塞音 | /pʰ/ | /tʰ/ |  | /kʰ/ | /kʰʷ/ |  |
-| 鼻音 | /m/ | /n/ |  | /ŋ/ |  |  |
-| 不送氣塞擦音 |  | /ts/ ~ /tʃ/ |  |  |  |  |
-| 送氣塞擦音 |  | /tsʰ/ ~ /tʃʰ/ |  |  |  |  |
-| 擦音 | /f/ | /s/ ~ /ʃ/ |  |  |  | /h/ |
-| 邊音／近音 |  | /l/ | /j/ |  | /w/ |  |
+| 不送氣塞音 | b /p/ | d /t/ |  | g /k/ | gw /kʷ/ | ∅ /ʔ/ ~ ∅ |
+| 送氣塞音 | p /pʰ/ | t /tʰ/ |  | k /kʰ/ | kw /kʰʷ/ |  |
+| 鼻音 | m /m/ | n /n/ |  | ng /ŋ/ |  |  |
+| 不送氣塞擦音 |  | z /ts/ ~ /tʃ/ |  |  |  |  |
+| 送氣塞擦音 |  | c /tsʰ/ ~ /tʃʰ/ |  |  |  |  |
+| 擦音 | f /f/ | s /s/ ~ /ʃ/ |  |  |  | h /h/ |
+| 邊音／近音 |  | l /l/ | j /j/ |  | w /w/ |  |
 
-Alveolar and postalveolar affricates seems to be either allophones or free variation. Some people pronounce /ts/, /tsʰ/, /s/ before unrounded vowels, and /tʃ/, /tʃʰ/, /ʃ/ before rounded vowels, while some people only pronounce the alveolar variant in all positions. Linguistic materials suggest that these two sets of initial consonants are actually distinguished in pre-1950s Cantonese, however. 詳見拙文「[淺談數個漢語方言現象](/blog/zh/chinese-dialectal-phenomena/#粵語的平翹音)」。
+兩套齒擦音似乎是同位異音（allophones）或自由變體（free variation）。有些人在非圓唇元音前面唸作 /ts/, /tsʰ/, /s/，在圓唇元音前面唸作 /tʃ/, /tʃʰ/, /ʃ/，也有人在所有情形下統統唸作齒音。不過一些語言學文獻提到這兩套發音在 1950 年代以前的粵語中是兩套不同的聲母。詳見拙文「[淺談數個漢語方言現象](/blog/zh/chinese-dialectal-phenomena/#粵語的平翹音)」。
 
 # 韻母
-一般認為標準粵語有 8 個主元音音位，儘管實際音值大約有 11 種。
+一般認為標準粵語有 8 個主元音音位，儘管實際音值大約有 11 種。以星號 \* 標註的為罕用發音。
 
 |  | aː | ɐ | ɛː | iː | ɔː | œː | uː | yː | ∅ |
 | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
-| -∅ | aː |  | ɛː | iː | ɔː | œː | uː | yː |  |
-| -i | aːi | ɐi | ei |  | ɔːi | ɵy | uːi |  |  |
-| -u | aːu | ɐu | ɛːu | iːu | ou |  |  |  |  |
-| -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
-| -m | aːm | ɐm | ɛːm | iːm | (om) |  |  |  | m̩ |
-| -p | aːp | ɐp | ɛːp | iːp | (op) |  |  |  |  |
-| -n | aːn | ɐn |  | iːn | ɔːn | ɵn | uːn | yːn |  |
-| -t | aːt | ɐt |  | iːt | ɔːt | ɵt | uːt | yːt |  |
-| -ŋ | aːŋ | ɐŋ | ɛːŋ | ɪŋ | ɔːŋ | œːŋ | ʊŋ |  | ŋ̩ |
-| -k | aːk | ɐk | ɛːk | ɪk | ɔːk | œːk | ʊk |  |  |
+| -∅ | aa /aː/ | a\* /ɐ/ | e /ɛː/ | i /iː/ | o /ɔː/ | oe /œː/ | u /uː/ | yu /yː/ |  |
+| -i | aai /aːi/ | ai /ɐi/ | ei /ei/ |  | oi /ɔːi/ | eoi /ɵy/ | ui /uːi/ |  |  |
+| -u | aau /aːu/ | au /ɐu/ | eu /ɛːu/ | iu /iːu/ | ou /ou/ |  |  |  |  |
+| -m | aam /aːm/ | am /ɐm/ |  em /ɛːm/ | im /iːm/ | om\* /om/ |  |  |  | m /m̩/ |
+| -p | aap /aːp/ | ap /ɐp/ | ep /ɛːp/ | ip /iːp/ | op\* /op/ |  |  |  |  |
+| -n | aan /aːn/ | an /ɐn/ | en\* /ɛːn/ | in /iːn/ | on /ɔːn/ | eon /ɵn/ | un /uːn/ | yun /yːn/ |  |
+| -t | aat /aːt/ | at /ɐt/ | et\* /ɛːt/ | it /iːt/ | ot /ɔːt/ | eot /ɵt/ | ut /uːt/ | yut /yːt/ |  |
+| -ŋ | aang /aːŋ/ | ang /ɐŋ/ | eng /ɛːŋ/ | ing /ɪŋ/ | ong /ɔːŋ/ | oeng /œːŋ/ | ung /ʊŋ/ |  | ng /ŋ̩/ |
+| -k | aak /aːk/ | ak /ɐk/ | ek /ɛːk/ | ik /ɪk/ | ok /ɔːk/ | oek /œːk/ | uk /ʊk/ |  |  |
 
 較老的粵語有 /om/ 和 /op/，不過今天一般已經併入了 /ɐm/ 和 /ɐp/。
 
-/aː/, /ɐ/, /ɛː/ 和 /iː/ are considered as unrounded vowels, while /ɔː/, /œː/, /uː/ and /yː/ are considered as rounded vowels. The roundness of the vowel may determine whether the /ts/, /tsʰ/, /s/ or /tʃ/, /tʃʰ/, /ʃ/ set of initial is used.
+/aː/, /ɐ/, /ɛː/ 和 /iː/ 是非圓唇元音，而 /ɔː/, /œː/, /uː/ and /yː/ 是圓唇元音。元音的圓唇性質有可能會影響到 /ts/, /tsʰ/, /s/ 或 /tʃ/, /tʃʰ/, /ʃ/ 的實際音值。
 
 與大部份的歐洲語言不同，當塞音（i.e. -p, -t 和 -k）作為韻尾的時候，都是不除阻的。
 
