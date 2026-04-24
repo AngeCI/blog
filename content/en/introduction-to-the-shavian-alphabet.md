@@ -2,11 +2,14 @@
 date: "2026-04-15"
 lastmod: ""
 draft: true
+type: "post"
 title: "Introduction to the Shavian Alphabet"
 description: "An alternative writing system for English which gets included in Unicode"
 translationKey: "introduction-to-the-shavian-alphabet"
 categories:
   - "Linguistics 語言學"
+tags:
+  - "English 英語"
 ---
 
 I actually already know about this alphabet back in December 2023, via [this video](https://youtu.be/D66LrlotvCA) by RobWords. To my surprise, it’s also already get included in Unicode for some time.

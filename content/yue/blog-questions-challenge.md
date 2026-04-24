@@ -1,7 +1,8 @@
 ---
 date: "2026-04-22T10:31:20+00:00"
+type: "post"
 title: "部落格問題挑戰"
-description: ""
+description: "BlogBlog 同樂會餘興節目，大家一齊嚟跟風！"
 translationsKey: "blog-questions-challenge"
 categories:
   - "BlogBlog 同樂會"

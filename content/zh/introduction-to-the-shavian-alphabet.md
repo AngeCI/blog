@@ -2,11 +2,14 @@
 date: "2026-04-15"
 lastmod: ""
 draft: true
+type: "post"
 title: "蕭伯納字母簡述"
 description: "一套包含在 Unicode 內的英語書寫系統"
 translationKey: "introduction-to-the-shavian-alphabet"
 categories:
   - "Linguistics 語言學"
+tags:
+  - "English 英語"
 ---
 
 1. 至少有 40 個字母（足以表示英語中所有的音位）

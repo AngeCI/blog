@@ -1,6 +1,7 @@
 ---
 date: "2026-04-12T20:30:00+00:00"
-lastmod: ""
+lastmod: "2026-04-24T10:45:25+00:00"
+type: "post"
 title: "RSS Publish Date Adjustment"
 description: "What is the optimal value of the publish date inside a RSS feed?"
 translationKey: "rss-publish-date-adjustment"
@@ -30,3 +31,6 @@ To modify the publish date inside the RSS feed, we can start with the file [`lay
 Where [`.PublishDate`](https://gohugo.io/methods/page/publishdate/) represents the `date` field  of the frontmatter, and `lastmod` is [`.Lastmod`](https://gohugo.io/methods/page/lastmod/). Just replace this value and it should be done.
 
 I don’t know if it is possible to automatically fill in and change the publish date based on my current publishing process. If possible, I might try it when I have time in the future.
+
+> [!IMPORTANT] Update on 2026/04/24
+> Found [this Hugo option](https://gohugo.io/configuration/all/#enablegitinfo) to fetch dates from Git. Not sure if it’s useful for me or not.

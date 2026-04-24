@@ -1,6 +1,7 @@
 ---
 date: "2026-04-12T20:30:00+00:00"
-lastmod: ""
+lastmod: "2026-04-24T10:45:25+00:00"
+type: "post"
 title: "RSS 日期調整"
 description: "RSS 入面嘅發佈日期，最佳值係乜嘢？"
 translationKey: "rss-publish-date-adjustment"
@@ -27,3 +28,6 @@ tags:
 其中 [`.PublishDate`](https://gohugo.io/methods/page/publishdate/) 代表 frontmatter 嘅 `date` 屬性，而 `lastmod` 屬性就係 [`.Lastmod`](https://gohugo.io/methods/page/lastmod/)。換咗呢個值之後應該就搞掂喇。
 
 我唔知以我而家嘅發佈流程嚟睇，可唔可以做到自動填同改發佈日期，如果得嘅話以後有空也許會試着做做看。
+
+> [!IMPORTANT] 2026/04/24 更新
+> 我搵到個可以從 Git 拎日子嘅 [Hugo 選項](https://gohugo.io/configuration/all/#enablegitinfo)。唔確定呢樣對我係咪有用。

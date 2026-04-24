@@ -1,6 +1,6 @@
 ---
 date: "2026-04-15T17:32:55+00:00"
-lastmod: ""
+type: "post"
 title: "𨋢門嘅安慰掣"
 description: ""
 translationsKey: "placebo-button"

@@ -1,6 +1,7 @@
 ---
 date: "2026-03-03T16:51:10+00:00"
 lastmod: "2026-04-22T17:20:00+00:00"
+type: "post"
 title: "Blog Maintenance"
 description: "Technical news about this blog."
 translationKey: "blog-maintenance"
@@ -21,5 +22,5 @@ Since I'm not quite familiar with the framework, there may be a lot of bugs arou
 > [!IMPORTANT] Update on 2026/04/13
 > Major UI revamp. The not-displaying “reading time” issue has been resolved.
 
-> [!IMPORTANT] 2026/04/23
+> [!IMPORTANT] Update on 2026/04/23
 > Change the colour scheme on the entire site.

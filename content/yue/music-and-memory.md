@@ -2,6 +2,7 @@
 date: "2026-04-22T17:30:00+00:00"
 lastmod: ""
 draft: true
+type: "post"
 title: "音樂同記憶"
 description: ""
 translationsKey: "music-and-memory"

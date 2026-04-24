@@ -1,6 +1,6 @@
 ---
 date: "2026-04-15T17:32:55+00:00"
-lastmod: ""
+type: "post"
 title: "Elevator’s Placebo Button"
 description: ""
 translationsKey: "placebo-button"
