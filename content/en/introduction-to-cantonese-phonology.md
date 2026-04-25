@@ -10,6 +10,8 @@ tags:
   - "Cantonese 粵語"
 ---
 
+The romanization system used in this article is [Jyutping](https://en.wikipedia.org/wiki/Jyutping).
+
 # Initials
 Standard Cantonese has 20 phonemic initial consonants. Although many people do mix up several pairs like /n/ and /l/, /ŋ/ and /ʔ/ ~ ∅.
 

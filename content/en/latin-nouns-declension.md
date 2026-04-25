@@ -2,7 +2,7 @@
 date: "2026-04-24T19:01:00+00:00"
 draft: true
 type: "post"
-title: "拉丁語名詞變格系統"
+title: "Latin Nouns Declension"
 description: ""
 translationsKey: "latin-nouns-declension"
 categories:
@@ -12,7 +12,10 @@ tags:
   - "Latin 拉丁語"
 ---
 
-# 序言
+> [!WARNING] Notice
+> This post is a draft translation from [the Chinese version](/blog/zh/latin-nouns-declension/) which have not yet been thoroughly proofread.
+
+# Introduction
 拉丁語的名詞按照它的變形方式，傳統上分為五種變格法（形容詞一般只用前三種、代名詞則通常是不規則的），以及少數的不規則名詞。
 
 只有一部份名詞有方位格，其餘的名詞一般由「介詞 + 奪格」的結構承擔方位格的作用。
@@ -31,17 +34,17 @@ tags:
 - **所有名詞**的與格複數與奪格複數詞形皆相同，沒有任何例外。
 - **所有中性名詞**的主格、賓格與呼格詞形皆相同，這些詞在上述三個格的複數皆以 -a 結尾，沒有任何例外。
 
-# 第一、第二變格法
-|  | 第一 | 第一 | 第二陽性 | 第二陽性 | 第二中性 | 第二中性 |
+# First & second declension
+|  | 1st | 1st | 2nd masc. | 2nd masc. | 2nd neut. | 2nd neut. |
 | -- | -- | -- | -- | -- | -- | -- |
-|  | 單數 | 複數 | 單數 | 複數 | 單數 | 複數 |
-| 主格 | -a | -ae | -us | -ī | **-um** | -ī |
-| 屬格 | -ae | -ārum | -ī | -ōrum | **-a** | -ōrum |
-| 與格 | -ae | -īs | -ō | -īs | -ō | -īs |
-| 賓格 | -am | -ās | -um | -ōs | **-um** | **-a** |
-| 奪格 | -ā | -īs | -ō | -īs | -ō | -īs |
-| 呼格 | -a | -ae | -e | -ī | **-um** | **-a** |
-| 方位格 | -ae | -īs | -ī | -īs | -ī | (\*-īs) |
+|  | Singular | Plural | Singular | Plural | Singular | Plural |
+| Nominative | -a | -ae | -us | -ī | **-um** | -ī |
+| Genitive | -ae | -ārum | -ī | -ōrum | **-a** | -ōrum |
+| Dative | -ae | -īs | -ō | -īs | -ō | -īs |
+| Accusative | -am | -ās | -um | -ōs | **-um** | **-a** |
+| Ablative | -ā | -īs | -ō | -īs | -ō | -īs |
+| Vocative | -a | -ae | -e | -ī | **-um** | **-a** |
+| Locative | -ae | -īs | -ī | -īs | -ī | (\*-īs) |
 
 第一變格法的詞幹元音為 a、第二變格法的詞幹元音為 o。
 
@@ -55,17 +58,17 @@ tags:
 
 第二變格法有一個亞種，原本應以 \*-rus 結尾的主格單數變成了 -(e)r，如 ager — agrī, liber — librī, puer — puerī, vir — virī。這類詞的呼格單數跟主格單數相同，其餘詞形則可直接從屬格單數形式類推，與其餘的第二變格法名詞無異。
 
-# 第三變格法
-|  | 第三陰陽性 | 第三陽陰性 | 第三中性 | 第三中性 |
+# Third declension
+|  | 3rd m./f. | 3rd m./f. | 3rd neut. | 3rd neut. |
 | -- | -- | -- | -- | -- |
-|  | 單數 | 複數 | 單數 | 複數 |
-| 主格 | — | -ēs | **—** | **-a, -ia** |
-| 屬格 | -is | -um, -ium | -is | -um, -ium |
-| 與格 | -ī | -ibus | -ī | -ibus |
-| 賓格 | -em, (-im) | -ēs, (-īs) | **—** | **-a, -ia** |
-| 奪格 | -e, (-ī) | -ibus | -e, -ī | -ibus |
-| 呼格 | — | -ēs | **—** | **-a, -ia** |
-| 方位格 | -ī/-e | -ibus | -ī | (\*-ibus) |
+|  | Singular | Plural | Singular | Plural |
+| Nominative | — | -ēs | **—** | **-a, -ia** |
+| Genitive | -is | -um, -ium | -is | -um, -ium |
+| Dative | -ī | -ibus | -ī | -ibus |
+| Accusative | -em, (-im) | -ēs, (-īs) | **—** | **-ia** |
+| Ablative | -e, (-ī) | -ibus | -e, -ī | -ibus |
+| Vocative | — | -ēs | **—** | **-ia** |
+| Locative | -ī/-e | -ibus | -ī | (\*-ibus) |
 
 第三變格法實際上是兩種變格法的混合，一部份的詞幹元音為 i，而另一部份則沒有詞幹結尾元音。在古典拉丁語中，兩種變格法已經幾乎徹底混同，唯獨屬格複數仍然不能混同，分為 -um 和 -ium 兩種。
 
@@ -104,17 +107,17 @@ tags:
 | homō | hominis | \*homon- |  |
 | -tiō | -tiōnis | \*-tiōn- |  |
 
-# 第四、第五變格法
-|  | 第四陰陽性 | 第四陰陽性 | 第四中性 | 第四中性 | 第五 | 第五 |
+# Fourth & fifth declension
+|  | 4th m./f. | 4th m./f. | 4th neut. | 4th neut. | 5th | 5th |
 | -- | -- | -- | -- | -- | -- | -- |
-|  | 單數 | 複數 | 單數 | 複數 | 單數 | 複數 |
-| 主格 | -us | -ūs | **-ū** | **-ua** | -ēs | -ēs |
-| 屬格 | -ūs | -uum | -ūs | -uum | -eī | -ērum |
-| 與格 | -uī | -ibus | **-ū** | -ibus | -eī | -ēbus |
-| 賓格 | -um | -ūs | **-ū** | **-ua** | -em | -ēs |
-| 奪格 | -ū | -ibus | **-ū** | -ibus | -ē | -ēbus |
-| 呼格 | -us | -ūs | **-ū** | **-ua** | -ēs | -ēs |
-| 方位格 | -ū/-ī | (\*-ibus) | (\*-ī) | (\*-ibus) | -ē | (\*-ēbus) |
+|  | Singular | Plural | Singular | Plural | Singular | Plural |
+| Nominative | -us | -ūs | **-ū** | **-ua** | -ēs | -ēs |
+| Genitive | -ūs | -uum | -ūs | -uum | -eī | -ērum |
+| Dative | -uī | -ibus | **-ū** | -ibus | -eī | -ēbus |
+| Accusative | -um | -ūs | **-ū** | **-ua** | -em | -ēs |
+| Ablative | -ū | -ibus | **-ū** | -ibus | -ē | -ēbus |
+| Vocative | -us | -ūs | **-ū** | **-ua** | -ēs | -ēs |
+| Locative | -ū/-ī | (\*-ibus) | (\*-ī) | (\*-ibus) | -ē | (\*-ēbus) |
 
 第一變格法的詞幹元音為 u、第二變格法的詞幹元音為 ē。
 
@@ -122,7 +125,7 @@ tags:
 
 - 第四變格法的與格／奪格複數 -ibus 是從 -ubus 演變而來。少數單字保留了 -ubus 結尾，大多數單字經歷了詞中短元音簡化成 i 的規則變化。
 
-# 不規則名詞
+# Irregular nouns
 - Fīlia, fīliae 和 dea, deae 有着以 -ābus 結尾的不規則與格／奪格複數形式。
 - Deus, deī 的呼格單數是 deus 而不是 \*dee；多種兩個元音挨在一起的詞形有可選的縮合形式。
 - Vīrus, vīrī 是個字典形以 -us（而非 -um）結尾的第二變格法中性名詞。這個詞在古典拉丁語中是個不可數名詞。新拉丁語借用了這個單字來表示「病毒」的意思，從其他的第二變格法名詞類推了一套複數形式出來。
