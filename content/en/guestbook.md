@@ -9,4 +9,4 @@ menu:
       icon: guestbook
 ---
 
-This page has no content, just a comment section.
+This page has no content, just a message board.
