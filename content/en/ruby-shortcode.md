@@ -1,0 +1,25 @@
+---
+date: "2026-04-28T14:51:40+00:00"
+type: "post"
+title: "Ruby Shortcode"
+description: "Ruby shortcode for Hugo."
+translationKey: "ruby-shortcode"
+categories:
+  - "Unclassified 未分類"
+tags:
+  - "Hugo"
+---
+
+> [!IMPORTANT] Want to use it now?
+> - [The source code is here!](https://github.com/AngeCI/blog/blob/main/layouts/_shortcodes/ruby.html)
+> - [Supporting CSS](https://github.com/AngeCI/blog/blob/main/assets/scss/custom.scss#L355-L358)
+
+A practical little toy developed during the research of Hugo.
+
+# 用法
+Markdown syntax:
+```md
+{{</* ruby Text Pronunciation */>}}
+```
+Rendering effect:
+{{< ruby Text Pronunciation >}}

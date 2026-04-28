@@ -351,3 +351,8 @@ footer.site-footer .totalcount {
   font-weight: 400;
   margin-bottom: 5px;
 }
+
+ruby > rt, ruby > rtc {
+  font-variant-east-asian: ruby;
+  font-size: 85%;
+}
