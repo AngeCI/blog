@@ -1,6 +1,6 @@
 ---
-date: "2026-03-24"
-lastmod: ""
+date: "2026-04-28"
+type: "post"
 draft: true
 title: "撲克牌程式庫"
 description: "一個極簡主義的 WebAssembly + JavaScript 撲克牌程式庫。"
@@ -280,6 +280,76 @@ const CardHelper = {
 ```
 
 # UI 繪製函數
+```html
+<div class="card">
+  <div>
+    <div class="card-front"></div>
+    <div class="card-back"></div>
+  </div>
+</div>
+```
+```css
+.card {
+  width: 15rem;
+  height: 25rem;
+  transition: transform 0.2s ease;
+  perspective: 1000px;
+}
+.card > div {
+  position: relative;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s ease;
+  transform-style: preserve-3d;
+}
+.card:hover {
+  transform: translateY(-1rem);
+}
+.card:hover~.card {
+  transform: translateX(130px);
+}
+.card:not(:first-child) {
+  margin-left: -130px;
+}
+.card-flipped > div {
+  transform: rotateY(180deg);
+}
+.card-front, .card-back {
+  background-color: white;
+  border-radius: 20px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.card-back {
+  background-color: #0e3075;
+  transform: rotateY(180deg);
+}
+```
+```js
+const CardHelper = {
+  createDOM: function (n) {
+    const card = document.createElement("div");
+    card.classList.add("card");
+
+    const cardInner = document.createElement("div");
+    const cardFront = document.createElement("div");
+    const cardBack = document.createElement("div");
+    card.classList.add("card-front");
+    card.classList.add("card-back");
+
+    cardInner.appendChild(cardFront);
+    cardInner.appendChild(cardBack);
+    card.appendChild(cardInner);
+
+    return card;
+  }
+};
+```
 
 # 極簡化
 最後就是將整個程式庫的邏輯盡量簡化，然後將看起來適合塞進 WebAssembly 塞進 WebAssembly 就大功告成了。

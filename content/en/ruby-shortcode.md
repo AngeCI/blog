@@ -16,7 +16,7 @@ tags:
 
 A practical little toy developed during the research of Hugo.
 
-# 用法
+# Usage
 Markdown syntax:
 ```md
 {{</* ruby Text Pronunciation */>}}

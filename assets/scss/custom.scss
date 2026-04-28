@@ -3,18 +3,6 @@
 @import url("https://font.emtech.cc/css/Iansui");
 @import url("https://font.emtech.cc/css/JetBrainsMono");
 
-.article-title-wrapper .article-title,
-.article-subtitle,
-.article-content h1,
-.article-content h2,
-.article-content h3,
-.article-content h4,
-.article-content h5,
-.article-content h6, {
-    font-family: Lato, Iansui, var(--article-font-family);
-    /* font-weight: 400; */
-}
-
 :root {
     text-autospace: normal;
     --code-font-family: JetBrainsMono, Menlo, Monaco, Consolas, "Courier New", monospace;
@@ -110,6 +98,26 @@
     background-position: 0 0, 10px 10px;
 }
 
+.article-title-wrapper .article-title,
+.article-subtitle,
+.article-content h1,
+.article-content h2,
+.article-content h3,
+.article-content h4,
+.article-content h5,
+.article-content h6, {
+    font-family: Lato, Iansui, var(--article-font-family);
+    /* font-weight: 400; */
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1.3em;
+}
+
 [data-scheme=dark] .widget-title.section-title {
     color: var(--accent-color);
 }
@@ -197,6 +205,22 @@
 
 .article-category a:hover {
     opacity: 0.8;
+}
+
+.article-list--tile article {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.article-list--tile article:hover {
+    transform: translateY(-0.5rem);
+}
+
+.article-list--compact .article-title {
+    transition: color 0.3s ease;
+}
+
+.article-list--compact .article-title:hover {
+    color: var(--accent-color-darker);
 }
 
 .article-content {
@@ -317,6 +341,20 @@
     background: linear-gradient(transparent 0%,var(--card-background) 60%);
     position: absolute;
     bottom: 0;
+}
+
+.main-article-preview .article-details {
+    padding-bottom: 0;
+}
+
+.section-title a {
+    display: inline-block;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.section-title a:hover {
+    color: var(--accent-color-darker);
+    transform: scale(1.05);
 }
 
 .hovers-blur {
