@@ -1,10 +1,12 @@
 ---
 date: "2026-03-26T10:49:18+00:00"
+type: "post"
 title: "理想的日常"
 description: "究竟一個理想的社會制度，應該長什麼樣子？"
 translationKey: "perfect-days"
 categories:
   - "BlogBlog 同樂會"
+  - "Fantasies 幻想"
 ---
 
 > [!TIP] BlogBlog 同樂會！

@@ -12,7 +12,7 @@ tags:
 
 > [!IMPORTANT] Want to use it now?
 > - [The source code is here!](https://github.com/AngeCI/blog/blob/main/layouts/_shortcodes/ruby.html)
-> - [Supporting CSS](https://github.com/AngeCI/blog/blob/main/assets/scss/custom.scss#L355-L358)
+> - [Supporting CSS](https://github.com/AngeCI/blog/blob/970765ffdd6058a6f1fce2ebc69c2fcd17e8217d/assets/scss/custom.scss#L393-L396)
 
 A practical little toy developed during the research of Hugo.
 

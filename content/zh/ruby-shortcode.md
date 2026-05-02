@@ -12,7 +12,7 @@ tags:
 
 > [!IMPORTANT] 想立刻體驗嗎？
 > - [源碼在此！](https://github.com/AngeCI/blog/blob/main/layouts/_shortcodes/ruby.html)
-> - [配套 CSS](https://github.com/AngeCI/blog/blob/main/assets/scss/custom.scss#L355-L358)
+> - [配套 CSS](https://github.com/AngeCI/blog/blob/970765ffdd6058a6f1fce2ebc69c2fcd17e8217d/assets/scss/custom.scss#L393-L396)
 
 在研究 Hugo 的過程當中開發出來的一個實用小玩具。
 
