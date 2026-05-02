@@ -17,7 +17,7 @@ tags:
 
 這個網站開了兩個月了，一直都沒自有網域[^1]，今天來討論一下選擇域名的話題。
 
-我當然知道 GitHub Pages 可以綁定自定義網域，。
+我當然知道 GitHub Pages 可以綁定自定義網域，我目前沒有這樣做純粹是懶得花錢去買一個新網域而已。
 
 # `.com` 域名的偏好
 「Wiwi 部落格宇宙」中的好些部落格都對 `.com` 域名有強烈偏好。
@@ -28,8 +28,8 @@ tags:
 
 - JN 有兩篇文章（[1](https://blog.giveanornot.com/account/)、[2](https://blog.giveanornot.com/get-a-domain-or-not/)）提到網域問題，他自己就是用的 `.com`域名。
 - Wiwi 為「[推坑](https://wiwi.blog/blog/blogblog-party-jan-2026/)」主題所投稿的其中一篇文章，就提到了「[半夜設鬧鐘爬起來搶 `.com` 域名](https://wiwi.blog/blog/get-your-own-domain/)」這回事。
-- Alex Hsu 提到他[花了 USD $1700](https://alexhsu.com/first-post) 買下了目前的 `.com` 域名。他在另一篇文章提到了對[ `[本名].com` 域名的強烈偏好](https://alexhsu.com/baby-names)。
-- 域名買下來了，還要養。[Eddie Lv](https://eddielv.com/musings/eddielv.com/) 提到，養一個 `.blog` 域名每年得燒掉 USD $2600，讓他果斷放棄，最後還是買了 `.com` 域名。
+- Alex Hsu 提到他[花了 USD $1700](https://alexhsu.com/first-post) 買下了目前的 `.com` 域名。他在另一篇文章表達了對[ `[本名].com` 域名的強烈偏好](https://alexhsu.com/baby-names)。
+- **域名買下來了，還要養。**[Eddie Lv](https://eddielv.com/musings/eddielv.com/) 提到，養一個 `.blog` 域名**每年**得燒掉 USD $2600，讓他果斷放棄，最後還是買了 `.com` 域名。
 
 # 頂級域名鄙視鏈
 有些人心目中有一個「頂級域名鄙視鏈」，大概長這樣：
