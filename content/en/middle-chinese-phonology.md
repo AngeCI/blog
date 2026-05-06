@@ -1,5 +1,6 @@
 ---
 date: "2026-05-05T18:18:57+00:00"
+lastmod: "2026-05-06T18:57:49+00:00"
 type: "post"
 title: "Middle Chinese Phonology"
 description: ""
@@ -18,8 +19,11 @@ tags:
 > This page is still **work in progress**, stay focus for **continuous upcoming updates** on this page!
 
 # 聲母
-- 早期中音漢語大概有 38 個聲母音位。
+## 早期中古漢語
+- 早期中音漢語大概有 38 個聲母音位。在古代聲母在寫作的地位不如韻母重要，導致在韻圖出現之前的文獻往往對聲母不太重視，《切韻》時代的聲母只能靠繫聯法或對音等手段推出，不同文獻列出的聲母數量有所出入，從 35 個到 51 個聲母都有。
 - 唇音、牙音、喉音合稱為鈍音聲母；舌音和齒音合稱為銳音聲母。
+- 牙音聲母「見谿疑」（可能也包括曉母）在某些時期或地域接非三等韻母時，實際發音有可能是小舌音而不是硬腭音，但這兩組發音並不構成音位對立。
+- 有些材料列出的聲母數量可能有所差異，例如匣母與云母互補、沒多少字的俟母和船母應否獨立等等。
 
 <table>
 <tbody><tr>
@@ -55,19 +59,72 @@ tags:
 <th>喉音</th>
 <td>影</td><td>/ʔ/</td><td></td><td></td><td></td><td></td><td></td><td></td><td>曉</td><td>/h/ ~ /χ/</td><td>匣</td><td>/ʁ/</td><td>云</td><td>/ɰ/</td></tr></tbody></table>
 
+# 後期中古漢語
+- 在韻圖時代，中古漢語的聲母系統發生了變化，形成了廣為流傳的「[三十六字母](https://bilibili.com/video/BV1ha411f7d4)」體系。
+- 輕唇音出現，分化條件我寫在[韻母](#韻母)的部份裏。/f/ 和 /fʰ/ 的對立在語音學角度來看很不穩定，非敷分立有可能只是形式上仿古而已。
+- 兩組正齒音合併，但常母和船母在這個時代應該已經相混。在韻圖中，通常常母歸入禪母，而船母歸入牀母。
+
+<table>
+<tbody><tr>
+<th></th>
+<th colspan="2">全清</th>
+<th colspan="2">次清</th>
+<th colspan="2">全濁</th>
+<th colspan="2">次濁</th>
+<th colspan="2">全清</th>
+<th colspan="2">全濁</th>
+<th colspan="2">次濁</th></tr>
+<tr>
+<th>重唇音</th>
+<td>幫</td><td>/p/</td><td>滂</td><td>/pʰ/</td><td>並</td><td>/b/</td><td>明</td><td>/m/</td><td colspan="6"></td></tr>
+<tr>
+<th>輕唇音</th>
+<td>非</td><td>/f/</td><td>（敷）</td><td>(/fʰ/)</td><td>奉</td><td>/v/</td><td>微</td><td>/ɱ/</td><td colspan="6"></td></tr>
+<tr>
+<th>舌頭音</th>
+<td>端</td><td>/t/</td><td>透</td><td>/tʰ/</td><td>定</td><td>/d/</td><td>泥</td><td>/n/</td><td></td><td></td><td></td><td></td><td>來</td><td>/l/</td></tr>
+<tr>
+<th>舌上音</th>
+<td>知</td><td>/ʈ/</td><td>徹</td><td>/ʈʰ/</td><td>澄</td><td>/ɖ/</td><td>娘</td><td>/ɳ/</td><td colspan="6"></td></tr>
+<tr>
+<th>齒頭音</th>
+<td>精</td><td>/ts/</td><td>清</td><td>/tsʰ/</td><td>從</td><td>/dz/</td><td></td><td></td><td>心</td><td>/s/</td><td>邪</td><td>/z/</td><td colspan="2"></td></tr>
+<tr>
+<th rowspan="2">正齒音</th>
+<td>照</td><td>/tʂ/ ~ /tʃ/</td><td>穿</td><td>/tʂʰ/ ~ /tʃ/</td><td>牀</td><td>/dʐ/ ~ /dʒ/</td><td>日</td><td>/ȵ/</td><td>審</td><td>/ʂ/ ~ /ʃ/</td><td>禪</td><td>/ʐ/ ~ /ʒ/</td><td colspan="2"></td></tr>
+<tr>
+<th>牙音</th>
+<td>見</td><td>/k/</td><td>谿</td><td>/kʰ/</td><td>羣</td><td>/g/</td><td>疑</td><td>/ŋ/</td><td colspan="6"></td></tr>
+<tr>
+<th>喉音</th>
+<td>影</td><td>/ʔ/</td><td></td><td></td><td></td><td></td><td></td><td></td><td>曉</td><td>/h/ ~ /χ/</td><td>匣</td><td>/ʁ/</td><td>喻</td><td>/j/</td></tr></tbody></table>
+
 # 韻母
+## 韻母結構
+## 等
+在韻圖時代，各種韻母按照介音劃分成四個「等」。此外也有根據反切材料推定、適用於早期中古漢語的「反切等」。
+
+韻圖等和反切等的一個主要區別是，一部份反切三等被重新歸入韻圖二等或四等：精組反切三等被歸入韻圖四等、「莊三化二」徹底完成、3C 與 3B 合流形成韻圖三等、四等生出 -i̯- 介音與 3A 合流，形成韻圖四等。
+
+早期中古漢語的三等韻母非常多，而且部份韻母出現重紐或者其他的一些複雜現象，故可以再細分成幾類。三等 AB 類主元音為前元音，且在唇音聲母後保留重唇音；三等 C 類主元音為央後元音，且在唇音聲母後變為輕唇音。
+
 - 一等：東冬模泰灰咍魂痕寒桓豪歌戈唐登侯覃談
 - 二等：江佳皆夬刪山肴麻庚耕咸銜
 - 三等 A 類：「支脂祭真仙宵侵鹽」重紐四等、麻三、清韻、幽韻牙音
 - 三等 B 類：「支脂祭真仙宵侵鹽」重紐三等、庚三、幽韻唇音
 - 三等 C 類：微廢文欣元嚴凡、東鍾之魚虞戈陽尤
 - 四等：齊先蕭青添
-----
+
+## 攝
+61 組有單獨名字的韻母，按照韻尾和近似的主元音分類成 16 個「攝」。在廣韻中十六攝的次序是似乎沒啥邏輯的「通江止遇蟹臻山效果假宕梗曾流深咸」。
+
+在韻圖中，「江蟹臻山效假梗咸」被歸類為「外轉」，剩下的「通止遇果宕曾流深」被歸類為「內轉」。只有「外轉」的攝擁有反切二等和反切四等韻。
+
+## 重韻
+同一個攝之內，同一個等的多個韻母稱為「重韻」。這些重韻在後世通常會完全合併以致難以從現代讀音區分。
 - 一等重韻三組：東冬、灰咍—泰、覃談
 - 二等重韻四組：佳皆夬、刪山、庚二耕、咸銜
 - 三等重韻九組：東三鍾、支脂之微、魚虞、祭廢、真諄—文欣、元仙、庚三清、尤幽、鹽—嚴凡
-- 三等 AB 類主元音為前元音，且在唇音聲母後保留重唇音。
-- 三等 C 類主元音為央後元音，且在唇音聲母後變為輕唇音。
 
 ## 以元音結尾的韻母——果假遇攝
 <table>
@@ -87,10 +144,10 @@ tags:
 <td></td><td></td><td></td><td></td><td>魚</td><td>/ɨ̯ɤ/</td><td>虞</td><td>/ɨ̯o/</td></tr>
 <tr>
 <th>中</th>
-<td>（齊）</td><td>(/e/ ~ /ei̯/)</td><td>佳</td><td>/ɯ̯ɛ/</td><td></td><td></td></tr>
+<td>（齊）</td><td>(/e/ ~ /ei̯/)</td><td>佳</td><td>/ɯ̯ɛ/</td><td></td><td></td><td></td><td></td></tr>
 <tr>
 <th>高—中</th>
-<td>支 A</td><td>/i̯ɛ/ ~ /i̯e/</td><td>支 B</td><td>/ɪ̯ɛ/ ~ /ɪ̯e/</td><td></td><td></td></tr>
+<td>支 A</td><td>/i̯ɛ/ ~ /i̯e/</td><td>支 B</td><td>/ɪ̯ɛ/ ~ /ɪ̯e/</td><td></td><td></td><td></td><td></td></tr>
 <tr>
 <th>低</th>
 <td></td><td></td><td>麻二</td><td>/ɯ̯a/</td><td>歌</td><td>/ɑ/</td><td>戈一</td><td>/ʷɑ/</td></tr>
@@ -196,10 +253,13 @@ tags:
 <td></td><td></td><td></td><td></td><td>東三</td><td>/ɨ̯uŋ/</td><td></td><td></td></tr>
 <tr>
 <th>半高</th>
-<td></td><td></td><td></td><td></td><td>登</td><td>/əŋ/</td><td></td><td></td></tr>
+<td></td><td></td><td></td><td></td><td>登開</td><td>/əŋ/</td><td>登合</td><td>/ʷəŋ/</td></tr>
 <tr>
 <th>中</th>
-<td>青</td><td>/eŋ/</td><td>江</td><td>/ɯ̯ʌu̯ŋ/</td><td>冬</td><td>/oŋ/</td><td></td><td></td></tr>
+<td></td><td></td><td>江</td><td>/ɯ̯ʌu̯ŋ/</td><td>冬</td><td>/oŋ/</td><td></td><td></td></tr>
+<tr>
+<th>中</th>
+<td>青</td><td>/eŋ/</td><td>耕</td><td>/ɯ̯ɛŋ/</td><td></td><td></td><td></td><td></td></tr>
 <tr>
 <th>高—中</th>
 <td></td><td></td><td></td><td></td><td>鍾</td><td>/ɨ̯oŋ/</td><td></td><td></td></tr>
