@@ -24,9 +24,9 @@ tags:
 >
 > ——Alex Hsu《[工程師爸爸如何幫小孩取英文名字](https://alexhsu.com/baby-names)》
 
-- JN 有兩篇文章（[1](https://blog.giveanornot.com/account/)、[2](https://blog.giveanornot.com/get-a-domain-or-not/)）提到網域問題，他自己就是用的 `.com`域名。
+- JN 有兩篇文章（[1](https://blog.giveanornot.com/account/)、[2](https://blog.giveanornot.com/get-a-domain-or-not/)）提到網域問題，他自己就是用的 `.com` 域名。
 - Wiwi 為「[推坑](https://wiwi.blog/blog/blogblog-party-jan-2026/)」主題所投稿的其中一篇文章，就提到了「[半夜設鬧鐘爬起來搶 `.com` 域名](https://wiwi.blog/blog/get-your-own-domain/)」這回事。
-- Alex Hsu 提到他[花了 USD $1700](https://alexhsu.com/first-post) 買下了目前的 `.com` 域名。他在另一篇文章表達了對[ `[本名].com` 域名的強烈偏好](https://alexhsu.com/baby-names)。
+- Alex Hsu 提到他[花了 USD $1700](https://alexhsu.com/first-post) 買下了目前的 `.com` 域名。他在另一篇文章表達了對 [`[本名].com` 域名的強烈偏好](https://alexhsu.com/baby-names)。
 - **域名買下來了，還要養。**Eddie Lv [提到](https://eddielv.com/musings/eddielv.com/)，養一個 `.blog` 域名**每年**得燒掉 USD $2600，讓他果斷放棄，最後還是買了 `.com` 域名。
 
 # 頂級域名鄙視鏈
@@ -36,9 +36,9 @@ tags:
 
 按照定義，所有兩個字母的頂級域名都是「國家頂級網域」（ccTLD）。按照這條鄙視鏈，[光鶯社羣](https://ltgc.cc)位於這條鄙視鏈的底部。
 
-就在不是很久前，[7-zip](https://7-zip.org) 就被爆出[`.com` 域名遭到搶註作釣魚網站](https://www.hkepc.com/25072/)的事件，凸顯了知度度高的服務註冊 `.com` 域名的重要性。
+就在不是很久前，[7-zip](https://7-zip.org) 就被爆出[`.com` 域名遭到搶註作釣魚網站](https://www.hkepc.com/25072/)的事件，凸顯了知名度高的服務註冊 `.com` 域名的重要性。
 
-另外如果你要考慮自架郵件伺服器的話，實際上電子郵件服務在很多年前就已經被大量的 spam mail 玩成了[信任死鎖](/blog/zh/productivity/)，自架郵件服務很難發信的。據說 `.com` 域名發出的郵件，而推出時代較晚的 `.win`、`.xyz` 之類的域名，<span class="chide">由於比較常拿來做奇怪的事情，</span>比較容易被其他網站不信任。
+另外如果你要考慮自架郵件伺服器的話，實際上電子郵件服務在很多年前就已經被大量的 spam mail 玩成了[信任死鎖](/blog/zh/productivity/)，自架郵件服務很難發信的。據說 `.com` 域名發出的郵件送達率會較高，而推出時代較晚的 `.win`、`.xyz` 之類的域名，<span class="chide">由於比較常拿來做奇怪的事情，</span>比較容易被其他網站不信任。
 
 # 我的域名規劃
 養一個域名是很燒錢的事情，只為一個部落格買一個域名並不划算。就算哪天這個網站開始有了自有網域，我大概也會把部落格放到 `b.example.com` 這種形式的 subdomain 裏。事實上我心裏已經有一個比較詳盡的 subdomain 規劃清單：

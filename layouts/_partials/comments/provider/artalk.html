@@ -1,44 +1,44 @@
+{{- $style := resources.Get "scss/partials/comments/artalk.scss" | toCSS | minify -}}
 {{- with .Site.Params.comments.artalk -}}
-<link href="//{{ .server }}/dist/Artalk.css" rel="stylesheet" />
-<script src="//{{ .server }}/dist/Artalk.js"></script>
-<div id="artalk-comments"></div>
-<script>
-"use strict";
-const isDarkMode = document.documentElement.getAttribute("data-scheme") === "dark";
-const locale = {{ .Site.Language.LanguageCode }};
-const isEnglish = locale === "en";
-const artalk = Artalk.init({
-  el:        "#artalk-comments",
-  pageKey:   "{{ .Permalink }}",
-  pageTitle: "{{ .Title }}",
-  server:    "//{{ .server }}",
-  site:      "{{ .sitename }}",
-  darkMode:  isDarkMode,
-  locale:    {
-    "en": "en",
-    "zh-hant-HK": "zh-TW",
-    "zh-hant-TW": "zh-TW"
-  }[locale],
-  emoticons: false,
-  placeholder: isEnglish ? "Write something..." : "寫點什麼吧...",
-  noComment: isEnglish ? "No comments yet. Start the conversation!" : "還沒有人留言，就等你來搶頭香！",
-  pageVote:  false,
-  vote:      false
-});
-function toggleDarkMode() {
-  isDarkMode = !isDarkMode;
-  artalk.setDarkMode(isDarkMode);
-};
-const observer = new MutationObserver((mutations) => {
-  mutations.forEach((mutation) => {
-    if (mutation.type === "attributes" && mutation.attributeName === "data-scheme") {
-      toggleDarkMode();
-    };
-  });
-});
-observer.observe(document.documentElement, {
-  attributes: true,
-  attributeFilter: ["data-scheme"]
-});
+<link rel="stylesheet" href="{{ hugo.Data.external.Artalk.Style }}">
+<link rel="stylesheet" href="{{ $style.RelPermalink }}">
+
+<div id="Comments" class="artalk-container"></div>
+
+<script type="module">
+    "use strict";
+    import Artalk from '{{ hugo.Data.external.Artalk.Script }}';
+
+    function isDarkMode() {
+        return document.documentElement.dataset.scheme === 'dark';
+    }
+
+    const locale = {{ .Site.Language.LanguageCode }};
+    const isEnglish = locale === "en";
+
+    const artalkInstance = Artalk.init({
+        el: '#Comments',
+        pageKey: '{{ $.RelPermalink }}',
+        pageTitle: '{{ $.Title }}',
+        server: '{{ .serverUrl }}',
+        site: '{{ .site }}',
+        darkMode: isDarkMode(),
+        // locale: 'auto',
+        locale: {
+            "en": "en",
+            "zh-hant-HK": "zh-TW",
+            "zh-hant-TW": "zh-TW"
+        }[locale],
+        emoticons: false,
+        placeholder: isEnglish ? "Write something..." : "寫點什麼吧...",
+        noComment: isEnglish ? "No comments yet. Start the conversation!" : "還沒有人留言，就等你來搶頭香！",
+        pageVote:  false,
+        vote:      false
+    });
+
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (!artalkInstance || typeof artalkInstance.setDarkMode !== 'function') return;
+        artalkInstance.setDarkMode(e.detail === 'dark');
+    });
 </script>
 {{- end -}}

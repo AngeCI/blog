@@ -2,7 +2,7 @@
 date: "2026-05-02T20:27:20+00:00"
 lastmod: "2026-05-03T08:45:32+00:00"
 type: "post"
-title: "Ccustomizable Blog"
+title: "Customizable Blog"
 description: ""
 translationsKey: "customizable-blog"
 categories:
@@ -13,28 +13,28 @@ categories:
 > [!WARNING] Notice
 > This post is a draft translation from [the Chinese version](/blog/zh/customizable-blog/) which have not yet been thoroughly proofread.
 
-最近讀到了 Alex Hsu 的《[無菜單部落格：做一個任性一點的個人網站](https://alexhsu.com/omakase)》，來談談我的一點個人看法。
+I’ve read Alex Hsu’s “[The omakase blog: building an opinionated personal site](https://alexhsu.com/en/omakase)” recently, let me share some of my personal opinions.
 
-# 亮色主題與暗色主題
-本站目前是同時提供亮色主題與暗色主題，並且預設是自動偵測模式，但也容許用戶點按選單上的按鈕切換。
+# Light mode and dark mode
+This site currently offers both light and dark themes, with automatic detection by default, but users can also switch between both themes by clicking a button on the menu.
 
-但是如果非得只能選一個呢？Alex 提到最近他把亮色模式給整個拔掉了，我覺得就還好。相反由於我自己是個[會深夜躲在漆黑的房間內看手機](/blog/zh/jet-lag/)的人，所以就不太喜歡[廢文小天地](https://trashposts.com)和 [Wen](https://www.wen-lab.tw) 的常時亮瞎狗眼模式（那種亮瞎狗眼模式比較適合在電子墨水屏或紙本閱讀，也許我應該投資一個電子書閱讀器？）。上古時期沒有 CSS 的時代，預設佈局都是亮色模式，造成了現在的瀏覽器在沒有以 CSS 指定顏色時，預設都是亮色模式。
+But what if you’re forced to choose one? Alex mentioned he recently removed the light mode entirely, which I think is fine. Conversely, since I’m the kind of person who likes to [hide in a dark room late at night to look at my phone](/blog/jet-lag/), I don’t really like the constanly blindingly bright mode of [廢文小天地](https://trashposts.com) and [Wen](https://www.wen-lab.tw) (that kind of blindingly bright mode is more suitable for e-ink screens or paper reading, maybe I should invest in an e-reader?). In the ancient days before CSS, the default layout was always in light mode, which is why browsers now default to light mode unless colours are specified using CSS.
 
-# 繁簡轉換
-我有考慮過要不要為這個網站弄個「單向繁簡轉換」，不過我懶，目前還沒有實現。
+# Simplified/Traditional Chinese conversions
+I’ve considered adding a “one-way Simplified/Traditional Chinese conversion” function to this website, but I’m lazy and haven’t implemented it yet.
 
-至於「雙向繁簡轉換」基本上是個毒瘤，簡體一對多的情形常常會導致雙向繁簡轉換過度轉換的情形。
+As for “two-way Simplified/Traditional Chinese conversion”, it’s basically a cancer. A one-to-many conversion in Simplified Chinese often leads to over-conversion.
 
-本人的出生地和成長地都在香港。相較於臺灣而言，<span class="hovers-blur">由於文化接觸及人口結構變化的因素，</span>香港人在日常生活中有着更多接觸到簡體字的機會。香港人對於簡體字的閱讀能力普遍優於臺灣人，較少有「簡體字閱讀障礙」，「閱讀簡體字時[速度慢很多](https://wiwi.blog/blog/blogblog-party-recap-feb-2026/#-%E5%8F%AA%E6%9C%89%E6%88%91%E9%80%99%E6%A8%A3%E5%B0%8D%E5%BE%85%E6%96%87%E5%AD%97%E5%97%8E)」的情形。我自己閱讀繁體字和簡體字的流暢度，在大多數時候的區別其實並不大。
+I was born and raised in Hong Kong. Compared to Taiwan, <span class="hovers-blur">due to cultural contact and changes in population structure,</span> Hong Kong people have more opportunities to encounter Simplified Chinese in their daily lives. Hong Kong people generally have better reading ability for Simplified Chinese than Taiwanese people, and there are fewer cases of “Simplified Chinese reading difficulties” or “[much slower](https://wiwi.blog/blog/blogblog-party-recap-feb-2026/#-%E5%8F%AA%E6%9C%89%E6%88%91%E9%80%99%E6%A8%A3%E5%B0%8D%E5%BE%85%E6%96%87%E5%AD%97%E5%97%8E) when trying to read Simplified Chinese”. My own fluency in reading Traditional and Simplified Chinese is actually not that different most of the time.
 
-# 橫排與縱排
-在「Wiwi 部落格宇宙」當中，有一個縱排網頁的部落格，他就是「[我](https://e89295.com)」（e89295）。
+# Horizontal and vertical writings
+Within the “Wiwi Blog Universe”, there’s a blog that’s uniquely written vertically, that’s “[Me](https://e89295.com)” (e89295).
 
-臺灣和日本的國文課本有一個共同特色，就是都採用縱排。相比之下，大陸和香港的國文課本就都是橫排的（不過香港的縱排中文書籍倒是不少）。
+Local language textbooks in Taiwan and Japan share a common feature: they are both written vertically. In contrast, textbooks in mainland China and Hong Kong are all written horizontally (although Hong Kong does have many vertically written Chinese books).
 
-以前的電子設備，由於都是由缺乏縱排設備的洋人主宰，對縱排文字的支援往往不是很好。不過現在電子設備對於縱排文字的支援度其實已經改善了不少。
+In the past, electronic devices, which are dominated by Westerners who lacked vertical writing traditions, often have poor support on vertical texts. However, the support for vertical text on electronic devices has nowadays improved considerably.
 
-話雖如此，像「我的部落格」之類的縱排網頁，在透過移動設備閱讀時，橫過來放體驗可能會更好喔～
+That being said, vertically formatted web pages like “My Blog” might be better viewed horizontally on mobile devices.
 
-# 表格排版
-有許多研究顯示，限制內文的排版寬度有助於提升閱讀體驗（至少針對橫排文字而言）。我有不少[語言學](/blog/zh/categories/linguistics-語言學)相關文章，裏頭會放表格。當表格欄目較多的時候，不時就會出現寬度溢出的情形，不太美觀。或許我得看看有沒有更好的表格排版機制，或許其實我應該放成圖片？
+# Table formatting
+Numerous studies have shown that limiting the width of text layouts can improve the reading experience (at least for horizontal text). I have many [linguistics](/blog/categories/linguistics-語言學) articles that include tables. When there are many columns in a table, it often overflows, which is not quite aesthetically pleasing. Perhaps I should look into better table formatting mechanisms, or maybe I should just use images instead?

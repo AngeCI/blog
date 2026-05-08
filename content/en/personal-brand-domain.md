@@ -14,61 +14,61 @@ tags:
 ---
 
 > [!WARNING] Notice
-> This post is a draft translation from [the Chinese version](/blog/zh/productivity/) which have not yet been thoroughly proofread.
+> This post is a draft translation from [the Chinese version](/blog/zh/personal-brand-domain/) which have not yet been thoroughly proofread.
 
-這個網站開了兩個月了，一直都沒有自有網域[^1]，今天來討論一下選擇域名的話題。
+This website has been running for two months, but it still doesn’t have its own domain [^1]. Today, let’s discuss the topic of choosing a domain name.
 
-我當然知道 GitHub Pages 可以綁定自定義網域，我目前沒有這樣做純粹是懶得花錢去買一個新網域而已。
+Of course, I know that GitHub Pages can be linked to a custom domain, but I haven’t done so simply because I’m too lazy to spend money to buy a new domain.
 
-# `.com` 域名的偏好
-「Wiwi 部落格宇宙」中的好些部落格都對 `.com` 域名有強烈偏好。
+# Preference to `.com` domains
+Many blogs inside the “Wiwi Blog Universe” show a strong preference to `.com` domain names.
 
-> 在網路時代，`.com` 被佔走，就像名字被佔走一樣。
+> In the internet age, having your `.com` taken is like having your name taken.
 >
-> ——Alex Hsu《[工程師爸爸如何幫小孩取英文名字](https://alexhsu.com/baby-names)》
+> ——Alex Hsu “[How an engineer dad picks baby names](https://alexhsu.com/en/baby-names)”
 
-- JN 有兩篇文章（[1](https://blog.giveanornot.com/account/)、[2](https://blog.giveanornot.com/get-a-domain-or-not/)）提到網域問題，他自己就是用的 `.com`域名。
-- Wiwi 為「[推坑](https://wiwi.blog/blog/blogblog-party-jan-2026/)」主題所投稿的其中一篇文章，就提到了「[半夜設鬧鐘爬起來搶 `.com` 域名](https://wiwi.blog/blog/get-your-own-domain/)」這回事。
-- Alex Hsu 提到他[花了 USD $1700](https://alexhsu.com/first-post) 買下了目前的 `.com` 域名。他在另一篇文章表達了對[ `[本名].com` 域名的強烈偏好](https://alexhsu.com/baby-names)。
-- **域名買下來了，還要養。**Eddie Lv [提到](https://eddielv.com/musings/eddielv.com/)，養一個 `.blog` 域名**每年**得燒掉 USD $2600，讓他果斷放棄，最後還是買了 `.com` 域名。
+- JN has two posts ([1](https://blog.giveanornot.com/account/), [2](https://blog.giveanornot.com/get-a-domain-or-not/)) discussing getting domains, himself using a `.com` domain.
+- One of Wiwi’s submissions to the “[Pushing the Pit](https://wiwi.blog/blog/blogblog-party-jan-2026/)” theme mentioned that he would “[set an alarm to wake up in the middle of the night to grab a `.com` domain](https://wiwi.blog/blog/get-your-own-domain/)”.
+- Alex Hsu says that he [spent USD $1700](https://alexhsu.com/en/first-post) to buy his current `.com` domain. He also expressed [his strong preference to `[firstnamelastname].com` domains](https://alexhsu.com/en/baby-names).
+- **You’ve bought the domain name, and you still need to feed it.** Eddie Lv [mentioned](https://eddielv.com/musings/eddielv.com/) that maintaining a `.blog` domain would cost him USD $2600 **per year**, which made him give up on the idea, and he ended up buying a `.com` domain instead.
 
-# 頂級域名鄙視鏈
-有些人心目中有一個「頂級域名鄙視鏈」，大概長這樣：
+# Top-level domain hierarchy
+Some people have a “top-level domain hierarchy” in their minds, which looks something like this:
 
 > `.com` &gt; `.net`/`.org` &gt; gTLD &gt; ccTLD
 
-按照定義，所有兩個字母的頂級域名都是「國家頂級網域」（ccTLD）。按照這條鄙視鏈，[光鶯社羣](https://ltgc.cc)位於這條鄙視鏈的底部。
+By definition, all two-letter top-level domains are “country code top-level domains” (ccTLDs). According to this hierarchy, [Lightingale Community](https://ltgc.cc) is at the bottom of this hierarchy.
 
-就在不是很久前，[7-zip](https://7-zip.org) 就被爆出[`.com` 域名遭到搶註作釣魚網站](https://www.hkepc.com/25072/)的事件，凸顯了知度度高的服務註冊 `.com` 域名的重要性。
+Not long ago, [7-zip](https://7-zip.org) was found that [it has its `.com` domain name being squatted as a phishing website](https://www.hkepc.com/25072/), this highlights the importance of registering `.com` domains for services with high brand awareness.
 
-另外如果你要考慮自架郵件伺服器的話，實際上電子郵件服務在很多年前就已經被大量的 spam mail 玩成了[信任死鎖](/blog/zh/productivity/)，自架郵件服務很難發信的。據說 `.com` 域名發出的郵件，而推出時代較晚的 `.win`、`.xyz` 之類的域名，<span class="chide">由於比較常拿來做奇怪的事情，</span>比較容易被其他網站不信任。
+Additionally, if you’re considering setting up your own mail server, you would have to consider the fact that the global email service has been plagued by spam mails for many years as well, creating a [trust deadlock](/blog/productivity/) that makes sending emails from new domain names very difficult. It’s said that emails sent from `.com` domains would have a higher deliver rate, while newer domains like `.win` and `.xyz` <span class="chide">are often used for suspicious purposes, and</span> are more likely to be distrusted by other websites.
 
-# 我的域名規劃
-養一個域名是很燒錢的事情，只為一個部落格買一個域名並不划算。就算哪天這個網站開始有了自有網域，我大概也會把部落格放到 `b.example.com` 這種形式的 subdomain 裏。事實上我心裏已經有一個比較詳盡的 subdomain 規劃清單：
-> - `a/ai`: 自架私人 AI 伺服器（如果哪天有的話）
-> - `b`: 部落格
-> - `f`: 論壇、留言板
-> - `g`: GitHub Pages／自架 Gitea？（如果哪天有的話）
-> - `i`: 圖床
-> - `m/mc`: [Minecraft](/blog/zh/tags/minecraft/) 伺服器
-> - `ms?`: 自架 Mastodon？（如果哪天有的話）
-> - `s/t?`: 短網址
-> - `sx`: 自架 searx（如果哪天有的話）
-> - `v`: 自架 PeerTube（如果哪天有的話）
+# My domain plans
+Maintaining a domain name is very expensive, and buying a domain name just for a blog isn’t worthwhile. Even if this website eventually has its own domain, I’ll probably put the blog in a subdomain like `b.example.com`. In fact, I already have a fairly detailed list of subdomains in mind:
+> - `a/ai`: Self-hosted privte AI service (if ever made)
+> - `b`: Blog
+> - `f`: Forum, message board
+> - `g`: GitHub Pages／self-hosted Gitea? (if ever made)
+> - `i`: Image host
+> - `m/mc`: [Minecraft](/blog/tags/minecraft/) server
+> - `ms?`: Self-hosted Mastodon? (if ever made)
+> - `s/t?`: Tiny URLs
+> - `sx`: Self-hosted searx (if ever made)
+> - `v`: Self-hosted PeerTube (if ever made)
 
-# 域名選擇
-問題來了，我該選購什麼樣的域名呢？
+# Choosing a domain name
+The question is, what kind of domain name should I choose?
 
-有些人喜歡用本名來當作域名。Alex Hsu 就提過他偏好這樣的域名[^2]。我的話會考量到身份隔離的問題，就算我買下了以我本名構成的域名，我也不會拿來給我寫作這個部落格的身份用。
+Some people like to use their real names as domain names. Alex Hsu mentioned that he prefers such domain names[^2]. I would consider the issue of identity segregation, even if I bought a domain name containing my real name, I wouldn’t use it for this particular blogging identity.
 
-另外，`.io` 的前景不是很明朗，在它的未來走向確定之前，最好不要買新的 `.io` 域名。
+Furthermore, the future of `.io` is quite uncertain. Until its future is clear, it’s best not to buy a new `.io` domain.
 
-# 暗網域名
-[光鶯社羣](https://ltgc.cc)有些會使用暗網的成員，當中有為整個組織配置暗網域名的成員。
+# Dark web domain names
+[Lightingale Community](https://ltgc.cc) has members regularly using dark web services, some of them also help the entire community set up dark web domains.
 
-- Tor、I2P 有現成的挖域名工具。<span class="hovers-blur">甚至有人挖了一堆 `yjspi` 開頭的 `.onion` 域名。</span>
-- Yggdrasil 本質上就是一層虛擬的 IPv6 地址，可以隨便綁定任意域名，我弄一個 `y/ygg` 的 subdomain 就好。
-- Lokinet 可能缺乏現成的挖域名工具。
+- Tor and I2P have readily available tools for mining domain names. <span class="hovers-blur">Someone even mined a bunch of `.onion` domain names starting with `yjspi`.</span>
+- Yggdrasil is essentially a virtual IPv6 address that can be bound to any domain name. I would just have to create a subdomain called `y/ygg` for it.
+- Lokinet may lack readily available domain mining tools.
 
-[^1]: 首頁列出的那個僅供收信的信箱，其實也不是完全由本人所擁有，那只是隸屬於一個我有份參與組建的團體。
-[^2]: <span class="chide">雖然實際上華人的洋名可以隨便亂取，所以實際上所謂的「本名域名」也是包含到姓氏而已。我身邊甚至有會根據不同環境轉換不同洋名的人。香港的身份證上都有羅馬字，而大部份華人的身份證上的羅馬字都不包含洋名。</span>
+[^1]: The mailbox listed on the home page for receiving emails only is not actually completely owned by me, it just belongs to a group that I helped to establish.
+[^2]: <span class="chide">Though Chinese people can actually choose any Western name they like, so the so-called “real name domain name” actually only includes the surname. I even know people who change their Western names depending on the situation. Identity cards in Hong Kong have Romanizations, but most ethnic Chinese people do not actually include their Western names on their identity cards.</span>
