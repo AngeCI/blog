@@ -24,7 +24,7 @@ tags:
 >
 > ——Alex Hsu《[工程師爸爸如何幫小孩取英文名字](https://alexhsu.com/baby-names)》
 
-- JN 有兩篇文（[1](https://blog.giveanornot.com/account/)、[2](https://blog.giveanornot.com/get-a-domain-or-not/)）提到網域問題，他自己就係用緊 `.com`域名。
+- JN 有兩篇文（[1](https://blog.giveanornot.com/account/)、[2](https://blog.giveanornot.com/get-a-domain-or-not/)）提到網域問題，他自己就係用緊 `.com` 域名。
 - Wiwi 為「[推坑](https://wiwi.blog/blog/blogblog-party-jan-2026/)」主題所投稿嘅其中一篇文，就提到「[半夜較鬧鐘爬起身搶 `.com` 域名](https://wiwi.blog/blog/get-your-own-domain/)」呢回事。
 - Alex Hsu 提到佢[使咗 USD $1700](https://alexhsu.com/first-post) 買咗而家個 `.com` 域名。他喺另一篇文表達咗對[ `[真名].com` 域名嘅強烈偏好](https://alexhsu.com/baby-names)。
 - **域名買咗落嚟，仲要養。**Eddie Lv [提到](https://eddielv.com/musings/eddielv.com/)，養一個 `.blog` 域名**每年**要燒 USD $2600，令他果斷放棄，最終都係買咗 `.com` 域名。
