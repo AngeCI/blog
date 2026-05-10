@@ -53,7 +53,7 @@
         {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
         {{ $active := or (eq $currentPage.RelPermalink .URL) (or ($currentPage.HasMenuCurrent "main" .) ($currentPage.IsMenuCurrent "main" .)) }}
-        <li {{ if $active }} class='current'{{ end }}>
+        <li {{ if .Identifier }}id="main-menu-{{- .Identifier -}}"{{ end }} {{ if $active }} class='current'{{ end }}>
             <a href='{{ .URL }}' {{ if .Params.newTab }}target="_blank"{{ end }}>
                 {{ with .Params.Icon }}
                     {{ partial "helper/icon" . }}
@@ -65,7 +65,7 @@
 
 <script>
 "use strict";
-document.getElementById("main-menu").children[4].children[0].addEventListener("click", (ev) => {
+document.getElementById("main-menu-random").addEventListener("click", (ev) => {
   ev.preventDefault();
   const posts = [
     {{- range where .Site.RegularPages "Layout" "" -}}

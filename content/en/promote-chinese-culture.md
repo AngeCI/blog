@@ -17,14 +17,14 @@ tags:
 
 1. Cutting in line
 2. Urinating or defecating in public
-2. - This is actually an extremely ancient method of marking territory, and similar behaviors have been found in different species, with a history far exceeding five thousand years. See also “The entire world belongs to China”.
+    - This is actually an extremely ancient method of marking territory, and similar behaviors have been found in different species, with a history far exceeding five thousand years. See also “The entire world belongs to China”.
 3. Watching TikTok/RedNote loudly in public
 3. - The louder the better to get attention and appreciate the wonders of Chinese culture!
 4. Forcing others to speak Mandarin in a foreign country
-4. - Chinese people like to force others to speak Mandarin when they are in a foreign country, even if the other person does not look Chinese at all.
-4. - When you make games or write comics, if you don’t release Chinese translations, you’re not taking Chinese players into consideration.
+    - Chinese people like to force others to speak Mandarin when they are in a foreign country, even if the other person does not look Chinese at all.
+    - When you make games or write comics, if you don’t release Chinese translations, you’re not taking Chinese players into consideration.
 5. Randomly being ruhua’ed
-5. - As the old saying goes: There are three things everyone will inevitably experience in life: birth, death, and ruhua.
+    - As the old saying goes: There are three things everyone will inevitably experience in life: birth, death, and ruhua.
 6. Promotion of nucleic acid tests
 7. The entire world belongs to China
-7. - China cannot lose an inch of its territory!
+    - China cannot lose an inch of its territory!
