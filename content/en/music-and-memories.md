@@ -10,7 +10,7 @@ categories:
 ---
 
 > [!WARNING] Notice
-> This post is a draft translation from [the Chinese version](/blog/zh/perfect-days/) which have not yet been thoroughly proofread.
+> This post is a draft translation from [the Chinese version](/blog/zh/music-and-memories/) which have not yet been thoroughly proofread.
 
 > [!TIP] BlogBlog Club!
 > This is my submission article for “[BlogBlog Club Party - June 2026](https://blogblog.club/party)”. This month’s topic is “[Music and Memory](https://www.yozblog.com/posts/music-and-memories)”, hosted by [YoZ](https://www.yozblog.com). If you have your own blog, feel free to join us together!

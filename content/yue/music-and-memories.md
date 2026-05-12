@@ -11,7 +11,7 @@ categories:
 
 <!--
 > [!WARNING] Notice
-> 呢篇文章暫時仲未粵語化，暫時拎住[書面語版本](/blog/zh/music-and-memory/)頂住檔先。我遲啲有時間會更新返粵語版本！
+> 呢篇文章暫時仲未粵語化，暫時拎住[書面語版本](/blog/zh/music-and-memories/)頂住檔先。我遲啲有時間會更新返粵語版本！
 -->
 
 > [!TIP] BlogBlog 同樂會！
