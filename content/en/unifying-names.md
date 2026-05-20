@@ -13,46 +13,46 @@ tags:
 > [!WARNING] Notice
 > This post is a draft translation from [the Chinese version](/blog/zh/unifying-names/) which have not yet been thoroughly proofread.
 
-[Alex Hsu](https://alexhsu.com) 最近一連發了兩篇文章來討論漢語當中的地區詞分歧議題。
+[Alex Hsu](https://alexhsu.com) recently published two posts in a row discussing the topic of regional variations in Chinese.
 
-- 《[兩家翻譯社](https://alexhsu.com/two-translators)》
-- 《[台灣vs中國大陸電影譯名：翻譯不是改名](https://alexhsu.com/naming-movies)》
+- 《[The tale of two translation houses](https://alexhsu.com/en/two-translators)》
+- 《[How Taiwan and China rename English movies (and why it's a mess)](https://alexhsu.com/en/naming-movies)》
 
-誠然從「電影譯名」這一個面向來看，不同地區發行商之間的譯名差異亂象是尤為嚴重（特別是有些翻得爛的，台灣就似乎很喜歡套用「公式」或是直接開黃段子），Alex 就提出了「電影公司應該統一譯名」。不過直翻並不總是王道，畢竟不同語言（甚至同個語言的不同地區）的文化可能有所差異，直翻有時不見得能夠讓某些文化的受眾 get 到電影的主題或者原文的意境（還有「噱頭」之類的商業考慮）。<span class="chide">（還有些國家在翻譯外國電影名稱時有劇透的傾向）</span>不過盲目強行統一，也有翻車的可能。
+Admittedly, from the perspective of “movie title translations,” the discrepancies between translations by distributors in different regions are particularly severe (especially some poorly translated ones, Taiwan seems to favor using “formulas” or even making dirty jokes). Alex has suggested that “film studios should unify their translations”. However, direct translation isn’t always the best approach, since different languages ​​(and even different regions speaking the same language) can have different cultures, and direct translation may not always allow audiences from certain cultures to grasp the film’s theme or the artistic conception of the original language. <span class="chide">(Some countries also have a tendency to include spoilers when translating foreign film titles)</span> However, blindly forcing uniformity could also backfire.
 
-也許以前約定俗成（或曰「習非成是」）的屎山，就別動了。專心把新出現的名字取好會比較好。
+Perhaps we should leave the previously established (or “accustomed to mistakes”) names for shit mountain untouched. It would be better to focus on choosing good names for the newly emerging ones.
 
-# 消滅本土語言？
-> 我很佩服Pokemon公司很有魄力的把當年大家已經使用了20年的《神奇寶貝》、《寵物小精靈》、《口袋妖怪》全部在2016年整合成《寶可夢》的決心。我當時還覺得《寶可夢》有夠難聽，《神奇寶貝》多好，到底是誰決定這個名字的，但我很同意他們整合的做法。事實也證明他們做的是對的。
+# Annihilating local languages?
+> I really admire what The Pokemon Company did. In 2016, they unified twenty years of divergent names. Taiwan had been calling it 《神奇寶貝》(“Magical Treasures”), Hong Kong used 《寵物小精靈》(“Pet Elves”), and China called it 《口袋妖怪》(“Pocket Monsters”). They scrapped all three and unified under one name: 《寶可夢》(“Pokémon,” phonetically). I remember thinking the new name sounded terrible. But I agreed with the decision. And time proved them right.
 >
-> ——Alex Hsu《[台灣vs中國大陸電影譯名：翻譯不是改名](https://alexhsu.com/naming-movies#電影公司應該統一譯名)》
+> ——Alex Hsu《[How Taiwan and China rename English movies (and why it's a mess)](https://alexhsu.com/en/naming-movies#studios-should-unify-translations)》
 
-寶可夢就是一個嘗試清理屎山的例子。**Alex 的這番言論其實忽略了一個非常重要的面向。**寶可夢（以及其他任天堂旗下產品）在制定統一譯名的音譯時往往以官話發音為主，導致其被指責「矮化粵語、以普代粵」，當時在香港炎上過一陣子。你這番言論要是挪到香港人的圈子裏頭講，有很高機率會被罵死。要是我對 Alex 印象差點的話，我立馬就可以開罵攻擊 Alex 是官話沙文主義者（我真的幹得出這種事），會為了完成他的大一統理念，而不惜犧牲地方語言[^1]發音的合理性，並全盤否定地方語言的存在價值。
+Pokémon is an example of an attempt to clean up the shit mountains. **Alex’s remarks actually overlooked a very important aspect.** When Pokémon (and other Nintendo products) were unifying their transliterations, they often tilted at Mandarin pronunciations, leading to accusations of “belittling Cantonese and substituting Mandarin for Cantonese”, which caused a stir in Hong Kong at the time. If you were to say something like that in a Hong Kong community, you’d very likely get a lot of flak. If I had a less favourable impression of Alex, I could immediately launch into a tirade, accusing him of being a Mandarin chauvinist (I really could do that), willing to sacrifice the rationality of local dialect[^1] pronunciation and completely deny the value of local dialects in order to achieve his grand unification ideal.
 
-> - 妈的，你是不是中国人，[是中国人就该讲普通话](/blog/zh/promote-chinese-culture/)，别唧唧歪歪讲什么鸟语！
+> - 妈的，你是不是中国人，[是中国人就该讲普通话](/blog/promote-chinese-culture/)，别唧唧歪歪讲什么鸟语！
 > - 不说普通话的是不是辱华废青啊？
 > - 讲什么狗屁鸟语，等着被统一吧！
 > - 咱们有推出官方汉化版本，你们就得感恩了！
 > - XX 人全都是二鬼子，一句普通话不说
 >
-> ——設計對白
+> ——Design dialogue
 
-不過話說回來，香港製造的譯名也有翻得爛的，體育界的不少譯名雖然也是基於粵語發音音譯，但是往往誤判了原音，出來的譯名不少跟亂翻其實也差不多。
+However, on the other hand, some translations of names made in Hong Kong are also poorly done. Many translations in the sports world are based on the Cantonese pronunciation, but they often misjudge the original pronunciation, and the resulting translations are almost like random translations.
 
-## 羅馬字派
-> 你說你不是中國人是嗎，那你就不要用漢字啊！
+## The Romanization school of thought
+> You say you’re not Chinese? Then don’t use Chinese characters!
 >
-> ——全羅台語沙文主義者
+> ——Romanized Taiwanese chauvinists
 
-陳建中在他的文章《[葬送的芙莉蓮 EP1-2 語句選](https://kiantiong.com/blog/hulilian_1/)》中提到，他說服了公視台語台的團隊，將音譯的外來語以羅馬字書寫（而非直接套用華語漢字），其理據是[教育部台語字典](https://sutian.moe.edu.tw)也是這麼寫的。
+Tan Kian-Tiong mentioned in his article “[葬送的芙莉蓮 EP1-2 語句選](https://kiantiong.com/blog/hulilian_1/)”, that he persuaded the team at PTS Taigi Channel to write transliterated foreign words in Latin letters (instead of directly borrowing characters from Mandarin Chinese), arguing that [the Ministry of Education’s Dictionary of Frequently-Used Taiwanese Taigi](https://sutian.moe.edu.tw) also uses this format.
 
-這樣夾雜大量羅馬字，在香港的書面中文來看沒有這樣的慣例，除了某些妥協的情形（如上述「寶可夢」的情形）之外。
+Such a mix of Latin characters is not a convention in written Chinese in Hong Kong, except in certain compromises (such as the case of “Pokémon” mentioned above).
 
-## 信達雅的不可能三角
-有一種把上述論點都考慮進去的妥協解法，就是在創造新的音譯時盡量找一些在不同的方言[^1]發音都相似的字（除非跟以往的約定俗成、「習非成是」差太遠）。只是這樣一來翻譯人員要考慮的問題就多了很多：
+## The impossible triangle of faithfulness, expressiveness, and elegance
+One compromise solution that takes all the above arguments into account, is to try to find characters that sound similar in various Chinese dialects[^1] when creating new transliterations (unless they deviate too much from established conventions or “accustomed to mistakes”). However, this adds many more issues for translators to consider:
 
-- 信：有否準確表達原文發音？
-- 達：有否準確表達原文意境？
-- 雅：組合出來的譯名會不會（在某些方言中）顯得不文？
+- Faithfulness: Does it accurately convey the pronunciation of the original text?
+- Expressiveness: Does it accurately convey the meaning and artistic conception of the original text?
+- Elegance: Will the combined translation sound unrefined (in some dialects)?
 
-[^1]: 在純粹的語言學上，「語言」和「方言」的區分原則很簡單：能互相聽懂的就是「方言」；不能互相聽懂的就是「語言」。有時候「語言」和「方言」之間的界限不總是很清晰。在我的部落格中，我未必會嚴格區分「語言」和「方言」的用法，單純看哪個比較順口就用哪個。
+[^1]: In pure linguistics, the distinction between “languages” and “dialects” is simple: what can be mutually understood is a “dialect”; what cannot be mutually understood is a “language”. However, the boundary between “language” and “dialect” is not always clear. In my blog, I may not strictly distinguish between the usage of “language” and “dialect”, simply using whichever sounds more natural to me at the moment.

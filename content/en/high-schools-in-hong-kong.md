@@ -11,18 +11,18 @@ categories:
 > [!WARNING] Notice
 > This post is a draft translation from [the Chinese version](/blog/zh/high-schools-in-hong-kong/) which have not yet been thoroughly proofread.
 
-最近「Wiwi 部落格宇宙」出現了好幾篇討論台灣的高職的文章：
+Recently, several articles discussing vocational high schools (高職) in Taiwan have appeared on “Wiwi Blog Universe”:
 
 - Eo《[後悔讀高職](https://eoiiio.bearblog.dev/7091/)》
 - JN《[讀高職是我一點都不後悔的事情](https://blog.giveanornot.com/vocational-high-school/)》
 - ikuka《[讀高職不代表我成績差](https://blog.ikukaroom.com/vocational-high-school/)》
 - 黃碩人《[高職 FAQ](https://shuojen.com/blog/2026/05/20/highschool)》
 
-讓我也來講講香港的教育制度是長怎麼樣的。
+Let me also tell you about Hong Kong’s education system.
 
-在香港，主流高中都是可以選科系的。選好科系之後，除了中英數通（或者說後來的公社科）以及兩到三個選修科目之外，沒有選到的科目以後就真的再也不用碰了。所以我也就真的完全不用考慮上到高中之後原本不太擅長的文科類科目該怎麼辦。
+In Hong Kong, most mainstream secondary schools allow students to choose their elective subjects for their senior secondary education. After choosing your subjects, you don’t need to ever touch the subjects you didn’t choose again, besides Chinese, English, Mathematics, and Liberal Studies  (or later “Citizenship and Social Development”) and two or three elective subjects. So I really didn’t have to worry about what to do with the humanities subjects that I wasn’t good at in my junior secondary.
 
-……除非，你成績的缺口出在中英數通上面。我自己的狀況是數學不錯，英文還好，中文和通識墊底，但數學和各種理科類選修科的成績也不算是特別標青（DSE 沒考上帶星的等級），屬於比較罕見的類型，在香港教育系統內不是很能找到我的位置[^1]。於是我在 DSE 中文被當之後，被迫跟無數英語被當的人一起修讀英語進修課程和高級文憑課程，哪怕我原本的英語程度不是太差[^2]，是多麼的荒謬。
+... Unless the gap in your grades lies in your core subjects. My own situation is that I’m quite good at maths, okay at English, and Chinese and Liberal Studies are the worst, and my grades in maths and various science electives aren’t particularly outstanding either (didn’t get those “star grades” in DSE), which is quite a rare type, and can’t find a place within the Hong Kong education system[^1]. So after failing Chinese in DSE, I was forced to take English continuing education courses and higher diploma programmes with countless others who failed English instead, even though my original English proficiency wasn’t too bad[^2], which is quite absurd.
 
-[^1]: 如果數理科目成績有星的話，那麼即使中文被當，也可以試着尋求大學破格取錄的機會。<span class="hovers-blur">另外香港並不存在「奧數保送大學」這條路，要不然我早就很有可能被試着推上這條路。</span>
-[^2]: <span class="hovers-blur">IVE 同學的平均英語程度和我的中學同學相比，簡直是無底深潭。</span>
+[^1]: If I had a star grade in maths and science subjects, then even if I fail Chinese, you can still try to seek admission to a university through special consideration. <span class="hovers-blur">Furthermore, there is no such thing as “admission to university through Mathematical Olympiad” in Hong Kong; otherwise, I would very likely have been pushed onto that path long ago.</span>
+[^2]: <span class="hovers-blur">Compared to my secondary classmates, the average English proficiency of IVE students is like a bottomless pit.</span>
