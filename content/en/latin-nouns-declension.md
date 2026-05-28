@@ -1,6 +1,5 @@
 ---
-date: "2026-04-24T19:01:00+00:00"
-draft: true
+date: "2026-05-28T19:00:00+00:00"
 type: "post"
 title: "Latin Nouns Declension"
 description: ""

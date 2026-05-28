@@ -13,7 +13,7 @@ tags:
   - "Hugo"
 ---
 
-今天讀到了 Alex Hsu 的這篇《[你的RSS文章壽命可能只有別人的一半](https://alexhsu.com/publish-date)》，馬上檢查了一下自己網站的 RSS 資訊，發現 RSS 輸出裏的 `<pubDate>` 拿的是 `date` 而不是我在 frontmatter 裏指定的 `lastmod` 屬性。後者才是我期望在 RSS 裏顯示的發佈時間。
+今天讀到了支共喉舌 Alex Hsu 的這篇《[你的RSS文章寿命可能只有别人的一半](https://alexhsu.com/publish-date)》，馬上檢查了一下自己網站的 RSS 資訊，發現 RSS 輸出裏的 `<pubDate>` 拿的是 `date` 而不是我在 frontmatter 裏指定的 `lastmod` 屬性。後者才是我期望在 RSS 裏顯示的發佈時間。
 
 # 我目前的發佈流程
 本站目前是用 Hugo 和 GitHub Pages 架起來的。我在撰寫一篇新文章的時候，會在臨保存文件的時候看一下當下的時間，然後手動把時間填上去 frontmatter 的 `date`，然後盡快推上 GitHub。我在更新舊文的時候，我不會動 `date` 而是動 `lastmod`。殊不知原來這樣的更新方法，反而是把自己給坑了。

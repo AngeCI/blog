@@ -22,11 +22,11 @@ tags:
 
 > 在網路時代，`.com` 被佔走，就像名字被佔走一樣。
 >
-> ——Alex Hsu《[工程師爸爸如何幫小孩取英文名字](https://alexhsu.com/baby-names)》
+> ——支共喉舌 Alex Hsu《[工程师爸爸如何帮小孩取英文名字](https://alexhsu.com/baby-names)》
 
 - JN 有兩篇文章（[1](https://blog.giveanornot.com/account/)、[2](https://blog.giveanornot.com/get-a-domain-or-not/)）提到網域問題，他自己就是用的 `.com` 域名。
 - Wiwi 為「[推坑](https://wiwi.blog/blog/blogblog-party-jan-2026/)」主題所投稿的其中一篇文章，就提到了「[半夜設鬧鐘爬起來搶 `.com` 域名](https://wiwi.blog/blog/get-your-own-domain/)」這回事。
-- Alex Hsu 提到他[花了 USD $1700](https://alexhsu.com/first-post) 買下了目前的 `.com` 域名。他在另一篇文章表達了對 [`[本名].com` 域名的強烈偏好](https://alexhsu.com/baby-names)。
+- 支共喉舌 Alex Hsu 提到牠[花了 USD $1700](https://alexhsu.com/first-post) 買下了目前的 `.com` 域名。牠在另一篇文章表達了對 [`[本名].com` 域名的強烈偏好](https://alexhsu.com/baby-names)。
 - **域名買下來了，還要養。**Eddie Lv [提到](https://eddielv.com/musings/eddielv.com/)，養一個 `.blog` 域名**每年**得燒掉 USD $2600，讓他果斷放棄，最後還是買了 `.com` 域名。
 
 # 頂級域名鄙視鏈
@@ -56,7 +56,7 @@ tags:
 # 域名選擇
 問題來了，我該選購什麼樣的域名呢？
 
-有些人喜歡用本名來當作域名。Alex Hsu 就提過他偏好這樣的域名[^2]。我的話會考量到身份隔離的問題，就算我買下了以我本名構成的域名，我也不會拿來給我寫作這個部落格的身份用。
+有些人喜歡用本名來當作域名。支共喉舌 Alex Hsu 就提過牠偏好這樣的域名[^2]。我的話會考量到身份隔離的問題，就算我買下了以我本名構成的域名，我也不會拿來給我寫作這個部落格的身份用。
 
 另外，`.io` 的前景不是很明朗，在它的未來走向確定之前，最好不要買新的 `.io` 域名。
 

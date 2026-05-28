@@ -18,56 +18,56 @@ I actually already know about this alphabet back in December 2023, via [this vid
 - Consonants come as voiced-unvoiced pairs. Unvoiced consonants are “tall letters”, which extend above the height of other letters. Voiced consonants are “deep letters”, which extend below the baseline. The corresponding voiced and unvoiced consonant letters are the mirror image of each other. Sibilants are short letters like vowels, except /ŋ/ and /h/.
 
 # Letters
-| Letter | Sound | Name (Latin) | Name (Shavian) | Classification |
-| -- | -- | -- | -- | -- |
-| 𐑐 | /p/ | peep | 𐑐𐑰𐑐 | tall |
-| 𐑚 | /b/ | bib | 𐑚𐑦𐑚 | deep |
-| 𐑑 | /t/ | tot | 𐑑𐑪𐑑 | tall |
-| 𐑛 | /d/ | dead | 𐑛𐑧𐑛 | deep |
-| 𐑒 | /k/ | kick | 𐑒𐑦𐑒 | tall |
-| 𐑜 | /g/ | gag | 𐑜𐑨𐑜 | deep |
-| 𐑓 | /f/ | fee | 𐑓𐑰 | tall |
-| 𐑝 | /v/ | vow | 𐑝𐑬 | deep |
-| 𐑔 | /θ/ | thigh | 𐑔𐑲 | tall |
-| 𐑞 | /ð/ | they | 𐑞𐑱 | deep |
-| 𐑕 | /s/ | so | 𐑕𐑴 | tall |
-| 𐑟 | /z/ | zoo | 𐑟𐑵 | deep |
-| 𐑖 | /ʃ/ | sure | 𐑖𐑫𐑼 | tall |
-| 𐑠 | /ʒ/ | measure | 𐑥𐑧𐑠𐑼 | deep |
-| 𐑗 | /tʃ/ | church | 𐑗𐑻𐑗 | tall |
-| 𐑡 | /dʒ/ | judge | 𐑡𐑳𐑡 | deep |
-| 𐑘 | /j/ | yea | 𐑘𐑱 | tall |
-| 𐑢 | /w/ | woe | 𐑢𐑴 | deep |
-| 𐑙 | /ŋ/ | hung | 𐑣𐑳𐑙 | tall |
-| 𐑣 | /h/ | ha-ha | 𐑣𐑭-𐑣𐑭 | deep |
-| 𐑤 | /l/ | loll | 𐑤𐑪𐑤 | short |
-| 𐑮 | /r/ | roar | 𐑮𐑹 | short |
-| 𐑥 | /m/ | mime | 𐑥𐑲𐑥 | short |
-| 𐑯 | /n/ | nun | 𐑯𐑳𐑯 | short |
-| 𐑦 | /ɪ/~/i/ | if | 𐑦𐑓 | short |
-| 𐑰 | /iː/ | eat | 𐑰𐑑 | short |
-| 𐑧 | /ɛ/ | egg | 𐑧𐑜 | short |
-| 𐑱 | /eɪ/ | age | 𐑱𐑡 | short |
-| 𐑨 | /æ/ | ash | 𐑨𐑖 | short |
-| 𐑲 | /aɪ/ | ice | 𐑲𐑕 | short |
-| 𐑩 | /ə/ | ado | 𐑩𐑛𐑵 | short |
-| 𐑳 | /ʌ/ | up | 𐑳𐑐 | short |
-| 𐑪 | /ɒ/ | on | 𐑪𐑯 | short |
-| 𐑴 | /əʊ/ | oak | 𐑴𐑒 | short |
-| 𐑫 | /ʊ/~/u/ | wool | 𐑢𐑫𐑤 | short |
-| 𐑵 | /uː/ | ooze | 𐑵𐑟 | short |
-| 𐑬 | /aʊ/ | out | 𐑬𐑑 | short |
-| 𐑶 | /ɔɪ/ | oil | 𐑶𐑤 | short |
-| 𐑭 | /ɑː/ | ah | 𐑭 | short |
-| 𐑷 | /ɔː/ | awe | 𐑷 | short |
-| 𐑸 | /ɑː(r)/ | are | 𐑸 | ligature |
-| 𐑹 | /ɔː(r)/ | ore | 𐑹 | ligature |
-| 𐑺 | /ɛə(r)/ | air | 𐑺 | ligature |
-| 𐑻 | /ɜː(r)/ | err | 𐑻 | ligature |
-| 𐑼 | /ə(r)/ | array | 𐑼𐑱 | ligature |
-| 𐑽 | /ɪə(r)/ | ear | 𐑽 | ligature |
-| 𐑾 | /ɪə/ | Ian | ·𐑾𐑯 | ligature |
-| 𐑿 | /juː/ | yew | 𐑿 | ligature |
+| Letter | Traditional IPA | Modern IPA | Name (Latin) | Name (Shavian) | Classification |
+| -- | -- | -- | -- | -- | -- |
+| 𐑐 | /p/ | /pʰ/ | peep | 𐑐𐑰𐑐 | tall |
+| 𐑚 | /b/ | /p/ ~ /b/ | bib | 𐑚𐑦𐑚 | deep |
+| 𐑑 | /t/ | /tʰ/ | tot | 𐑑𐑪𐑑 | tall |
+| 𐑛 | /d/ | /t/ ~ /d/ | dead | 𐑛𐑧𐑛 | deep |
+| 𐑒 | /k/ | /kʰ/ | kick | 𐑒𐑦𐑒 | tall |
+| 𐑜 | /g/ | /k/ ~ /g/ |  gag | 𐑜𐑨𐑜 | deep |
+| 𐑓 | /f/ | /f/ | fee | 𐑓𐑰 | tall |
+| 𐑝 | /v/ | /f/ ~ /v/ | vow | 𐑝𐑬 | deep |
+| 𐑔 | /θ/ | /θ/ | thigh | 𐑔𐑲 | tall |
+| 𐑞 | /ð/ | /θ/ ~ /ð/ | they | 𐑞𐑱 | deep |
+| 𐑕 | /s/ | /s/ | so | 𐑕𐑴 | tall |
+| 𐑟 | /z/ | /s/ ~ /z/ | zoo | 𐑟𐑵 | deep |
+| 𐑖 | /ʃ/ | /ʃ/ | sure | 𐑖𐑫𐑼 | tall |
+| 𐑠 | /ʒ/ | /ʃ/ ~ /ʒ/ | measure | 𐑥𐑧𐑠𐑼 | deep |
+| 𐑗 | /tʃ/ | /tʃʰ/ | church | 𐑗𐑻𐑗 | tall |
+| 𐑡 | /dʒ/ | /tʃ/ ~ /dʒ/ | judge | 𐑡𐑳𐑡 | deep |
+| 𐑘 | /j/ | /j/ | yea | 𐑘𐑱 | tall |
+| 𐑢 | /w/ | /w/ | woe | 𐑢𐑴 | deep |
+| 𐑙 | /ŋ/ | /ŋ/ | hung | 𐑣𐑳𐑙 | tall |
+| 𐑣 | /h/ | /h/ | ha-ha | 𐑣𐑭-𐑣𐑭 | deep |
+| 𐑤 | /l/ | /l/ | loll | 𐑤𐑪𐑤 | short |
+| 𐑮 | /r/ | /r/ | roar | 𐑮𐑹 | short |
+| 𐑥 | /m/ | /m/ | mime | 𐑥𐑲𐑥 | short |
+| 𐑯 | /n/ | /n/ | nun | 𐑯𐑳𐑯 | short |
+| 𐑦 | /ɪ/~/i/ | /ɪ/, /ɪj/ | if | 𐑦𐑓 | short |
+| 𐑰 | /iː/ | /ɪj/ | eat | 𐑰𐑑 | short |
+| 𐑧 | /ɛ/ | /ɛ/ | egg | 𐑧𐑜 | short |
+| 𐑱 | /eɪ/ | /eɪ/ | age | 𐑱𐑡 | short |
+| 𐑨 | /æ/ | /a/ | ash | 𐑨𐑖 | short |
+| 𐑲 | /aɪ/ | /aj/ | ice | 𐑲𐑕 | short |
+| 𐑩 | /ə/ | /ə/ | ado | 𐑩𐑛𐑵 | short |
+| 𐑳 | /ʌ/ | /ɐ/ | up | 𐑳𐑐 | short |
+| 𐑪 | /ɒ/ | /ɔ/ | on | 𐑪𐑯 | short |
+| 𐑴 | /əʊ/ | /əw/ | oak | 𐑴𐑒 | short |
+| 𐑫 | /ʊ/~/u/ | /ɵ/ | wool | 𐑢𐑫𐑤 | short |
+| 𐑵 | /uː/ | /ʉw/ | ooze | 𐑵𐑟 | short |
+| 𐑬 | /aʊ/ | /aw/ | out | 𐑬𐑑 | short |
+| 𐑶 | /ɔɪ/ | /oi/ | oil | 𐑶𐑤 | short |
+| 𐑭 | /ɑː/ | /ɑː/ | ah | 𐑭 | short |
+| 𐑷 | /ɔː/ | /oː/ | awe | 𐑷 | short |
+| 𐑸 | /ɑː(r)/ | /ɑː(r)/ | are | 𐑸 | ligature |
+| 𐑹 | /ɔː(r)/ | /oː(r)/ | ore | 𐑹 | ligature |
+| 𐑺 | /ɛə(r)/ | /ɛː(r)/ | air | 𐑺 | ligature |
+| 𐑻 | /ɜː(r)/ | /əː(r)/ | err | 𐑻 | ligature |
+| 𐑼 | /ə(r)/ | /ə(r)/ | array | 𐑼𐑱 | ligature |
+| 𐑽 | /ɪə(r)/ | /ɪː(r)/ | ear | 𐑽 | ligature |
+| 𐑾 | /ɪə/ | /ɪjə/ | Ian | ·𐑾𐑯 | ligature |
+| 𐑿 | /juː/ | /jʉw/ | yew | 𐑿 | ligature |
 
 According to [Shavian Alphabet Info](https://shavian.info/alphabet/), the Shavian letter ordering is actually a bit different from the ordering used in Unicode, possibly due to misinterpretation of the letter ordering spec by Unicode.
 

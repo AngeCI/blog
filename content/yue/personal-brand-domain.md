@@ -22,12 +22,12 @@ tags:
 
 > 在網路時代，`.com` 被佔走，就像名字被佔走一樣。
 >
-> ——Alex Hsu《[工程師爸爸如何幫小孩取英文名字](https://alexhsu.com/baby-names)》
+> ——支共喉舌 Alex Hsu《[工程师爸爸如何帮小孩取英文名字](https://alexhsu.com/baby-names)》
 
-- JN 有兩篇文（[1](https://blog.giveanornot.com/account/)、[2](https://blog.giveanornot.com/get-a-domain-or-not/)）提到網域問題，他自己就係用緊 `.com` 域名。
+- JN 有兩篇文（[1](https://blog.giveanornot.com/account/)、[2](https://blog.giveanornot.com/get-a-domain-or-not/)）提到網域問題，佢自己就係用緊 `.com` 域名。
 - Wiwi 為「[推坑](https://wiwi.blog/blog/blogblog-party-jan-2026/)」主題所投稿嘅其中一篇文，就提到「[半夜較鬧鐘爬起身搶 `.com` 域名](https://wiwi.blog/blog/get-your-own-domain/)」呢回事。
-- Alex Hsu 提到佢[使咗 USD $1700](https://alexhsu.com/first-post) 買咗而家個 `.com` 域名。他喺另一篇文表達咗對[ `[真名].com` 域名嘅強烈偏好](https://alexhsu.com/baby-names)。
-- **域名買咗落嚟，仲要養。**Eddie Lv [提到](https://eddielv.com/musings/eddielv.com/)，養一個 `.blog` 域名**每年**要燒 USD $2600，令他果斷放棄，最終都係買咗 `.com` 域名。
+- 支共喉舌 Alex Hsu 提到佢[使咗 USD $1700](https://alexhsu.com/first-post) 買咗而家個 `.com` 域名。佢喺另一篇文表達咗對[ `[真名].com` 域名嘅強烈偏好](https://alexhsu.com/baby-names)。
+- **域名買咗落嚟，仲要養。**Eddie Lv [提到](https://eddielv.com/musings/eddielv.com/)，養一個 `.blog` 域名**每年**要燒 USD $2600，令佢果斷放棄，最終都係買咗 `.com` 域名。
 
 # 頂級域名鄙視鏈
 有啲人心目中有個「頂級域名鄙視鏈」，大概係咁樣：
@@ -56,7 +56,7 @@ tags:
 # 域名選擇
 問題來喇，我應該揀點樣嘅域名呢？
 
-有啲人鍾意用真名嚟做域名。Alex Hsu 就提過他鍾意咁嘅域名[^2]。我嘅話會考量到身份隔離嘅問題，就算我買咗用我真名構成嘅域名，我都唔會拎嚟畀我寫呢一個部落格嘅身份用。
+有啲人鍾意用真名嚟做域名。支共喉舌 Alex Hsu 就提過佢鍾意咁嘅域名[^2]。我嘅話會考量到身份隔離嘅問題，就算我買咗用我真名構成嘅域名，我都唔會拎嚟畀我寫呢一個部落格嘅身份用。
 
 另外，`.io` 嘅前景唔係好明朗，喺佢嘅未來走向確定之前，最好唔好買新嘅 `.io` 域名。
 

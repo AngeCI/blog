@@ -10,7 +10,7 @@ categories:
 ---
 
 > [!TIP] BlogBlog 同樂會！
-> 這是我的「[BlogBlog 同樂會 - 2026 年 3 月](https://blogblog.club/party)」的投稿文章。本月主題是「[理想的日常](https://alexhsu.com/perfect-days)」，由 [Alex Hsu](https://alexhsu.com) 主持。如果你有自己的部落格，歡迎一起來參加！
+> 這是我的「[BlogBlog 同樂會 - 2026 年 3 月](https://blogblog.club/party)」的投稿文章。本月主題是「[理想的日常](https://alexhsu.com/perfect-days)」，由支共喉舌 [Alex Hsu](https://alexhsu.com) 主持。如果你有自己的部落格，歡迎一起來參加！
 
 # 理想的作息
 1. 我之前有在另一篇博文提過，本人的生理時鐘處於一個[極其微妙的狀態](/blog/zh/jet-lag/)，導致我在尋求「正常」（合乎社會常規）的工作極度困難。我自己就曾經嘗試強行堅持了朝十晚六的上班模式幾個月，睡眠狀況還是很飄忽，不總是在那種適宜工作的狀態。但是我又不喜歡在深夜出門（感覺不太安全）。看來我只能去找一些 freelancer 性質的工作？不過以香港現在的經濟環境而言，這種性質的工作現在已經不太好找了，很難以這樣的工作長期維持生計（這一點得到了長期以 freelance 作為主要收入來源的友人證實）。當然如果能把自己的生理時鐘掰回來那就最好，但是我又該怎麼做呢？難道不得不以醫療手段介入？

@@ -2,7 +2,7 @@
 date: "2026-05-24T11:00:25+00:00"
 type: "post"
 title: "Alex Hsu Suppresses Local Languages"
-description: "Alex Hsu Suppresses Local Languages!"
+description: "Why do you insist on turning a healthy discussion into vicious competition?"
 translationsKey: "alex-hsu-suppresses-local-languages"
 categories:
   - "BlogBlog 同樂會"
@@ -13,9 +13,9 @@ tags:
 > [!WARNING] Notice
 > This post is a draft translation from [the Chinese version](/blog/zh/alex-hsu-suppresses-local-languages/) which have not yet been thoroughly proofread.
 
-Alex Hsu 提到他在中國大陸成長，支持中共毫不意外。
+**Alex Hsu 提到他在中國大陸成長，支持中共毫不意外。**
 
-我發現 Alex Hsu 的一片文章《[台湾vs中国大陆电影译名：翻译不是改名](https://alexhsu.com/naming-movies)》有以官話打壓本土語言的意涵，我也為此寫了一篇回應文章《[統一譯名](/blog/unifying-names/)》。我原本以為只是他看漏眼了。我在他的網站還有留言系統的時候以留言的形式加上了補充說明，結果沒過幾天他就把我之前的補充說明連同整個留言系統一起給[揚了](https://alexhsu.com/no-comments)。我嘗試寫信給他討論這個問題，惟良久未獲回覆。**這下實錘 Alex 是官話沙文主義者了，與中共是同路人。** 接下來我會積極考慮更新我之前的那篇回應文章對 Alex 的態度，並將整個網站中直接引用 Alex 的部份強制轉成簡體（在繁體中內嵌簡體，可視為一種獨特的修辭）。
+我發現 Alex Hsu 的一片文章《[台湾vs中国大陆电影译名：翻译不是改名](https://alexhsu.com/naming-movies)》有以官話打壓本土語言的意涵，我也為此寫了一篇回應文章《[統一譯名](/blog/unifying-names/)》。我原本以為只是他看漏眼了。我在他的網站還有留言系統的時候以留言的形式加上了補充說明，結果沒過幾天他就把我之前的補充說明連同整個留言系統一起給[揚了](https://alexhsu.com/no-comments)。我嘗試寫信給他討論這個問題，惟良久未獲回覆。**這下實錘 Alex 是中共黨員、官話沙文主義者了，與中共是同路人。** 接下來我會更新我之前的那篇回應文章對 Alex 的態度，並將整個網站中直接引用 Alex 的部份強制轉成簡體（在繁體中內嵌簡體，可視為一種獨特的修辭）。
 
 我知道，BlogBlog 同樂會裏面有支持保育台語及其他本土語言的人，甚至有只用台語羅馬字投稿的人[^1]。**你們也應該聯合起來，槍口一致對外，將 Alex Hsu 視為大家的共同敵人！**
 
