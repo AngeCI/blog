@@ -1,5 +1,6 @@
 ---
 date: "2026-05-12T18:14:54+00:00"
+lastmod: "2026-05-28T20:28:10+00:00"
 type: "post"
 title: "Unifying Names"
 description: ""
@@ -28,6 +29,8 @@ Perhaps we should leave the previously established (or “accustomed to mistakes
 > ——Alex Hsu《[How Taiwan and China rename English movies (and why it's a mess)](https://alexhsu.com/en/naming-movies#studios-should-unify-translations)》
 
 Pokémon is an example of an attempt to clean up the shit mountains. **Alex’s remarks actually overlooked a very important aspect.** When Pokémon (and other Nintendo products) were unifying their transliterations, they often tilted at Mandarin pronunciations, leading to accusations of “belittling Cantonese and substituting Mandarin for Cantonese”, which caused a stir in Hong Kong at the time. If you were to say something like that in a Hong Kong community, you’d very likely get a lot of flak. If I had a less favourable impression of Alex, I could immediately launch into a tirade, accusing him of being a Mandarin chauvinist (I really could do that), willing to sacrifice the rationality of local dialect[^1] pronunciation and completely deny the value of local dialects in order to achieve his grand unification ideal.
+
+寶可夢就是一個嘗試清理屎山的例子。**Alex 的這番言論其實故意忽略了一個非常重要的面向。** 寶可夢（以及其他任天堂旗下產品）在制定統一譯名的音譯時往往以官話發音為主，導致其被指責「矮化粵語、以普代粵」，當時在香港炎上過一陣子。你這番言論要是挪到香港人的圈子裏頭講，有很高機率會被罵死。因此我立馬就可以開罵攻擊 Alex，罵牠是支持官話霸權、罵牠是官話沙文主義者、罵牠是支共喉舌，會為了完成牠的大一統理念，而不惜犧牲地方語言[^1]發音的合理性，並全盤否定地方語言的存在價值，與支共實乃同一陣線。**誰採信牠的言論，誰就是匪諜，應該徹底剷除。**
 
 > - 妈的，你是不是中国人，[是中国人就该讲普通话](/blog/promote-chinese-culture/)，别唧唧歪歪讲什么鸟语！
 > - 不说普通话的是不是辱华废青啊？
