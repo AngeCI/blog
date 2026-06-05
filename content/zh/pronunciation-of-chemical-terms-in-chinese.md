@@ -1,5 +1,6 @@
 ---
 date: "2026-05-25T14:49:50+00:00"
+lastmod: "2026-06-05T14:11:19+00:00"
 type: "post"
 title: "化學用字漢語讀音"
 description: ""
@@ -58,7 +59,7 @@ tags:
 | 30 | Zn | Zinc | 鋅 | ㄒㄧㄣ | xīn | san1 辛、sing1 星 | sin | sîn | 台語又稱{{< ruby 亞鉛 a-iân >}}。 |
 | 31 | Ga | Gallium | 鎵 | ㄐㄧㄚ | jiā | gaa1 家 | ka | kâ |  |
 | 32 | Ge | Germanium | 鍺 | ㄓㄜˇ | zhě | ze2 者 | tsiá | chá |  |
-| 33 | As | Arsenic | 砷 | ㄕㄣ | shēn | san1 申 | sin | sṳ̂n |  |
+| 33 | As | Arsenic | 砷 | ㄕㄣ | shēn | san1 申 | sin | sṳ̂n | 台語又稱{{< ruby 砒素 phi-sòo >}}。 |
 | 34 | Se | Selenium | 硒 | ㄒㄧ | xī | sai1 西 | se | sî |  |
 | 35 | Br | Bromine | 溴 | ㄒㄧㄡˋ | xiù | cau3 臭 | tshàu, hiù | chhiu |  |
 | 36 | Kr | Krypton | 氪 | ㄎㄜˋ | kè | hak1 克 | khik | khet |  |
@@ -105,15 +106,15 @@ tags:
 | 75 | Re | Rhenium | 錸 | ㄌㄞˊ | lái | loi4 來 | lâi | lòi |  |
 | 76 | Os | Osmium | 鋨 | ㄜˊ | é | ngo4 俄 | ngôo | ngò |  |
 | 77 | Ir | Iridium | 銥 | ㄧ | yī | ji1 衣 | i | yî |  |
-| 78 | Pt | Platinum | 鉑 | ㄅㄛˊ | bó | bok6 薄、paak3 帕 | po̍k | pa̍k |  |
+| 78 | Pt | Platinum | 鉑 | ㄅㄛˊ | bó | bok6 薄、paak3 帕 | po̍k | pha̍k | 又稱白金。 |
 | 79 | Au | Gold | 金 | ㄐㄧㄣ | jīn | gam1 甘 | kim | kîm |  |
-| 80 | Hg | Mercury | 汞 | ㄍㄨㄥˇ | gǒng | hung6, hung3 控 | hóng, kòng | fúng, kúng |  |
+| 80 | Hg | Mercury | 汞 | ㄍㄨㄥˇ | gǒng | hung6, hung3 控 | hóng, kòng | fúng, kúng | 又稱水銀。 |
 | 81 | Tl | Thallium | 鉈 | ㄊㄚ | tā | taa1 它 | tha | thâ | 非讀若「陀」。 |
 | 82 | Pb | Lead | 鉛 | ㄑㄧㄢ | qiān | jyun4 沿 | iân | yèn |  |
 | 83 | Bi | Bismuth | 鉍 | ㄅㄧˋ | bì | bei3 祕、bit1 必 | pì, pit | pi, pit |  |
 | 84 | Po | Polonium | 釙 | ㄆㄛ | pō | pok3 朴 | phok | phok |  |
-| 85 | At | Astatine | 砈（台） | ㄜˋ | è | aak1 厄、ngo5 我 |  |  |  |
-| 85 | At | Astatine | 砹（陸） | ㄞˋ | ài | ngaai6 艾 |  | ngie, ngioi |  |
+| 85 | At | Astatine | 砈（台） | ㄜˋ | è | aak1 厄、ngo5 我 | ik | ak |  |
+| 85 | At | Astatine | 砹（陸） | ㄞˋ | ài | ngaai6 艾 | ngāi | ngie, ngioi |  |
 | 86 | Rn | Radon | 氡 | ㄉㄨㄥ | dōng | dung1 冬 | tong | tûng |  |
 | 87 | Fr | Francium | 鍅（台） | ㄈㄚˇ | fǎ | faat3 法 | huat | fat |  |
 | 87 | Fr | Francium | 鈁（陸） | ㄈㄤ | fāng | fong1 方 | hong | fông |  |
@@ -158,7 +159,7 @@ tags:
 # 有機化學
 | 英語 | 漢字 | 官話（注音） | 官話（拼音） | 粵語 | 閩南語 | 客家話 | 備註 |
 | -- | -- | -- | -- | -- | -- | -- | -- |
-| alkane | 烷 | ㄨㄢˊ | wán | jyun4 完, jyun2 宛 | uân | yèn |  |
+| alkane | 烷 | ㄨㄢˊ | wán | jyun4 完, jyun2 宛 | uân | vàn, yèn |  |
 | alkene | 烯 | ㄒㄧ | xī | hei1 稀 | hi | hî |  |
 | alkyne | 炔 | ㄑㄩㄝ | quē | kyut3 缺 | khuat | khiet |  |
 | alcohol | 醇 | ㄔㄨㄣˊ | chún | seon4 純 | sûn | sùn |  |
@@ -173,17 +174,25 @@ tags:
 | acidic anhydride | 酐 | ㄍㄢ | gān | gon1 干 | kan | kôn |  |
 | amine | 胺 | ㄢ（台）<br>ㄢˋ（陸） | ān（台）<br>àn（陸） | on1 安、on3 按 | an | ôn |  |
 | hydrazine | 肼 | ㄐㄧㄥˇ | jǐng | zeng2 井 | tsíng | chiáng |  |
-| nitrile | 腈 | ㄐㄧㄥ | jīng | zing1 晶、cing1 青 |  |  |  |
-| phosphine | 膦 | ㄌㄧㄣˋ | lìn | leon6 論、leon4 鱗 | lîn | lìn |  |
-| arsine | 胂 | ㄕㄣˋ | shèn | san6 腎 |  |  |  |
-| oxime | 肟 | ㄨㄛˋ | wò | ok3 噁 |  |  |  |
+| nitrile | 腈 | ㄐㄧㄥ | jīng | zing1 晶、cing1 青 | tsing | chîn, chiâng |  |
+| phosphine | 膦 | ㄌㄧㄣˊ（台）<br>ㄌㄧㄣˋ（陸） | lín（台）<br>lìn（陸） | leon4 鱗、leon6 論 | lîn, līn | lìn, lin |  |
+| arsine | 胂 | ㄕㄣ（台）<br>ㄕㄣˋ（陸） | shēn（台）<br>shèn（陸） | san1 申、san6 腎 | sin, sīn | sṳ̂n, sṳn |  |
+| oxime | 肟 | ㄨㄛˋ | wò | ok3 噁 | ok | ok |  |
 | sulphone, sulfone | 碸 | ㄈㄥ | fēng | fung1 風 | hong | fûng |  |
 | benzene | 苯 | ㄅㄣˇ | běn | bun2 本 | pún | pún |  |
-|  | 萘 | ㄋㄞˋ | nài | noi6 奈 | nāi | noi |  |
-|  | 菲 | ㄈㄟ | fēi | fei1 非 | hui | fî, fuî |  |
-|  | 蕃 | ㄈㄢˊ | fán | fan1 番 | huan | fân |  |
-|  | 苊 | ㄜˋ | è | aak1 厄 |  |  |  |
-|  | 茂 | ㄇㄠˋ | mào | mau6 | bōo |  |  |
+| benzyl group | 苄 | ㄅㄧㄢˋ | biàn | bin6 卞 | piān | phien |  |
+| naphthalene | 萘 | ㄋㄞˋ | nài | noi6 奈 | nài | noi |  |
+| anthracene | 蒽 | ㄣ | ēn | jan1 恩 | un, in | ên |  |
+| phenanthrene | 菲 | ㄈㄟ | fēi | fei1 非 | hui | fî, fuî |  |
+| phane | 蕃 | ㄈㄢ、ㄈㄢˊ | fān, fán | fan1 番 | huan | fân |  |
+| azulene | 薁 | ㄠˋ | ào | ou3 奧 | ò | au, o |  |
+| acenaphthylene | 苊 | ㄜˋ | è | aak1 厄 | ik | ak |  |
+| fluorene | 芴 | ㄨˋ | wù | mat6 勿 | bu̍t | vu̍t | 非讀若「笏」。 |
+| phenalene | 萉 | ㄈㄟˋ | fèi | fei4 肥 | huî | fì, fuì |  |
+| chrysene | 䓛 | ㄑㄩ | qū | wat1 屈、gwat1 骨 | khut | khiut |  |
+| pyrene | 芘 | ㄅㄧˇ | bǐ | bei2 比 | pí | pí |  |
+| coronene | 蒄 | ㄍㄨㄢ | guān | gun1 官 | kuan | kon | 非讀若「蔻」。 |
+| cyclopentadiene | 茂 | ㄇㄠˋ | mào | mau6 | bōo | meu |  |
 | hydrocarbon | 烴 | ㄊㄧㄥ | tīng | ting1 聽 | thing | thîn, thiâng | 碳氫切 |
 | carbonyl group | 羰 | ㄊㄤ | tāng | tong1 湯 | thong | thông | 碳氧切 |
 | hydroxy group | 羥 | ㄑㄧㄤˇ | qiǎng | koeng5 鏹 | khióng | khiông | 氫氧切 |
@@ -195,7 +204,7 @@ tags:
 | -- | -- | -- | -- | -- | -- | -- | -- |
 | ammonium | 銨 | ㄢ（台）<br>ㄢˇ（陸） | ān（台）<br>ǎn（陸） | on1 安 | an | ôn |  |
 | phosphonium | 鏻 | ㄌㄧㄣˊ | lín | leon4 鱗 | lîn | lìn |  |
-| arsonium | 鉮 | ㄕㄣˊ | shén |  |  |  |  |
+| arsonium | 鉮 | ㄕㄣˊ | shén |  | sin | sṳ̂n |  |
 | ammonia | 氨 | ㄢ | ān | on1 安 | an | ôn |  |
-| cyanide | 氰 | ㄑㄧㄥ（台）<br>ㄑㄧㄥˊ（陸） | qīng（台）<br>qíng（陸） | cing4 晴、cing1 青 |  |  |  |
+| cyanide | 氰 | ㄑㄧㄥ（台）<br>ㄑㄧㄥˊ（陸） | qīng（台）<br>qíng（陸） | cing1 青、cing4 晴 | tshing, tsîng | chhîn, chhiâng, chhìn, chhiàng |  |
 |  |  |  |  |  |  |  |  |

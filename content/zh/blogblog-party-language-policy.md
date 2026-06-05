@@ -11,22 +11,26 @@ tags:
   - "Language Policy 語言政策"
 ---
 
+本人在 2026 年 3 月就已經有主持 BlogBlog 同樂會的想法，當時好像是排在 [ikuka](https://ikukaroom.com) 後面，只是由於本人在 9 月份的現實工作稍忙，而調整到了現在的時間。
+
 # 主題：「語言政策」
 2026 年 10 月的主題是：「**語言政策**」！
 
-面對着本土語言衰落的境況（別以為是只有台灣是這樣，其實大陸甚至香港都有），大家覺得，在社會和家庭層面最理想的語言政策是什麼？大家「如果」打算組織家庭、生兒育女的話，打算對子女實行怎樣的語言政策？
-
-……
+# 選題靈感
+## 本土語言的發展和保存
+- **家庭及社會層面的語言政策**：面對着本土語言衰落的境況[^5]，大家覺得，在社會和家庭層面最理想的語言政策是什麼？大家「如果」打算組織家庭、生兒育女的話，打算對子女實行怎樣的語言政策？
+- **政府層面的語言政策**：假設你有能力從政府層面制定政策，你會給你的國民制定怎樣的語言政策？
+- 還是說，比起本土語言的保育，你更樂於[以強勢語言打壓及侮辱本土語言](/blog/zh/alex-hsu-suppresses-local-languages/)？
 
 # 參加方式
 1. 在自己的部落格上寫一篇跟「語言政策」有關的文章（可以的話，複製下方的文字放在文章開頭，但不強制）
     > [!NOTE] 在投稿文章開頭放這段文字（非強制）
     >
-    > 這是我的「[BlogBlog 同樂會 - 2026 年 10 月](https://blogblog.club/party)」的投稿文章。本月主題是「[語言政策](https://angeci.github.io/blog/zh/)」，由 [AngeCI](https://angeci.github.io/blog/zh/) 主持。如果你有自己的部落格，歡迎一起來參加！
+    > 這是我的「[BlogBlog 同樂會 - 2026 年 10 月](https://blogblog.club/party)」的投稿文章。本月主題是「[語言政策](https://angeci.github.io/blog/zh/blogblog-party-language-policy/)」，由 [AngeCI](https://angeci.github.io/blog/zh/) 主持。如果你有自己的部落格，歡迎一起來參加！
 
     如果你用 markdown 語法寫作，可以直接複製下行：
     ```md
-    > 這是我的「[BlogBlog 同樂會 - 2026 年 10 月](https://blogblog.club/party)」的投稿文章。本月主題是「[語言政策](https://angeci.github.io/blog/zh/)」，由 [AngeCI](https://angeci.github.io/blog/zh/) 主持。如果你有自己的部落格，歡迎一起來參加！
+    > 這是我的「[BlogBlog 同樂會 - 2026 年 10 月](https://blogblog.club/party)」的投稿文章。本月主題是「[語言政策](https://angeci.github.io/blog/zh/blogblog-party-language-policy/)」，由 [AngeCI](https://angeci.github.io/blog/zh/) 主持。如果你有自己的部落格，歡迎一起來參加！
     ```
 2. 把文章連結（不是全文喔）寄到我的信箱 angeci (at) ltgc.cc
 3. 信件主旨請寫「BlogBlog 同樂會：語言政策」
@@ -61,6 +65,7 @@ tags:
 
 1.
 
+[^5]: 別以為是只有台灣是這樣，其實大陸甚至香港都有。
 [^1]: 本人是香港人，我家也沒有祖籍是閩南或者潮汕的親戚，根本不會有環境可以讓我自然習得閩南語。我僅有的閩南語能力都是在我長大之後基於對外語的興趣才開始學習的。另外網絡上的閩南語的正字法狀況一團糟，讓 AI 看了都無所適從 ~~，所以也別指望我會嘗試透過機器翻譯服務理解台文了~~……
 [^2]: <span class="hovers-blur">對，我就是個比較急性子的人。我比較喜歡可以掌控一切的感覺，而不太喜歡無了期等待的[不確定性](https://wiwi.blog/blog/uncertainty-is-okay/)。</span>
 [^3]: <span class="hovers-blur">如果我長時間未有回覆閣下的郵件，而我又有將閣下的投稿更新到投稿列表中，那你大概率是幹了什麼齷齪事讓我選擇刻意延遲回覆了。</span>

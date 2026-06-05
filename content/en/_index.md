@@ -15,7 +15,8 @@ Not knowing what to write at the home page yet. May be filled later.
 If this is your first time visiting this site, here is a list of recommended readings:
 - **[Alex Hsu Suppresses Local Languages](/blog/alex-hsu-suppresses-local-languages/)（There’s a CCP spy inside BlogBlog Club!!!）**
 - [Middle Chinese Phonology](/blog/middle-chinese-phonology/) (The currently longest post on this site)
-- The “[BlogBlog Club](/blog/zh/categories/blogblog-%E5%90%8C%E6%A8%82%E6%9C%83/)” category
+- [Promote Chinese Culture](/blog/promote-chinese-culture/) (Open discussion)
+- The “[BlogBlog Club](/blog/categories/blogblog-%E5%90%8C%E6%A8%82%E6%9C%83/)” category
 
 Anyway, I can be contacted via the email address angeci (at) ltgc.cc. Sadly mails can’t be sent via this domain at the moment, so replies would be sent from another email address.
 

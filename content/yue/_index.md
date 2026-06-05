@@ -15,6 +15,7 @@ title: "首頁"
 如果閣下係第一次嚟到呢個網站，以下係本站嘅推薦閱讀清單：
 - **[Alex Hsu 打壓本土語言](/blog/yue/alex-hsu-suppresses-local-languages/)（BlogBlog 同樂會有匪諜！！！）**
 - [中古漢語音系](/blog/yue/middle-chinese-phonology/)（本站目前最長嘅文章）
+- [弘揚中華文化](/blog/yue/promote-chinese-culture/)（開放式討論）
 - 「[BlogBlog 同樂會](/blog/yue/categories/blogblog-%E5%90%8C%E6%A8%82%E6%9C%83/)」分類
 
 總之，讀者可以透過電郵 angeci (at) ltgc.cc 嚟搵我。不過呢個域名而家仲未出到電郵，所以回覆將會透過另一個電郵地址發送。

@@ -1,5 +1,5 @@
 ---
-date: "2026-05-28"
+date: "2026-06-01"
 draft: true
 type: "post"
 title: "拉丁語動詞變位"
@@ -16,7 +16,7 @@ tags:
 拉丁語的動詞變位由 4-5 個相互交織的維度共同決定：
 - 變位法（conjugation class）
 - 人稱及人數（person & number）：三種人稱各自有單數和複數，合共有六種組合。
-- 時–體（tense-aspect）
+- 時態–體貌（tense-aspect）：現在時、未完成時、將來時、完成時、過去完成時、將來完成時（present, imperfect, future, perfect, pluperfect, future perfect）。
 - 語態（voice）：主動與被動（active & passive）。
 - 語氣（mood）：直陳、虛擬與祈使（indicative, subjunctive & imperative）。
 
@@ -49,6 +49,8 @@ tags:
 
 請注意不是所有動詞的完成時詞幹和過去分詞詞幹都可以直接從現在詞幹（字典的第二條目）推出，雖然說「大多數」第一、第二和第四變位法的動詞都可以這麼推。
 
+變位法對於以前兩個詞幹構成的詞形影響比較大，後面的兩個詞幹以及與之相關的詞形可以不管變位法。
+
 ## 鼻音中綴現在時
 這類動詞的現在詞幹有一個鼻音中綴（一般拼成 n，在 b 或 p 前拼成 m），而完成詞幹則沒有這個鼻音中綴，並且詞根元音通常會變成長元音。
 
@@ -65,6 +67,10 @@ tags:
 | 假想詞根 | 現在時 | 完成時 | 過去分詞 |
 | -- | -- | -- | -- |
 | √gen- | gignō | genuī | genitum |
+| √sed- | \*sisdō &gt; sīdō | sīdī | \*sessum |
+| √b- | bibō | bibī | bibitum |
+| √s- | sesō &gt; serō | sēvī | satum |
+| re- + √d- | reddō | reddidī | redditum |
 
 # s- 完成時
 這類動詞的完成詞幹有一個 -s- 中綴。這個中綴會與前面緊鄰的輔音產生各種變化。
@@ -95,7 +101,15 @@ tags:
 | √pug- | pungō | pupugī | \*puctum &gt; !pūnctum |
 | √tag- | tangō | tetigī | \*tactum &gt; !tāctum |
 
-## -esc- 動詞
+## -sc- 動詞
+| 假想詞根 | 現在時 | 完成時 | 過去分詞 |
+| -- | -- | -- | -- |
+| √di- | discō | didicī |  |
+| ad- + √ol- | adolēscō | adolēvī | adultum |
+| √nō- | nōscō | nōvī | nōtum |
+| √pā- | pāscō | pāvī | pāstum |
+| √quiē- | quiēscō | quiēvī | quiētum |
+|  |  |  |  |
 
 # 第一、第二條目
 |  | 1st (ā-stem) | 2nd (ē-stem) | 3rd (ĕ-stem) | 3rd (ĭ-stem) | 4th (ī-stem) |
