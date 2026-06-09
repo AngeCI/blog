@@ -26,8 +26,8 @@ tags:
 - 有些字在用作化學用字時的讀音，與同形古字用作古義時的讀音未必相同。
 - 某部份字典查不到的讀音，是我本人的原創研究，從造字原則類推而來。
 
-# 元素
-| 序號 | 符號 | 英語 | 漢字 | 官話（注音） | 官話（拼音） | 粵語 | 閩南語 | 客家話 | 備註 |
+# Elements
+| Number | Symbol | English | Char | Mandarin (B) | Mandarin (P) | Cantonese | Hokkien | Hakka | Remarks |
 | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
 | 1 | H | Hydrogen | 氫 | ㄑㄧㄥ | qīng | hing1 輕 | khing | (k)hîn, khiâng | 台語又稱{{< ruby 水素 tsuí-sòo >}}。 |
 | 2 | He | Helium | 氦 | ㄏㄞˋ | hài | hoi6 亥 | hāi | hoi |  |
@@ -72,7 +72,7 @@ tags:
 | 40 | Zr | Zirconium | 鋯 | ㄍㄠˋ | gào | gou3 告 | kò | kau, ko |  |
 | 41 | Nb | Niobium | 鈮 | ㄋㄧˊ | ní | nei4 尼、nei6 膩 | nî | nì |  |
 | 42 | Mo | Molybdenum | 鉬 | ㄇㄨˋ | mù | muk6 目 | bo̍k | mu̍k |  |
-| 43 | Tc | Technetium | 鎝（台） | ㄊㄚˇ | tǎ | taap3 | thap | thap |  |
+| 43 | Tc | Technetium | 鎝（台） | ㄊㄚˇ | tǎ | taap3 塔 | thap | thap |  |
 | 43 | Tc | Technetium | 鍀（陸） | ㄉㄜˊ | dé | dak1 得 | tik | tet | 如果把入聲韻尾也考慮進來的話，此例中反倒是大陸譯法較接近原文讀音了。 |
 | 44 | Ru | Ruthenium | 釕 | ㄌㄧㄠˇ | liǎo | liu5 了 | liáu | liáu |  |
 | 45 | Rh | Rhodium | 銠 | ㄌㄠˇ | lǎo | lou5 老 | ló | láu, ló |  |
@@ -119,7 +119,7 @@ tags:
 | 85 | At | Astatine | 砈（台） | ㄜˋ | è | aak1 厄、ngo5 我 | ik | ak |  |
 | 85 | At | Astatine | 砹（陸） | ㄞˋ | ài | ngaai6 艾 | ngāi | ngie, ngioi |  |
 | 86 | Rn | Radon | 氡 | ㄉㄨㄥ | dōng | dung1 冬 | tong | tûng |  |
-| 87 | Fr | Francium | 鍅（台） | ㄈㄚˇ | fǎ | faat3 法 | huat | fat |  |
+| 87 | Fr | Francium | 鍅（台） | ㄈㄚˇ | fǎ | faat3 法 | huat | fap |  |
 | 87 | Fr | Francium | 鈁（陸） | ㄈㄤ | fāng | fong1 方 | hong | fông |  |
 | 88 | Ra | Radium | 鐳 | ㄌㄟˊ | léi | leoi4 雷 | luî | luì |  |
 | 89 | Ac | Actinium | 錒 | ㄚ | ā | aa3 阿 | a | â, a |  |
@@ -152,15 +152,15 @@ tags:
 | 110 | Ds | Darmstadtium | 鐽 | ㄉㄚˊ | dá | daat6 達 | ta̍t | tha̍t |  |
 | 111 | Rg | Roentgenium | 錀 | ㄌㄨㄣˊ | lún | leon4 倫 | lûn | lùn |  |
 | 112 | Cn | Copernicium | 鎶 | ㄍㄜ | gē | go1 哥 | ko | kô |  |
-| 113 | Nh | Nihonium | 鉨 | ㄋㄧˇ | nǐ | nei5 你 | lí | ní |  |
+| 113 | Nh | Nihonium | 鉨 | ㄋㄧˇ | nǐ | nei5 你 | lí | ní, ngì |  |
 | 114 | Fl | Flerovium | 鈇 | ㄈㄨ | fū | fu1 夫 | hu | fû |  |
 | 115 | Mc | Moscovium | 鏌 | ㄇㄛˋ | mò | mok6 莫 | bo̍k | mo̍k |  |
 | 116 | Lv | Livermorium | 鉝 | ㄌㄧˋ | lì | lap6 𣲷, laap6 立 | li̍p | li̍p |  |
 | 117 | Ts | Tennessine | 鿬 | ㄊㄧㄢˊ | tián | tin4 田 | tiân | thièn |  |
 | 118 | Og | Oganesson | 鿫 | ㄠˋ | ào | ou3 奧 | ò | au, o |  |
 
-# 有機化學
-| 英語 | 漢字 | 官話（注音） | 官話（拼音） | 粵語 | 閩南語 | 客家話 | 備註 |
+# Organic Chemistry
+| Symbol | English | Char | Mandarin (B) | Mandarin (P) | Cantonese | Hokkien | Hakka | Remarks |
 | -- | -- | -- | -- | -- | -- | -- | -- |
 | alkane | 烷 | ㄨㄢˊ | wán | jyun4 完, jyun2 宛 | uân | vàn, yèn |  |
 | alkene | 烯 | ㄒㄧ | xī | hei1 稀 | hi | hî |  |
@@ -187,23 +187,26 @@ tags:
 | naphthalene | 萘 | ㄋㄞˋ | nài | noi6 奈 | nài | noi |  |
 | anthracene | 蒽 | ㄣ | ēn | jan1 恩 | un, in | ên |  |
 | phenanthrene | 菲 | ㄈㄟ | fēi | fei1 非 | hui | fî, fuî |  |
-| phane | 蕃 | ㄈㄢ、ㄈㄢˊ | fān, fán | fan1 番 | huan | fân |  |
-| azulene | 薁 | ㄠˋ | ào | ou3 奧 | ò | au, o |  |
-| acenaphthylene | 苊 | ㄜˋ | è | aak1 厄 | ik | ak |  |
-| fluorene | 芴 | ㄨˋ | wù | mat6 勿 | bu̍t | vu̍t | 非讀若「笏」。 |
 | phenalene | 萉 | ㄈㄟˋ | fèi | fei4 肥 | huî | fì, fuì |  |
 | chrysene | 䓛 | ㄑㄩ | qū | wat1 屈、gwat1 骨 | khut | khiut |  |
 | pyrene | 芘 | ㄅㄧˇ | bǐ | bei2 比 | pí | pí |  |
-| coronene | 蒄 | ㄍㄨㄢ | guān | gun1 官 | kuan | kon | 非讀若「蔻」。 |
-| cyclopentadiene | 茂 | ㄇㄠˋ | mào | mau6 | bōo | meu |  |
+| phane | 蕃 | ㄈㄢ、ㄈㄢˊ | fān, fán | faan1 番 | huan | fân |  |
+| azulene | 薁 | ㄠˋ、ㄩˋ | ào, yù | ou3 奧、juk1 郁 | ò, hiok | au, o, yuk |  |
+| indene | 茚 | ㄧㄣˋ | yìn | jan3 印 | ìn | yin |  |
+| acenaphthylene | 苊 | ㄜˋ | è | aak1 厄 | ik | ak |  |
+| fluorene | 芴 | ㄨˋ | wù | mat6 勿 | bu̍t | vu̍t | 非讀若「笏」。 |
+| perylene | 苝 | ㄅㄟˋ | bèi | bui6 背 | puē | poi |  |
+| coronene | 蒄 | ㄍㄨㄢ | guān | gun1 官 | kuan | kôn | 非讀若「蔻」。 |
+| rubicene | 葒 | ㄏㄨㄥˊ | hóng | hung4 紅 | hông | fùng |  |
+| cyclopentadiene | 茂 | ㄇㄠˋ | mào | mau6 貿 | bōo | meu |  |
 | hydrocarbon | 烴 | ㄊㄧㄥ | tīng | ting1 聽 | thing | thîn, thiâng | 碳氫切 |
 | carbonyl group | 羰 | ㄊㄤ | tāng | tong1 湯 | thong | thông | 碳氧切 |
 | hydroxy group | 羥 | ㄑㄧㄤˇ | qiǎng | koeng5 鏹 | khióng | khiông | 氫氧切 |
 | thiol | 巰 | ㄑㄧㄡˊ | qiú | kau4 求 | k(h)iû | khiù | 氫硫切 |
 |  |  |  |  |  |  |  |  |
 
-# 雜項
-| 英語 | 漢字 | 官話（注音） | 官話（拼音） | 粵語 | 閩南語 | 客家話 | 備註 |
+# Miscellaneous
+| Symbol | English | Char | Mandarin (B) | Mandarin (P) | Cantonese | Hokkien | Hakka | Remarks |
 | -- | -- | -- | -- | -- | -- | -- | -- |
 | ammonium | 銨 | ㄢ（台）<br>ㄢˇ（陸） | ān（台）<br>ǎn（陸） | on1 安 | an | ôn |  |
 | phosphonium | 鏻 | ㄌㄧㄣˊ | lín | leon4 鱗 | lîn | lìn |  |
