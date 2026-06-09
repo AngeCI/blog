@@ -96,7 +96,7 @@ tags:
 | √cad- | cadō | cecidī | \*cad-tum &gt; \*cassum &gt; !cāsum |
 | √caed- | caedō | cecīdī | caesum |
 | √can- | canō | cecinī | cantum |
-| √parc- | parcō | pepercī | parsum |
+| √parc- | parcō | pepercī | !parsum |
 | √scid- | scindō | scicidī | scissum |
 | √pug- | pungō | pupugī | \*puctum &gt; !pūnctum |
 | √tag- | tangō | tetigī | \*tactum &gt; !tāctum |
@@ -104,7 +104,7 @@ tags:
 ## -sc- 動詞
 | 假想詞根 | 現在時 | 完成時 | 過去分詞 |
 | -- | -- | -- | -- |
-| √di- | discō | didicī |  |
+| √dic- | \*dicscō &gt; discō | !didicī | \*!discitum |
 | ad- + √ol- | adolēscō | adolēvī | adultum |
 | √nō- | nōscō | nōvī | nōtum |
 | √pā- | pāscō | pāvī | pāstum |

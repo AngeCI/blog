@@ -1,5 +1,6 @@
 ---
 date: "2026-05-28T19:00:00+00:00"
+lastmod: "2026-06-09T14:15:15+00:00"
 type: "post"
 title: "Latin Nouns Declension"
 description: ""
@@ -17,7 +18,17 @@ tags:
 # Introduction
 拉丁語的名詞按照它的變形方式，傳統上分為五種變格法（形容詞一般只用前三種、代名詞則通常是不規則的），以及少數的不規則名詞。
 
-只有一部份名詞有方位格，其餘的名詞一般由「介詞 + 奪格」的結構承擔方位格的作用。
+- **Nominative**：表示句子的主語。
+- **Genitive**：表示某事物的所有者。
+- **Dative**：表示動作的接受者，或稱間接賓語。
+- **Accusative**：表示句子的賓語。
+- **Ablative**：拉丁語中的奪格具有多種不同用法：
+    - 分離奪格：表示動作出發、離開的地方。視乎其修飾的詞彙，可能有也可能沒有介詞。抽象意義的分離不加介詞，具體意義的分離，且被修飾的詞彙不具有方位格時，添加介詞如 ab, ex, dē。
+    - 方位奪格：表示某事物所在的位置。用於條飾不具有方位格的詞彙時，添加介詞如 in, sub , prō。
+    - 工具奪格：表示行為所使用的工具。工具奪格前不加介詞。
+    - 伴隨奪格：介詞 cum 後加奪格表示伴隨。
+- **Vocative**：用於直接呼叫人或事物。
+- **Locative**：表示某事物所在的位置。只有一部份名詞有方位格，其餘的名詞一般由「介詞 + 奪格」的結構承擔方位格的作用。
 
 ## 大體規律
 - 除了一部份第三變格法的單字之外，所有變格法的詞尾都以一個元音開頭，而這個元音往往決定了單字所屬的變格法。各個變格法之間的差異無非就是這些詞尾元音的差異（以及一些演變過程帶來的不規則性）。這些元音原本是詞幹的一部份，但在漫長的演變過程中逐漸與詞尾發生融合，繼而被分析成詞尾的一部份。
@@ -37,8 +48,8 @@ tags:
 |  | 1st | 1st | 2nd masc. | 2nd masc. | 2nd neut. | 2nd neut. |
 | -- | -- | -- | -- | -- | -- | -- |
 |  | Singular | Plural | Singular | Plural | Singular | Plural |
-| Nominative | -a | -ae | -us | -ī | **-um** | -ī |
-| Genitive | -ae | -ārum | -ī | -ōrum | **-a** | -ōrum |
+| Nominative | -a | -ae | -us | -ī | **-um** | **-a** |
+| Genitive | -ae | -ārum | -ī | -ōrum | -ī | -ōrum |
 | Dative | -ae | -īs | -ō | -īs | -ō | -īs |
 | Accusative | -am | -ās | -um | -ōs | **-um** | **-a** |
 | Ablative | -ā | -īs | -ō | -īs | -ō | -īs |
@@ -72,7 +83,7 @@ tags:
 第三變格法實際上是兩種變格法的混合，一部份的詞幹元音為 i，而另一部份則沒有詞幹結尾元音。在古典拉丁語中，兩種變格法已經幾乎徹底混同，唯獨屬格複數仍然不能混同，分為 -um 和 -ium 兩種。
 
 第三變格法的主格單數和其他詞形的對應關係有多種形式，傳統上認為是不規則的。儘管好一部份形式可以從拉丁語的（歷時）語音規律推出：
-| 主格單數 | 屬格單數 | 祖語詞幹 | 解說 |
+| Nominative singular | Genitive singular | Proto-language stem | Remarks |
 | -- | -- | -- | -- |
 | -is | -is |  |  |
 | hostis | hostis | host- |  |
@@ -81,12 +92,12 @@ tags:
 | -x | -cis, -gis | \*-c-, \*-g- |  |
 | pāx | pācis | \*pāc- |  |
 | rēx | rēgis | \*rēg- |  |
-| -s | -tis | \*-t- | ts &gt; s 並延長前面的元音。 |
+| -s | -tis | \*-t- | ts &gt; s with compensatory lengthening. |
 | -tās | -tātis | \*-tāt- |  |
 | ars | artis | \*art- |  |
 | mōns | montis | \*mont- |  |
 | pōns | pontis | \*pont- |  |
-| nox | noctis | \*noct- | ts &gt; s 和 cs &gt; x 的結合。 |
+| nox | noctis | \*noct- | Combination of ts &gt; s and cs &gt; x. |
 | prīnceps | prīncipis | \*prīncep- |  |
 | caput | capitis | \*caput- |  |
 | -s | -ris | \*-s- | rhotacization |
@@ -94,16 +105,17 @@ tags:
 | flōs | flōris | \*flōs- |  |
 | tempus | temporis | \*tempos- |  |
 | corpus | corporis | \*corpos- |  |
-| -or | -ōris | \*-ōs- | rhotacization + 末音節長元音縮短。 |
+| -or | -ōris | \*-ōs- | rhotacization + shortening of long vowels on final syllables. |
 | honor | honōris | honōs- |  |
 | color | colōris | colōs- |  |
-| -us | -eris | \*-os- | rhotacization + 詞中 ur 變 er。 |
+| cinis | cineris | \*cinis- | rhotacization + medial Vr became er。 |
+| -us | -eris | \*-os- | rhotacization + medial Vr became er。 |
 | genus | generis | \*genos- |  |
 | Venus | Veneris | \*venos- |  |
-| -men | -minis | \*-men- | 詞中短元音變 i。 |
+| -men | -minis | \*-men- | Medial short vowels became i。 |
 | carmen | carminis | \*carmen- |  |
 | flūmen | flūminis | \*flūmen- |  |
-| -ō | -inis | \*-on- |  |
+| -ō | -inis | \*-on- | Word-final -ons &gt; -ō（[Szemerényi’s law](https://en.wikipedia.org/wiki/Szemer%C3%A9nyi%27s_law)） |
 | homō | hominis | \*homon- |  |
 | imāgō | imāginis | \*imāgon- |  |
 | virgō | virginis | \*virgon- |  |
