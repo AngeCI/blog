@@ -38,11 +38,11 @@ tags:
 
 如果一個拉丁語動詞的不定式結尾與上表列出的不符，那它就是無法被歸入任一變位法的不規則動詞。拉丁語中無法被歸入任一變位法的不規則動詞主要包括：
 - sum, esse, fuī, futūrus
-- possum, posse, potuī: 在拉丁語教材中通常被單獨列出，但實際上它算是從 sum, esse 派生出來的，字尾是完全一樣的，只在中間連接的部份有相對不規則的變化。
-- eō, īre， iī, itum
-- volō, velle, voluī, volitūrus
-- nōlō, nōlle, nōluī
-- mālō, mālle, māluī
+    - possum, posse, potuī：在拉丁語教材中通常被單獨列出，但實際上它算是從 sum, esse 派生出來的，字尾是完全一樣的，只在中間連接的部份有相對不規則的變化。
+- eō, īre, iī, itum
+- volō, velle, voluī, volitūrus：直陳式未完成時和將來時都是標準的第三變位法，但現在時和虛擬式不規則。
+    - nōlō, nōlle, nōluī
+    - mālō, mālle, māluī
 - ferō, ferre, tulī, lātum：未完成時和將來時是標準的第三變位法，現在時某些詞形省略了中間的元音。
 - faciō, facere, fēcī, factum 的被動形式從一個詞幹是 fī- 的第三變位法動詞而來，但使用主動的詞尾。
 
@@ -66,18 +66,18 @@ tags:
 
 | 假想詞根 | 現在時 | 完成時 | 過去分詞 |
 | -- | -- | -- | -- |
+| √fud- | fundō | fūdī | \*fud-tum &gt; \*fussum &gt; !fūsum [^1] |
+| √iug- | iungō | \*iūxī &gt; !iūnxī | \*iuctum &gt; !iūnctum [^1] |
 | √liqu- | linquō | līquī | lictum |
-| √vic- | vincō | vīcī | victum |
-| √rup- | rumpō | rūpī | ruptum |
-| √fud- | fundō | fūdī | \*fud-tum &gt; \*fussum &gt; !fūsum |
-| √iug- | iungō | \*iūxī &gt; !iūnxī | \*iuctum &gt; !iūnctum |
 | √pos- | \*posnō &gt; pōnō | posuī | postum &gt; !positum |
+| √rup- | rumpō | rūpī | ruptum |
+| √vic- | vincō | vīcī | victum |
 
 ## 重疊現在時
 | 假想詞根 | 現在時 | 完成時 | 過去分詞 |
 | -- | -- | -- | -- |
 | √gen- | gignō | genuī | genitum |
-| √sed- | \*sisdō &gt; sīdō | sīdī | \*sessum |
+| √sed- | \*sisdō &gt; sīdō | sīdī | (\*sed-tum &gt; \*sessum) |
 | √b- | bibō | bibī | bibitum |
 | √s- | sesō &gt; serō | sēvī | satum |
 | re- + √d- | reddō | reddidī | redditum |
@@ -85,17 +85,42 @@ tags:
 # s- 完成時
 這類動詞的完成詞幹有一個 -s- 中綴。這個中綴會與前面緊鄰的輔音產生各種變化。
 
+- -bs- &gt; -ps-
+- -ds-, -ts- &gt; -s-
+- -cs-, -gs-, -hs-, -qus- &gt; -x-
+- -ms- &gt; -mps-
+
 | 假想詞根 | 現在時 | 完成時 | 過去分詞 |
 | -- | -- | -- | -- |
-| √duc- | dūcō | dūxī | ductum |
-| √scrīb- | scrībō | scrīpsī | scrīptum |
+| √carp- | carpō | carpsī | carptum |
+| √ced- | cēdō | \*ced-sī &gt; cessī | \*ced-tum &gt; cessum |
+| √claud- | claudō | \*claud-sī &gt; clausī | \*claud-tum &gt; clausum |
 | √coqu- | coquō | coxī | coctum |
-| √sūm- | sūmō | sūmpsī | sūmptum |
+| √dic- | dīcō | dīxī | dictum |
+| dis- + √vid- | dīvidō | \*dīvīd-sī &gt; dīvīsī | \*dīvīd-tum &gt; dīvīsum |
+| √duc- | dūcō | dūxī | ductum |
+| √flect- | flectō | \*flect-sī &gt; flexī | \*flect-tum &gt; flexum |
 | √ges- | \*gesō &gt; gerō | gessī | gestum |
+| √mit- | \*mītō &gt; !mittō | \*mīt-sī &gt; mīsī | \*mit-tum &gt; missum |
+| √reg- | regō | \*rexī &gt; rēxī | \*rectum &gt; !rēctum [^1] |
+| √scrīb- | scrībō | scrīpsī | scrīptum |
 | √spec- | speciō | spexī | spectum |
-| √trah- | trahō | !trāxī | tractum |
-| √teg- | tegō | \*texī &gt; !tēxī | \*tectum &gt; !tēctum |
+| √sūm- | sūmō | sūmpsī | sūmptum |
+| √teg- | tegō | \*texī &gt; !tēxī | \*tectum &gt; !tēctum [^1] |
+| √tem- | temnō | tempsī | temptum |
+| √trah- | trahō | \*traxī &gt; !trāxī | tractum |
 | √vīv- | vīvō | !vīxī | !vīctum |
+| √ārd- | ārdeō | \*ārd-sī &gt; ārsī | \*ārd-tum &gt; ārsum |
+| √aug- | augeō | auxī | auctum |
+| √haes- | \*haeseō &gt; haereō | haesī | !haesum |
+| √iuð- | \*iuðeō &gt; iubeō | \*iuð-sī &gt; iussī | \*iuð-tum &gt; iussum |
+| √man- | maneō | mānsī | \*mansum &gt; !mānsum |
+| √rīd- | rīdeō | \*rīd-sī &gt; rīsī | \*rīd-tum &gt; rīsum |
+| √suād- | suādeō | \*suād-sī &gt; suāsī | \*suād-tum &gt; suāsum |
+| √saep- | saepiō | saepsī | saeptum |
+| √sanc- | sanciō | sānxī | !sānctum |
+| √sent- | sentiō | \*sent-sī &gt; sēnsī | \*sent-tum &gt; sēnsum |
+| √vinc- | vinciō | vīnxī | !vīnctum |
 
 ## 重疊完成時
 這類動詞的完成詞幹有一個重疊音節。如果詞根主元音是 i 或者 u，那麼完成詞幹的第一個音節的元音就是 i 或者 u，否則這個元音一般是 e。如果詞根以一個輔音叢開始，多出來的那個輔音有可能出現在第一或第二個音節。
@@ -104,39 +129,79 @@ tags:
 - 在 r 前面的短元音變為 e；
 - 在 l pinguis（後面不是 i, ī, l 的 l）前面的短元音變為 u；
 - 在 u 或 v 前面的短元音也變為 u；
-- 長元音不變；雙元音 ae, oe, au 分別變為 ī, ū, ū；
-- 否則，這個元音是 i。
+- 長元音保持不變；雙元音 ae, oe, au 分別變為 ī, ū, ū；
+- 否則，如果這個元音後面有超過一個輔音，；
+- 否則，如果這個元音後面只有一個輔音，這個元音是 i。
 
 | 假想詞根 | 現在時 | 完成時 | 過去分詞 |
 | -- | -- | -- | -- |
+| √d- | dō | dedī | datum |
+| √d- | -dō | -didī | -ditum |
 | √st- | stō | stetī | statum |
 | √st- | sistō | stitī | statum |
-| √d- | dō | dedī | datum |
-| √curr- | currō | cucurrī | !cursum |
-| √cad- | cadō | cecidī | \*cad-tum &gt; \*cassum &gt; !cāsum |
+| √cad- | cadō | cecidī | \*cad-tum &gt; \*cassum &gt; !cāsum [^1] |
 | √caed- | caedō | cecīdī | \*caed-tum &gt; caesum |
 | √can- | canō | cecinī | cantum |
+| √curr- | currō | cucurrī | !cursum |
+| √fall- | fallō | fefellī | !falsum |
 | √parc- | parcō | pepercī | !parsum |
-| √scid- | scindō | scicidī | \*scid-tum &gt; scissum |
+| √pēd- | pēdō | pepēdī | pēditum |
+| √pel- | !pelnō &gt; pellō | pepulī | \*pultum &gt; !pulsum |
+| √pōsc- | pōscō | peposcī &gt; !popōscī | — |
 | √pug- | pungō | pupugī | \*puctum &gt; !pūnctum |
-| √tag- | tangō | tetigī | \*tactum &gt; !tāctum |
+| √scid- | scindō | scicidī | \*scid-tum &gt; scissum |
+| √tag- | tangō | tetigī | \*tactum &gt; !tāctum [^1] |
+| √tud- | tundō | tutudī | \*tud-tum &gt; !tunsum |
+| √tend- | tendō | tetendī | !tentum &gt; !tēnsum |
+| √mord- | mordeō | momordī | \*mord-tum &gt; morsum |
+| √spond- | spondeō | spopondī | \*spōnd-tum &gt; spōnsum |
+| √tond- | tondeō | totondī | \*tond-tum &gt; !tōnsum [^1] |
 
 ## 長元音完成時
 | 假想詞根 | 現在時 | 完成時 | 過去分詞 |
 | -- | -- | -- | -- |
-| √fak- | faciō | fēcī | factum |
+| √ag- | agō | ēgī | \*actum &gt; !āctum [^1] |
+| √em- | emō | ēmī | \*em-tum &gt; !ēmptum [^1] |
 | √cap- | capiō | cēpī | captum |
-| √leg- | legō | lēgī | \*lectum &gt; !lēctum |
+| √fac- | faciō | fēcī | factum |
+| √fug- | fugiō | fūgī | fugitum |
+| √leg- | legō | lēgī | \*lectum &gt; !lēctum [^1] |
+| √iac- | iaciō | iēcī | iactum |
+| √iuv- | iuvō | iūvī | iūtum |
+| √lav- | lavō | lāvī | lautum |
+| √cav- | caveō | cāvī | cautum |
+| √fav- | faveō | fāvī | fautum |
+| √fov- | foveō | fōvī | fōtum |
+| √sed- | sedeō | sēdī | \*sed-tum &gt; sessum |
+| √ven- | veniō | vēnī | ventum |
+| √vid- | videō | vīdī | \*vid-tum &gt; !vīsum [^1] |
+
+# -u-/-v- 完成時
+這是大多數第一、第二與第四變位法動詞的完成詞幹的構成方式，少量的第三變位法也遵循這樣的構詞法。
+
+| 假想詞根 | 現在時 | 完成時 | 過去分詞 |
+| -- | -- | -- | -- |
+| √aper- | aperiō | aperuī | apertum |
+| √col- | colō | coluī | cultum |
+| √cup- | cupiō | cupīvī | cupītum |
+| √li- | linō | lēvī | litum |
+| √mol- | molō | moluī | molitum |
+| √pet- | petō | petīvī | petītum |
+| √quaes- | \*quaesō &gt; quaerō | quaesīvī | quaesītum |
+| √rap- | rapiō | rapuī | raptum |
+| √stern- | sternō | strāvī | strātum |
+| √ter- | terō | trīvī | trītum |
+| √tex- | texō | texuī | textum |
+| √vom- | vomō | vomuī | vomitum |
 
 ## -sc- 動詞
 | 假想詞根 | 現在時 | 完成時 | 過去分詞 |
 | -- | -- | -- | -- |
-| √dic- | \*dicscō &gt; discō | !didicī | (!discitūrus) |
 | ad- + √ol- | adolēscō | adolēvī | adultum |
+| √dic- | \*dicscō &gt; discō | !didicī | (!discitūrus) |
 | √nō- | nōscō | nōvī | nōtum |
 | √pā- | pāscō | pāvī | !pāstum |
 | √quiē- | quiēscō | quiēvī | quiētum |
-|  |  |  |  |
 
 # 第一、第二部份
 ## 直陳語氣
@@ -161,7 +226,7 @@ tags:
 | 將來時被動（1, 2） | -bor | -beris | -bitur | -bimur | -biminī | -buntur |
 | 將來時被動（3, 4） | -ar | -ēris | -ētur | -ēmur | -ēminī | -entur |
 
-- 第一、二變位法的將來時詞尾可以想像成一個以 -bere 結尾的第三變位法動詞的直陳現在時詞尾；而未完成時的詞尾則是其虛擬現在時詞尾。
+- 第一、二變位法的將來時詞尾可以想像成一個以 -bere 結尾的第三變位法動詞的直陳式現在時詞尾；而未完成時的詞尾則是其虛擬式現在時詞尾。
 
 ## 虛擬語氣
 |  | 1st (ā-stem) | 2nd (ē-stem) | 3rd (ĕ-stem) | 3rd (ĭ-stem) | 4th (ī-stem) |
@@ -171,6 +236,8 @@ tags:
 | 未完成時 | -ārem | -ērem | -erem | -erem | -īrem |
 | 現在時被動 | -er | -ear | -ar | -iar | -iar |
 | 未完成時被動 | -ārer | -ērer | -erer | -erer | -īrer |
+
+- 虛擬式未完成時（不論主動和被動）的詞形構成有個捷徑，就是把人稱結尾直接接到不定式（第二詞幹）上去。這招甚至對不規則動詞都有效，只有異相動詞需要調整一下。
 
 # 第三部份
 如前所述，完成時系統的變位對於一個動詞所屬的變位法不太重視，所有的變位法都使用同一套人稱詞尾。把一個動詞詞條的第三部份去掉末尾的 -ī 就能得到完成詞幹，然後直接接上以下詞尾：
@@ -187,8 +254,10 @@ tags:
 
 ## 虛擬語氣
 |  | egō | tū | is, ea, id | nōs | vōs | eī, eae, ea |
-| -- | -- | -- | -- | -- | -- |
+| -- | -- | -- | -- | -- | -- | -- |
 | 完成時 | -erim | -erīs | -erit | -erīmus | -erītis | -erint |
 | 過去完成時 | -issem | -issēs | -isset | -issēmus | -issētis | -issent |
 
-- 虛擬完成時的詞尾，幾乎就是直陳將來完成時的詞尾。
+- 虛擬式完成時的詞尾，幾乎與直陳式將來完成時的詞尾一模一樣。但其實前者的詞尾來自 sum, esse 的虛擬式現在時詞形，而後者的詞尾來自 sum, esse 的將來時詞形。
+
+[^1]: 詞根主元音透過 [Lachmann’s law](https://en.wikipedia.org/wiki/Lachmann%27s_law) 延長。
