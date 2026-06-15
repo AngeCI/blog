@@ -36,12 +36,17 @@ yt-dlp <URL> -F
 `yt-dlp` [預設認為](https://github.com/yt-dlp/yt-dlp#sorting-formats)影像編碼 AV1 優於 VP9，但是 AV1 有個問題，它的軟解很爛，在某些設備上的播放體驗很差，而且我很少會弄到極高清畫質，所以我希望把 AV1 編碼的優先程度降低一些（至少降到 H.265 以下？）：[^1]
 
 ```sh
-yt-dlp <URL> -f 271/248+251
+yt-dlp <URL> -f (271/248)+251
 ```
 
 這是一個之前草草寫的 code snippet。不過這條指令能用前提是，目標影片提供上述的這幾個格式，否則會直接報錯。
 
 實踐中，若影片來源是 YouTube 的話，預設設置抓到的音頻格式，大多也是這個編號為 251 的 opus 格式。所以音頻格式的部份也許可以直接以 `ba` 或者 `bestaudio` 替代。
+
+```sh
+yt-dlp <URL> -S "vcodec:vp9"
+yt-dlp <URL> -f "bv*[vcodec!=av01]+ba/b"
+```
 
 # 自定義下載清單
 如果你想要批量下載的影片不在同一個播放清單，你也可以將你要的下載清單存成文字檔讓 `yt-dlp` 去讀：
@@ -52,7 +57,7 @@ yt-dlp --batch-file urls.txt
 
 # 本地預設選項
 - Linux/macOS 路徑：`~/.config/yt-dlp/config/yt-dlp.conf`
-- Windows 路徑：`C:\Users\使用者名稱\AppData\Roaming\yt-dlp\config\yt-dlp.conf`。或者在 `yt-dlp.exe` 所在的資料夾放置一個 `config.txt`。
+- Windows 路徑：`%APPDATA%\yt-dlp\config\yt-dlp.conf`。或者在 `yt-dlp.exe` 所在的資料夾放置一個 `config.txt`。
 
 # 其他選項
 - `--skip-download`：跳過下載影片。通常用於擷取縮圖或 metadata。
