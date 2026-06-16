@@ -1,5 +1,6 @@
 ---
 date: "2026-05-24T11:00:25+00:00"
+lastmod: "2026-06-16T10:00:00+00:00"
 type: "post"
 title: "Alex Hsu Suppresses Local Languages"
 description: "Why do you insist on turning a healthy discussion into vicious competition?"

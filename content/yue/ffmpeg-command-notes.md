@@ -8,12 +8,9 @@ categories:
   - "Computer Science 電腦科學"
 ---
 
-> [!WARNING] Notice
-> 呢篇文章暫時仲未粵語化，暫時拎住[書面語版本](/blog/zh/ffmpeg-command-notes/)頂住檔先。我遲啲有時間會更新返粵語版本！
-
-- `-vn`：去除畫面
-- `-an`：去除聲音
-- `-c copy`：沿用原本的 codec
+- `-vn`：整走畫面
+- `-an`：整走聲
+- `-c copy`：沿用原本嘅 codec
 - `-c:v`：畫面 codec，如 libx264, libx265, libvpx
 - `-c:a`：聲音 codec，如 aac, libopus, libmp3lame
 - `-b:v`：畫面碼率

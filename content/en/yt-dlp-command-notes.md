@@ -8,74 +8,71 @@ categories:
   - "Computer Science 電腦科學"
 ---
 
-> [!WARNING] Notice
-> This post is a draft translation from [the Chinese version](/blog/zh/yt-dlp-command-notes/) which have not yet been thoroughly proofread.
-
-# 基本指令
+# Basic command
 ```sh
 yt-dlp [param1] [param2] [param3] "URL 1" "URL 2" "URL 3"...
 ```
 
-網址的部份除了給單部影片的網址之外，也可以直接給播放清單做批量下載。這招對於 YouTube 以外的平台「也許」也能用，不過我自己就沒試過。
+In addition to providing the URL for a single video, the URL of a playlist can also be used for batch downloading. This technique “may” work for platforms other than YouTube, but I haven’t tried it myself.
 
-可以使用 `--output` 參數指定輸出檔名，不指定的話它就會自己抓影片標題和影片 ID。我絕大多數時候都不會去特別指定輸出檔名。
+The `--output` parameter can be used to specify the output filename. If you don’t specify it, it will automatically fetch the video title and ID for you. I almost never specify the output filename by myself.
 
 ```sh
 yt-dlp --output "%(title)s.%(ext)s" <URL>
 ```
 
-如此就可以把輸出檔名中的影片 ID 去掉，只留下影片標題。
+This will remove the video ID from the output file name, leaving only the video title.
 
-`-P` 參數可以指定輸出路徑，我目前很少批量下載所以很少動這一項。
+The `-P` parameter can be used to specify the output path. I currently rarely download in batches so I rarely change this setting.
 
-# 查詢影片可用格式
+# Search for available video formats
 ```sh
 yt-dlp <URL> -F
 ```
 
-如果同時使用 `-F` 和 `-f`，後面加上格式過濾條件的話，那它就會根據你列出的過濾條件，當前影片的可用格式（如果不加過濾條件的話就會列出所有可用格式），但不執行下載影片的動作。
+If you use both `-F` and `-f`, followed by a format filter, it will list the available formats for the current video based on the filter you specified (or all available formats if no filter is specified), but it will not download the video.
 
-# 自定義編碼優先順序
-`yt-dlp` [預設認為](https://github.com/yt-dlp/yt-dlp#sorting-formats)影像編碼 AV1 優於 VP9，但是 AV1 有個問題，它的軟解很爛，在某些設備上的播放體驗很差，而且我很少會弄到極高清畫質，所以我希望把 AV1 編碼的優先程度降低一些（至少降到 H.265 以下？）：[^1]
+# Custom codec priority
+`yt-dlp` [thinks](https://github.com/yt-dlp/yt-dlp#sorting-formats) that the video codec AV1 is better than VP9 by default, but there’s a problem for AV1, which has a poor software decoding performance, resulting in a poor playback experience on some devices. Furthermore, I rarely need to access ultra-high resolution videos, so I’d like to lower the priority of AV1 encoding (at least to below H.265?):[^1]
 
 ```sh
 yt-dlp <URL> -f (271/248)+251
 ```
 
-這是一個之前草草寫的 code snippet。不過這條指令能用前提是，目標影片提供上述的這幾個格式，否則會直接報錯。
+This is a code snippet I hastily wrote before. However, this command only works if the target video provides one of the above-mentioned formats; otherwise, it will directly report an error.
 
-實踐中，若影片來源是 YouTube 的話，預設設置抓到的音頻格式，大多也是這個編號為 251 的 opus 格式。所以音頻格式的部份也許可以直接以 `ba` 或者 `bestaudio` 替代。
+In practice, if the video source is YouTube, the default audio format fetched is mostly the opus format numbered 251. Therefore, the audio format part can perhaps be directly replaced with `ba` or `bestaudio`.
 
 ```sh
 yt-dlp <URL> -S "vcodec:vp9"
 yt-dlp <URL> -f "bv*[vcodec!=av01]+ba/b"
 ```
 
-# 自定義下載清單
-如果你想要批量下載的影片不在同一個播放清單，你也可以將你要的下載清單存成文字檔讓 `yt-dlp` 去讀：
+# Custom download list
+If the videos you want to download in batches are not already in the same playlist, you can also write the desired download list as a text file for `yt-dlp` to read:
 
 ```sh
 yt-dlp --batch-file urls.txt
 ```
 
-# 本地預設選項
-- Linux/macOS 路徑：`~/.config/yt-dlp/config/yt-dlp.conf`
-- Windows 路徑：`%APPDATA%\yt-dlp\config\yt-dlp.conf`。或者在 `yt-dlp.exe` 所在的資料夾放置一個 `config.txt`。
+# Local preset options
+- Linux/macOS path: `~/.config/yt-dlp/config/yt-dlp.conf`
+- Windows path: `%APPDATA%\yt-dlp\config\yt-dlp.conf`; Or simply put `config.txt` under the same directory of `yt-dlp.exe`.
 
-# 其他選項
-- `--skip-download`：跳過下載影片。通常用於擷取縮圖或 metadata。
-- `--add-metadata`：把影片的 metadata 嵌入到影片檔的 `synopsis` 欄位，或者音訊檔的演出者資訊。而 `--write-description` 則是把說明欄輸出成文字檔。
-- `--embed-thumbnail`：嘗試把影片縮圖嵌入到影片檔內（但前提是容器格式支援）。而 `--write-thumbnail` 則是直接下載影片縮圖。
-- `--embed-subs` 和 `--write-subs` 用於下載外部字幕。用 `--sub-lang` 指定字幕語言。若不特別指定這兩個參數的話，它預設是不會下載外部字幕的。
-- `--list-subs`：列出所有可用字幕。
-- `--keep-video`：自動合併影音後，保留所有原始檔案。
-- `--split-chapters`：根據影片的章節資訊自動分段影片。
-- `-o -`：將下載的影片輸出到 `stdout`，一般需搭配管線符使用。
-- `--cookies-from-browser <browser>`：如果下載的目標需要等入才能存取的話，就需要利用這個參數將需要的 cookie 餵給 `yt-dlp`。這個參數後面要跟一個瀏覽器名稱，或者你手動匯出 cookie 也可以。
-- `--write-comments`：下載影片留言。
+# Other options
+- `--skip-download`: Skips the download process for videos. Usually used for fetching thumbnails or metadata.
+- `--add-metadata`: Embeds the video’s metadata into the `synopsis` field of the video file, or the performer information in the audio file. `--write-description` outputs the description field as a text file.
+- `--embed-thumbnail`: Attempts to embed the video thumbnail into the video file (provided the container format supports it). `--write-thumbnail` directly downloads the video thumbnail.
+- `--embed-subs` and `--write-subs` options are used to download external subtitles. The `--sub-lang` option specifies the subtitle language. By default, external subtitles are not downloaded unless these two parameters are explicitly specified.
+- `--list-subs`: Lists all available subtitles.
+- `--keep-video`: Keep the orginal files after automatically merging the video and audio parts.
+- `--split-chapters`: Split the output video into chapters automatically based on its chapter information.
+- `-o -`: To output downloaded videos to `stdout`, generally used together with piping.
+- `--cookies-from-browser <browser>`: If the downloaded target requires login for access, then this parameter is needed to feed the necessary cookies to `yt-dlp`. The name of a browser should follow this parameter, or you can also export the cookies manually.
+- `--write-comments`: Downloads video comments.
 
-# 其他碎碎唸
-- 很多年前我試着抓 Bilibili 的多 P 影片它只能抓到 P1，更後來的時間我就沒試過了。
-- <span class="chide">實試下載 Twitch 直播存檔很慢，直接聯絡片主拿下載連結可能會更快。</span>
+# Other random thoughts
+- Many years ago, I tried to fetch multi-part videos from Bilibili, but it could only fetch P1 from it. I haven’t tried this again at a later time.
+- <span class="chide">Downloading Twitch live stream archives is very slow in practice, contacting the streamer directly for a download link might be way faster.</span>
 
-[^1]: [Ivon](https://ivonblog.com/posts/yt-dlp-usage/) 認為，可以直接將下載的影片編碼鎖定在 H.264，不過就我自己的用途而言，VP9 也是可以接受的。
+[^1]: [Ivon](https://ivonblog.com/posts/yt-dlp-usage/) thinks that you can directly lock the downloaded video encoding to H.264, but for my own use, VP9 is also acceptable.
