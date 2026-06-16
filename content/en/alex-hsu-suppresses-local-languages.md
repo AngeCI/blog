@@ -13,12 +13,16 @@ tags:
 > [!WARNING] Notice
 > This post is a draft translation from [the Chinese version](/blog/zh/alex-hsu-suppresses-local-languages/) which have not yet been thoroughly proofread.
 
-> [!TIP] 是否有人願意幫忙調解紛爭？歡迎來信 angeci (at) ltgc.cc 與我討論！
+> [!TIP] Is anyone willing to help mediate this dispute?
+>
+> Please feel free to write to me at angeci (at) ltgc.cc and discuss this issue together!
+>
+> Of course, it would be best if this were simply a misunderstanding and someone could help mediate, but the current evidence suggests otherwise. I will not retract my statement for now, as his viewpoint (or rather, his inappropriate analogy) truly offends me.
 
-**Alex Hsu 提到他在中國大陸成長，支持中共毫不意外。**
+**Alex Hsu mentioned that he was raised in mainland China, so it’s no surprise that he supports the Chinese Communist Party.**
 
-我發現 Alex Hsu 的一片文章《[台湾vs中国大陆电影译名：翻译不是改名](https://alexhsu.com/naming-movies)》有以官話打壓本土語言的意涵，我也為此寫了一篇回應文章《[統一譯名](/blog/unifying-names/)》。我原本以為只是他看漏眼了。我在他的網站還有留言系統的時候以留言的形式加上了補充說明，結果沒過幾天他就把我之前的補充說明連同整個留言系統一起給[揚了](https://alexhsu.com/no-comments)。我嘗試寫信給他討論這個問題，惟良久未獲回覆。**這下實錘 Alex 是中共黨員、官話沙文主義者了，與中共是同路人。** 接下來我會更新我之前的那篇回應文章對 Alex 的態度，並將整個網站中直接引用 Alex 的部份強制轉成簡體（在繁體中內嵌簡體，可視為一種獨特的修辭）。
+I found that one of Alex Hsu’s article “[How Taiwan and China rename English movies (and why it’s a mess)](https://alexhsu.com/en/naming-movies)” has the implication of supporting the suppress of local languages with Mandarin Chinese, and I wrote a response article “[Unifying Names](/blog/unifying-names/)” about it. I initially thought he had simply overlooked something. I added a supplementary explanation in the form of a comment when his website still had a message board, but a few days later he [deleted](https://alexhsu.com/en/no-comments) my previous explanation along with the entire message board. I tried writing to him to discuss this issue, but my dissatisfaction ultimately went unanswered. **This confirms that Alex is indeed a member of the CCP, a proponent of Mandarin hegemony, and a proponent of Mandarin chauvinism, and he is a fellow traveller of the CCP.** Next, I will update my previous response article on my attitude towards Alex, and forcibly convert all direct quotes about Alex on the website to simplified Chinese (embedding simplified Chinese within traditional Chinese can be seen as a unique rhetorical device).
 
-我知道，BlogBlog 同樂會裏面有支持保育台語及其他本土語言的人，甚至有只用台語羅馬字投稿的人[^1]。**你們也應該聯合起來，槍口一致對外，將 Alex Hsu 視為大家的共同敵人！**
+I know that there are people in the BlogBlog Club who also support the preservation of Taiwanese and other local languages, and some even submit their posts using only romanized Taiwanese[^1]. **You should also unite, point your guns at one enemy, and regard Alex Hsu as your common enemy!**
 
-[^1]: 但是礙於本人的台語能力極為有限，各位日後向我投稿台語文章時請務必提供翻譯。
+[^1]: However, due to my extremely limited Taiwanese language skills, please be sure to provide a translation when submitting Taiwanese articles to me in the future.

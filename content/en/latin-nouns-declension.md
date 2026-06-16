@@ -16,33 +16,33 @@ tags:
 > This post is a draft translation from [the Chinese version](/blog/zh/latin-nouns-declension/) which have not yet been thoroughly proofread.
 
 # Introduction
-拉丁語的名詞按照它的變形方式，傳統上分為五種變格法（形容詞一般只用前三種、代名詞則通常是不規則的），以及少數的不規則名詞。
+Latin nouns are traditionally classified into five declensions according to their inflection patterns (adjectives generally use only the first three, while pronouns are usually irregular), as well as a few irregular nouns.
 
-- **Nominative**：表示句子的主語。
-- **Genitive**：表示某事物的所有者。
-- **Dative**：表示動作的接受者，或稱間接賓語。
-- **Accusative**：表示句子的賓語。
-- **Ablative**：拉丁語中的奪格具有多種不同用法：
-    - 分離奪格：表示動作出發、離開的地方。視乎其修飾的詞彙，可能有也可能沒有介詞。抽象意義的分離不加介詞，具體意義的分離，且被修飾的詞彙不具有方位格時，添加介詞如 ab, ex, dē。
-    - 方位奪格：表示某事物所在的位置。用於條飾不具有方位格的詞彙時，添加介詞如 in, sub , prō。
-    - 工具奪格：表示行為所使用的工具。工具奪格前不加介詞。
-    - 伴隨奪格：介詞 cum 後加奪格表示伴隨。
-- **Vocative**：用於直接呼叫人或事物。
-- **Locative**：表示某事物所在的位置。只有一部份名詞有方位格，其餘的名詞一般由「介詞 + 奪格」的結構承擔方位格的作用。
+- **Nominative**: Signifies the subject of a sentence.
+- **Genitive**: Signifies the processor.
+- **Dative**: Signifies the recipient of the action, or the indirect object.
+- **Accusative**: Signifies the object of a sentence.
+- **Ablative**: Ablative in Latin has multiple functions:
+    - Ablative of separation: 表示動作出發、離開的地方。視乎其修飾的詞彙，可能有也可能沒有介詞。抽象意義的分離不加介詞，具體意義的分離，且被修飾的詞彙不具有方位格時，添加介詞如 ab, ex, dē。
+    - Ablative of place: 表示某事物所在的位置。用於條飾不具有方位格的詞彙時，添加介詞如 in, sub , prō。
+    - Ablative of means/instrument: 表示行為所使用的工具。工具奪格前不加介詞。
+    - Ablative of accompaniment: 介詞 cum 後加奪格表示伴隨。
+- **Vocative**: Used to directly call on a person or thing.
+- **Locative**: Signifies the position of a thing. Only some nouns have a locative form, other nouns express this meaning with a “preposition + ablative” structure.
 
-## 大體規律
-- 除了一部份第三變格法的單字之外，所有變格法的詞尾都以一個元音開頭，而這個元音往往決定了單字所屬的變格法。各個變格法之間的差異無非就是這些詞尾元音的差異（以及一些演變過程帶來的不規則性）。這些元音原本是詞幹的一部份，但在漫長的演變過程中逐漸與詞尾發生融合，繼而被分析成詞尾的一部份。
-- 主格單數大多以 -s 結尾，或者是零結尾。
-- 屬格單數及主格複數以 -ī 或 -s 結尾。
-- 與格單數大多以 -ī 結尾，除了第二變格法發生了雙元音簡化以外。
-- 非中性賓格單數以 -m 結尾，中性賓格單數則一律與主格相同。
-- 奪格單數以一個元音結尾[^1]（除了第三變格法之外，皆為長元音）。
-- 屬格複數以 -um 結尾。第一、第二和第五變格法的「長元音 + -rum」結尾是從代名詞的變形借來的。
-- 非中性賓格複數以「長元音 + -s」結尾。
-- 與格／奪格複數以 -īs 或 -bus 結尾。
-- 除了第二變格法單數之外，主格與呼格的詞形基本相同。
-- **所有名詞**的與格複數與奪格複數詞形皆相同，沒有任何例外。
-- **所有中性名詞**的主格、賓格與呼格詞形皆相同，這些詞在上述三個格的複數皆以 -a 結尾，沒有任何例外。
+## General rules
+- All endings of all declensions begin with a vowel, except some third declension words, and this vowel determines the word’s declension class. 各個變格法之間的差異無非就是這些詞尾元音的差異（以及一些演變過程帶來的不規則性）。這些元音原本是詞幹的一部份，但在漫長的演變過程中逐漸與詞尾發生融合，繼而被分析成詞尾的一部份。
+- The nominative singular usually ends in either -s or null.
+- The genitive singular and the nominative plural ends in either -ī or -s.
+- The dative singular usually ends in -ī, except there a diphthong smoothing occurs in the second declension.
+- Non-neuter accusative singular ends in -m, and the neuter ones are always identical to its nominative singular.
+- The ablative singular ends in a vowel[^1], which is a long vowel except in the third declension.
+- The genitive plural ends in -um. The “long vowel + -rum” endings for the first, second and fifth declension are borrowed from pronoun paradigms.
+- Non-neuter accusative plural ends in “long vowel + -s”.
+- The dative/ablative plural ends in either -īs or -bus.
+- The same form is used for both nominative and vocative, except in the second declension.
+- The plurals of dative and ablative are identical for **all nouns**, with no exceptions.
+- The nominative, accusative and vocative are identical for **all neuter nouns**, with an -a ending in their plurals, with no exceptions.
 
 # First & second declension
 |  | 1st | 1st | 2nd masc. | 2nd masc. | 2nd neut. | 2nd neut. |
@@ -56,7 +56,7 @@ tags:
 | Vocative | -a | -ae | -e | -ī | **-um** | **-a** |
 | Locative | -ae | -īs | -ī | -īs | -ī | (\*-īs) |
 
-第一變格法的詞幹元音為 a、第二變格法的詞幹元音為 o。
+The stem vowel of the first declension is a, and that of the second declension is o.
 
 - 這兩種變格法的與格／奪格複數形式原先分別為 -ais 及 -ois，演變到古典拉丁語的 -īs 屬於語音層面的規則變化[^2]。Fīlia, fīliae 和 dea, deae 有着以 -ābus 結尾的不規則與格／奪格複數形式。
 - 第二變格法的 -us 和 -um 詞形原先分別為 -os 及 -om，演變到古典拉丁語的 -us 及 -um 也是語音層面的規則變化[^3]。-os 和 -om 的詞形在單音節的代名詞中得到了保留。
