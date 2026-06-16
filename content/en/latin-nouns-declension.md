@@ -18,27 +18,27 @@ tags:
 # Introduction
 Latin nouns are traditionally classified into five declensions according to their inflection patterns (adjectives generally use only the first three, while pronouns are usually irregular), as well as a few irregular nouns.
 
-- **Nominative**: Signifies the subject of a sentence.
-- **Genitive**: Signifies the processor.
-- **Dative**: Signifies the recipient of the action, or the indirect object.
-- **Accusative**: Signifies the object of a sentence.
+- **Nominative**: Indicates the subject of a sentence.
+- **Genitive**: Indicates the processor.
+- **Dative**: Indicates the recipient of the action, or the indirect object.
+- **Accusative**: Indicates the object of a sentence.
 - **Ablative**: Ablative in Latin has multiple functions:
     - Ablative of separation: 表示動作出發、離開的地方。視乎其修飾的詞彙，可能有也可能沒有介詞。抽象意義的分離不加介詞，具體意義的分離，且被修飾的詞彙不具有方位格時，添加介詞如 ab, ex, dē。
     - Ablative of place: 表示某事物所在的位置。用於條飾不具有方位格的詞彙時，添加介詞如 in, sub , prō。
     - Ablative of means/instrument: 表示行為所使用的工具。工具奪格前不加介詞。
     - Ablative of accompaniment: 介詞 cum 後加奪格表示伴隨。
 - **Vocative**: Used to directly call on a person or thing.
-- **Locative**: Signifies the position of a thing. Only some nouns have a locative form, other nouns express this meaning with a “preposition + ablative” structure.
+- **Locative**: Indicates the position of a thing. Only some nouns have a locative form, other nouns express this meaning with a “preposition + ablative” structure.
 
 ## General rules
-- All endings of all declensions begin with a vowel, except some third declension words, and this vowel determines the word’s declension class. 各個變格法之間的差異無非就是這些詞尾元音的差異（以及一些演變過程帶來的不規則性）。這些元音原本是詞幹的一部份，但在漫長的演變過程中逐漸與詞尾發生融合，繼而被分析成詞尾的一部份。
+- All endings of all declensions begin with a vowel, except some third declension words, and this vowel determines the word’s declension class. The differences between the various declension classes are simply the differences in these vowels (and some irregularities resulting from the evolution process). These vowels were originally part of the stem, but over a long period of evolution, they gradually merged with the ending and were subsequently reanalyzed as part of the ending.
 - The nominative singular usually ends in either -s or null.
 - The genitive singular and the nominative plural ends in either -ī or -s.
 - The dative singular usually ends in -ī, except there a diphthong smoothing occurs in the second declension.
-- Non-neuter accusative singular ends in -m, and the neuter ones are always identical to its nominative singular.
+- Non-neuter accusative singulars end in -m, and the neuter ones are always identical to its nominative singular.
 - The ablative singular ends in a vowel[^1], which is a long vowel except in the third declension.
 - The genitive plural ends in -um. The “long vowel + -rum” endings for the first, second and fifth declension are borrowed from pronoun paradigms.
-- Non-neuter accusative plural ends in “long vowel + -s”.
+- Non-neuter accusative plurals end in “long vowel + -s”.
 - The dative/ablative plural ends in either -īs or -bus.
 - The same form is used for both nominative and vocative, except in the second declension.
 - The plurals of dative and ablative are identical for **all nouns**, with no exceptions.
@@ -56,17 +56,17 @@ Latin nouns are traditionally classified into five declensions according to thei
 | Vocative | -a | -ae | -e | -ī | **-um** | **-a** |
 | Locative | -ae | -īs | -ī | -īs | -ī | (\*-īs) |
 
-The stem vowel of the first declension is a, and that of the second declension is o.
+The stem final vowel of the first declension is a, and that of the second declension is o.
 
-- 這兩種變格法的與格／奪格複數形式原先分別為 -ais 及 -ois，演變到古典拉丁語的 -īs 屬於語音層面的規則變化[^2]。Fīlia, fīliae 和 dea, deae 有着以 -ābus 結尾的不規則與格／奪格複數形式。
-- 第二變格法的 -us 和 -um 詞形原先分別為 -os 及 -om，演變到古典拉丁語的 -us 及 -um 也是語音層面的規則變化[^3]。-os 和 -om 的詞形在單音節的代名詞中得到了保留。
-- 第二變格法單數與格的 -ō 由更早的 -ōi 簡化而來。
-- 第二變格法單數屬格的 -ī 詞形，應是後起的不規則變化。在古拉丁語 -ei 與 -i 混同的時代之前，單數屬格從不寫作 -ei（在古拉丁語中甚至有寫作 -osio 的），說明它不是從 -oi 變來的。這與複數主格不同。
-- 如果一個第二變格法名詞的主格單數以 -ius 或 -ium 結尾，它在古典期的呼格單數會是 -ī（更早期是 -ie）。
+- The dative/ablative plural ending of these two declension classes were originally -ais and -ois respectively, later evolved to -īs in Classical Latin, which is a regular historical phonological process in Latin[^2]. Fīlia, fīliae and dea, deae have an irregular dative/ablative plural form ending in -ābus.
+- The -us and -um endings in the second declension were -os and -om originally, the evolution to -us and -um in Classical Latin is also a regular phonological process[^3]. The -os and -om endings are kept in monosyllabic pronouns.
+- The -ō ending of the dative singular in the second declension was simplified from earlier -ōi.
+- The -ī ending of the genitive singular in the second declension shuold be an irregular innovation. Before the time where -ei and -i started mixing up in Old Latin, the genitive singular was never written as -ei (even -osio was attested in Old Latin), showing that it did not come from -oi, which is different from the nominative plural.
+- If a second declension noun ends in -ius or -ium in the nominative singular, its vocative singular would be -ī in Classical Latin (earlier -ie).
 
-在經過上述的回推過程後，兩種變格法的詞形會變得極其相似，只差在詞尾開頭的元音。
+After the above back-reasoning process, the word forms of the two declensions will become extremely similar, differing only in the vowel at the beginning of the ending.
 
-第二變格法有一個亞種，原本應以 \*-rus 結尾的主格單數變成了 -(e)r，如 ager — agrī, liber — librī, puer — puerī, vir — virī。這類詞的呼格單數跟主格單數相同，其餘詞形則可直接從屬格單數形式類推，與其餘的第二變格法名詞無異。
+The second declension has a subclass, in which their nominative singular would have \*-rus actually become -(e)r instead, such as ager — agrī, liber — librī, puer — puerī, vir — virī. These words have the same vocative singular and nominative singular, while the other inflections can be deduced from its genitive singular form, which is identical to all other second declension nouns.
 
 # Third declension
 |  | 3rd m./f. | 3rd m./f. | 3rd neut. | 3rd neut. |
@@ -80,9 +80,9 @@ The stem vowel of the first declension is a, and that of the second declension i
 | Vocative | — | -ēs | **—** | **-a, -ia** |
 | Locative | -ī/-e | -ibus | -ī | (\*-ibus) |
 
-第三變格法實際上是兩種變格法的混合，一部份的詞幹元音為 i，而另一部份則沒有詞幹結尾元音。在古典拉丁語中，兩種變格法已經幾乎徹底混同，唯獨屬格複數仍然不能混同，分為 -um 和 -ium 兩種。
+The third declension is a conflation of two originally distinct declension classes, one of which has a stem final vowel of i, while others have no stem final vowel. In Classical Latin, the two declension classes were almost mixed up entirely, their genitive plural remain distinct, being -um and -ium respectively.
 
-第三變格法的主格單數和其他詞形的對應關係有多種形式，傳統上認為是不規則的。儘管好一部份形式可以從拉丁語的（歷時）語音規律推出：
+The correspondence between the nominative singular and other word forms in the third declension has various types and is traditionally considered irregular. A decent amount of correspondence can actually be deduced from Latin’s (diachronical) sound rules, nevertheless:
 | Nominative singular | Genitive singular | Proto-language stem | Remarks |
 | -- | -- | -- | -- |
 | -is | -is |  |  |
@@ -134,28 +134,28 @@ The stem vowel of the first declension is a, and that of the second declension i
 | Vocative | -us | -ūs | **-ū** | **-ua** | -ēs | -ēs |
 | Locative | -ū/-ī | (\*-ibus) | (\*-ī) | (\*-ibus) | -ē | (\*-ēbus) |
 
-第一變格法的詞幹元音為 u、第二變格法的詞幹元音為 ē。
+The stem final vowel of the fourth declension is u, and that of the fifth declension is ē.
 
-第四和第五變格法是拉丁語中比較不常用的變格法。許多原本屬於這兩種變格法的單字，在演變到通俗拉丁語以至羅曼諸語的過程中，往往會被重新分配到第二或第三變格法。
+The fourth and fifth declensions are the less used ones in Latin. Many words in these two declension classes were redistributed into the second or third declension during their development into Vulgar Latin or various Romance languages.
 
-- 第四變格法的與格／奪格複數 -ibus 是從 -ubus 演變而來。少數單字保留了 -ubus 結尾，大多數單字經歷了詞中短元音簡化成 i 的規則變化。
+- The -ibus ending of the dative/ablative plural in the fourth declension came from earlier -ubus. A couple of words keep the -ubus ending, while the majority has undergone the rule of weakening word medial short vowels to i.
 
 # Irregular nouns
-- Fīlia, fīliae 和 dea, deae 有着以 -ābus 結尾的不規則與格／奪格複數形式。
-- Deus, deī 的呼格單數是 deus 而不是 \*dee；多種兩個元音挨在一起的詞形有可選的縮合形式。
-- Vīrus, vīrī 是個字典形以 -us（而非 -um）結尾的第二變格法中性名詞。這個詞在古典拉丁語中是個不可數名詞。新拉丁語借用了這個單字來表示「病毒」的意思，從其他的第二變格法名詞類推了一套複數形式出來。
-- Domus, domūs/domī 是一個第四和第二變格法混合的單詞，不同的混合形式都有人用。
+- Fīlia, fīliae and dea, deae have an irregular dative/ablative plural form ending in -ābus.
+- The vocative singular of deus, deī is deus instead of \*dee; Optional contracted forms exist for multiple hiatus-involving forms.
+- Vīrus, vīrī is a second declension neuter noun with a citation form ending in -us (instead of -um). This word is an uncountable noun in Classical Latin. New Latin borrowed this word to express the meaning of “virus”, and a set of plural forms were made up by analogy to other second declension nouns.
+- Domus, domūs/domī is a hybrid of second and fourth declension, with different mixing combination attested.
 
 # Adjectives
-形容詞的變格法可以分為以下幾類：
-- 第一／二變格法形容詞：陽性和中性用第二變格法，陰性用第一變格法。
-- 第三變格法形容詞：主格單數詞形按照不同的性可以再分為三個亞種，其他詞形與第三變格法名詞類似。大多數（儘管不是全部）第三變格法形容詞的屬格複數詞尾都是 -ium。
-- - One termination：三個性的主格單數詞形相同。
-- - Two terminations：陽性和陰性的主格單數共用一個詞形，而中性主格單數不同。
-- - Three terminations：三個性的主格單數詞形都不相同。通常陽性是 -(e)r、陰性是 -ris、中性是 -re。
+The declension of adjectives can be divided into the following categories:
+- First/second declension adjectives: The masculine and neuter forms use the second declension, while the feminine forms use the first declension.
+- Third declension adjectives: The nominative singular form can be further divided into three subclasses according to different genders, while other forms are similar to those of nouns in the third declension. Most (but not all) third declension adjectives have -ium in the genitive plural.
+- - One termination: The nominative singular is identical in all three genders.
+- - Two terminations: The nominative singular is identical in masculine and feminine, while a different form is used in neuter.
+- - Three terminations: The nominative singular is different in all three genders. Usually -(e)r for masculine, -ris for feminine and -re for neuter.
 
 # Numerals
 
-[^1]: 其實在古拉丁語中，奪格單數有一個 -d 結尾。
-[^2]: 具體規則是：在多音節字詞中，最後一個音節的雙元音簡化為單元音：ai, ei, oi 變成 ī、au, ou 變成ū。
-[^3]: 具體規則是：在多音節字詞中，最後一個音節的 o 變為 u。
+[^1]: In fact there is a -d ending for the ablative singular in Old Latin.
+[^2]: The particular rule is: In a multisyllabic word, diphthongs in word final syllables turns into monophthongs: ai, ei, oi became ī, au, ou became ū.
+[^3]: The particular rule is: n a multisyllabic word, o in word final syllables turns into u.
