@@ -1,6 +1,7 @@
 ---
 date: "2026-03-14T13:48:30+00:00"
 lastmod: "2026-04-07T19:42:45+00:00"
+type: "post"
 title: "A Brief Discussion on Several Chinese Dialectal Phenomena"
 description: "I’m not writing this too professionally, just have a look."
 translationsKey: "chinese-dialectal-phenomena"
@@ -11,6 +12,9 @@ categories:
 
 > [!CAUTION]
 > This article about discussion on the Chinese language itself and is not translated in to English yet (and probably never), please refer to [the Chinese version](/blog/zh/chinese-dialectal-phenomena/) instead.
+
+> [!TIP] BlogBlog Club!
+> This is my submission article for “[BlogBlog Club Party - July 2026](https://blogblog.club/party)”. This month’s topic is “[有趣的小知識或冷門概念](https://shuaixin.cc/Fun-Fact/)”, hosted by [Shuai](https://shuaixin.cc). If you have your own blog, feel free to join us together!
 
 以下談談幾個奇怪的漢語方言[^1]現象。
 

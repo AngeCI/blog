@@ -1,6 +1,7 @@
 ---
 date: "2026-03-14T13:48:30+00:00"
 lastmod: "2026-04-07T19:42:45+00:00"
+type: "post"
 title: "淺談數個漢語方言現象"
 description: "寫得唔係好專業，隨便睇吓就得。"
 translationsKey: "chinese-dialectal-phenomena"
@@ -8,6 +9,9 @@ categories:
   - "Linguistics 語言學"
   - "Historical Chinese Phonology 漢語音韻學"
 ---
+
+> [!TIP] BlogBlog 同樂會！
+> 呢篇係我嘅「[BlogBlog 同樂會 - 2026 年 7 月](https://blogblog.club/party)」嘅投稿文章。今個月嘅主題係「[有趣的小知識或冷門概念](https://shuaixin.cc/Fun-Fact/)」，由[劉昕](https://shuaixin.cc)主持。如果你有自己嘅部落格，歡迎一起嚟參加！
 
 以下講吓幾個奇怪嘅漢語方言[^1]現象。
 
