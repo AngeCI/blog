@@ -8,6 +8,7 @@ translationsKey: "chinese-dialectal-phenomena"
 categories:
   - "Linguistics 語言學"
   - "Historical Chinese Phonology 漢語音韻學"
+  - "BlogBlog 同樂會"
 ---
 
 > [!TIP] BlogBlog 同樂會！
