@@ -2,7 +2,7 @@
 date: "2026-07-03T08:10:00+00:00"
 lastmod: ""
 type: "post"
-title: "BlogBlog 同樂會宇宙的二三事"
+title: "A Few Things about the BlogBlog Universe""
 description: ""
 translationsKey: "a-few-things-about-the-blogblog-universe"
 categories:
@@ -11,6 +11,12 @@ categories:
 
 > [!WARNING] Notice
 > This post is a draft translation from [the Chinese version](/blog/zh/a-few-things-about-the-blogblog-universe/) which have not yet been thoroughly proofread.
+
+> [!TIP] Is anyone willing to help mediate this dispute?
+>
+> Please feel free to write to me at angeci (at) ltgc.cc and discuss this issue together!
+>
+> Of course, it would be best if this were simply a misunderstanding and someone could help mediate, but the current evidence suggests otherwise. I will not retract my statement for now, as his viewpoint (or rather, his inappropriate analogy) truly offends me.
 
 # Alex Hsu 實為中共喉舌
 Alex 在牠之前一篇文章，發表了其「應以官話打壓並取代一切本土語言」的核心思想。我曾經留言向牠提交補充說明，當時牠的表現還算友善。結果牠沒過幾天就把整個留言系統給揚了。我嘗試寄信給牠表達不滿，迄今未獲任何回覆，與中共實乃一丘之貉，詳請請見《[Alex Hsu 打壓本土語言](/blog/zh/alex-hsu-suppresses-local-languages/)》。

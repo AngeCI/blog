@@ -9,6 +9,12 @@ categories:
   - "BlogBlog 同樂會"
 ---
 
+> [!TIP] 有冇人願意幫手調解紛爭？
+>
+> 歡迎寄 email 去 angeci (at) ltgc.cc 同我一齊傾下！
+>
+> 當然如果呢件事只係純粹嘅溝通誤會，而又有人能夠幫手調解紛爭嘅話咁就最好，但目前睇上去嘅表證唔係咁。我暫時唔會撤回我嘅言論，因為佢嘅觀點（或者話唔恰當嘅比喻）着實令我反感。
+
 > [!WARNING] Notice
 > 呢篇文章暫時仲未粵語化，暫時拎住[書面語版本](/blog/zh/a-few-things-about-the-blogblog-universe/)頂住檔先。我遲啲有時間會更新返粵語版本！
 
