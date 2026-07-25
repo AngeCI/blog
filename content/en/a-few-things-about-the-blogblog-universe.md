@@ -2,7 +2,7 @@
 date: "2026-07-03T08:10:00+00:00"
 lastmod: ""
 type: "post"
-title: "A Few Things about the BlogBlog Universe""
+title: "A Few Things about the BlogBlog Universe"
 description: ""
 translationsKey: "a-few-things-about-the-blogblog-universe"
 categories:

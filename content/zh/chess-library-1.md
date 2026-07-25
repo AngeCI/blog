@@ -230,9 +230,9 @@ Array.from(a).map(e => e.toString(16).padStart(2, "0")).join("\\");
 ## 車、象及后
 這些可以長距離走動的棋種，可以用到一種名叫 [magic bitboard](https://www.chessprogramming.org/Magic_Bitboards) 的技術快速產生着法。
 
-為了直接引用其他人算好的魔術數字，我在計算索引值 `rookMask` 和 `bishopMask` 的時候實際上把整個棋盤橫向反射了一遍。也許如果我要重算魔術數字的話，可以把這一步也減省了。
+為了直接引用其他人算好的魔術數字，我在計算索引值的時候實際上把整個棋盤橫向反射了一遍。也許如果我要重算魔術數字的話，可以把這一步也減省了。
 
-`rookAttacks` 和 `bishopAttacks` 兩個陣列
+`rookAttacks` 和 `bishopAttacks` 兩個陣列，到底是要每次程式初始化的時候都重算一遍，還是算好之後直接寫死在代碼裏頭，我還沒拿定主意。
 
 ```wat
 (module
@@ -248,15 +248,23 @@ Array.from(a).map(e => e.toString(16).padStart(2, "0")).join("\\");
     (result i64)
 
     (if (i32.and (local.get $type) (i32.const 4)) ;; rook
-      (i64.xor ;; rook move mask
-        (i64.shr_u ;; file
-          (i64.const 0x8080808080808080)
-          (i64.extend_i32_u (i32.and (local.get $sq) (i32.const 7)))
+      (then
+        (i64.xor ;; rook move mask
+          (i64.shr_u ;; file
+            (i64.const 0x8080808080808080)
+            (i64.extend_i32_u (i32.and (local.get $sq) (i32.const 7)))
+          )
+          (i64.shr_u ;; rank
+            (i64.const 0xff00000000000000)
+            (i64.extend_i32_u
+              (i32.shl
+                (i32.shr_u (local.get $sq) (i32.const 3))
+                (i32.const 3)
+              )
+            )
+          )
         )
-        (i64.shr_u ;; rank
-          (i64.const 0xff00000000000000)
-          (i64.extend_i32_u (i32.shr_u (local.get $sq) (i32.const 3)))
-        )
+        (i64.and (i64.const 0x007e7e7e7e7e7e00n))
       )
     )
     (if (i32.and (local.get $type) (i32.const 1)) ;; bishop
@@ -320,7 +328,7 @@ let diag2 = new BigUint64Array([
   0x0000000001020408n, // e1-h4
   0x0000000000010204n, // f1-h3
   0x0000000000000102n, // g1-h2
-  0x0000000000000001n, // h1
+  0x0000000000000001n  // h1
 ]);
 
 function horizontalFlip(n) {
@@ -332,8 +340,8 @@ function horizontalFlip(n) {
 }
 
 // let rookMask = (n) => (file[n & 7] ^ rank[n >> 3]) & 0x07e7e7e7e7e7e00n;
-let rookMask = (n) => (0x8080808080808080n >> BigInt(n & 7) ^ 0xff00000000000000n >> BigInt(n >> 3 << 3)) & 0x07e7e7e7e7e7e00n;
-let bishopMask = (n) => (diag1[(n & 7 ^ 7) + (n >> 3)] ^ diag2[(n & 7) + (n >> 3)]) & 0x07e7e7e7e7e7e00n;
+let rookMask = (n) => (0x8080808080808080n >> BigInt(n & 7) ^ 0xff00000000000000n >> BigInt(n >> 3 << 3)) & 0x007e7e7e7e7e7e00n;
+let bishopMask = (n) => (diag1[(n & 7 ^ 7) + (n >> 3)] ^ diag2[(n & 7) + (n >> 3)]) & 0x007e7e7e7e7e7e00n;
 
 function createAllBlockerBitboards(movementMask) {
   let moveSquareIndices = [];
