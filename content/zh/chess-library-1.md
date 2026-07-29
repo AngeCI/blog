@@ -110,23 +110,23 @@ Bitboard 是一種特殊的數據結構，每個位元（bit）代表一個棋�
 ## 兵
 兵的走法可以直接用 bitboard 的位元運算（bitwise operation）[^2]解決。思路大致上是：
 
-- 讀取棋盤上所有己方兵的位置（表示為一個 64 位元的 bitboard，代碼裏稱為 `wP`）；
-- 讀取棋盤上所有有棋子的位置（代碼裏稱為 `occupied`）；
-- 將 `wP` 左移 8 位，計算 `(wP << 8) & ~occupied`，得到每個兵正前方的空棋格；
-- 將 `wP` 左移 16 位，計算 `(wP << 16) & ~occupied & rank[4]`，得到兵走兩步可以到達的空棋格；
-- 接着處理兵吃子的情況。首先讀取棋盤上所有敵棋的位置（代碼裏稱為 `bOcc`）；
-- 將 `wP` 左移 9 位，計算 `(wP << 9) & ~file[7] & bOcc`，得到每個兵左前方有敵棋的棋格；
-- 將 `wP` 左移 7 位，計算 `(wP << 7) & ~file[0] & bOcc`，得到每個兵右前方有敵棋的棋格；
+- 讀取棋盤上所有己方兵的位置（表示為一個 64 位元的 bitboard，代碼裏稱為 `sq`）；
+- 讀取棋盤上所有有棋子的位置（代碼裏稱為 `allPieces = enemyPieces | friendlyPieces`）；
+- 將 `sq` 左移 8 位，計算 `(wP << 8) & ~allPieces`，得到每個兵正前方的空棋格；
+- 將 `sq` 左移 16 位，計算 `(wP << 16) & ~allPieces & rank[4]`，得到兵走兩步可以到達的空棋格；
+- 接着處理兵吃子的情況。首先讀取棋盤上所有敵棋的位置（代碼裏稱為 `enemyPieces`）；
+- 將 `sq` 左移 9 位，計算 `(wP << 9) & ~file[7] & enemyPieces`，得到每個兵左前方有敵棋的棋格；
+- 將 `sq` 左移 7 位，計算 `(wP << 7) & ~file[0] & enemyPieces`，得到每個兵右前方有敵棋的棋格；
 - 以上算法是針對白方而言的，對於黑方的狀況……。
 
 ```wat
 (module
   (memory (export "$") 1)
   (func $genPawnMoves (export "a")
-    (param $wP i64)
-    (param $occupied i64)
-    (param $bOcc i64)
     (param $color i32)
+    (param $sq i64)
+    (param $enemyPieces i64)
+    (param $friendlyPieces i64)
     (local i64)
     (result i64)
     (local.set 4 (i64.shl (local.get $wP) (i64.const 8))) ;; store a temporary variable for (wP << 8)
@@ -171,6 +171,7 @@ Bitboard 是一種特殊的數據結構，每個位元（bit）代表一個棋�
   (data (i32.const 512) "\00\04\02\00\00\00\00\00\00\08\05\00\00\00\00\00") ;; KnightMoves
   (func $genKnightMoves (export "b")
     (param $sq i32)
+    (param $friendlyPieces i64)
     (result i64)
     (i64.load
       (i32.add (local.get $sq) (i32.const 512))
@@ -244,7 +245,8 @@ Array.from(a).map(e => e.toString(16).padStart(2, "0")).join("\\");
   (func $genSliderMoves (export "d")
     (param $type i32) ;; Bishop = 3, Rook = 4, Queen = 5
     (param $sq i32)
-    (param $blockers i64)
+    (param $allPieces i64)
+    (param $friendlyPieces i64)
     (result i64)
 
     (if (i32.and (local.get $type) (i32.const 4)) ;; rook
