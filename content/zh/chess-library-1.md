@@ -179,6 +179,7 @@ Bitboard 是一種特殊的數據結構，每個位元（bit）代表一個棋�
   )
   (func $genKingMoves (export "c")
     (param $sq i32)
+    (param $friendlyPieces i64)
     (result i64)
     (i64.load
       ;; (i32.add (local.get $sq) (i32.const 0))
@@ -266,7 +267,7 @@ Array.from(a).map(e => e.toString(16).padStart(2, "0")).join("\\");
             )
           )
         )
-        (i64.and (i64.const 0x007e7e7e7e7e7e00n))
+        (i64.and (i64.const 0x007e7e7e7e7e7e00))
       )
     )
     (if (i32.and (local.get $type) (i32.const 1)) ;; bishop
@@ -367,8 +368,8 @@ function createAllBlockerBitboards(movementMask) {
 
 function legalMoveBitboardFromBlockers(startSq, blockerBitboard, ortho) {
   let bitboard = 0n;
-  let rookDirections = [-16, -1, 1, 16];
-  let bishopDirections = [-17, -15, 15, 17];
+  let rookDirections = new Uint8Array([-16, -1, 1, 16]);
+  let bishopDirections = new Uint8Array([-17, -15, 15, 17]);
 
   let directions = ortho ? rookDirections : bishopDirections;
   // Convert coordinate to 0x88 system for easier boundary checking
@@ -406,10 +407,12 @@ function createLookupTables() {
       blockerBitboard = horizontalFlip(blockerBitboard);
 
       if (isRook)
-        rookAttacks[(blockerBitboard * magic & 0xffffffffffffffffn) >> BigInt(leftShift)] = legalMoveBitboard;
+        table[(blockerBitboard * magic & 0xffffffffffffffffn) >> BigInt(leftShift)] = legalMoveBitboard;
       else
-        bishopAttacks[(blockerBitboard * magic & 0xffffffffffffffffn) >> BigInt(leftShift)] = legalMoveBitboard;
+        table[(blockerBitboard * magic & 0xffffffffffffffffn) >> BigInt(leftShift)] = legalMoveBitboard;
     };
+
+    return table;
   };
 
   for (let startSq = 0; startSq < 64; startSq++) {
@@ -454,7 +457,7 @@ function genSliderMoves(startSq, allPiecesBitboard, friendlyPiecesBitboard) {
 
 ## 整理所有着法
 ```js
-moves.sort((a, b) => (a & 0x3f) - (b & 0x3f));
+moves.sort((a, b) => (a & Move.START_SQ_MASK) - (b & Move.START_SQ_MASK));
 ```
 
 ## 將軍判斷
