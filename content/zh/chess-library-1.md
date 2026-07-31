@@ -112,11 +112,11 @@ Bitboard 是一種特殊的數據結構，每個位元（bit）代表一個棋�
 
 - 讀取棋盤上所有己方兵的位置（表示為一個 64 位元的 bitboard，代碼裏稱為 `sq`）；
 - 讀取棋盤上所有有棋子的位置（代碼裏稱為 `allPieces = enemyPieces | friendlyPieces`）；
-- 將 `sq` 左移 8 位，計算 `(wP << 8) & ~allPieces`，得到每個兵正前方的空棋格；
-- 將 `sq` 左移 16 位，計算 `(wP << 16) & ~allPieces & rank[4]`，得到兵走兩步可以到達的空棋格；
+- 將 `sq` 左移 8 位，計算 `(sq << 8) & ~allPieces`，得到每個兵正前方的空棋格；
+- 將 `sq` 左移 16 位，計算 `(sq << 16) & ~allPieces & rank[4]`，得到兵走兩步可以到達的空棋格；
 - 接着處理兵吃子的情況。首先讀取棋盤上所有敵棋的位置（代碼裏稱為 `enemyPieces`）；
-- 將 `sq` 左移 9 位，計算 `(wP << 9) & ~file[7] & enemyPieces`，得到每個兵左前方有敵棋的棋格；
-- 將 `sq` 左移 7 位，計算 `(wP << 7) & ~file[0] & enemyPieces`，得到每個兵右前方有敵棋的棋格；
+- 將 `sq` 左移 9 位，計算 `(sq << 9) & ~file[7] & enemyPieces`，得到每個兵左前方有敵棋的棋格；
+- 將 `sq` 左移 7 位，計算 `(sq << 7) & ~file[0] & enemyPieces`，得到每個兵右前方有敵棋的棋格；
 - 以上算法是針對白方而言的，對於黑方的狀況……。
 
 ```wat
@@ -127,9 +127,12 @@ Bitboard 是一種特殊的數據結構，每個位元（bit）代表一個棋�
     (param $sq i64)
     (param $enemyPieces i64)
     (param $friendlyPieces i64)
-    (local i64)
     (result i64)
-    (local.set 4 (i64.shl (local.get $wP) (i64.const 8))) ;; store a temporary variable for (wP << 8)
+    (local i64)
+    (local $occupied i64)
+
+    (local.set 4 (i64.shl (local.get $sq) (i64.const 8))) ;; store a temporary variable for (sq << 8)
+    (local.set $occupied (i64.and (local.get $enemyPieces) (local.get $friendlyPieces))) ;; all occupied squares
 
     (i64.and ;; single pawn-push
       (local.get 4)
@@ -146,17 +149,19 @@ Bitboard 是一種特殊的數據結構，每個位元（bit）代表一個棋�
       (i64.shl (local.get 4) (i64.const 1))
       (i64.const 0xfefefefefefefefe) ;; non-h-file
     )
-    (i64.and (local.get $bOcc))
+    (i64.and (local.get $enemyPieces))
 
     (i64.and ;; capture towards right
       (i64.shr_u (local.get 4) (local.get 4))
       (i64.const 0x7f7f7f7f7f7f7f7f) ;; non-a-file
     )
-    (i64.and (local.get $bOcc))
+    (i64.and (local.get $enemyPieces))
 
     i64.and
     i64.and
     i64.and
+
+    (i64.and (i64.xor (local.get $friendlyPieces) (i64.const -1)))
   )
 )
 ```
@@ -176,6 +181,7 @@ Bitboard 是一種特殊的數據結構，每個位元（bit）代表一個棋�
     (i64.load
       (i32.add (local.get $sq) (i32.const 512))
     )
+    (i64.and (i64.xor (local.get $friendlyPieces) (i64.const -1)))
   )
   (func $genKingMoves (export "c")
     (param $sq i32)
@@ -185,6 +191,7 @@ Bitboard 是一種特殊的數據結構，每個位元（bit）代表一個棋�
       ;; (i32.add (local.get $sq) (i32.const 0))
       (local.get $sq)
     )
+    (i64.and (i64.xor (local.get $friendlyPieces) (i64.const -1)))
   )
 )
 ```
@@ -239,43 +246,143 @@ Array.from(a).map(e => e.toString(16).padStart(2, "0")).join("\\");
 ```wat
 (module
   (memory (export "$") 1)
-  (data (i32.const 1024) "\a0\b4\08\40\81\00\80\06\fd\df\ef\f7\df\ff\bf\ff") ;; RookMagics
-  (data (i32.const 1536) "\ff\5b\e4\fb\94\bb\1e\e5\7f\fe\8f\ed\67\f5\b9\c7") ;; BishopMagics
-  (data (i32.const 2048) "4444444455565565566655655655666546555565456655655666556545555554") ;; RookShifts
-  (data (i32.const 2112) ":<;;;;<:<;;;;;;<;;9999;;;;9779;;;;9779;;;;9999;;<<;;;;<<:<;;;;;:") ;; BishopShifts
+  (data (i32.const 1024) "\ff\7f\dd\bd\fb\fe\ff\bd\ff\bf\d7\ef\3f\ff\ff\db") ;; RookMagics
+  (data (i32.const 1536) "\be\df\5f\6d\77\fd\5f\eb\ff\de\f2\bc\fe\ff\fd\d7") ;; BishopMagics
+  (data (i32.const 2048) "4555555456665565456655654655556556556665566655655556556544444444") ;; RookShifts
+  (data (i32.const 2112) ":<;;;;;:<<;;;;<<;;9999;;;;9779;;;;9779;;;;9999;;<;;;;;;<:<;;;;<:") ;; BishopShifts
   (func $genSliderMoves (export "d")
     (param $type i32) ;; Bishop = 3, Rook = 4, Queen = 5
     (param $sq i32)
     (param $allPieces i64)
     (param $friendlyPieces i64)
     (result i64)
+    (local i32)
+    (local i32)
+    (local i32)
 
-    (if (i32.and (local.get $type) (i32.const 4)) ;; rook
+    (local.set 4 (i32.and (local.get $sq) (i32.const 7)))
+    (local.set 5 (i32.shr_u (local.get $sq) (i32.const 3)))
+
+    (if (result i64) (i32.and (local.get $type) (i32.const 4)) ;; rook
       (then
         (i64.xor ;; rook move mask
           (i64.shr_u ;; file
             (i64.const 0x8080808080808080)
-            (i64.extend_i32_u (i32.and (local.get $sq) (i32.const 7)))
+            (i64.extend_i32_u (local.get 4))
           )
           (i64.shr_u ;; rank
             (i64.const 0xff00000000000000)
             (i64.extend_i32_u
-              (i32.shl
-                (i32.shr_u (local.get $sq) (i32.const 3))
-                (i32.const 3)
+              (i32.shl (local.get 5) (i32.const 3))
+            )
+          )
+        )
+        (i64.and (i64.const 0x007e7e7e7e7e7e00))
+        (i64.and (local.get $allPieces))
+
+        (i64.mul
+          (call $horizontalFlip) ;; blockers
+          (i64.load
+            (i32.shl (i32.add (local.get $sq) (i32.const 1024)) (i32.const 3)) ;; magic
+          )
+        )
+        (i64.shl ;; left shifts
+          (i64.load8_u
+            (i32.add (local.get $sq) (i32.const 2048))
+          )
+        )
+
+        i32.wrap_i64
+        (i32.shl (i32.const 6))
+        (i32.add (local.get $sq))
+
+        (i32.shl (i32.const 3))
+        i64.load
+      )
+      (else
+        i64.const 0
+      )
+    )
+
+    (if (result i64) (i32.and (local.get $type) (i32.const 1)) ;; bishop
+      (then
+        (i64.xor ;; bishop move mask
+          (i32.add (local.get 4) (local.get 5))
+          (local.tee 6)
+          (if (result i64) (i32.ge_u (i32.const 8)) ;; diag1
+            (then
+              (i64.shr_u ;; diag1 - shift right
+                (i64.const 0x8040201008040201)
+                (i64.extend_i32_u
+                  (i32.sub (local.get 6) (i32.const 8))
+                )
+              )
+            )
+            (else
+              (i64.shl ;; diag1 - shift left
+                (i64.const 0x8040201008040201)
+                (i64.extend_i32_u
+                  (i32.sub (i32.const 8) (local.get 6))
+                )
+              )
+            )
+          )
+
+          (i32.add
+            (i32.xor (local.get 4) (i32.const 7))
+            (local.get 5)
+          )
+          (local.tee 6)
+          (if (result i64) (i32.ge_u (i32.const 8)) ;; diag2
+            (then
+              (i64.shr_u ;; diag2 - shift right
+                (i64.const 0x0102040810204080)
+                (i64.extend_i32_u
+                  (i32.sub (local.get 6) (i32.const 8))
+                )
+              )
+            )
+            (else
+              (i64.shl ;; diag2 - shift left
+                (i64.const 0x0102040810204080)
+                (i64.extend_i32_u
+                  (i32.sub (i32.const 8) (local.get 6))
+                )
               )
             )
           )
         )
         (i64.and (i64.const 0x007e7e7e7e7e7e00))
+        (i64.and (local.get $allPieces))
+
+        (i64.mul
+          (call $horizontalFlip) ;; blockers
+          (i64.load
+            (i32.shl (i32.add (local.get $sq) (i32.const 1536)) (i32.const 3)) ;; magic
+          )
+        )
+        (i64.shl ;; left shifts
+          (i64.load8_u
+            (i32.add (local.get $sq) (i32.const 2112))
+          )
+        )
+
+        i32.wrap_i64
+        (i32.shl (i32.const 6))
+        (i32.add (local.get $sq))
+
+        (i32.shl (i32.const 3))
+        i64.load
+      )
+      (else
+        i64.const 0
       )
     )
-    (if (i32.and (local.get $type) (i32.const 1)) ;; bishop
-      (then
-      )
-    )
+
+    i64.or
+    (i64.and (i64.xor (local.get $friendlyPieces) (i64.const -1)))
   )
-}
+)
 ```
 
 ```js
@@ -368,8 +475,8 @@ function createAllBlockerBitboards(movementMask) {
 
 function legalMoveBitboardFromBlockers(startSq, blockerBitboard, ortho) {
   let bitboard = 0n;
-  let rookDirections = new Uint8Array([-16, -1, 1, 16]);
-  let bishopDirections = new Uint8Array([-17, -15, 15, 17]);
+  let rookDirections = new Int8Array([-16, -1, 1, 16]);
+  let bishopDirections = new Int8Array([-17, -15, 15, 17]);
 
   let directions = ortho ? rookDirections : bishopDirections;
   // Convert coordinate to 0x88 system for easier boundary checking
@@ -398,18 +505,19 @@ function createLookupTables() {
   let bishopAttacks = [];
 
   let createTable = function (square, isRook, magic, leftShift) {
-    let table = new BigUint64Array(1 << 64 - leftShift);
+    // let table = new BigUint64Array(1 << 64 - leftShift);
 
     let blockerPatterns = createAllBlockerBitboards(isRook ? rookMask(square) : bishopMask(square));
 
     for (let blockerBitboard of blockerPatterns) {
       let legalMoveBitboard = legalMoveBitboardFromBlockers(square, blockerBitboard, isRook);
       blockerBitboard = horizontalFlip(blockerBitboard);
+      let key = square + Number((blockerBitboard * magic & 0xffffffffffffffffn) >> BigInt(leftShift) << 6n);
 
       if (isRook)
-        table[(blockerBitboard * magic & 0xffffffffffffffffn) >> BigInt(leftShift)] = legalMoveBitboard;
+        rookAttacks[key] = legalMoveBitboard;
       else
-        table[(blockerBitboard * magic & 0xffffffffffffffffn) >> BigInt(leftShift)] = legalMoveBitboard;
+        bishopAttacks[key] = legalMoveBitboard;
     };
 
     return table;
@@ -425,6 +533,11 @@ function createLookupTables() {
 }
 
 function exportLookupTables(table) {
+  for (let i = 0; i < table.length; i++) {
+    if (typeof table[i] === "undefined")
+      table[i] = 0xffffffffffffffffn;
+  }
+
   let blob = new Blob([new BigUint64Array(table)]);
   const a = document.createElement("a");
   a.href = URL.createObjectURL(blob);
@@ -436,19 +549,21 @@ function exportLookupTables(table) {
 
 function getSliderAttacks(square, blockers, ortho) {
   if (ortho)
-    return rookAttacks[square + ((blockers & rookMask(square)) * rookMagics[square] >> rookShifts[square] << 6)];
+    return rookAttacks[square + Number(((blockers & rookMask(square)) * rookMagics[square] & 0xffffffffffffffffn) >> BigInt(rookShifts[square]) << 6n)];
   else
     return bishopAttacks[square + ((blockers & bishopMask(square)) * bishopMagics[square] >> bishopShifts[square] << 6)];
 }
 
-function genSliderMoves(startSq, allPiecesBitboard, friendlyPiecesBitboard) {
+function genSliderMoves(type, startSq, allPiecesBitboard, friendlyPiecesBitboard) {
   let moveList = [];
 
-  let key = (allPiecesBitboard & rookMask(startSq)) * rookMagics[startSq] >> rookShifts[startSq];
-  let movesBitboard = rookAttacks[startSq + (key << 6)] & ~friendlyPiecesBitboard;
+  let rookMovesBitboard = (type & 4) ? (getSliderAttacks(startSq, allPiecesBitboard, true) & ~friendlyPiecesBitboard) : 0n;
+  let bishopMovesBitboard = (type & 1) ? (getSliderAttacks(startSq, allPiecesBitboard, false) & ~friendlyPiecesBitboard) : 0n;
+  let movesBitboard = rookMovesBitboard | bishopMovesBitboard;
 
   while (movesBitboard) {
-    moveList.push(BitboardHelper.PopLSB(movesBitboard));
+    [sq, movesBitboard] = BitboardHelper.clearAndGetIndexOfLSB(movesBitboard);
+    moveList.push(new Move(startSq, sq));
   };
 
   return moveList;
@@ -458,10 +573,58 @@ function genSliderMoves(startSq, allPiecesBitboard, friendlyPiecesBitboard) {
 ## 整理所有着法
 ```js
 moves.sort((a, b) => (a & Move.START_SQ_MASK) - (b & Move.START_SQ_MASK));
+
+let MoveGenerator = class {
+  MAX_MOVES = 218;
+  board;
+
+  generateKingMoves() {
+    BitboardHelper.genKingMoves(this.board, this.board.colourBitboards[this.board.isWhiteToMove ? 2 : 0]);
+  };
+  generateKnightMoves() {};
+  generatePawnMoves() {};
+  generateSlidingMoves() {};
+  generatePromotions() {};
+
+  generateMoves(board) {
+    let moves = [];
+    this.board = board;
+    generateKingMoves(moves);
+
+    if (!inDoubleCheck) {
+      gnerateSlidingMoves(moves);
+      generateKnightMoves(moves);
+      generatePawnMoves(moves);
+    };
+
+    for (let startSq = 0; startSq < 64; startSq++) {
+      let piece = board.square[startSq];
+      if (Piece.isColour(piece, board.colourToMove)) {
+        if (Piece.isSlidingPiece(piece)) {
+
+        };
+      };
+    };
+
+    return moves;
+  };
+
+  bitboardToMoveList(movesBitboard, startSq) {
+    while (movesBitboard) {
+      [sq, movesBitboard] = BitboardHelper.clearAndGetIndexOfLSB(movesBitboard);
+      moveList.push(new Move(startSq, sq));
+    };
+  };
+};
 ```
 
 ## 將軍判斷
 前人的實踐證明，在生成着法時延後判斷將軍，通常有助於提升程式的整體效能。一個簡明的將軍判斷手段為：「如果這枚王是別的棋種，它能否立即吃到同種類的敵棋？」若上述問題的答案為「是」，則王與該敵棋構成將軍。
+
+```js
+moves.();
+pseudoLegalMoves.push();
+```
 
 ## 吃過路兵
 吃過路兵只能發生第六行（白方）或第三行（黑方）。
@@ -504,6 +667,35 @@ if (m === 132 || m === 3772) { // move === 132 || move === 388 || move === 3772 
 ```
 
 王車易位的可行性要進一步結合棋盤狀態來判斷，FEN 字串有一個專門的欄位用來記錄這些狀態。
+
+# 規則處理測試
+[這裏](https://www.chessprogramming.org/Perft_Results)有一些預先計算好的結果。
+
+```js
+let perft = function (depth) {
+  if (depth === 0) return 1;
+
+  let moves = MoveGenerator.generateMoves();
+  let numPositions = 0;
+
+  for (let move of moves) {
+    Board.makeMove(move);
+    numPositions += perft(depth - 1);
+    Board.unmakeMove(move);
+  };
+
+  return numPositions;
+};
+
+let testSuite = function () {
+  perft("rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq -");
+  perft("r3k2r/p1ppqpb1/bn2pnp1/3PN3/1p2P3/2N2Q1p/PPPBBPPP/R3K2R w KQkq -");
+  perft("8/2p5/3p4/KP5r/1R3p1k/8/4P1P1/8 w - - 0 1");
+  perft("r3k2r/Pppp1ppp/1b3nbN/nP6/BBP1P3/q4N2/Pp1P2PP/R2Q1RK1 w kq - 0 1");
+  perft("rnbq1k1r/pp1Pbppp/2p5/8/2B5/8/PPP1NnPP/RNBQK2R w KQ -");");
+  perft("r4rk1/1pp1qppp/p1np1n2/2b1p1B1/2B1P1b1/P1NP1N2/1PP1QPPP/R4RK1 w - -");
+};
+```
 
 [^1]: 有中文資料譯為「位棋盤」。
 [^2]: 「位操作」是支語，但可能沒有確定的香港中文用語。
