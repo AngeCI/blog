@@ -179,7 +179,7 @@ Bitboard 是一種特殊的數據結構，每個位元（bit）代表一個棋�
     (param $friendlyPieces i64)
     (result i64)
     (i64.load
-      (i32.add (local.get $sq) (i32.const 512))
+      (i32.shl (i32.add (local.get $sq) (i32.const 512)) (i32.const 3))
     )
     (i64.and (i64.xor (local.get $friendlyPieces) (i64.const -1)))
   )
@@ -188,8 +188,8 @@ Bitboard 是一種特殊的數據結構，每個位元（bit）代表一個棋�
     (param $friendlyPieces i64)
     (result i64)
     (i64.load
-      ;; (i32.add (local.get $sq) (i32.const 0))
-      (local.get $sq)
+      ;; (i32.shl (i32.add (local.get $sq) (i32.const 0)) (i32.const 3))
+      (i32.shl (local.get $sq) (i32.const 3))
     )
     (i64.and (i64.xor (local.get $friendlyPieces) (i64.const -1)))
   )
@@ -286,7 +286,7 @@ Array.from(a).map(e => e.toString(16).padStart(2, "0")).join("\\");
             (i32.shl (i32.add (local.get $sq) (i32.const 1024)) (i32.const 3)) ;; magic
           )
         )
-        (i64.shl ;; left shifts
+        (i64.shr_u ;; right shifts
           (i64.load8_u
             (i32.add (local.get $sq) (i32.const 2048))
           )
@@ -361,7 +361,7 @@ Array.from(a).map(e => e.toString(16).padStart(2, "0")).join("\\");
             (i32.shl (i32.add (local.get $sq) (i32.const 1536)) (i32.const 3)) ;; magic
           )
         )
-        (i64.shl ;; left shifts
+        (i64.shr_u ;; right shifts
           (i64.load8_u
             (i32.add (local.get $sq) (i32.const 2112))
           )
