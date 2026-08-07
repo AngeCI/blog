@@ -246,8 +246,8 @@ const CardHelper = {
       return -1; // Invalid
 
     const flush = suits.every(suit => suit === suits[0]);
-    const groups = new Uint8Array([2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 1]).map((rank, i) => ranks.filter(j => i === j).length).sort((x, y) => y - x);
-    const shifted = ranks.map(n => ++n < 13 ? n : 0);
+    const groups = new Uint8Array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]).map((rank) => ranks.filter(j => rank === j).length).sort((x, y) => y - x);
+    const shifted = ranks.map(n => ++n < 14 ? n : 1);
     const distance = Math.min(Math.max(...ranks) - Math.min(...ranks), Math.max(...shifted) - Math.min(...shifted));
     const straight = groups[0] === 1 && distance < 5;
     groups[0] += hand.length - cards.length; // number of jokers
@@ -273,7 +273,10 @@ const CardHelper = {
     if (typeof trump !== "undefined")
       cards = cards.filter(card => CardHelper.geSuit(card) === trump);
 
-    const ranks = cards.map(CardHelper.getRank);
+    const ranks = cards.map(card => {
+      const rank = CardHelper.getRank(card);
+      return (rank === 1) ? 14 : rank;
+    });
     return cards[ranks.indexOf(Math.max(...ranks))];
   }
 };
@@ -339,8 +342,8 @@ const CardHelper = {
     const cardInner = document.createElement("div");
     const cardFront = document.createElement("div");
     const cardBack = document.createElement("div");
-    card.classList.add("card-front");
-    card.classList.add("card-back");
+    cardFront.classList.add("card-front");
+    cardBack.classList.add("card-back");
 
     cardInner.appendChild(cardFront);
     cardInner.appendChild(cardBack);

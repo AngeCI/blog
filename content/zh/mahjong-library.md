@@ -70,14 +70,14 @@ const MahjongHelper = {
     return ((v >> 4) * 9) + (v & 15);
   },
   s2tos1: (i) => {
-    return (Math.floor(i / 9) << 4) + (i % 9) + 1,
+    return (Math.floor(i / 9) << 4) + (i % 9) + 1;
   },
   s1tos3: (i) => {
     const v = i - 1;
-    return (s2Tos3SuitMap[v >> 4] * 9) + (v & 15),
+    return (s2Tos3SuitMap[v >> 4] * 9) + (v & 15);
   },
   s3tos1: (i) => {
-    return (s3Tos2SuitMap[Math.floor(i / 9)] << 4) + (i % 9) + 1
+    return (s3Tos2SuitMap[Math.floor(i / 9)] << 4) + (i % 9) + 1;
   },
   s1tos4: (i) => ((s2Tos4SuitMap[i >> 4]) * 9) + (i & 15),
   s3tos4: (i) => ((s3Tos4SuitMap[i >> 4]) * 9) + (i & 15)
