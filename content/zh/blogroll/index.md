@@ -20,6 +20,7 @@ menu:
 | 廢文小天地<br>![廢文小天地](trashposts-88x31.png) | https://trashposts.com |  |
 | YoZ Blog<br>![YoZ Blog](yozblog-web-badge-1.gif) | https://www.yozblog.com | [BlogBlog 同樂會](https://blogblog.club/party)主持人之一。 |
 <!--| Alex Hsu 斜槓少年 | https://alexhsu.com | [BlogBlog 同樂會](https://blogblog.club/party)主持人之一。 |-->
+<!--| Hi 我劉昕 | https://shuaixin.cc | [BlogBlog 同樂會](https://blogblog.club/party)主持人之一。 |-->
 
 # 其他推介
 | 名稱 | 連結 | 備註 |
@@ -29,7 +30,6 @@ menu:
 | LQ7 的創作與想像 | https://lq7.tw |  |
 | Eddie Lv | https://eddielv.com | [BlogBlog 同樂會](https://blogblog.club/party)主持人之一。 |
 | Matrix67: The Aha Moments | https://matrix67.com/blog/ | 有許多硬核的數學內容。（簡體中文） |
-<!--|  | https://ble-m.ltgc.cc | 英語 |-->
 
 <!--
 # 異端

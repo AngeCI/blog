@@ -1,7 +1,7 @@
 ---
 date: "2026-08-10T19:20:50+00:00"
 type: "post"
-title: "閩南語音系簡述"
+title: "Introduction to Hokkien Phonology"
 description: ""
 translationsKey: "introduction-to-hokkien-phonology"
 categories:
@@ -40,7 +40,7 @@ tags:
 
 閩南語的「最大公約數音系」一般有六個基本元音，但有少數人的腔調無法區分 o /o/ ~ /ə/ 和 o͘, oo /ɔ/。
 
-其中 /iŋ/ 的實際（正統）發音其實更像 [i̯əŋ]，跟 /in/ 有很大差別。臺灣華語 /iŋ/ 混入 /in/ 的趨勢其實看着有點奇怪。
+其中 /iŋ/ 的實際（正統）發音其實更像 [i̯əŋ]，跟 /in/ 有很大差別。臺灣華語 /iŋ/ 混入 /in/ 的趨勢其實看着不太尋常。
 
 |  | ∅ | a | o ~ ə | e | ɔ | i | u | ai | au |
 | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |

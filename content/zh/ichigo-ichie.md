@@ -1,17 +1,14 @@
 ---
 date: "2026-08-11T19:04:47+00:00"
 type: "post"
-title: "Ichigo Ichie"
+title: "一期一會"
 translationKey: "ichigo-ichie"
 categories:
   - "BlogBlog 同樂會"
 ---
 
-> [!WARNING] Notice
-> This post is a draft translation from [the Chinese version](/blog/zh/ichigo-ichie/) which have not yet been thoroughly proofread.
-
-> [!TIP] BlogBlog Club!
-> This is my submission article for “[BlogBlog Club Party - August 2026](https://blogblog.club/party)”. This month’s topic is “[一期一會](https://blog.ikukaroom.com/ichigo-ichie/)”, hosted by [ikuka](https://blog.ikukaroom.com). If you have your own blog, feel free to join us together!
+> [!TIP] BlogBlog 同樂會！
+> 這是我的「[BlogBlog 同樂會 - 2026 年 8 月](https://blogblog.club/party)」的投稿文章。本月主題是「[一期一會](https://blog.ikukaroom.com/ichigo-ichie/)」，由 [ikuka](https://blog.ikukaroom.com) 主持。如果你有自己的部落格，歡迎一起來參加！
 
 不是很知道該寫點什麼上去，來寫點哲<span class="hovers-blur">♂️</span>學隨筆好了。
 
