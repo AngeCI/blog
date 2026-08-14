@@ -13,7 +13,7 @@ categories:
 > 呢篇文章暫時仲未粵語化，暫時拎住[書面語版本](/blog/zh/fun-facts/)頂住檔先。我遲啲有時間會更新返粵語版本！
 
 > [!TIP] BlogBlog 同樂會！
-> 呢篇係我嘅「[BlogBlog 同樂會 - 2026 年 7 月](https://blogblog.club/party)」嘅投稿文章。今個月嘅主題係「[有趣的小知識或冷門概念](https://shuaixin.cc/Fun-Fact/)」，由[劉昕](https://shuaixin.cc)主持。如果你有自己嘅部落格，歡迎一起嚟參加！
+> 呢篇係我嘅「[BlogBlog 同樂會 - 2026 年 7 月](https://blogblog.club/party)」嘅投稿文章。今個月嘅主題係「[有趣嘅小知識或冷門概念](https://shuaixin.cc/Fun-Fact/)」，由[劉昕](https://shuaixin.cc)主持。如果你有自己嘅部落格，歡迎一起嚟參加！
 
 > [!CAUTION] 警告
 >

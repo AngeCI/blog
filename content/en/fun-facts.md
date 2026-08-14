@@ -13,7 +13,7 @@ categories:
 > This post is a draft translation from [the Chinese version](/blog/zh/fun-facts/) which have not yet been thoroughly proofread.
 
 > [!TIP] BlogBlog Club!
-> This is my submission article for “[BlogBlog Club Party - July 2026](https://blogblog.club/party)”. This month’s topic is “[有趣的小知識或冷門概念](https://shuaixin.cc/Fun-Fact/)”, hosted by [Shuai](https://shuaixin.cc). If you have your own blog, feel free to join us together!
+> This is my submission article for “[BlogBlog Club Party - July 2026](https://blogblog.club/party)”. This month’s topic is “[Fun Facts](https://shuaixin.cc/Fun-Fact/)”, hosted by [Shuai](https://shuaixin.cc). If you have your own blog, feel free to join us together!
 
 > [!CAUTION] 警告
 >
