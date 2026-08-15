@@ -1,5 +1,5 @@
 ---
-date: "2026-05-29T16:00:00+00:00"
+date: ""
 draft: true
 type: "post"
 title: "BlogBlog 同樂會：語言政策的習得、傳承與推廣（2026 年 10 月）"

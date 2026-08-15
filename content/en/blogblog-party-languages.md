@@ -1,5 +1,5 @@
 ---
-date: "2026-05-29T16:00:00+00:00"
+date: ""
 draft: true
 type: "post"
 title: "BlogBlog 同樂會：語言政策的習得、傳承與推廣（2026 年 10 月）"
@@ -10,6 +10,9 @@ categories:
 tags:
   - "Language Policy 語言政策"
 ---
+
+> [!WARNING] Notice
+> This post is a draft translation from [the Chinese version](/blog/zh/blogblog-party-languages/) which have not yet been thoroughly proofread.
 
 本人在 2026 年 3 月就已經有主持 BlogBlog 同樂會的想法，當時最初是排在 [ikuka](https://ikukaroom.com) 後面，只是由於本人在 9 月份的現實工作稍忙，而把主持時間後延了一個月到了 10 月。
 
