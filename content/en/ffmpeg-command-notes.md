@@ -1,5 +1,6 @@
 ---
 date: "2026-06-15T10:53:15+00:00"
+lastmod: "2026-08-16T18:55:35+00:00"
 type: "post"
 title: "ffmpeg Command Notes"
 translationKey: "ffmpeg-command-notes"
@@ -79,4 +80,14 @@ ffmpeg -i input.mp4 -vf "scale=360:-1,fps=12" -c:v libwebp_anim -loop 0 -compres
 # Adding watermarks
 ```sh
 ffmpeg -i input.mp4 -i watermark.png -filter_complex "[0:v][1:v]overlay=10:10:enable='between(t,1,2)'[outv]" -map "[outv]" output.mp4
+```
+
+# Silent audio track
+```sh
+ffmpeg -f lavfi -i anullsrc=r=44100:cl=stereo -t 10 output.mp4
+```
+
+# One-colour video
+```sh
+ffmpeg -f lavfi -i color-c-black:s=1920x1080:r=1 -t 10 output.mp4
 ```

@@ -1,5 +1,6 @@
 ---
 date: "2026-06-15T10:53:15+00:00"
+lastmod: "2026-08-16T18:55:35+00:00"
 type: "post"
 title: "ffmpeg 指令筆記"
 translationKey: "ffmpeg-command-notes"
@@ -79,4 +80,14 @@ ffmpeg -i input.mp4 -vf "scale=360:-1,fps=12" -c:v libwebp_anim -loop 0 -compres
 # 浮水印
 ```sh
 ffmpeg -i input.mp4 -i watermark.png -filter_complex "[0:v][1:v]overlay=10:10:enable='between(t,1,2)'[outv]" -map "[outv]" output.mp4
+```
+
+# 靜音音軌
+```sh
+ffmpeg -f lavfi -i anullsrc=r=44100:cl=stereo -t 10 output.mp4
+```
+
+# 純色畫面
+```sh
+ffmpeg -f lavfi -i color-c-black:s=1920x1080:r=1 -t 10 output.mp4
 ```

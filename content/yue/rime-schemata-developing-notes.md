@@ -1,6 +1,7 @@
 ---
 date: "2026-04-15T17:54:00+00:00"
 lastmod: "2026-08-10T19:18:35+00:00"
+type: "post"
 title: "Rime 輸入方案開發筆記"
 description: ""
 translationsKey: "rime-schemata-developing-notes"
