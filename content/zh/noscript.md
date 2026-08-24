@@ -1,5 +1,6 @@
 ---
 date: "2026-08-04T17:25:33+00:00"
+lastmod: "2026-08-24T10:17:24+00:00"
 type: "post"
 title: "NoScript"
 translationKey: "noscript"
@@ -23,6 +24,13 @@ Taxodium 把網站被禁用 JavaScript 的表現分成了五個 tier：
 - 有些網站有非服務端多語言支援，這個時候你禁用 JavaScript 的話就有可能變成上述的第三個 tier。本站目前語言的切換是全手動的，不會遇到上述問題，但明暗主題切換需要用到 JavaScript。
 - JavaScript 也有寫得好與不好之分。
 - 你現在看到的這個部落格，目前需要依賴 JavaScript 的功能應該只有文章搜尋和隨機文章，禁用 JavaScript 對閱讀體驗的影響應該不是很大。以後可能會加入的依賴 JavaScript 的功能有：內嵌外部影片播放器、留言版、自製互動工具。不過我的 [GitHub Pages](https://angeci.github.io) 除了文檔之外，其他內容基本上都是 JavaScript 程序。
+
+# 網站搬家？
+最近留意到 [It's小白](https://itsxiaobai.codeberg.page/pages/)某天決定把整個網站[從 GitHub Pages 搬到 Codeberg 上](https://itsxiaobai.codeberg.page/pages/blog/finally-changed-to-codeberg/)，同時把舊網域直接下架了，結果他還得親自給引用過舊域名的每一個網站寫信改連結，然後他的郵箱就被當成 spam account 了。如果他允許自己使用 JavaScript 的話，他其實只要在舊有的 GitHub repo 塞個 `404.html` 透過 JavaScript 自動跳轉到新的網站就好，那就不用這麼麻煩。
+
+```html
+<!DOCTYPE html><head><title>Redirecting...</title><script>this.location.href=this.location.href.replace("https://old.example.com/blog/","https://new.domain.net/blog/");</script></head><body><p>Redirecting to the new website...</p><noscript><p style="color: #f00">Static hosting requires JavaScript for redirection. Enable JavaScript in your browser first.</p></noscript></body>
+```
 
 > [!TIP]
 > 讀者對於以上的論述有什麼想法？歡迎來信 angeci (at) ltgc.cc 與我討論（或者本站出現留言版的時候留個言）！
