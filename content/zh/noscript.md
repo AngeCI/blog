@@ -9,9 +9,9 @@ categories:
   - "Computer Science 電腦科學"
 ---
 
-有些人習慣預設禁用瀏覽器執行 JavaScript 的權限，甚至對一切含有 JavaScript 的網頁持反感態度。最近讀到了 Taxodium 的《[請開啟 JavaScript 以繼續搜尋](https://taxodium.ink/google-turn-on-javascript-to-keep-searching.html)》和廢文小天地的《[關掉 JS 也沒問題！](https://trashposts.com/blog/no-js-no-problem/)》。我想提出一些對激進 NoScript 觀點的反駁。
+有些人習慣預設禁用瀏覽器執行 JavaScript 的權限，甚至對一切含有 JavaScript 的網頁持反感態度。最近讀到了 Spike Leung 的《[請開啟 JavaScript 以繼續搜尋](https://taxodium.ink/google-turn-on-javascript-to-keep-searching.html)》和廢文小天地的《[關掉 JS 也沒問題！](https://trashposts.com/blog/no-js-no-problem/)》。我想提出一些對激進 NoScript 觀點的反駁。
 
-Taxodium 把網站被禁用 JavaScript 的表現分成了五個 tier：
+Spike 把網站被禁用 JavaScript 的表現分成了五個 tier：
 > 1. 一片空白或者就一直加載，沒有任何提示
 > 2. 無法閱讀，但會檢測沒有開啟 JavaScript (一般會用 [&lt;noscript&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/noscript))，並給出相關提示
 > 3. 可以閱讀，但因為禁用 JavaScript 導致樣式有問題，部分功能受限 (例如切換明暗主題)

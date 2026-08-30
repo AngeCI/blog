@@ -8,9 +8,17 @@
     newTab = true
 
 [[main]]
+  name = "Mentions"
+  url = "https://indieping.giveanornot.com/angeci.github.io"
+  weight = 11
+  identifier = "mentions"
+  [main.params]
+    icon = "messages"
+
+[[main]]
   name = "Random Post"
   url = "#"
-  weight = 11
+  weight = 12
   identifier = "random"
   [main.params]
     icon = "random"

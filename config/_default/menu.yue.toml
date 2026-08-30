@@ -2,15 +2,23 @@
   name = "透過 RSS 訂閱"
   url = "/yue/index.xml"
   weight = 10
-  identifier = "rss-yue"
+  identifier = "rss"
   [main.params]
     icon = "rss"
     newTab = true
 
 [[main]]
+  name = "提及"
+  url = "https://indieping.giveanornot.com/angeci.github.io"
+  weight = 11
+  identifier = "mentions"
+  [main.params]
+    icon = "messages"
+
+[[main]]
   name = "隨機文章"
   url = "#"
-  weight = 11
+  weight = 12
   identifier = "random"
   [main.params]
     icon = "random"
