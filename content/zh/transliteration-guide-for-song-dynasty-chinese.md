@@ -1,9 +1,10 @@
 ---
 date: "2026-08-17T18:58:35+00:00"
+lastmod: "2026-08-30T19:16:00+00:00"
 type: "post"
 title: "宋代漢語音譯指南"
 description: ""
-translationsKey: "transliteration-guide-for-song-dynasty-chinese"
+translationKey: "transliteration-guide-for-song-dynasty-chinese"
 categories:
   - "Linguistics 語言學"
   - "Historical Chinese Phonology 漢語音韻學"
@@ -32,7 +33,7 @@ tags:
 | 濁塞擦音 |  | 從 /dz/ | 澄二崇 /dʐ/ | 澄三常 /dʒ/ |  |  |  |
 | 清擦音 | 非敷 /f/ | 心 /s/ | 生 /ʂ/ | 書 /ʃ/ | 曉 /ç/ | 曉 /h/ ~ /x/ |  |
 | 濁擦音 | 奉 /v/ | 邪 /z/ ~ /dz/ | 崇俟 /ʐ/ ~ /dʐ/ | 常船 /ʒ/ ~ /dʒ/ | 匣 /ʝ/ | 匣 /ɣ/ |  |
-| 邊音／近音 | 微 /ʋ/ | 來 /l/ |  | 日 /ȵ/ | 以 /ji/ | 云 //j/ |  |  |
+| 邊音／近音 | 微 /ʋ/ | 來 /l/ |  | 日 /ȵ/ &gt; /ɻ/ | 以 /ji/ | 云 /j/ |  |  |
 
 # 音譯原則
 - 區分平翹、尖團。
@@ -41,6 +42,7 @@ tags:
     - Nasim → 納棎 nɑp ʒiɛm ✖
     - Zetterstrand → 截瀦悉蘭 dziɛɾ tʂu siɾ lan ✖
     - Zetterstrand → 截致丹 dziɛɾ tʂʅ tan ✖
+    - Zetterstrand → 截突譠 dziɛɾ tʰuəɾ tʂan ✔
         - 瑞典語中只有前面跟着 r 的 d t n l s 才是捲舌音。此例中「瀦致」均被用於對應平舌音 tt，可以對應為翹舌音的 rstr 反而用了平舌音。
     - Zając /ˈzajɔnt͡s/ → 紗藥 ʂa jiɔʔ ✖
         - 第一個音節平翹不分；第二個音節誤判原音。
@@ -124,7 +126,7 @@ tags:
     - Nederland → 尼德蘭 ni təʔ lan ⭕️
         - 「德」屬於遠部位入聲，也許換成「突」更好。
 - -l, -r 或 -s 結尾的音節，可以用 -t 尾入聲字來譯。
-    - Markus → 末骨思 mɑɾ kuəɾ sɿ ✔
+    - Markus → 末骨思 m(u)ɑɾ kuəɾ sɿ ✔
     - Markus → 禡忌於易斯 ma (g/ɟ)i ʔ(y/iu) ji sɿ ✖
 - 入聲字最好不要拿來對應非入聲的音節，除非能把緊隨其後的輔音借來用。
     - Mississippi → 密西西比 miɾ si si p(ʲ)i ✔

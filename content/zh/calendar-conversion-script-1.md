@@ -38,6 +38,16 @@ function unixToJd (unix) {
 }
 ```
 
+## 試算表日期
+```js
+function jdToSpreadsheet (jd) {
+  return jd - 2415019.5 + (jd >= 2415079.5);
+}
+function spreadsheetToJd (d) {
+  return d + 2415019.5 - (d > 60);
+}
+```
+
 ## 星期數
 ```js
 /** wday (jd)
@@ -139,7 +149,7 @@ function numberOfDays (y, m) {
   else if (m == 2) return isLeapGreg(y) ? 29 : 28;
   // else return Math.floor((153 * m - 304) / 5) - Math.floor((153 * m - 457) / 5);
   else {
-    let a = 501381 * m - 996208;
+    const a = 501381 * m - 996208;
     return (a >> 14) - (a - 501381 >> 14);
   }
 }
@@ -186,15 +196,47 @@ function jdToIsoWeekday (jd) {
 }
 
 function isoWeekdayToJd (y, w, d) {
+  if (y === 0)
+    y = 7;
+
   let j = w * 7;
-  let yearStart = gregToJd(y - 1, 12, 28);
+  const yearStart = gregToJd(y - 1, 12, 28);
+
   if (w > 0) {
-    j += jd - 1 - wday(jd - 1); // Previous Sunday
-  }
-  else {
-    j += jd + 7 - wday(jd + 7); // Next Sunday
-  }
+    j += yearStart - 1 - wday(yearStart - 1); // Previous Sunday
+  } else {
+    j += yearStart + 7 - wday(yearStart + 7); // Next Sunday
+  };
+
   return d + j;
+}
+```
+
+```js
+function jdToHhpc (jd) {
+  jd = Math.floor(jd + 0.5);
+  let y = jdToGreg(jd - 3)[0];
+  if (jd >= isoWeekdayToJd(year + 1, 1, 1))
+    y++;
+
+  const date = jd - isoWeekdayToJd(y, 1, 1);
+  const m = Math.floor(date / 30) + Math.floor(date / 90);
+
+  return [
+    y,
+    m + 1,
+    date - Math.floor((m - 1) * 91 / 3);
+  ];
+}
+
+function hhpcToJd (y, m, d) {
+  const yearStartLastest = gregToJd(y, 1, 3);
+  return yearStartLastest - wday(yearStartLastest) + Math.floor((m - 1) * 91 / 3) + d;
+}
+
+function hhpcOldToJd (y, m, d) {
+  const yearStartLastest = gregToJd(y, 1, 2);
+  return yearStartLastest - wday(yearStartLastest - 6) + Math.floor((m - 1) * 91 / 3) + d;
 }
 ```
 
@@ -205,26 +247,26 @@ function isoWeekdayToJd (y, w, d) {
 function jdToCoptic (jd) {
   let wjd = Math.floor(jd - 1824663.5); // Counting from 0283-08-29
   let year = Math.floor(wjd / 365.25);
-  let year = Math.floor(wjd / 365.25);
   year %= 1460; // Substract multiples of 365 / 0.25 = 1460
+  let days = Math.floor(wjd - year * 365.25);
+
   return [
     year,
-    Math.floor((wjd - year * 365.25) / 30) + 1,
-    Math.floor((wjd - year * 365.25) / 30) + 1,
-    Math.floor(wjd - year * 365.25) % 30 + 1
+    Math.floor(days / 30) + 1,
+    days % 30 + 1
   ];
 }
 
 function jdToEthiopian (jd) {
   let wjd = Math.floor(jd - 1723854.5); // Counting from 0007-08-27
-  // let year = Math.floor(wjd / 365.25);
   let year = Math.floor(wjd / 365.25);
   year %= 1460; // Substract multiples of 365 / 0.25 = 1460
+  let days = Math.floor(wjd - year * 365.25);
+
   return [
     year,
-    Math.floor((wjd - year * 365.25) / 30) + 1,
-    Math.floor((wjd - year * 365.25) / 30) + 1,
-    Math.floor(wjd - year * 365.25) % 30 + 1
+    Math.floor(days / 30) + 1,
+    days % 30 + 1
   ];
 }
 ```
@@ -237,12 +279,11 @@ function jdToEthiopian (jd) {
  * @return An array [tzolkin_name, tzolkin_num, haab_month, haab_day].
  */
 function jdToMayanShort (jd) {
-  let amod = (a, b) => (a - 1) % b + 1;
   let d = Math.floor(jd - 584282.5); // Counting from -3113-08-11
   let day = (d + 348) % 365;
   return [
     d % 20,
-    amod(d + 4, 13),
+    (d + 3) % 13 + 1,
     Math.floor(day / 20),
     day % 20
   ];
@@ -314,7 +355,28 @@ function equationOfTimeFast (jd) {
 
 # 複雜曆法
 ## 法國共和曆
-[法國共和曆](https://zh.wikipedia.org/wiki/%E6%B3%95%E5%9C%8B%E5%85%B1%E5%92%8C%E6%9B%86)的原始版本因為涉及到計算每年秋分的準確日期，因此也歸類進複雜曆法當中。
+[法國共和曆](https://zh.wikipedia.org/wiki/%E6%B3%95%E5%9C%8B%E5%85%B1%E5%92%8C%E6%9B%86)的原始版本因為涉及到計算每年秋分的準確日期，因此也歸類進複雜曆法當中。但除此以外法國共和曆結構上與古埃及曆法基本同出一轍。
+
+```js
+function jdToFrench (jd) {
+  jd = Math.floor(jd + 0.5);
+
+  let days = jd - equinox;
+
+  return [
+    y,
+    Math.floor(days / 30) + 1,
+    Math.floor((days % 30) / 10) + 1,
+    days % 10 + 1
+  ];
+}
+```
 
 ## 農曆
 精確的農曆編算非常複雜，加上古代實曆的觀測精度沒有現代這麼準，大多數轉換程式用的底層方法還是查表。
+
+```js
+function jdToChinese (jd) {
+
+}
+```

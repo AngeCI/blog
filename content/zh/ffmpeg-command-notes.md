@@ -2,7 +2,7 @@
 date: "2026-06-15T10:53:15+00:00"
 lastmod: "2026-08-16T18:55:35+00:00"
 type: "post"
-title: "ffmpeg 指令筆記"
+title: "FFmpeg 指令筆記"
 translationKey: "ffmpeg-command-notes"
 categories:
   - "Notes 筆記"
