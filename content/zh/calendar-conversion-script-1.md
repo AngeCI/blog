@@ -245,10 +245,10 @@ function hhpcOldToJd (y, m, d) {
 
 ```js
 function jdToCoptic (jd) {
-  let wjd = Math.floor(jd - 1824663.5); // Counting from 0283-08-29
+  const wjd = Math.floor(jd - 1824663.5); // Counting from 0283-08-29
   let year = Math.floor(wjd / 365.25);
   year %= 1460; // Substract multiples of 365 / 0.25 = 1460
-  let days = Math.floor(wjd - year * 365.25);
+  const days = wjd - Math.floor(year * 365.25);
 
   return [
     year,
@@ -258,10 +258,10 @@ function jdToCoptic (jd) {
 }
 
 function jdToEthiopian (jd) {
-  let wjd = Math.floor(jd - 1723854.5); // Counting from 0007-08-27
+  const wjd = Math.floor(jd - 1723854.5); // Counting from 0007-08-27
   let year = Math.floor(wjd / 365.25);
   year %= 1460; // Substract multiples of 365 / 0.25 = 1460
-  let days = Math.floor(wjd - year * 365.25);
+  const days = wjd - Math.floor(year * 365.25);
 
   return [
     year,
@@ -279,8 +279,9 @@ function jdToEthiopian (jd) {
  * @return An array [tzolkin_name, tzolkin_num, haab_month, haab_day].
  */
 function jdToMayanShort (jd) {
-  let d = Math.floor(jd - 584282.5); // Counting from -3113-08-11
-  let day = (d + 348) % 365;
+  const d = Math.floor(jd - 584282.5); // Counting from -3113-08-11
+  const day = (d + 348) % 365;
+
   return [
     d % 20,
     (d + 3) % 13 + 1,
@@ -296,13 +297,13 @@ function jdToMayanShort (jd) {
 function jdToMayanLong (jd) {
   let d = Math.floor(jd - 584282.5); // Counting from -3113-08-11
 
-  let baktun = Math.floor(d / 144000);
+  const baktun = Math.floor(d / 144000);
   d -= baktun * 144000;
-  let katun = Math.floor(d / 7200);
+  const katun = Math.floor(d / 7200);
   d -= katun * 7200;
-  let tun = Math.floor(d / 360);
+  const tun = Math.floor(d / 360);
   d -= tun * 360;
-  let uinal = Math.floor(d / 20);
+  const uinal = Math.floor(d / 20);
 
   return [baktun, katun, tun, uinal, d - uinal * 20];
 }
@@ -345,8 +346,12 @@ function jdToGmst (jd) {
  * @return Equation of time in minutes.
  */
 function equationOfTimeFast (jd) {
-  let d = 6.24004077 + 0.01720197 * (jd - 2451545);
+  const d = 6.24004077 + 0.01720197 * (jd - 2451545);
   return 9.863 * Math.sin(d * 2 + 3.5932) - 7.659 * Math.sin(d);
+}
+
+function jdToApparentSolarTime (jd, lon) {
+  return jd + lon / 360  + equationOfTime(jd) / 1440;
 }
 ```
 
@@ -377,6 +382,124 @@ function jdToFrench (jd) {
 
 ```js
 function jdToChinese (jd) {
+  const TABLE_START = 1900;
+  const TABLE_END = 2100;
+  // Table format:
+  // Bits 0-3 from LSB: Leap month index
+  // Bits 4-15 from LSB: Days of each lunar month. Bit 15 represents month 1, bit 4 represents month 12. Leap month is not included.
+  // Bit 16 from LSB: Is the leap month long?
+  const lunarTable = new Uint32Array([0x04bd8, 0x04ae0, 0x0a570, 0x054d5, 0x0d260, 0x0d950, 0x16554, 0x056a0, 0x09ad0, 0x055d2, 0x04ae0, 0x0a5b6, 0x0a4d0, 0x0d250, 0x1d255, 0x0b540, 0x0d6a0, 0x0ada2, 0x095b0, 0x14977, 0x04970, 0x0a4b0, 0x0b4b5, 0x06a50, 0x06d40, 0x1ab54, 0x02b60, 0x09570, 0x052f2, 0x04970, 0x06566, 0x0d4a0, 0x0ea50, 0x06e95, 0x05ad0, 0x02b60, 0x186e3, 0x092e0, 0x1c8d7, 0x0c950, 0x0d4a0, 0x1d8a6, 0x0b550, 0x056a0, 0x1a5b4, 0x025d0, 0x092d0, 0x0d2b2, 0x0a950, 0x0b557, 0x06ca0, 0x0b550, 0x15355, 0x04da0, 0x0a5b0, 0x14573, 0x052b0, 0x0a9a8, 0x0e950, 0x06aa0, 0x0aea6, 0x0ab50, 0x04b60, 0x0aae4, 0x0a570, 0x05260, 0x0f263, 0x0d950, 0x05b57, 0x056a0, 0x096d0, 0x04dd5, 0x04ad0, 0x0a4d0, 0x0d4d4, 0x0d250, 0x0d558, 0x0b540, 0x0b6a0, 0x195a6, 0x095b0, 0x049b0, 0x0a974, 0x0a4b0, 0x0b27a, 0x06a50, 0x06d40, 0x0af46, 0x0ab60, 0x09570, 0x04af5, 0x04970, 0x064b0, 0x074a3, 0x0ea50, 0x06b58, 0x055c0, 0x0ab60, 0x096d5, 0x092e0, 0x0c960, 0x0d954, 0x0d4a0, 0x0da50, 0x07552, 0x056a0, 0x0abb7, 0x025d0, 0x092d0, 0x0cab5, 0x0a950, 0x0b4a0, 0x0baa4, 0x0ad50, 0x055d9, 0x04ba0, 0x0a5b0, 0x15176, 0x052b0, 0x0a930, 0x07954, 0x06aa0, 0x0ad50, 0x05b52, 0x04b60, 0x0a6e6, 0x0a4e0, 0x0d260, 0x0ea65, 0x0d530, 0x05aa0, 0x076a3, 0x096d0, 0x04afb, 0x04ad0, 0x0a4d0, 0x1d0b6, 0x0d250, 0x0d520, 0x0dd45, 0x0b5a0, 0x056d0, 0x055b2, 0x049b0, 0x0a577, 0x0a4b0, 0x0aa50, 0x1b255, 0x06d20, 0x0ada0, 0x14b63, 0x09370, 0x049f8, 0x04970, 0x064b0, 0x168a6, 0x0ea50, 0x06b20, 0x1a6c4, 0x0aae0, 0x0a2e0, 0x0d2e3, 0x0c960, 0x0d557, 0x0d4a0, 0x0da50, 0x05d55, 0x056a0, 0x0a6d0, 0x055d4, 0x052d0, 0x0a9b8, 0x0a950, 0x0b4a0, 0x0b6a6, 0x0ad50, 0x055a0, 0x0aba4, 0x0a5b0, 0x052b0, 0x0b273, 0x06930, 0x07337, 0x06aa0, 0x0ad50, 0x14b55, 0x04b60, 0x0a570, 0x054e4, 0x0d160, 0x0e968, 0x0d520, 0x0daa0, 0x16aa6, 0x056d0, 0x04ae0, 0x0a9d4, 0x0a2d0, 0x0d150, 0x0f252, 0x0d520]);
 
+  let leapMonth = function (y) {
+    if (y < TABLE_START || y > TABLE_END)
+      throw new RangeError();
+
+    return lunarTable[y - TABLE_START] & 15;
+  };
+  let leapDays = function (y) {
+    if (y < TABLE_START || y > TABLE_END)
+      throw new RangeError();
+
+    const m = leapMonth(y);
+    if (m === 0) return 0;
+
+    if (lunarTable[y - TABLE_START] & 0x10000)
+      return 30;
+    else return 29;
+  };
+  let lYearDays = function (y) {
+    if (y < TABLE_START || y > TABLE_END)
+      throw new RangeError();
+
+    let sum = 348;
+    let i = 0x8000;
+
+    while (i > 8) {
+      if (lunarTable[y - TABLE_START] & i)
+        sum++;
+
+      i >>= 1;
+    };
+
+    return sum + leapDays(y);
+  };
+  let monthDays = function (y, m) {
+    if (y < TABLE_START || y > TABLE_END)
+      throw new RangeError();
+
+    if (m > 12 || m < 1) throw new RangeError();
+
+    if (lunarTable[y - TABLE_START] & 0x10000 >> m) return 30;
+    else return 29;
+  };
+
+  const tableEpoch = gregToJd(TABLE_START);
+  const offset = Math.floor((jd - tableEpoch) / 86400);
+
+  let ly = TABLE_START, temp;
+
+  // Find year
+  while (ly < TABLE_END && offset > 0) {
+    temp = lYearDays(ly);
+    offset -= temp;
+    ly++;
+  };
+  if (offset < 0) {
+    offset += temp;
+    ly--;
+  };
+
+  // Find month
+  let lm = 1,
+  isLeap = false,
+  leap = leapMonth(ly);
+
+  while (offset > 0 && lm < 13) {
+    if (leap > 0 && lm === leap + 1 && !isLeap) {
+      lm--;
+      isLeap = true;
+      temp = leapDays(ly);
+    } else {
+      temp = monthDays(ly, lm);
+    };
+
+    offset -= temp;
+
+    if (isLeap && lm === leap + 1)
+      isLeap = false;
+
+    lm++;
+  };
+
+  // Find day
+  if (offset === 0 && leap > 0 && lm === leap + 1) {
+    if (isLeap)
+      isLeap = false;
+    else {
+      isLeap = true;
+      lm--;
+    };
+  };
+
+  if (offset < 0) {
+    offset += temp;
+    lm--;
+  };
+
+  let ld = offset + 1;
+
+  return [ly, lm, ld, isLeap];
+}
+
+function jdToChineseText (jd) {
+  const [y, m, d, isLeap] = jdToChinese(jd);
+  return `${"甲乙丙丁戊己庚辛壬癸"[(y - 4) % 10]}${"子丑寅卯辰巳午未申酉戌亥"[(y - 4) % 12]}年${isLeap ? "閏" : ""}${"正二三四五六七八九十冬臘"[m - 1]}月${"初十廿卅"[Math.floor(d / 10)]}${"日一二三四五六七八九十"[d % 10]}`;
+};
+```
+
+### 八字陽曆
+```js
+function jdToChineseSolar (jd, lon) {
+  let apparentJd = jdToApparentSolarTime(jd, lon);
 }
 ```
