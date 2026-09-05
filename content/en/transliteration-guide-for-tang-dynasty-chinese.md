@@ -1,5 +1,5 @@
 ---
-date: "2026-09-06T19:16:40+00:00"
+date: "2026-09-05T19:16:40+00:00"
 type: "post"
 title: "Transliteration Guide for Tang Dynasty Chinese"
 description: ""
