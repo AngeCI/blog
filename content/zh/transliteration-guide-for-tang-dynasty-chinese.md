@@ -1,5 +1,6 @@
 ---
 date: "2026-09-05T19:16:40+00:00"
+lastmod: "2026-09-06T12:29:18+00:00"
 type: "post"
 title: "唐代漢語音譯指南"
 description: ""
@@ -45,6 +46,7 @@ tags:
 | in/iṇ |  |   |  | 真 |  |  |  |
 | un/uṇ | 捃均 |   |  |  |  |  |  |
 | ut/uṭ/ur/ul | 掘 |   |  |  |  |  |  |
+| ∅ | 乞 |  |  |  |  |  |  |
 
 |  | ṭ | ṭh | ḍ/ḍh | ṇ |
 | -- | -- | -- | -- | -- |
@@ -67,29 +69,49 @@ tags:
 |  | y | r/l | v | ś | ṣ | s | h | ∅ |
 | -- | -- | -- | -- | -- | -- | -- | -- | -- |
 | a/ā | 耶也夜 | 羅囉邏 | 和婆縛 | 沙 | 舍 | 娑 | 訶 | 阿 |
-| i/ī |  | 利梨 | 韋 | 施始 | 師 | 斯私 |  |  |
-| u/ū | 臾由 |  |  |  |  |  |  |  |
+| i/ī |  | 利梨 | 韋毘 | 施始 | 師 | 斯私 |  |  |
+| u/ū | 臾由 |  |  | 首 |  |  |  |  |
 | ∅ |  |  |  | 施室 | 師 | 斯私 |  |  |
 
 # 例子
+以下是一些後起或現今某社群自造的譯名：
 - Sverige /ˈsværjɛ/ → 遂歷：zy̯i(s) lek → zyi liʔ ✖
     - 在[宋代音系](/blog/zh/transliteration-guide-for-song-dynasty-chinese/)中「遂歷」可以成立，但初唐音系不能。聲母清濁需要嚴格分清。
-- Deutsch /dɔɪt͡ʃ/ → 隤䲭：dʷɑi̯ tɕʰi̯ɛ → duɔi tʃʰi ✔
+- Deutsch /dɔɪt͡ʃ/ → 隤䲭：dʷɑi̯ tɕʰi → duɔi tʃʰi ✔
 - France → 法蘭西：pʉ̯ɜp lɑn se(i̯) → fɑp lan si ⭕️
     - 也許第一個字改成「佛」/bʉt/？
-- English → 英吉利；ʔɪ̯aŋ kit li(s) → ʔiŋ ciɾ li ✔
+- English → 英吉利：ʔɪ̯aŋ kit li(s) → ʔiŋ ciɾ li ✔
+- Italia → 有犢：ɨ̯u(ʔ) duk → iəu duʔ ✖
+    - 發音依據不明，而且與「有毒」諧音？
 - Italia → 意大利：ʔɨ(ç) dɑi̯ li(s) → ʔi dɑi li ❔
 - Italia → 伊多梨：ʔi tɑ li → ʔji tɔ li ✔
     - 有意見認為「Italia」中間那個音節應對以歌韻字。
-- American → 美利堅：mɪ li(s) qen → mi li ciɛn ✖
-- America → 彌梨迦：mi̯ɛ li kɨ̯ɑ → m(ʲ)i li (k/c)iɛ ✔
-- American → 彌梨犍：mi̯ɛ li kɨ̯ɜn → m(ʲ)i li (k/c)iɛn ✔
+- American → 美利堅：mɪ(ʔ) li(s) qen → mi li ciɛn ✖
+- America → 彌梨迦：mi̯e li kɨ̯ɑ → m(ʲ)i li (k/c)iɛ ✔
+- American → 彌梨犍：mi̯e li kɨ̯ɜn → m(ʲ)i li (k/c)iɛn ✔
     - 在初唐音系，硬腭音和小舌音不能混淆（除非無字可用），而小舌音一般不見於近代以前的歐洲語言。
-- Stockholm → 士多貢：dʐɨ tɑ quŋ → ʐʅ tɔ kuŋ ✖
-- Stockholm → 娑拓堪：sɑ tʰɑk kʰʌm → sɔ tʰɔʔ kʰɑm ✔
-- Persson /ˈpæːʂɔn/ → 陂兒宋：pɪ̯ɛ ȵi̯ɛ soŋ → pi ȵi suŋ ✖
-- Zetterstrand /ˈsɛtːəʂˌtrand/ → 截瀦悉蘭：dzet ʈɨ̯ɤ sit lɑn → dziɛɾ tʂu siɾ lan ✖
-- Zetterstrand /ˈsɛtːəʂˌtrand/ → 截致丹：dzet ʈɪ(s) tɑn → dziɛɾ tʂʅ tan ✖
+- Stockholm → 士多貢：dʐɨ(ʔ) tɑ quŋ(h) → ʐʅ tɔ kuŋ ✖
+- Stockholm → 司拓堪：sɨ tʰɑk qʰʌm → sɿ tʰɔʔ kʰɑm ✔
+- Stockholm → 司篤堪：sɨ tok qʰʌm → sɿ tuʔ kʰɑm ✔
+- Portugal → 埠吐噶：bo(h) tʰo(h) \*qɑt → bu tʰu kɑɾ ⭕️
+- Brazil → 枋林：pʉ̯ɑŋ lim → fɑŋ lim ✖
+- Україна → 渥蓮：ʔʵʌu̯k len → ʔjɔʔ liɛn ✖❔
+- Україна → 屋家寅：ʔuk kʵa jin → ʔuʔ ca jin ✔
+    - <span class="chide">烏克蘭歷史上也被稱作「小俄羅斯」，或可作「小羅剎」。不過放在現在的地緣政治形勢，這名字恐怕有些人在政治層面接受不了。</span>
+- Persson /ˈpæːʂɔn/ → 陂兒宋：pɪ̯ɛ ȵi̯ɛ soŋ(h) → pi ȵi suŋ ✖
+- Persson /ˈpæːʂɔn/ → 派雙：pʰʵɛ(h) ʂʌu̯ŋ → pʰa(i) ʂɑŋ ✔
+- Zetterstrand /ˈsɛtːɛʂˌʈrand/ → 截瀦悉蘭：dzet ʈɨ̯ɤ sit lɑn → dziɛɾ tʂu siɾ lan ✖
+- Zetterstrand /ˈsɛtːɛʂˌʈrand/ → 截致丹：dzet ʈɪ(s) tɑn → dziɛɾ tʂʅ tan ✖
     - 瑞典語中只有前面跟着 r 的 d t n l s 才是捲舌音。此例中「瀦致」均被用於對應平舌音 tt，可以對應為翹舌音的 rstr 反而用了平舌音。
-- עברית /ʕiβˈriːθ/ → /(ʔ)ivˈʁit/ → 挹栗：ʔip lit → ʔjip liɾ ⭕️❔
+- Åberg /ˈoːbærj/ → 亞伯：ʔʵa(h) pʵak → ʔja pəʔ ✖
+- עִבְרִית /ʕiβˈriːθ/ → /(ʔ)ivˈʁit/ → 挹栗：ʔip lit → ʔjip liɾ ⭕️❔
     - ע 這個字母的古代希伯來語發音，很不像中古漢語的影母，可能更像云母或匣母。
+- 英語 Hebrew 或教會拉丁語 hebræus /eˈbrɛːus/ → 協婁：ʁep ləu̯ → ʝiɛp ləu ✖❔
+
+以下是一些出自唐代景教文獻的譯名：
+- Μᾶρκος Marcus → 摩矩辭：m(u)ɑ kɨ̯o(ʔ) zɨ → m(u)ɔ (k/c)(y/iu) zɿ
+- Ματθαῖος Matthæus → 明泰：mɪ̯aŋ tʰɑi̯ → miŋ tʰɑi
+- Παῦλος Paulus → 寶路：pɑu̯(ʔ) lo(h) → pɑu lu
+- מִיכָאֵל /miːxaːˈʔil/ → /miχaˈ(ʔ)el/ → 彌沙曳？：mi̯e ʂa jɛi̯ → m(ʲ)i ʂa ji
+- יוֹחָנָן /joːħaːˈnaːn/ → /joχaˈnan/ → 瑜罕難：jɨ̯o χɑn(ʔ) nɑn(h) → j(y/iu) xan nan
+- דָּוִד /daːˈwiːd/ → /daˈvid/ → 多惠：tɑ ʁʷe(i̯)(h) → tɔ ɣui
