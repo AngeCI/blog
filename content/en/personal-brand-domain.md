@@ -4,7 +4,6 @@ lastmod: "2026-05-03T10:12:36+00:00"
 type: "post"
 title: "Personal Brand Domain"
 description: "How to choose a domain name for a personal brand?"
-translationsKey: "personal-brand-domain"
 categories:
   - "Computer Science 電腦科學"
   - "Blog 部落格"

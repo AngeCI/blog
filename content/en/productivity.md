@@ -4,7 +4,6 @@ lastmod: ""
 type: "post"
 title: "Productivity: Prisoner’s Dilemma, Nash Equilibrium and Twilight of the Gods"
 description: "Prisoner’s Dilemma, Nash Equilibrium and Twilight of the Gods"
-translationsKey: "productivity"
 categories:
   - "BlogBlog 同樂會"
   - "Artificial Intelligence 人工智能"

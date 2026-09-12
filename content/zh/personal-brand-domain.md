@@ -4,7 +4,6 @@ lastmod: "2026-05-03T10:12:36+00:00"
 type: "post"
 title: "個人品牌網域"
 description: "如何為個人品牌制定網域？"
-translationsKey: "personal-brand-domain"
 categories:
   - "Computer Science 電腦科學"
   - "Blog 部落格"

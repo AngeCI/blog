@@ -1,8 +1,8 @@
 ---
 date: "2026-03-19T10:10:01+00:00"
+type: "post"
 title: "論學習文言的必要性"
 description: "文言文有用麼？"
-translationKey: "studying-classical-chinese"
 categories:
   - "Linguistics 語言學"
 tags:

@@ -4,7 +4,6 @@ lastmod: ""
 type: "post"
 title: "生產力：囚徒困境、納什均衡同諸神黃昏"
 description: "囚徒困境、納什均衡同諸神黃昏"
-translationsKey: "productivity"
 categories:
   - "BlogBlog 同樂會"
   - "Artificial Intelligence 人工智能"

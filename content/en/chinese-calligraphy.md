@@ -1,9 +1,9 @@
 ---
 date: "2026-03-22T08:32:40+00:00"
 lastmod: "2026-03-25T19:15:43+00:00"
+type: "post"
 title: "About Chinese Calligraphy Education"
 description: "Do you think Chinese calligraphy should be included as part of compulsory education?"
-translationKey: "chinese-calligraphy"
 categories:
   - "Unclassified 未分類"
 tags:

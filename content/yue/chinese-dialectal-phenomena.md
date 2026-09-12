@@ -4,7 +4,6 @@ lastmod: "2026-04-07T19:42:45+00:00"
 type: "post"
 title: "淺談數個漢語方言現象"
 description: "寫得唔係好專業，隨便睇吓就得。"
-translationsKey: "chinese-dialectal-phenomena"
 categories:
   - "Linguistics 語言學"
   - "Historical Chinese Phonology 漢語音韻學"

@@ -4,7 +4,6 @@ lastmod: "2026-06-16T10:00:00+00:00"
 type: "post"
 title: "Alex Hsu Suppresses Local Languages"
 description: "Why do you insist on turning a healthy discussion into vicious competition?"
-translationsKey: "alex-hsu-suppresses-local-languages"
 categories:
   - "BlogBlog 同樂會"
 tags:

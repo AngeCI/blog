@@ -4,7 +4,6 @@ draft: true
 type: "post"
 title: "縱排數學 Vertical Maths"
 description: ""
-translationsKey: "vertical-maths"
 categories:
   - "Unclassified 未分類"
 ---

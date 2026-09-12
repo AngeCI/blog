@@ -4,7 +4,6 @@ lastmod: "2026-06-09T20:03:48+00:00"
 type: "post"
 title: "中古漢語音系"
 description: ""
-translationsKey: "middle-chinese-phonology"
 categories:
   - "Linguistics 語言學"
   - "Historical Chinese Phonology 漢語音韻學"

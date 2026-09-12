@@ -1,8 +1,8 @@
 ---
 date: "2026-04-01T10:30:51+00:00"
+type: "post"
 title: "Promote Chinese Culture"
 description: "Let’s promote Chinese culture together!"
-translationKey: "promote-chinese-culture"
 categories:
   - "Unclassified 未分類"
 tags:

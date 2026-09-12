@@ -3,7 +3,6 @@ date: "2026-06-12T20:11:57+08:00"
 type: "post"
 title: "Gradient Descent Navigation"
 description: ""
-translationsKey: "gradient-descent-navigation"
 categories:
   - "Computer Science 電腦科學"
 ---

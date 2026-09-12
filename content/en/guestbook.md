@@ -1,7 +1,6 @@
 ---
 title: "Guestbook"
 draft: true
-translationsKey: "guestbook"
 menu:
   main:
     weight: 5

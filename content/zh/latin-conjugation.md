@@ -4,7 +4,6 @@ draft: true
 type: "post"
 title: "拉丁語動詞變位"
 description: ""
-translationsKey: "latin-conjugation"
 categories:
   - "Linguistics 語言學"
   - "Notes 筆記"

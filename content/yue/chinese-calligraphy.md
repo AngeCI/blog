@@ -1,9 +1,9 @@
 ---
 date: "2026-03-22T08:32:40+00:00"
 lastmod: "2026-03-25T19:15:43+00:00"
+type: "post"
 title: "論漢字書法教育"
 description: "大家認為漢字書法應唔應該列入義務教育嘅一部份？"
-translationKey: "chinese-calligraphy"
 categories:
   - "Unclassified 未分類"
 tags:

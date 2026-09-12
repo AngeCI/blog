@@ -4,7 +4,6 @@ lastmod: "2026-06-05T14:11:19+00:00"
 type: "post"
 title: "Pronunciation of Chemical Terms in Chinese"
 description: ""
-translationsKey: "pronunciation-of-chemical-terms-in-chinese"
 categories:
   - "Linguistics 語言學"
   - "Chemistry 化學"

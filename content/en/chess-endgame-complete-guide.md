@@ -1,8 +1,8 @@
 ---
 date: "2026-03-09T19:18:40+00:00"
 lastmod: "2026-03-12T19:14:04+00:00"
+type: "post"
 title: "Chess Endgame Complete Guide"
-translationKey: "chess-endgame-complete-guide"
 categories:
   - "Chess 國際象棋"
   - "Notes 筆記"

@@ -1,9 +1,9 @@
 ---
 date: "2026-03-03T12:31:26+00:00"
 lastmod: "2026-03-03T16:25:53+00:00"
+type: "post"
 title: "Christianity and MBTI"
 description: "Is it a self-contradiction by adopting MBTI as Christians?"
-translationKey: "christianity-and-mbti"
 categories:
   - "Christianity 基督教"
   - "MBTI"

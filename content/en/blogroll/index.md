@@ -1,6 +1,5 @@
 ---
 title: "Blogroll"
-translationsKey: "blogroll"
 menu:
   main:
     weight: 4
@@ -15,12 +14,15 @@ Well, the content of this blogroll isn’t differ that much from rest of the Wiw
 | Name | Link | Remarks |
 | -- | -- | -- |
 | Wiwi.Blog | https://wiwi.blog | The founder of [BlogBlog Club](https://blogblog.club/party). |
-| 資工小廢物 - JN<br>![資工小廢物 - JN 的露狗](giveanornot.webp) | https://blog.giveanornot.com | One of [BlogBlog Party](https://blogblog.club/party)s host in the future. |
-| Wen 的生產力實驗室 | https://www.wen-lab.tw |  One of [BlogBlog Party](https://blogblog.club/party)s host. |
+| 資工小廢物 - JN<br>![資工小廢物 - JN 的露狗](giveanornot.webp) | https://blog.giveanornot.com | One of [BlogBlog Party](https://blogblog.club/party)’s host in the future. |
+| Wen 的生產力實驗室 | https://www.wen-lab.tw |  One of [BlogBlog Party](https://blogblog.club/party)’s host. |
 | 廢文小天地<br>![廢文小天地](trashposts-88x31.png) | https://trashposts.com |  |
-| YoZ Blog<br>![YoZ Blog](yozblog-web-badge-1.gif) | https://www.yozblog.com |  One of [BlogBlog Party](https://blogblog.club/party)s host. |
-<!--| Alex Hsu 斜槓少年 | https://alexhsu.com |  One of [BlogBlog Party](https://blogblog.club/party)s host. |-->
-<!--| Hi 我劉昕 | https://shuaixin.cc |  One of [BlogBlog Party](https://blogblog.club/party)s host. |-->
+| YoZ Blog<br>![YoZ Blog](yozblog-web-badge-1.gif) | https://www.yozblog.com | One of [BlogBlog Party](https://blogblog.club/party)’s host. |
+| ikuka 的第一個家 | https://blog.ikukaroom.com | One of [BlogBlog Party](https://blogblog.club/party)’s host. |
+| Jason Lai | https://jasonjlai.net | One of [BlogBlog Party](https://blogblog.club/party)’s host. |
+| 物灵 | https://matling.fit |  |
+<!--| Alex Hsu 斜槓少年 | https://alexhsu.com |  One of [BlogBlog Party](https://blogblog.club/party)’s host. |-->
+<!--| Hi 我劉昕 | https://shuaixin.cc |  One of [BlogBlog Party](https://blogblog.club/party)’s host. |-->
 
 # Other recommendations
 | Name | Link | Remarks |

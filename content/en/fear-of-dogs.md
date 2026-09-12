@@ -1,9 +1,9 @@
 ---
 date: "2026-03-12T17:57:10+00:00"
 lastmod: "2026-03-14T19:29:53+00:00"
+type: "post"
 title: "Fear of Dogs"
 description: "Am I the only one like this?"
-translationKey: "fear-of-dogs"
 categories:
   - "BlogBlog 同樂會"
   - "Phobias 恐懼症"

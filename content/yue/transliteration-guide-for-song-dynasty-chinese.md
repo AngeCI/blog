@@ -4,7 +4,6 @@ lastmod: "2026-09-06T11:42:30+00:00"
 type: "post"
 title: "宋代漢語音譯指南"
 description: ""
-translationsKey: "transliteration-guide-for-song-dynasty-chinese"
 categories:
   - "Linguistics 語言學"
   - "Historical Chinese Phonology 漢語音韻學"
@@ -43,9 +42,9 @@ tags:
     - Lisa → 立夏 lip ça ✖
     - Nasim → 捺心 nɑɾ sim ✔
     - Nasim → 納棎 nɑp ʒiɛm ✖
-    - Zetterstrand /ˈsɛtːəʂˌtrand/ → 截瀦悉蘭 dziɛɾ tʂu siɾ lan ✖
-    - Zetterstrand /ˈsɛtːəʂˌtrand/ → 截致丹 dziɛɾ tʂʅ tan ✖
-    - Zetterstrand /ˈsɛtːəʂˌtrand/ → 截突譠 dziɛɾ tʰuəɾ tʂan ✔
+    - Zetterstrand /ˈsɛtːɛʂˌʈrand/ → 截瀦悉蘭 dziɛɾ tʂu siɾ lan ✖
+    - Zetterstrand /ˈsɛtːɛʂˌʈrand/ → 截致丹 dziɛɾ tʂʅ tan ✖
+    - Zetterstrand /ˈsɛtːɛʂˌʈrand/ → 截突譠 dziɛɾ tʰuəɾ tʂan ✔
         - 瑞典語中只有前面跟着 r 的 d t n l s 才是捲舌音。此例中「瀦致」均被用於對應平舌音 tt，可以對應為翹舌音的 rstr 反而用了平舌音。
     - Zając /ˈzajɔnt͡s/ → 紗藥 ʂa jiɔʔ ✖
         - 第一個音節平翹不分；第二個音節誤判原音。

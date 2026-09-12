@@ -4,7 +4,6 @@ draft: true
 type: "post"
 title: "閩南語音系歷時分析"
 description: ""
-translationsKey: "diachronic-analysis-of-hokkien-phonology"
 categories:
   - "Linguistics 語言學"
 tags:

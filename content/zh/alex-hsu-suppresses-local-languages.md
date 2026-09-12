@@ -4,7 +4,6 @@ lastmod: "2026-06-16T10:00:00+00:00"
 type: "post"
 title: "Alex Hsu 打壓本土語言"
 description: "好好的良性討論你不要，非要把事情弄成惡性競爭？"
-translationsKey: "alex-hsu-suppresses-local-languages"
 categories:
   - "BlogBlog 同樂會"
 tags:

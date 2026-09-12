@@ -1,6 +1,5 @@
 ---
 title: "部落卷"
-translationsKey: "blogroll"
 menu:
   main:
     weight: 4
@@ -19,6 +18,9 @@ menu:
 | Wen 的生產力實驗室 | https://www.wen-lab.tw | [BlogBlog 同樂會](https://blogblog.club/party)主持人之一。 |
 | 廢文小天地<br>![廢文小天地](trashposts-88x31.png) | https://trashposts.com |  |
 | YoZ Blog<br>![YoZ Blog](yozblog-web-badge-1.gif) | https://www.yozblog.com | [BlogBlog 同樂會](https://blogblog.club/party)主持人之一。 |
+| ikuka 的第一個家 | https://blog.ikukaroom.com | [BlogBlog 同樂會](https://blogblog.club/party)主持人之一。 |
+| Jason Lai | https://jasonjlai.net | [BlogBlog 同樂會](https://blogblog.club/party)主持人之一。 |
+| 物灵 | https://matling.fit |  |
 <!--| Alex Hsu 斜槓少年 | https://alexhsu.com | [BlogBlog 同樂會](https://blogblog.club/party)主持人之一。 |-->
 <!--| Hi 我劉昕 | https://shuaixin.cc | [BlogBlog 同樂會](https://blogblog.club/party)主持人之一。 |-->
 

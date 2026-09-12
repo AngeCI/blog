@@ -4,7 +4,6 @@ lastmod: "2026-05-05T10:28:50+00:00"
 type: "post"
 title: "到底我該投稿 nownownow.com 嗎？"
 description: ""
-translationsKey: "should-i-submit-to-nownownow-com"
 categories:
   - "BlogBlog 同樂會"
   - "Blog 部落格"

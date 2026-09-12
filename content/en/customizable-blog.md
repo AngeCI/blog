@@ -4,7 +4,6 @@ lastmod: "2026-05-03T08:45:32+00:00"
 type: "post"
 title: "Customizable Blog"
 description: ""
-translationsKey: "customizable-blog"
 categories:
   - "Blog 部落格"
   - "Computer Science 電腦科學"

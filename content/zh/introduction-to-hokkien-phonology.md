@@ -3,7 +3,6 @@ date: "2026-08-10T19:20:50+00:00"
 type: "post"
 title: "閩南語音系簡述"
 description: ""
-translationsKey: "introduction-to-hokkien-phonology"
 categories:
   - "Linguistics 語言學"
 tags:

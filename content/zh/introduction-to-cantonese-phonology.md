@@ -3,7 +3,6 @@ date: "2026-04-24T11:38:10+00:00"
 type: "post"
 title: "粵語音系簡述"
 description: ""
-translationsKey: "introduction-to-cantonese-phonology"
 categories:
   - "Linguistics 語言學"
 tags:

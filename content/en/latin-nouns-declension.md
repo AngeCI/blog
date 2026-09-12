@@ -4,7 +4,6 @@ lastmod: "2026-06-09T14:15:15+00:00"
 type: "post"
 title: "Latin Nouns Declension"
 description: ""
-translationsKey: "latin-nouns-declension"
 categories:
   - "Linguistics 語言學"
   - "Notes 筆記"

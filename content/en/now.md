@@ -1,7 +1,6 @@
 ---
-lastmod: "2026-04-28"
+lastmod: "2026-04-28T18:17:09+00:00"
 title: "Now"
-translationsKey: "now"
 menu:
   main:
     weight: 2

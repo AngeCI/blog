@@ -1,9 +1,9 @@
 ---
 date: "2026-03-12T18:00:00+00:00"
 lastmod: "2026-08-16T09:43:10+00:00"
+type: "post"
 title: "Jet Lag"
 description: "Am I the only one like this?"
-translationKey: "jet-lag"
 categories:
   - "BlogBlog 同樂會"
 ---

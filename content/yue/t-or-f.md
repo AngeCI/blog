@@ -1,9 +1,9 @@
 ---
 date: "2026-03-16T20:13:00+00:00"
 lastmod: "2026-03-16T20:28:26+00:00"
+type: "post"
 title: "T 定係 F？"
 description: ""
-translationsKey: "t-or-f"
 categories:
   - "MBTI"
 ---

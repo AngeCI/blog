@@ -1,8 +1,8 @@
 ---
 date: "2026-03-19T10:10:01+00:00"
+type: "post"
 title: "Importance of Studying Classical Chinese"
 description: "Does studying Classical Chinese have any use?"
-translationKey: "studying-classical-chinese"
 categories:
   - "Linguistics 語言學"
 tags:

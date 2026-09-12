@@ -4,7 +4,6 @@ lastmod: "2026-08-10T19:18:35+00:00"
 type: "post"
 title: "Rime Schemata Developing Notes"
 description: ""
-translationsKey: "rime-schemata-developing-notes"
 categories:
   - "Chinese IME 中文輸入法"
   - "Notes 筆記"

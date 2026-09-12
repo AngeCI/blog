@@ -4,7 +4,6 @@ lastmod: ""
 type: "post"
 title: "BlogBlog 同樂會宇宙的二三事"
 description: ""
-translationsKey: "a-few-things-about-the-blogblog-universe"
 categories:
   - "BlogBlog 同樂會"
 ---

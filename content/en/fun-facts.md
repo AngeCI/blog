@@ -4,7 +4,6 @@ lastmod: "2026-08-10T19:57:53+00:00"
 type: "post"
 title: "Fun Facts"
 description: ""
-translationsKey: "fun-facts"
 categories:
   - "BlogBlog 同樂會"
 ---

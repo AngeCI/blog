@@ -4,7 +4,6 @@ lastmod: "2026-04-14T10:20:40+00:00"
 type: "post"
 title: "嘸蝦米輸入法嘅一啲唔清晰之處"
 description: ""
-translationsKey: "boshiamy-unclearness"
 categories:
   - "Chinese IME 中文輸入法"
 tags:

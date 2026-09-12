@@ -1,9 +1,9 @@
 ---
 date: "2026-03-16T13:19:00+00:00"
 lastmod: "2026-03-16T14:07:14+00:00"
+type: "post"
 title: "RSS 是屎山嗎？"
 description: "RSS 真的有大家想像中那麼完美？"
-translationsKey: "is-rss-a-mountain-of-history"
 categories:
   - "Computer Science 電腦科學"
 tags:

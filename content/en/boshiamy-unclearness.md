@@ -4,7 +4,6 @@ lastmod: "2026-04-14T10:20:40+00:00"
 type: "post"
 title: "Boshiamy’s Unclearness"
 description: ""
-translationsKey: "boshiamy-unclearness"
 categories:
   - "Chinese IME 中文輸入法"
 tags:

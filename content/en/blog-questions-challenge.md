@@ -3,7 +3,6 @@ date: "2026-04-22T10:31:20+00:00"
 type: "post"
 title: "Blog Questions Challenge"
 description: "BlogBlog Club’s side events! Let’s all join in!"
-translationsKey: "blog-questions-challenge"
 categories:
   - "BlogBlog 同樂會"
   - "Blog 部落格"
