@@ -79,7 +79,7 @@ tags:
 - Sverige /ˈsværjɛ/ → 遂歷：zy̯i(s) lek → zyi liʔ ✖
     - 在[宋代音系](/blog/zh/transliteration-guide-for-song-dynasty-chinese/)中「遂歷」可以成立，但初唐音系不能。聲母清濁需要嚴格分清。
 - Sverige /ˈsværjɛ/ → 眭璃：sy̯e li̯e → syi li ✔
-- 古諾爾斯語 sví- → 綏（國）：sy̯i (ku̯ək) → syi (kuəʔ) ✔❔
+- 古諾爾斯語 sví- /swiː-/ → 綏（國）：sy̯i (qʷək) → syi (kuəʔ) ✔❔
 - Deutsch /dɔɪt͡ʃ/ → 隤䲭：dʷɑi̯ tɕʰi → duɔi tʃʰi ✔
 - France → 法蘭西：pʉ̯ɜp lɑn se(i̯) → fɑp lan si ⭕️
     - 也許第一個字改成「弗」/pʉt/？
@@ -90,8 +90,9 @@ tags:
 - Italia → 伊多梨：ʔi tɑ li → ʔji tɔ li ✔
     - 有意見認為「Italia」中間那個音節應對以歌韻字。
 - American → 美利堅：mɪ(ʔ) li(s) qen → mi li ciɛn ✖
-- America → 彌梨迦：mi̯e li kɨ̯ɑ → m(ʲ)i li (k/c)iɛ ✔
-- American → 彌梨犍：mi̯e li kɨ̯ɜn → m(ʲ)i li (k/c)iɛn ✔
+- America → 阿蔑梨迦：ʔɑ met li kɨ̯ɑ → ʔɔ m(ʲ)iɛɾ li (k/c)iɛ ✔
+- America → （阿）彌梨迦：ʔɑ mi̯e li kɨ̯ɑ → (ʔɔ) m(ʲ)i li (k/c)iɛ ✔
+- American → （阿）彌梨犍：ʔɑ mi̯e li kɨ̯ɜn → (ʔɔ) m(ʲ)i li (k/c)iɛn ✔
     - 在初唐音系，硬腭音和小舌音不能混淆（除非無字可用），而小舌音一般不見於近代以前的歐洲語言。
 - Stockholm → 士多貢：dʐɨ(ʔ) tɑ quŋ(h) → ʐʅ tɔ kuŋ ✖
 - Stockholm → 司拓堪：sɨ tʰɑk qʰʌm → sɿ tʰɔʔ kʰɑm ✔
@@ -102,27 +103,38 @@ tags:
 - Brazil → 拔囚：bʵɛt zɨ̯u → baɾ ziəu ✔
     - /bʵat/ 無字可用，以 /bʵɛt/ 妥協之。
 - Україна → 渥蓮：ʔʵʌu̯k len → ʔjɔʔ liɛn ✖❔
-- Україна → 屋家寅：ʔuk kʵa jin → ʔuʔ ca jin ✔
+- Україна → 屋家寅：ʔuk qʵa jin → ʔuʔ ca jin ✔
     - <span class="chide">烏克蘭歷史上也被稱作「小俄羅斯」，或可作「小羅剎」。不過放在現在的地緣政治形勢，這名字恐怕有些人在政治層面接受不了。</span>
 - España → 士班雅：dʐɨ(ʔ) pʵan ɴʵaʔ → ʐʅ pan ɲa ✖
 - Hispānia → 司般若：sɨ p(u)ɑ(n) ȵi̯a(ʔ) → sɿ p(u)ɔ(n) ȵiɛ ✔
-- Persson /ˈpæːʂɔn/ → 陂兒宋：pɪ̯ɛ ȵi̯ɛ soŋ(h) → pi ȵi suŋ ✖
+- Hispānia → 司波尼：sɨ p(u)ɑ ɳi → sɿ p(u)ɔ ni ✔
+- Albania → 遏婆如：ʔɑt b(u)ɑ ȵɨ̯ɤ → ʔɑɾ b(u)ɔ ȵ(y/iu)
+- Aztec → 阿辭的：ʔɑ zɨ tek → ʔɔ zɿ tiʔ ✔
+- Graham → 偈含：gɪ̯ɛi̯ ʁʌm → (g/ɟ)i ɣam ❔
+- Baroque → 婆醁（風）：b(u)ɑ lɨ̯ok (p(ɨ̯uŋ/ʉŋ)) → b(u)ɔ luʔ (fuŋ) ✔
+- Cotán → 拘丹：kɨ̯o tɑn → (k/c)(y/iu) tan ✔
+- Dennis → 田迡：den ne(i̯)(ç) → diɛn ni ✔
+- Alex → 遏戾：ʔɑt le(i̯)(s) → ʔɑɾ li ⭕️
+- Efe → 易譬：je(ç) pʰi̯e(ç) → ji pʰ(ʲ)i ⭕️
+- Steve → 悉涉：sit tep → siɾ tiɛp ⭕️
+- Persson /ˈpæːʂɔn/ → 陂兒宋：pɪ̯e ȵi̯e soŋ(h) → pi ȵi suŋ ✖
 - Persson /ˈpæːʂɔn/ → 派雙：pʰʵɛ(h) ʂʌu̯ŋ → pʰa(i) ʂɑŋ ✔
     - /ʂɤn/ 無字可用，有多種妥協辦法。
 - Zetterstrand /ˈsɛtːɛʂˌʈrand/ → 截瀦悉蘭：dzet ʈɨ̯ɤ sit lɑn → dziɛɾ tʂu siɾ lan ✖
 - Zetterstrand /ˈsɛtːɛʂˌʈrand/ → 截致丹：dzet ʈɪ(s) tɑn → dziɛɾ tʂʅ tan ✖
     - 瑞典語中只有前面跟着 r 的 d t n l s 才是捲舌音。此例中「瀦致」均被用於對應平舌音 tt，可以對應為翹舌音的 rstr 反而用了平舌音。
 - Åberg /ˈoːbærj/ → 亞伯：ʔʵa(h) pʵak → ʔja pəʔ ✖
+- 古諾爾斯語 á + berg /ˈɑːberg/ → 亞伯：ʔʵa(h) pʵak → ʔja pəʔ ⭕️❔
 - עִבְרִית /ʕiβˈriːθ/ → /(ʔ)ivˈʁit/ → 挹栗：ʔip lit → ʔjip liɾ ⭕️❔
     - ע 這個字母的古代希伯來語發音，很不像中古漢語的影母，可能更像云母或匣母。也許可以改成「瞱栗」或者「瞱梨」。
 - 英語 Hebrew 或教會拉丁語 hebræus /eˈbrɛːus/ → 協婁：ʁep ləu̯ → ʝiɛp ləu ✖❔
 <!-- - עֵבֶר /ʕibr/ → /ˈʕeːβɛr/ → /ˈ(ʔ)eveʁ/ → -->
-- guitar → 耆撻（琴）：gɪ tʰɑt gɪm → (g/ɟ)i tʰɑɾ ((g/ɟ)im) ✔
-- didgeridoo → 地蜍梨頭（管）：di(ç) dʑɨ̯ɤ li dəu̯ (kʷɑn(ʔ)) → di dʒ(y/iu) li dəu (kuɔn) ✔
+- guitar → 耆撻（琴）：gɪ tʰɑt (gɪm) → (g/ɟ)i tʰɑɾ ((g/ɟ)im) ✔
+- didgeridoo → 地蜍梨頭（管）：di(ç) dʑɨ̯ɤ li dəu̯ (qʷɑn(ʔ)) → di dʒ(y/iu) li dəu (kuɔn) ✔
 
 以下是一些出自唐代景教文獻的譯名：
 - Μᾶρκος Mārcus → 摩矩辭：m(u)ɑ kɨ̯o(ʔ) zɨ → m(u)ɔ (k/c)(y/iu) zɿ
-- Ματθαῖος Matthæus → 明泰：mɪ̯aŋ tʰɑi̯ → miŋ tʰɑi
+- 亞蘭語 מַתַּי /maˈtaj/ → 古希臘語 Ματθαῖος Matthæus → 明泰：mɪ̯aŋ tʰɑi̯ → miŋ tʰɑi
     - 唐宋西北方音鼻音韻尾可能有脫落的傾向？
 - Παῦλος Paulus → 寶路：pɑu̯(ʔ) lo(h) → pɑu lu
 - Γεώργῐος Georgius → 宜和吉思？：ŋɪ̯e ʁʷɑ kit sɨ → ɲi ɣuɔ ciɾ sɿ
