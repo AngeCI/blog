@@ -1,6 +1,6 @@
 ---
 date: "2026-09-05T19:16:40+00:00"
-lastmod: "2026-09-06T12:29:18+00:00"
+lastmod: "2026-09-15T16:59:23+00:00"
 type: "post"
 title: "唐代漢語音譯指南"
 description: ""
@@ -27,6 +27,7 @@ tags:
 - श ष स 分別用書母、生母、心母。ह 用曉母。
 - क्ष /(k)tʂʰ/，中古漢語一般用初母來對。
 - 梵語的濁送氣輔音，用中古漢語的全濁聲母去對，即與梵語的濁不送氣輔音相同。
+- f 盡量用後世輕唇音字對應？
 
 # 韻母
 - 3C 介音還在正在產生的過程當中，在音譯外語中常常約等於無。
@@ -80,7 +81,8 @@ tags:
     - 在[宋代音系](/blog/zh/transliteration-guide-for-song-dynasty-chinese/)中「遂歷」可以成立，但初唐音系不能。聲母清濁需要嚴格分清。
 - Sverige /ˈsværjɛ/ → 眭璃：sy̯e li̯e → syi li ✔
 - 古諾爾斯語 sví- /swiː-/ → 綏（國）：sy̯i (qʷək) → syi (kuəʔ) ✔❔
-- Deutsch /dɔɪt͡ʃ/ → 隤䲭：dʷɑi̯ tɕʰi → duɔi tʃʰi ✔
+- 古諾爾斯語 sven- /swen-/ → 宣（國）：sy̯ɛn (qʷək) → syɛn (kuəʔ) ✔❔
+- Deutsch /dɔɪt͡ʃ/ → 隤䲭：dʷʌi̯ tɕʰi → duɔi tʃʰi ✔
 - France → 法蘭西：pʉ̯ɜp lɑn se(i̯) → fɑp lan si ⭕️
     - 也許第一個字改成「弗」/pʉt/？
 - English → 英吉利：ʔɪ̯aŋ kit li(s) → ʔiŋ ciɾ li ✔
@@ -103,12 +105,21 @@ tags:
 - Brazil → 拔囚：bʵɛt zɨ̯u → baɾ ziəu ✔
     - /bʵat/ 無字可用，以 /bʵɛt/ 妥協之。
 - Україна → 渥蓮：ʔʵʌu̯k len → ʔjɔʔ liɛn ✖❔
-- Україна → 屋家寅：ʔuk qʵa jin → ʔuʔ ca jin ✔
+- Україна → 屋冷：ʔuk lʵaŋ → ʔuʔ ləŋ ⭕️❔
+    - 有人將梗攝和曾攝擬作 -ɲ 韻尾，於是也可以拿來對譯「烏克蘭」了。
+- Україна → 屋家寅：ʔuk qʵa jin → ʔuʔ ca jin ⭕️❔
+- Україна → 屋扢賴寅：ʔuk kɨt lɑi̯ jin → ʔuʔ kiɾ lai jin ✔
     - <span class="chide">烏克蘭歷史上也被稱作「小俄羅斯」，或可作「小羅剎」。不過放在現在的地緣政治形勢，這名字恐怕有些人在政治層面接受不了。</span>
 - España → 士班雅：dʐɨ(ʔ) pʵan ɴʵaʔ → ʐʅ pan ɲa ✖
 - Hispānia → 司般若：sɨ p(u)ɑ(n) ȵi̯a(ʔ) → sɿ p(u)ɔ(n) ȵiɛ ✔
 - Hispānia → 司波尼：sɨ p(u)ɑ ɳi → sɿ p(u)ɔ ni ✔
-- Albania → 遏婆如：ʔɑt b(u)ɑ ȵɨ̯ɤ → ʔɑɾ b(u)ɔ ȵ(y/iu)
+- Venezuela → 駢迡血羅：ben ne(i̯)(ç) χʷet lɑ → b(ʲ)iɛn ni çyɛɾ lɔ ✖
+    - 第三個音節尖團不分？
+- Albania → 遏婆如：ʔɑt b(u)ɑ ȵɨ̯ɤ → ʔɑɾ b(u)ɔ ȵ(y/iu) ⭕️
+- Bosna i Hercegovina → 蒲娑那與褉績劬毗那：bo sɑ nɑ jɤ χet tsek gɨ̯o bi nɑ → bu sɔ nɔ j(y/iu) çiɛɾ tsiʔ (g/ɟ)(y/iu) b(ʲ)i nɔ ✔
+- Чуваш → 櫧旆：tɕɨ̯ɤ bɑi̯ → tʃ(y/iu) b(u)ɔi ✔❔
+- Чуваш → 諸衞師：tɕɨ̯ɤ ɰʏ̯ɛi̯ ʂɪ → tʃ(y/iu) wei ʂʅ ✔❔
+- Чуваш → 諸會師：tɕɨ̯ɤ ʁʷɑi̯ ʂɪ → tʃ(y/iu) ɣui ʂʅ ⭕️❔
 - Aztec → 阿辭的：ʔɑ zɨ tek → ʔɔ zɿ tiʔ ✔
 - Graham → 偈含：gɪ̯ɛi̯ ʁʌm → (g/ɟ)i ɣam ❔
 - Baroque → 婆醁（風）：b(u)ɑ lɨ̯ok (p(ɨ̯uŋ/ʉŋ)) → b(u)ɔ luʔ (fuŋ) ✔
