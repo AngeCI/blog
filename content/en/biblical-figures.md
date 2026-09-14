@@ -1,6 +1,6 @@
 ---
 date: "2026-09-13T15:01:28+00:00"
-lastmod: "2026-09-15T17:48:31+00:00"
+lastmod: "2026-09-14T17:48:31+00:00"
 type: "post"
 title: "List of Transliterations of Biblical Figure Names"
 description: ""

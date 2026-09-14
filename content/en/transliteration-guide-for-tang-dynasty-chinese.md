@@ -1,6 +1,6 @@
 ---
 date: "2026-09-05T19:16:40+00:00"
-lastmod: "2026-09-15T16:59:23+00:00"
+lastmod: "2026-09-14T16:59:23+00:00"
 type: "post"
 title: "Transliteration Guide for Tang Dynasty Chinese"
 description: ""
