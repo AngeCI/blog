@@ -68,7 +68,7 @@
 document.getElementById("main-menu-random").addEventListener("click", (ev) => {
   ev.preventDefault();
   const posts = [
-    {{- range where .Site.RegularPages "Layout" "" -}}
+    {{- range where .Site.RegularPages "Type" "post" -}}
       "{{ .RelPermalink }}",
     {{- end -}}
   ];

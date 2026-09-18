@@ -1,5 +1,5 @@
 ---
-date: "2026-09-18T20:00:00+00:00"
+date: "2026-09-18T20:30:00+00:00"
 type: "post"
 title: "BlogBlog 同樂會：語言的習得、傳承與推廣（2026 年 10 月）"
 description: ""
@@ -22,9 +22,13 @@ tags:
 # 主題：「語言的習得、傳承與推廣」
 2026 年 10 月的主題是：「**語言的習得、傳承與推廣**」！
 
+語言是一種神奇的現象。人類語言的發展程度在自然界中絕無僅有。大家每天都會接觸到語言，可能是口語或者文字（甚至手語），但同時人類對於語言的起源卻近乎一無所知。語言習得的過程也是非常奧妙，嬰孩可以在近乎零干預之下學會他們的第一語言，而過了某個年齡之後，新語言的習得過程就變得截然不同，讓成人學習外語變得極其困難。各位在義務教育當中也會研習多種語言，也許也會自主學習更多的外語（甚至人工語言和程式語言）。也許你們當中有一些人，是生活在母語、家庭語言與社會語言相異的社羣。各位對於語言的研習有什麼體會？
+
 面對着本土語言衰落的境況[^1]，各位格友們對此有何感想、意見或建議？事實上下列的「[本土語言的發展和保存](#-本土語言的發展和保存)」就是我最一開始所擬定的主題。
 
 > **題外話**：說起本土語言，目前網路上似乎不是很能找到適合零基礎的外國人學習的台語／閩南語教材，與之相關的自然語言處理系統也還是在發展階段，也許這是個巨大的市場缺口。也許將來會考慮嘗試弄一個自研教學平台。
+
+人類語言的複雜程度，也絕非幾句簡單的規則就能描述清楚的。這種奇特的現象也致使設計能產生流暢的自然語言的機器程式變得異常複雜，人類直到近幾年才算是攻克了相關技術。
 
 # 選題靈感
 以下有一些可供參考的選題靈感。
@@ -67,6 +71,8 @@ tags:
 - 🗣️ 因為語言／口音不同而發生的趣事、culture shock 或者歧視經驗
 - 🐱 跟寵物溝通的語言、使用不同語言（甚至程式語言）的經驗
 - 💡 各種有關語言的冷知識，似乎和[幾個月前的同樂會主題](https://shuaixin.cc/Fun-Fact/)有點兒重疊（但我不會禁止在往期同樂會投稿過的舊文重複投稿！）。
+- 對語言起源的討論
+- 創造語言（conlang）的經驗
 
 以上提示僅供參考，參與者可以自由發揮，只要內容和「語言的習得、傳承與推廣」有關即可。
 
@@ -111,7 +117,7 @@ tags:
 - **Q6**：投稿名單多久會更新一次？
 
     **A6**：在初期文章不太多的時候，我可能會積攢夠一定的篇數或者等到部落格有其他內容更新的時候才一併更新這裏。但我會盡快回覆郵件確認收件。到後期投稿速度變高的時候我想我就會每天更新這裏的投稿名單了，除非有哪天我不太有空。
-- **Q7**：可不可以投稿立場較為偏激嘅文章？
+- **Q7**：可不可以投稿立場較為偏激的文章？
 
     **A7**：我**不會自動拒絕**立場偏激嘅文章投稿，但我可能會喺文章連結側邊標示立場激進，**請各位讀者做好心理準備**。與本人立場相左的文章可能會被我在回顧文中以嘲諷的口吻敘述，**後果自負**。
 
@@ -127,7 +133,7 @@ tags:
 1. [統一譯名](/blog/zh/unifying-names/) - AngeCI
 1. [Alex Hsu 打壓本土語言](/blog/zh/alex-hsu-suppresses-local-languages/) - AngeCI
 
-<small>最後更新：2026-09-19</small><!-- AngeCI ([1](https://angeci.github.io/blog/zh/chinese-dialectal-phenomena/) [2](https://angeci.github.io/blog/zh/studying-classical-chinese/) [3](https://angeci.github.io/blog/zh/chinese-calligraphy/) [4](https://angeci.github.io/blog/zh/multilingual-blog/) [5](https://angeci.github.io/blog/zh/unifying-names/) [6](https://angeci.github.io/blog/zh/alex-hsu-suppresses-local-languages/)) -->
+- <small>最後更新：2026-09-19</small><!-- AngeCI ([1](https://angeci.github.io/blog/zh/chinese-dialectal-phenomena/) [2](https://angeci.github.io/blog/zh/studying-classical-chinese/) [3](https://angeci.github.io/blog/zh/chinese-calligraphy/) [4](https://angeci.github.io/blog/zh/multilingual-blog/) [5](https://angeci.github.io/blog/zh/unifying-names/) [6](https://angeci.github.io/blog/zh/alex-hsu-suppresses-local-languages/)) -->
 
 [^1]: 別以為是只有台灣是這樣，其實大陸甚至香港都有。
 [^2]: 請注意，本人用於發送回郵的電郵地址將與接收郵件的地址不同。各位要再回覆郵件的話，可以在兩個郵件地址之間任擇其一。

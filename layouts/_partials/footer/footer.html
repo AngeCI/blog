@@ -2,7 +2,7 @@
 <footer class="site-footer">
     <section class="totalcount">
     {{- $wordcount := newScratch -}}
-    {{- range where .Site.RegularPages "Layout" "" -}}
+    {{- range where .Site.RegularPages "Type" "post" -}}
       {{- $wordcount.Add "total" .WordCount -}}
     {{- end -}}
         目前共有 {{ len (where .Site.RegularPages "Layout" "") }} 篇文章，總共 {{ div ($wordcount.Get "total") 10000.0 | lang.FormatNumber 1 }} 萬字
