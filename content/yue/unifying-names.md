@@ -13,6 +13,9 @@ tags:
 > [!WARNING] Notice
 > 呢篇文章暫時仲未粵語化，暫時拎住[書面語版本](/blog/zh/unifying-names/)頂住檔先。我遲啲有時間會更新返粵語版本！
 
+> [!TIP] BlogBlog 同樂會！
+> 呢篇係我嘅「[BlogBlog 同樂會 - 2026 年 10 月](https://blogblog.club/party)」嘅投稿文章。今個月嘅主題係「[語言嘅習得、傳承同推廣](https://angeci.github.io/blog/yue/blogblog-party-languages/)」，由 [AngeCI](https://angeci.github.io/blog/yue/) 主持。如果你有自己嘅部落格，歡迎一起嚟參加！
+
 支共喉舌 [Alex Hsu](https://alexhsu.com) 最近一連發了兩篇文章來討論漢語當中的地區詞分歧議題。
 
 - 《[两家翻译社](https://alexhsu.com/two-translators)》

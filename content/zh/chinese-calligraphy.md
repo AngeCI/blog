@@ -10,6 +10,9 @@ tags:
   - "Language Policy 語言政策"
 ---
 
+> [!TIP] BlogBlog 同樂會！
+> 這是我的「[BlogBlog 同樂會 - 2026 年 10 月](https://blogblog.club/party)」的投稿文章。本月主題是「[語言的習得、傳承與推廣](https://angeci.github.io/blog/zh/blogblog-party-languages/)」，由 [AngeCI](https://angeci.github.io/blog/zh/) 主持。如果你有自己的部落格，歡迎一起來參加！
+
 有些人認為，漢字書法（下文簡稱書法）應該被納入義務教育體系，就像現在的日本一樣。香港目前的狀況是，教育局並沒有對書法教育有作出什麼規定，大部份學校都只是視書法為興趣班而非統一課程的一部份。其他大中華地區似乎也是類似這樣的狀況？
 
 # 個人淺見

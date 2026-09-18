@@ -10,6 +10,9 @@ tags:
   - "Language Policy 語言政策"
 ---
 
+> [!TIP] BlogBlog 同樂會！
+> 這是我的「[BlogBlog 同樂會 - 2026 年 10 月](https://blogblog.club/party)」的投稿文章。本月主題是「[語言的習得、傳承與推廣](https://angeci.github.io/blog/zh/blogblog-party-languages/)」，由 [AngeCI](https://angeci.github.io/blog/zh/) 主持。如果你有自己的部落格，歡迎一起來參加！
+
 支共喉舌 [Alex Hsu](https://alexhsu.com) 最近一連發了兩篇文章來討論漢語當中的地區詞分歧議題。
 
 - 《[两家翻译社](https://alexhsu.com/two-translators)》

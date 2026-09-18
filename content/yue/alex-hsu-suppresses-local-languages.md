@@ -10,6 +10,9 @@ tags:
   - "Language Policy 語言政策"
 ---
 
+> [!TIP] BlogBlog 同樂會！
+> 呢篇係我嘅「[BlogBlog 同樂會 - 2026 年 10 月](https://blogblog.club/party)」嘅投稿文章。今個月嘅主題係「[語言嘅習得、傳承同推廣](https://angeci.github.io/blog/yue/blogblog-party-languages/)」，由 [AngeCI](https://angeci.github.io/blog/yue/) 主持。如果你有自己嘅部落格，歡迎一起嚟參加！
+
 > [!TIP] 有冇人願意幫手調解紛爭？
 >
 > 歡迎寄 email 去 angeci (at) ltgc.cc 同我一齊傾下！

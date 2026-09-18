@@ -13,6 +13,9 @@ tags:
 > [!WARNING] Notice
 > This post is a draft translation from [the Chinese version](/blog/zh/alex-hsu-suppresses-local-languages/) which have not yet been thoroughly proofread.
 
+> [!TIP] BlogBlog Club!
+> This is my submission article for “[BlogBlog Club Party - October 2026](https://blogblog.club/party)”. This month’s topic is “[Acquisition, Transmission, and Promotion of Languages](https://angeci.github.io/blog/zh/blogblog-party-languages/)”, hosted by [AngeCI](https://angeci.github.io/blog/). If you have your own blog, feel free to join us together!
+
 > [!TIP] Is anyone willing to help mediate this dispute?
 >
 > Please feel free to write to me at angeci (at) ltgc.cc and discuss this issue together!

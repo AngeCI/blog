@@ -14,6 +14,9 @@ tags:
 > [!WARNING] Notice
 > This post is a draft translation from [the Chinese version](/blog/zh/multilingual-blog/) which have not yet been thoroughly proofread.
 
+> [!TIP] BlogBlog Club!
+> This is my submission article for “[BlogBlog Club Party - October 2026](https://blogblog.club/party)”. This month’s topic is “[Acquisition, Transmission, and Promotion of Languages](https://angeci.github.io/blog/zh/blogblog-party-languages/)”, hosted by [AngeCI](https://angeci.github.io/blog/). If you have your own blog, feel free to join us together!
+
 My blog currently has three languages: written Chinese, Cantonese, and English. The different language versions are currently distinguished by different paths.
 
 Since I rarely promote this website in circles where people don’t understand Chinese, most of the English content on this site has been roughly translated using machine translation tools, and I’ll proofread it more carefully later when I have time.

@@ -13,6 +13,9 @@ tags:
 > [!WARNING] Notice
 > This post is a draft translation from [the Chinese version](/blog/zh/chinese-calligraphy/) which have not yet been thoroughly proofread.
 
+> [!TIP] BlogBlog Club!
+> This is my submission article for “[BlogBlog Club Party - October 2026](https://blogblog.club/party)”. This month’s topic is “[Acquisition, Transmission, and Promotion of Languages](https://angeci.github.io/blog/zh/blogblog-party-languages/)”, hosted by [AngeCI](https://angeci.github.io/blog/). If you have your own blog, feel free to join us together!
+
 Some people believe that Chinese calligraphy (hereinafter referred to as calligraphy) should be included in the compulsory education system, just like in Japan. Currently in Hong Kong, the Education Bureau has not made any regulations regarding calligraphy education, and most schools treat it as an extracurricular activity rather than part of the unified curriculum. Does this situation seem to be similar in other parts of Greater China?
 
 # My personal opinion

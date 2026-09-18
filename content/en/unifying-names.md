@@ -13,6 +13,9 @@ tags:
 > [!WARNING] Notice
 > This post is a draft translation from [the Chinese version](/blog/zh/unifying-names/) which have not yet been thoroughly proofread.
 
+> [!TIP] BlogBlog Club!
+> This is my submission article for “[BlogBlog Club Party - October 2026](https://blogblog.club/party)”. This month’s topic is “[Acquisition, Transmission, and Promotion of Languages](https://angeci.github.io/blog/zh/blogblog-party-languages/)”, hosted by [AngeCI](https://angeci.github.io/blog/). If you have your own blog, feel free to join us together!
+
 [Alex Hsu](https://alexhsu.com) recently published two posts in a row discussing the topic of regional variations in Chinese.
 
 - 《[The tale of two translation houses](https://alexhsu.com/en/two-translators)》

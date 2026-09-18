@@ -11,6 +11,9 @@ tags:
   - "Language Policy 語言政策"
 ---
 
+> [!TIP] BlogBlog 同樂會！
+> 這是我的「[BlogBlog 同樂會 - 2026 年 10 月](https://blogblog.club/party)」的投稿文章。本月主題是「[語言的習得、傳承與推廣](https://angeci.github.io/blog/zh/blogblog-party-languages/)」，由 [AngeCI](https://angeci.github.io/blog/zh/) 主持。如果你有自己的部落格，歡迎一起來參加！
+
 我的部落格目前有三種語言：書面中文、粵語、英語。不同的語言版本之間，目前是靠不同的路徑去分辨。
 
 由於我目前極少在不諳漢語的圈子宣傳這個網站，所以本站的英語內容大部份都是先以機器翻譯工具粗翻一遍，以後有時間再來慢慢校對了。
