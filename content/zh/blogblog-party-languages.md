@@ -3,7 +3,6 @@ date: "2026-09-18T20:30:00+00:00"
 type: "post"
 title: "BlogBlog 同樂會：語言的習得、傳承與推廣（2026 年 10 月）"
 description: ""
-translationsKey: "blogblog-party-languages"
 categories:
   - "BlogBlog 同樂會"
 tags:
@@ -119,10 +118,10 @@ tags:
     **A6**：在初期文章不太多的時候，我可能會積攢夠一定的篇數或者等到部落格有其他內容更新的時候才一併更新這裏。但我會盡快回覆郵件確認收件。到後期投稿速度變高的時候我想我就會每天更新這裏的投稿名單了，除非有哪天我不太有空。
 - **Q7**：可不可以投稿立場較為偏激的文章？
 
-    **A7**：我**不會自動拒絕**立場偏激嘅文章投稿，但我可能會喺文章連結側邊標示立場激進，**請各位讀者做好心理準備**。與本人立場相左的文章可能會被我在回顧文中以嘲諷的口吻敘述，**後果自負**。
+    **A7**：我**不會自動拒絕**立場偏激的文章投稿，但我可能會在文章連結側邊標示立場激進，**請各位讀者做好玻璃心碎裂的心理準備**。與本人立場相左的文章可能會被我在回顧文中以嘲諷或批評的口吻敘述，**後果自負**。
 
 # 已經投稿的作者清單（持續更新）
-活動期間，這裡會持續更新已投稿的文章連結，歡迎大家互相閱讀、交流、訂閱！最終整理與回顧文章會在 11 月初發布。
+活動期間，這裡會持續更新已投稿的文章連結，歡迎大家互相閱讀、交流、訂閱！最終整理與回顧文章會在 11 月初發佈。
 
 以下是目前參與文章的連結列表（按投稿順序）：
 
@@ -132,8 +131,12 @@ tags:
 1. [多語部落格](/blog/zh/multilingual-blog/) - AngeCI
 1. [統一譯名](/blog/zh/unifying-names/) - AngeCI
 1. [Alex Hsu 打壓本土語言](/blog/zh/alex-hsu-suppresses-local-languages/) - AngeCI
+1. [二十年前部落格圈的簡體繁體議論](https://e89295.com/blog/2026-09-20.html) - 我
+1. [有關片名翻譯的問題3](https://e89295.com/blog/2026-09-06.html) - 我
+1. [失語症患者重新學會說話，算是重新學一種語言嗎？](https://drchiuneuro.com/aphasia-language-recovery/) - 神經沒問題
+1. [跌跌撞撞的台語學習歷程](https://www.wen-lab.tw/learn-taiwanese/) - Wen
 
-- <small>最後更新：2026-09-19</small><!-- AngeCI ([1](https://angeci.github.io/blog/zh/chinese-dialectal-phenomena/) [2](https://angeci.github.io/blog/zh/studying-classical-chinese/) [3](https://angeci.github.io/blog/zh/chinese-calligraphy/) [4](https://angeci.github.io/blog/zh/multilingual-blog/) [5](https://angeci.github.io/blog/zh/unifying-names/) [6](https://angeci.github.io/blog/zh/alex-hsu-suppresses-local-languages/)) -->
+- <small>最後更新：2026-09-25</small><!-- AngeCI ([1](https://angeci.github.io/blog/zh/chinese-dialectal-phenomena/) [2](https://angeci.github.io/blog/zh/studying-classical-chinese/) [3](https://angeci.github.io/blog/zh/chinese-calligraphy/) [4](https://angeci.github.io/blog/zh/multilingual-blog/) [5](https://angeci.github.io/blog/zh/unifying-names/) [6](https://angeci.github.io/blog/zh/alex-hsu-suppresses-local-languages/))、我 ([1](https://e89295.com/blog/2026-09-20.html) [2](https://e89295.com/blog/2026-09-06.html))、[神經沒問題](https://drchiuneuro.com/aphasia-language-recovery/)、[Wen](https://www.wen-lab.tw/learn-taiwanese/) -->
 
 [^1]: 別以為是只有台灣是這樣，其實大陸甚至香港都有。
 [^2]: 請注意，本人用於發送回郵的電郵地址將與接收郵件的地址不同。各位要再回覆郵件的話，可以在兩個郵件地址之間任擇其一。

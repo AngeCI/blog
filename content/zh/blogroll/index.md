@@ -20,7 +20,7 @@ menu:
 | YoZ Blog<br>![YoZ Blog](yozblog-web-badge-1.gif) | https://www.yozblog.com | [BlogBlog 同樂會](https://blogblog.club/party)主持人之一。 |
 | ikuka 的第一個家 | https://blog.ikukaroom.com | [BlogBlog 同樂會](https://blogblog.club/party)主持人之一。 |
 | Jason Lai | https://jasonjlai.net | [BlogBlog 同樂會](https://blogblog.club/party)主持人之一。 |
-| 物灵 | https://matling.fit |  |
+| 物灵<br>![物灵](matling-88x31.gif) | https://matling.fit |  |
 <!--| Alex Hsu 斜槓少年 | https://alexhsu.com | [BlogBlog 同樂會](https://blogblog.club/party)主持人之一。 |-->
 <!--| Hi 我劉昕 | https://shuaixin.cc | [BlogBlog 同樂會](https://blogblog.club/party)主持人之一。 |-->
 

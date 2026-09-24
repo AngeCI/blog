@@ -20,7 +20,7 @@ Well, the content of this blogroll isn’t differ that much from rest of the Wiw
 | YoZ Blog<br>![YoZ Blog](yozblog-web-badge-1.gif) | https://www.yozblog.com | One of [BlogBlog Party](https://blogblog.club/party)’s host. |
 | ikuka 的第一個家 | https://blog.ikukaroom.com | One of [BlogBlog Party](https://blogblog.club/party)’s host. |
 | Jason Lai | https://jasonjlai.net | One of [BlogBlog Party](https://blogblog.club/party)’s host. |
-| 物灵 | https://matling.fit |  |
+| 物灵<br>![物灵](matling-88x31.gif) | https://matling.fit |  |
 <!--| Alex Hsu 斜槓少年 | https://alexhsu.com |  One of [BlogBlog Party](https://blogblog.club/party)’s host. |-->
 <!--| Hi 我劉昕 | https://shuaixin.cc |  One of [BlogBlog Party](https://blogblog.club/party)’s host. |-->
 
