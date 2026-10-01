@@ -9,8 +9,10 @@ tags:
   - "Language Policy 語言政策"
 ---
 
+<!--
 > [!IMPORTANT]
 > 9 月的 [BlogBlog 同樂會：晚上不睡覺](https://jasonjlai.net/zh/3pwriting/stay-up.html)現在還在火熱進行中，9 月底之前都能投稿喔！
+-->
 
 本人在 2026 年 3 月就已經有主持 BlogBlog 同樂會的想法，當時最初是排在 [ikuka](https://ikukaroom.com) 後面，只是由於本人在 9 月份的現實工作稍忙，而把主持時間後延了一個月到了 10 月。
 
@@ -135,8 +137,9 @@ tags:
 1. [有關片名翻譯的問題3](https://e89295.com/blog/2026-09-06.html) - 我
 1. [失語症患者重新學會說話，算是重新學一種語言嗎？](https://drchiuneuro.com/aphasia-language-recovery/) - 神經沒問題
 1. [跌跌撞撞的台語學習歷程](https://www.wen-lab.tw/learn-taiwanese/) - Wen
+1. 學「台語」，真的好嗎？（[偏激A版](https://calke.bearblog.dev/tai-i-a/)、[偏激B版](https://calke.bearblog.dev/tai-i-b/)、[中性版](https://calke.bearblog.dev/tai-i-c/)） - Tommy
 
-- <small>最後更新：2026-10-01</small><!-- AngeCI ([1](https://angeci.github.io/blog/zh/chinese-dialectal-phenomena/) [2](https://angeci.github.io/blog/zh/studying-classical-chinese/) [3](https://angeci.github.io/blog/zh/chinese-calligraphy/) [4](https://angeci.github.io/blog/zh/multilingual-blog/) [5](https://angeci.github.io/blog/zh/unifying-names/) [6](https://angeci.github.io/blog/zh/alex-hsu-suppresses-local-languages/))、我 ([1](https://e89295.com/blog/2026-09-20.html) [2](https://e89295.com/blog/2026-09-06.html))、[神經沒問題](https://drchiuneuro.com/aphasia-language-recovery/)、[Wen](https://www.wen-lab.tw/learn-taiwanese/) -->
+- <small>最後更新：2026-10-01</small><!-- AngeCI ([1](https://angeci.github.io/blog/zh/chinese-dialectal-phenomena/) [2](https://angeci.github.io/blog/zh/studying-classical-chinese/) [3](https://angeci.github.io/blog/zh/chinese-calligraphy/) [4](https://angeci.github.io/blog/zh/multilingual-blog/) [5](https://angeci.github.io/blog/zh/unifying-names/) [6](https://angeci.github.io/blog/zh/alex-hsu-suppresses-local-languages/))、我 ([1](https://e89295.com/blog/2026-09-20.html) [2](https://e89295.com/blog/2026-09-06.html))、[神經沒問題](https://drchiuneuro.com/aphasia-language-recovery/)、[Wen](https://www.wen-lab.tw/learn-taiwanese/)、Tommy ([偏激A版](https://calke.bearblog.dev/tai-i-a/)、[偏激B版](https://calke.bearblog.dev/tai-i-b/)、[中性版](https://calke.bearblog.dev/tai-i-c/)) -->
 
 [^1]: 別以為是只有台灣是這樣，其實大陸甚至香港都有。
 [^2]: 請注意，本人用於發送回郵的電郵地址將與接收郵件的地址不同。各位要再回覆郵件的話，可以在兩個郵件地址之間任擇其一。

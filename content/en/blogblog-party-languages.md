@@ -13,8 +13,10 @@ tags:
 > [!WARNING] Notice
 > This post is a draft translation from [the Chinese version](/blog/zh/blogblog-party-languages/) which have not yet been thoroughly proofread.
 
+<!--
 > [!IMPORTANT]
 > September’s [BlogBlog Party: Staying Up](https://jasonjlai.net/zh/3pwriting/stay-up.html) is still ongoing, you can submit your entries anytime before the end of September!
+-->
 
 I already had a plan to become a BlogBlog Party host back in March 2026, with my slot originally scheduled right after [ikuka](https://ikukaroom.com). However, due to a busy work schedule in September, I postponed the hosting timeslot by a month to October.
 
@@ -122,6 +124,7 @@ This is the title I originally drafted. After discussing it with others, I felt 
 1. [有關片名翻譯的問題3](https://e89295.com/blog/2026-09-06.html) - 我
 1. [失語症患者重新學會說話，算是重新學一種語言嗎？](https://drchiuneuro.com/aphasia-language-recovery/) - 神經沒問題
 1. [跌跌撞撞的台語學習歷程](https://www.wen-lab.tw/learn-taiwanese/) - Wen
+1. 學「台語」，真的好嗎？（[偏激A版](https://calke.bearblog.dev/tai-i-a/)、[偏激B版](https://calke.bearblog.dev/tai-i-b/)、[中性版](https://calke.bearblog.dev/tai-i-c/)） - Tommy
 
 <small>Last update: 2026-10-01</small>
 

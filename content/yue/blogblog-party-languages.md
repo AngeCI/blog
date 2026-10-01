@@ -3,15 +3,16 @@ date: "2026-09-18T20:30:00+00:00"
 type: "post"
 title: "BlogBlog 同樂會：語言嘅習得、傳承同推廣（2026 年 10 月）"
 description: ""
-translationsKey: "blogblog-party-languages"
 categories:
   - "BlogBlog 同樂會"
 tags:
   - "Language Policy 語言政策"
 ---
 
+<!--
 > [!IMPORTANT]
 > 9 月嘅 [BlogBlog 同樂會：夜晚唔瞓覺](https://jasonjlai.net/zh/3pwriting/stay-up.html)而家仲喺度火熱進行中，9 月底之前投得稿喔！
+-->
 
 我喺 2026 年 3 月就已經有主持 BlogBlog 同樂會嘅諗法，當時最初係排咗喺 [ikuka](https://ikukaroom.com) 後面，只係我喺 9 月份嘅現實工作有啲忙，就將主持時間褪咗一個月去咗 10 月。
 
@@ -119,6 +120,7 @@ tags:
 1. [有關片名翻譯的問題3](https://e89295.com/blog/2026-09-06.html) - 我
 1. [失語症患者重新學會說話，算是重新學一種語言嗎？](https://drchiuneuro.com/aphasia-language-recovery/) - 神經沒問題
 1. [跌跌撞撞的台語學習歷程](https://www.wen-lab.tw/learn-taiwanese/) - Wen
+1. 學「台語」，真的好嗎？（[偏激A版](https://calke.bearblog.dev/tai-i-a/)、[偏激B版](https://calke.bearblog.dev/tai-i-b/)、[中性版](https://calke.bearblog.dev/tai-i-c/)） - Tommy
 
 <small>最後更新：2026-10-01</small>
 
