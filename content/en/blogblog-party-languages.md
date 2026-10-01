@@ -123,7 +123,7 @@ This is the title I originally drafted. After discussing it with others, I felt 
 1. [失語症患者重新學會說話，算是重新學一種語言嗎？](https://drchiuneuro.com/aphasia-language-recovery/) - 神經沒問題
 1. [跌跌撞撞的台語學習歷程](https://www.wen-lab.tw/learn-taiwanese/) - Wen
 
-<small>Last update: 2026-09-25</small>
+<small>Last update: 2026-10-01</small>
 
 [^1]: 別以為是只有台灣是這樣，其實大陸甚至香港都有。
 [^2]: 請注意，本人用於發送回郵的電郵地址將與接收郵件的地址不同。各位要再回覆郵件的話，可以在兩個郵件地址之間任擇其一。
