@@ -1,6 +1,6 @@
 ---
 date: "2026-09-14T17:45:45+00:00"
-lastmod: "2026-09-18T17:11:24+00:00"
+lastmod: "2026-10-05T08:43:52+00:00"
 type: "post"
 title: "大唐坤輿萬國全圖"
 description: ""
@@ -16,16 +16,16 @@ tags:
 # 國家
 | ISO 3166-1 alpha-2 | 英語 | 原文 | 社群自造稱呼 | 現代漢語稱呼 |
 | -- | -- | -- | -- | -- |
-| AL | Albania | Shqipëria | 室執<br>室脂發梨耶<br>伊律離[^8] | 阿爾巴尼亞 |
-| AM | Armenia | Հայաստան | 咍國<br>呵耶 | 亞美尼亞 |
-| AR | Argentina | Argentina | 遏軒滇<br>遏軒地那 | 阿根廷 |
+| AL | Albania | Shqipëria | 室執、室脂發梨耶<br>伊律離[^8] | 阿爾巴尼亞 |
+| AM | Armenia | Հայաստան | 咍國、呵耶 | 亞美尼亞 |
+| AR | Argentina | Argentina | 遏軒滇、遏軒地那 | 阿根廷 |
 | AT | Austria | Österreich | 畏瀦賴<br>優悉瀦賴<br>隈隄黎 | 奧地利 |
 | AU | Australia | Australia | 鏖悉吒離<br>鏖悉株梨與<br>澹部（意譯？）[^1] | 澳洲<br>澳大利亞 |
 | AZ | Azerbaijan | Azərbaycan | 阿截旆禪<br>阿截旆常 | 阿塞拜疆<br>亞塞拜然 |
 | BA | Bosnia and Herzegovina | Bosna i Hercegovina | 蒲娑那與褉績劬毗那 | 波斯尼亞和黑塞哥維那<br>波士尼亞與赫塞哥維納 |
-| BE | Belgium | België<br>Belgique | 襒伽<br>襒利 | 比利時 |
+| BE | Belgium | België<br>Belgique | 襒伽、襒蓋<br>襒利 | 比利時 |
 | BG | Bulgaria | България | 勃揭<br>勃伽梨耶 | 保加利亞 |
-| BR | Brazil | Brasil | 拔囚<br>佛羅疾<br>枋林（意譯） | 巴西 |
+| BR | Brazil | Brasil | 拔囚、拔疾<br>佛羅疾<br>枋林（意譯） | 巴西 |
 | BY | Belarus | Беларусь | 脾羅樓司 | 白俄羅斯<br>白羅斯 |
 | CA | Canada | Canada | 迦那陀 | 加拿大 |
 | CH | Switzerland<br>Suisse | Schweiz | 戌茲<br>榱司<br>榱滋 | 瑞士 |
@@ -34,16 +34,16 @@ tags:
 | DE | Germany | Deutschland | 隤䲭<br>隤鑕<br>隤嗤 | 德國<br>德意志 |
 | DK | Denmark | Danmark | 檀國<br>檀幕 | 丹麥 |
 | EC | Ecuador | Ecuador | 益戈突<br>益粵堗<br>赤道（意譯） | 厄瓜多爾<br>厄瓜多 |
-| EE | Estonia | Eesti | 翳悉脂<br>殹脂 | 愛沙尼亞 |
+| EE | Estonia | Eesti | 翳悉氐<br>殹脂 | 愛沙尼亞 |
 | ES | Spain | España | 司波尼<br>司般若<br>（東）佛郎機[^2] | 西班牙 |
 | FI | Finland | Suomi | 須迷 | 芬蘭 |
-| FR | France | France | 法蘭西<br>方司 | 法國<br>法蘭西 |
+| FR | France | France | 弗楞<br>法蘭西<br>方司 | 法國<br>法蘭西 |
 | GE | Georgia | საქართველო | 渴襒<br>渴鍮梨 | 格魯吉亞<br>喬治亞 |
 | GR | Greece | Ελλάδα | 希臘 | 希臘 |
 | HR | Croatia | Hrvatska | 迄伐<br>迄婆稷 | 克羅地亞<br>克羅埃西亞 |
 | HU | Hungary | Magyarország | 馬揭<br>匈牙利[^3] | 匈牙利 |
 | ID | Indonesia | Indonesia | 三佛齊、室利佛逝[^4] | 印度尼西亞<br>印尼 |
-| IE | Ireland | Éire | 鷖漦 | 愛爾蘭 |
+| IE | Ireland | Éire | 翳琉<br>鷖漦 | 愛爾蘭 |
 | IL | Israel | יִשְׂרָאֵל | 肄羅噎 | 以色列 |
 | IN | India | India | 天竺<br>身毒 | 印度 |
 | IR | Iran | ایران | 波斯[^3] | 伊朗 |
@@ -61,15 +61,15 @@ tags:
 | MX | Mexico | México | 迷尸拘<br>覓私拘 | 墨西哥 |
 | MY | Malaysia | Malaysia | 馬來國 | 馬來西亞 |
 | NG | Nigeria | Nigeria | 柰視璃 | 尼日利亞<br>奈及利亞 |
-| NL | Netherlands | Nederland | 泥除蘭<br>尼德蘭 | 荷蘭 |
+| NL | Netherlands | Nederland | 尼突蘭<br>泥除蘭<br>尼德蘭 | 荷蘭 |
 | NO | Norway | Norge | 拏歷 | 挪威 |
 | NZ | New Zealand | New Zealand<br>Aotearoa | 新西蘭<br>阿烏帝阿盧阿 | 新西蘭<br>紐西蘭 |
 | PH | Philippines | Philippines | 非立賓<br>呂宋 | 菲律賓 |
 | PL | Poland | Polska | 勃國<br>哱息迦<br>孛烈兒（後起） | 波蘭 |
 | PT | Portugal | Portugal | 鉢兜揭<br>埠吐噶<br>（西）佛郎機[^2] | 葡萄牙 |
 | RO | Romania | România | 盧門如 | 羅馬尼亞 |
-| RS | Serbia | Србија | 悉釐毗耶 | 塞爾維亞 |
-| RU | Russia | Россия | 羅剎<br>羅斯 | 俄羅斯 |
+| RS | Serbia | Србија | 悉立<br>悉釐毗耶 | 塞爾維亞 |
+| RU | Russia | Россия | 樓司<br>羅剎<br>羅斯 | 俄羅斯 |
 | SE | Sweden | Sverige | 綏國、宣國[^10]<br>眭璃<br>遂歷 | 瑞典 |
 | SI | Slovenia | Slovenija | 悉盧駢如 | 斯洛文尼亞<br>斯洛維尼亞 |
 | SK | Slovakia | Slovensko | 悉盧駢息拘 | 斯洛伐克 |
@@ -77,10 +77,10 @@ tags:
 | TH | Thailand | ประเทศไทย | 暹羅[^6] | 泰國 |
 | TR | Turkey | Türkiye | 突厥 | 土耳其 |
 | UA | Ukraine | Україна | 屋冷<br>屋家寅<br>屋扢賴寅<br>屋羅夷那<br>渥蓮 | 烏克蘭 |
-| US | United States of America | United States of America | 阿篾力迦 | 美國<br>美利堅合眾國 |
+| US | United States of America | United States of America | 阿彌梨迦<br>阿篾力迦 | 美國<br>美利堅合眾國 |
 | UY | Uruguay | Uruguay | 甌樓回 | 烏拉圭 |
 | UZ | Uzbekistan | Oʻzbekiston | 迂習甓 | 烏茲別克斯坦 |
-| VE | Venezuela | Venezuela | 爲泥雪羅<br>爲泥朱羅<br>駢迡雪羅 | 委內瑞拉 |
+| VE | Venezuela | Venezuela | 吠泥雪羅<br>吠泥朱羅[^14]<br>駢迡雪羅 | 委內瑞拉 |
 | ZA | South Africa | South Africa | 南廅梨迦 | 南非<br>南亞非利加 |
 
 # 屬地或有限承認國家
@@ -98,9 +98,9 @@ tags:
 |  | Chuvashia | Чӑваш | 諸越師<br>諸衞師<br>櫧旆 | 楚瓦什 |
 |  | Wales | Cymru | 劔祿[^11]<br>劍梨 | 威爾斯<br>威爾士 |
 |  | Andalusia | Andaluçía | 安陀樓些<br>安陀樓私耶 | 安達盧西亞<br>安達魯西亞 |
-|  | Franconia | Franggn | 兵芹 | 法蘭克尼亞<br>弗蘭肯<br>東法蘭克 |
-|  | Friuli | Friûl | 悲鬱 | 佛里烏利<br>弗留利 |
-|  | Friesland | Fryslân | 悲息 | 菲士蘭<br>弗里士蘭 |
+|  | Franconia | Franggn | 弗楞斤<br>兵芹 | 法蘭克尼亞<br>弗蘭肯<br>東法蘭克 |
+|  | Friuli | Friûl | 弗梨鬱<br>悲鬱 | 佛里烏利<br>弗留利 |
+|  | Friesland | Fryslân | 弗利司<br>悲息 | 菲士蘭<br>弗里士蘭 |
 |  | Galicia | Galicia | 伽梨私耶 | 加利西亞 |
 |  | Galicia<br>Halychyna | Галичина | 荷梨脂那 | 加利西亞<br>哈利奇那 |
 |  | Hawaii | Hawaiʻi | 呵倄伊 | 夏威夷 |
@@ -116,7 +116,7 @@ tags:
 |  | Silesia | Ślōnsk | 室菕息 | 西利西亞 |
 |  | Tatarstan | Татарстан | 韃靼 | 韃靼 |
 |  | Valencia | Valencià | 婆憐些<br>婆憐私耶 | 瓦倫西亞 |
-|  | Veneto | Vèneto | 爲泥都<br>駢涅都 | 威尼托 |
+|  | Veneto | Vèneto | 吠泥都<br>駢涅都 | 威尼托 |
 |  |  | אַשכּנזיש ייִדן | 頞式䞿柰<br>藹据那祠 | 阿什肯納茲<br>亞實基拿 |
 |  |  |  |  |  |
 
@@ -136,3 +136,4 @@ tags:
 [^11]: 古布立吞語 \*kömroɣ。
 [^12]: 構擬古代詞形 \*čaqa &lt; \*ǰaqa。
 [^13]: 古高地德語 Sahso。
+[^14]: 新拉丁語 Ventiola。

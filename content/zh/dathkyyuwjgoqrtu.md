@@ -1,6 +1,6 @@
 ---
 date: "2026-09-14T17:45:45+00:00"
-lastmod: "2026-09-18T17:11:24+00:00"
+lastmod: "2026-10-05T08:43:52+00:00"
 type: "post"
 title: "大唐坤輿萬國全圖"
 description: ""
@@ -80,7 +80,7 @@ tags:
 | US | United States of America | United States of America | 阿彌梨迦<br>阿篾力迦 | 美國<br>美利堅合眾國 |
 | UY | Uruguay | Uruguay | 甌樓回 | 烏拉圭 |
 | UZ | Uzbekistan | Oʻzbekiston | 迂習甓 | 烏茲別克斯坦 |
-| VE | Venezuela | Venezuela | 爲泥雪羅<br>爲泥朱羅[^14]<br>駢迡雪羅 | 委內瑞拉 |
+| VE | Venezuela | Venezuela | 吠泥雪羅<br>吠泥朱羅[^14]<br>駢迡雪羅 | 委內瑞拉 |
 | ZA | South Africa | South Africa | 南廅梨迦 | 南非<br>南亞非利加 |
 
 # 屬地或有限承認國家
@@ -116,7 +116,7 @@ tags:
 |  | Silesia | Ślōnsk | 室菕息 | 西利西亞 |
 |  | Tatarstan | Татарстан | 韃靼 | 韃靼 |
 |  | Valencia | Valencià | 婆憐些<br>婆憐私耶 | 瓦倫西亞 |
-|  | Veneto | Vèneto | 爲泥都<br>駢涅都 | 威尼托 |
+|  | Veneto | Vèneto | 吠泥都<br>駢涅都 | 威尼托 |
 |  |  | אַשכּנזיש ייִדן | 頞式䞿柰<br>藹据那祠 | 阿什肯納茲<br>亞實基拿 |
 |  |  |  |  |  |
 

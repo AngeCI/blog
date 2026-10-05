@@ -139,8 +139,12 @@ tags:
 1. [跌跌撞撞的台語學習歷程](https://www.wen-lab.tw/learn-taiwanese/) - Wen
 1. 學「台語」，真的好嗎？（[偏激A版](https://calke.bearblog.dev/tai-i-a/)、[偏激B版](https://calke.bearblog.dev/tai-i-b/)、[中性版](https://calke.bearblog.dev/tai-i-c/)） - Tommy
 1. [親切與親切](https://blog.tatsutomo.site/blog/2026/09/28/sinsetu) - Tomo
+1. [如何考過N1](https://yangbear.bearblog.dev/n1-goukaku-suru-niwa/) - YangBear
+1. [臺灣人學注音](https://route110.blog/posts/learning-bopomofo-as-taiwanese/) - 拍拍
+1. [語言是人類絕無僅有的能力！嗎？](https://blog.tatsutomo.site/blog/2026/10/03/i-can-understand-bird-language) - Tomo
+1. [谁有资格被称作台湾台语](https://eddielv.com/musings/taiwanese-taiwanese/) - Eddie Lv <!-- [誰有資格被稱作臺灣台語](https://eddielv.com/musings/taiwanese-taiwanese/) - Eddie Lv -->
 
-- <small>最後更新：2026-10-02</small><!-- AngeCI ([1](https://angeci.github.io/blog/zh/chinese-dialectal-phenomena/) [2](https://angeci.github.io/blog/zh/studying-classical-chinese/) [3](https://angeci.github.io/blog/zh/chinese-calligraphy/) [4](https://angeci.github.io/blog/zh/multilingual-blog/) [5](https://angeci.github.io/blog/zh/unifying-names/) [6](https://angeci.github.io/blog/zh/alex-hsu-suppresses-local-languages/))、我 ([1](https://e89295.com/blog/2026-09-20.html) [2](https://e89295.com/blog/2026-09-06.html))、[神經沒問題](https://drchiuneuro.com/aphasia-language-recovery/)、[Wen](https://www.wen-lab.tw/learn-taiwanese/)、Tommy ([偏激A版](https://calke.bearblog.dev/tai-i-a/)、[偏激B版](https://calke.bearblog.dev/tai-i-b/)、[中性版](https://calke.bearblog.dev/tai-i-c/)、[Tomo](https://blog.tatsutomo.site/blog/2026/09/28/sinsetu)) -->
+- <small>最後更新：2026-10-05</small><!-- AngeCI ([1](https://angeci.github.io/blog/zh/chinese-dialectal-phenomena/) [2](https://angeci.github.io/blog/zh/studying-classical-chinese/) [3](https://angeci.github.io/blog/zh/chinese-calligraphy/) [4](https://angeci.github.io/blog/zh/multilingual-blog/) [5](https://angeci.github.io/blog/zh/unifying-names/) [6](https://angeci.github.io/blog/zh/alex-hsu-suppresses-local-languages/))、我 ([1](https://e89295.com/blog/2026-09-20.html) [2](https://e89295.com/blog/2026-09-06.html))、[神經沒問題](https://drchiuneuro.com/aphasia-language-recovery/)、[Wen](https://www.wen-lab.tw/learn-taiwanese/)、Tommy ([偏激A版](https://calke.bearblog.dev/tai-i-a/)、[偏激B版](https://calke.bearblog.dev/tai-i-b/)、[中性版](https://calke.bearblog.dev/tai-i-c/))、Tomo ([1](https://blog.tatsutomo.site/blog/2026/09/28/sinsetu) [2](https://blog.tatsutomo.site/blog/2026/10/03/i-can-understand-bird-language))、[YangBear](https://yangbear.bearblog.dev/n1-goukaku-suru-niwa/)、[拍拍](https://route110.blog/posts/learning-bopomofo-as-taiwanese/)、[Eddie Lv](https://eddielv.com/musings/taiwanese-taiwanese/) -->
 
 [^1]: 別以為是只有台灣是這樣，其實大陸甚至香港都有。
 [^2]: 請注意，本人用於發送回郵的電郵地址將與接收郵件的地址不同。各位要再回覆郵件的話，可以在兩個郵件地址之間任擇其一。

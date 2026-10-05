@@ -126,8 +126,9 @@ This is the title I originally drafted. After discussing it with others, I felt 
 1. [跌跌撞撞的台語學習歷程](https://www.wen-lab.tw/learn-taiwanese/) - Wen
 1. 學「台語」，真的好嗎？（[偏激A版](https://calke.bearblog.dev/tai-i-a/)、[偏激B版](https://calke.bearblog.dev/tai-i-b/)、[中性版](https://calke.bearblog.dev/tai-i-c/)） - Tommy
 1. [親切與親切](https://blog.tatsutomo.site/blog/2026/09/28/sinsetu) - Tomo
+1. [谁有资格被称作台湾台语](https://eddielv.com/musings/taiwanese-taiwanese/) - Eddie Lv
 
-<small>Last update: 2026-10-02</small>
+<small>Last update: 2026-10-05</small>
 
 [^1]: 別以為是只有台灣是這樣，其實大陸甚至香港都有。
 [^2]: 請注意，本人用於發送回郵的電郵地址將與接收郵件的地址不同。各位要再回覆郵件的話，可以在兩個郵件地址之間任擇其一。
