@@ -16,7 +16,7 @@ tags:
 # 國家
 | ISO 3166-1 alpha-2 | 英語 | 原文 | 社群自造稱呼 | 現代漢語稱呼 |
 | -- | -- | -- | -- | -- |
-| AL | Albania | Shqipëria | 室執、室脂發梨耶<br>伊律離[^8] | 阿爾巴尼亞 |
+| AL | Albania | Shqipëria | 室執、室脂發梨耶<br>伊律離、頞襒[^8] | 阿爾巴尼亞 |
 | AM | Armenia | Հայաստան | 咍國、呵耶 | 亞美尼亞 |
 | AR | Argentina | Argentina | 遏軒滇、遏軒地那 | 阿根廷 |
 | AT | Austria | Österreich | 畏瀦賴<br>優悉瀦賴<br>隈隄黎 | 奧地利 |
@@ -28,17 +28,17 @@ tags:
 | BR | Brazil | Brasil | 拔囚、拔疾<br>佛羅疾<br>枋林（意譯） | 巴西 |
 | BY | Belarus | Беларусь | 脾羅樓司 | 白俄羅斯<br>白羅斯 |
 | CA | Canada | Canada | 迦那陀 | 加拿大 |
-| CH | Switzerland<br>Suisse | Schweiz | 戌茲<br>榱司<br>榱滋 | 瑞士 |
+| CH | Switzerland | Schweiz<br>Suisse | 戌茲<br>榱司<br>榱滋 | 瑞士 |
 | CL | Chile | Chile | 鴟黎 | 智利 |
 | CZ | Czechia | Česko | 戠國<br>萴國<br>制拘 | 捷克 |
-| DE | Germany | Deutschland | 隤䲭<br>隤鑕<br>隤嗤 | 德國<br>德意志 |
+| DE | Germany | Deutschland | <br>隤䲭、隤鑕、隤嗤 | 德國<br>德意志 |
 | DK | Denmark | Danmark | 檀國<br>檀幕 | 丹麥 |
-| EC | Ecuador | Ecuador | 益戈突<br>益粵堗<br>赤道（意譯） | 厄瓜多爾<br>厄瓜多 |
+| EC | Ecuador | Ecuador | 益厥突<br>益粵堗<br>赤道（意譯） | 厄瓜多爾<br>厄瓜多 |
 | EE | Estonia | Eesti | 翳悉氐<br>殹脂 | 愛沙尼亞 |
 | ES | Spain | España | 司波尼<br>司般若<br>（東）佛郎機[^2] | 西班牙 |
 | FI | Finland | Suomi | 須迷 | 芬蘭 |
 | FR | France | France | 弗楞<br>法蘭西<br>方司 | 法國<br>法蘭西 |
-| GE | Georgia | საქართველო | 渴襒<br>渴鍮梨 | 格魯吉亞<br>喬治亞 |
+| GE | Georgia | საქართველო | 羯襒<br>渴鍮梨 | 格魯吉亞<br>喬治亞 |
 | GR | Greece | Ελλάδα | 希臘 | 希臘 |
 | HR | Croatia | Hrvatska | 迄伐<br>迄婆稷 | 克羅地亞<br>克羅埃西亞 |
 | HU | Hungary | Magyarország | 馬揭<br>匈牙利[^3] | 匈牙利 |
@@ -55,13 +55,13 @@ tags:
 | LT | Lithuania | Lietuva | 離兜婆<br>梨與兜婆 | 立陶宛 |
 | LU | Luxembourg | Lëtzebuerg<br>Luxembourg | 閭匝佩 | 盧森堡 |
 | LV | Latvia | Latvija | 剌毗耶 | 拉脫維亞 |
-| MK | North Macedonia | Северна Македонија | 北摩企豚 | 北馬其頓 |
+| MK | North Macedonia | Северна Македонија | 北摩計屯、北摩企豚 | 北馬其頓 |
 | MN | Mongolia | Монгол Улс | 蒙古<br>蒙兀 | 蒙古國 |
-| MT | Malta | Malta | 末多 | 馬爾他 |
+| MT | Malta | Malta | 末多 | 馬爾他<br>馬耳他 |
 | MX | Mexico | México | 迷尸拘<br>覓私拘 | 墨西哥 |
 | MY | Malaysia | Malaysia | 馬來國 | 馬來西亞 |
 | NG | Nigeria | Nigeria | 柰視璃 | 尼日利亞<br>奈及利亞 |
-| NL | Netherlands | Nederland | 尼突蘭<br>泥除蘭<br>尼德蘭 | 荷蘭 |
+| NL | Netherlands | Nederland | 尼突蘭<br>泥除蘭<br>尼德蘭 | 荷蘭<br>尼德蘭 |
 | NO | Norway | Norge | 拏歷 | 挪威 |
 | NZ | New Zealand | New Zealand<br>Aotearoa | 新西蘭<br>阿烏帝阿盧阿 | 新西蘭<br>紐西蘭 |
 | PH | Philippines | Philippines | 非立賓<br>呂宋 | 菲律賓 |
@@ -86,12 +86,12 @@ tags:
 # 屬地或有限承認國家
 | ISO 3166-1 alpha-2 | 英語 | 原文 | 社群自造稱呼 | 現代漢語稱呼 |
 | -- | -- | -- | -- | -- |
-| FO | Faroe Islands | Føroyar | 發抴諸島 | 法羅群島 |
+| FO | Faroe Islands | Føroyar | 發島<br>發抴諸島<br>羊島（意譯） | 法羅群島 |
 | TW | Taiwan | 臺灣 | 琉求[^7] | 臺灣 |
 |  | England | England | 英吉利 | 英格籣 |
 |  | Asturias | Asturies | 阿悉兜璃 | 阿斯圖里亞斯<br>阿斯土利亞 |
-|  | Bashkortostan | Башҡортостан | 旆骨 | 巴什科爾托斯坦 |
-|  | Bavaria | Bayern | 符袁 | 巴伐利亞 |
+|  | Bashkortostan | Башҡортостан | 鉢師骨、旆骨 | 巴什科爾托斯坦 |
+|  | Bavaria | Bayern | 毘抴[^15]<br>符袁 | 巴伐利亞 |
 |  | Brittany | Breizh | 小不列顛 | 布列塔尼 |
 |  | Brabant | Braobant | 佛羅磐<br>卑蘭 | 布拉班特<br>布拉邦 |
 |  | Catalonia | Catalunya | 迦多樓如<br>据多樓如 | 加泰羅尼亞<br>加泰隆尼亞 |
@@ -99,7 +99,7 @@ tags:
 |  | Wales | Cymru | 劔祿[^11]<br>劍梨 | 威爾斯<br>威爾士 |
 |  | Andalusia | Andaluçía | 安陀樓些<br>安陀樓私耶 | 安達盧西亞<br>安達魯西亞 |
 |  | Franconia | Franggn | 弗楞斤<br>兵芹 | 法蘭克尼亞<br>弗蘭肯<br>東法蘭克 |
-|  | Friuli | Friûl | 弗梨鬱<br>悲鬱 | 佛里烏利<br>弗留利 |
+|  | Friuli | Friûl | 弗梨鬱<br>發盧由梨[^16]<br>悲鬱 | 佛里烏利<br>弗留利 |
 |  | Friesland | Fryslân | 弗利司<br>悲息 | 菲士蘭<br>弗里士蘭 |
 |  | Galicia | Galicia | 伽梨私耶 | 加利西亞 |
 |  | Galicia<br>Halychyna | Галичина | 荷梨脂那 | 加利西亞<br>哈利奇那 |
@@ -108,8 +108,8 @@ tags:
 |  | Limburg | Limburg | 林佩 | 林堡 |
 |  | Lombardy | Lombardia | 嵐跋 | 倫巴第<br>倫巴底 |
 |  | Puebla | Ndanìngà | 沂禾 | 普埃布拉 |
-|  | Cantabria | Cantabria | 犍多鉢離<br>鞬多岯與 | 坎塔布里亞 |
-|  | Ruthenia | Пудкарпатя | 外揭鉢[^9]<br>外羯波遮[^9] | 盧森尼亞 |
+|  | Cantabria | Cantabria | 犍多畢離<br>鞬多岯與 | 坎塔布里亞 |
+|  | Ruthenia | Пудкарпатя | 外羯鉢[^9]<br>外羯波遮[^9] | 盧森尼亞 |
 |  | Sakha | Саха | 爵佉[^12]<br>娑呵 | 薩哈 |
 |  | Sami | Sápmi | 靸寐 | 薩米 |
 |  | Saxony | Saggsn | 塞蘇[^13]<br>夕辛 | 薩克森 |
@@ -130,10 +130,12 @@ tags:
 [^5]: 來自古代名稱 ລ້ານຊ້າງ。
 [^6]: 源自舊稱 สยาม。
 [^7]: 源自他稱。未辨明現今「臺灣」與「琉球群島」。
-[^8]: 古稱 Ἰλλυρία 也許能用？
+[^8]: 古稱 Ἰλλυρία 或 Arbër 也許能用？
 [^9]: 「外」字為意譯。
 [^10]: 古諾爾斯語 sví- /swi-/ 或 sven- /swen-/。
 [^11]: 古布立吞語 \*kömroɣ。
 [^12]: 構擬古代詞形 \*čaqa &lt; \*ǰaqa。
 [^13]: 古高地德語 Sahso。
 [^14]: 新拉丁語 Ventiola。
+[^15]: 古高地德語 Beiara。
+[^16]: 晚期拉丁語 Foroiuli。

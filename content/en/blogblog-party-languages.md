@@ -27,9 +27,13 @@ You may have noticed that this website is actually [multilingual](/blog/multilin
 # Theme: “Acquisition, Transmission, and Promotion of Languages”
 The theme of October 2026 is: “**Acquisition, Transmission, and Promotion of Languages**”!
 
+語言是一種神奇的現象。人類語言的發展程度在自然界中絕無僅有。大家每天都會接觸到語言，可能是口語或者文字（甚至手語），但同時人類對於語言的起源卻近乎一無所知。語言習得的過程也是非常奧妙，嬰孩可以在近乎零干預之下學會他們的第一語言，而過了某個年齡之後，新語言的習得過程就變得截然不同，讓成人學習外語變得極其困難。各位在義務教育當中也會研習多種語言，也許也會自主學習更多的外語（甚至人工語言和程式語言）。也許你們當中有一些人，是生活在母語、家庭語言與社會語言相異的社羣。各位對於語言的研習有什麼體會？
+
 In light of the decline of native languages[^1], what are your thoughts, opinions, or suggestions? In fact, “Development and Preservation of Native Languages](#-development-and-preservation-of-native-languages)” is the topic I originally drafted.
 
 > **Side note:** Speaking of local languages, it seems difficult to find online learning materials for (Taiwanese) Hokkien suitable for foreigners with zero prior knowledge, and related natural language processing systems are still in the development stage. Perhaps this represents a significant gap in the market. I might consider developing a proprietary teaching platform for it in the future.
+
+人類語言的複雜程度，也絕非幾句簡單的規則就能描述清楚的。這種奇特的現象也致使設計能產生流暢的自然語言的機器程式變得異常複雜，人類直到近幾年才算是攻克了相關技術。
 
 # Topic Ideas
 Here are some topic ideas for your reference.
@@ -42,6 +46,13 @@ This is the title I originally drafted. After discussing it with others, I felt 
 - 💬 **Discussion about the orthography, expressions, and idioms in the native language?**: If I were to actually write about it, I could probably create an entire category of articles. It’s just that, right now, I’m a bit too lazy to get started.
 - 👴 **Seeking Roots**: The personal journey of reclaiming an ancestral language following a linguistic break?
 - 🏴🏫 **Extreme Linguistic Revitalizationism**: Imagine a post-World War III world. If you were a child in this era, sent by political zealots to a “native language school” where you were forced to receive native language education, (possibly with every subject taught in that native language), would you feel distressed, struggle to keep up with your studies, and eventually come to hate school? What if adults who lacked proficiency in the native language were even forced to undergo “re-education” simply because the original national language was branded the tongue of the colonizers?
+- 📱 **科技與當代傳播**：
+    - **網路迷因與次文化語言**：網路用語、Z 世代流行語或迷因如何快速重塑傳統語言？本土語言是否能透過「迷因化」獲得新生？
+    - **AI 時代的語言翻譯與危機**：當即時翻譯技術普及，學習非母語或維護本土語言的動機是否會被削弱？
+- 🎭 **文化、藝術與身分認同**：
+    - **流行文化中的本土語言**：例如本土語言歌曲、電影或戲劇如何改變大眾對該語言的刻板印象？
+    - **雙語／多語家庭的混亂與樂趣**：在多語環境下長大的「code-switching（語言切換）」日常，例如一句話混雜三種語言的奇妙溝通模式。
+    - **消失的字詞與記憶**：有哪些詞彙因為時代變遷（如舊時農具、古老習俗）而在現代語言中徹底消失？這代表了什麼文化的遺失？
 - 💻 **Natural Language Processing for Low-Resource Languages**: 這是一個比較偏向技術層面的面向。一些本土語言的自然語言處理技術發展較晚，各位對此有無建議？可能的實作方向或者產品都可以。各位如何投資本土語言／低資源語言的語音合成與辨識、斷詞、標音、翻譯、TTS/RVC 音源等技術？
 - 🩸🔫🙊😱 還是說，比起本土語言的保育，你更樂於[以強勢語言打壓及侮辱本土語言](/blog/alex-hsu-suppresses-local-languages/)？
 
@@ -57,10 +68,16 @@ This is the title I originally drafted. After discussing it with others, I felt 
 - 🧑‍🏫 遇到過的語言老師、交過的不同語言的朋友
 - 📚 自己私藏的語言學習法
 
+## 🧠 認知與心理學
+- **語言如何塑造思考模式**：使用不同的語言說話時，是否會感覺自己切換了「第二人格」？
+- **非聲語言與身體語言**：手語、肢體動作或微表情在不同文化中的差異與溝通體驗。
+
 ## ❓ Miscellaneous
 - 🗣️ 因為語言／口音不同而發生的趣事、culture shock 或者歧視經驗
 - 🐱 跟寵物溝通的語言、使用不同語言（甚至程式語言）的經驗
 - 💡 各種有關語言的冷知識，似乎和[幾個月前的同樂會主題](https://shuaixin.cc/Fun-Fact/)有點兒重疊（但我不會禁止在往期同樂會投稿過的舊文重複投稿！）。
+- 對語言起源的討論
+- 創造語言（conlang）的經驗
 
 以上提示僅供參考，參與者可以自由發揮，只要內容和「Acquisition, Transmission, and Promotion of Languages」有關即可。
 
@@ -126,9 +143,13 @@ This is the title I originally drafted. After discussing it with others, I felt 
 1. [跌跌撞撞的台語學習歷程](https://www.wen-lab.tw/learn-taiwanese/) - Wen
 1. 學「台語」，真的好嗎？（[偏激A版](https://calke.bearblog.dev/tai-i-a/)、[偏激B版](https://calke.bearblog.dev/tai-i-b/)、[中性版](https://calke.bearblog.dev/tai-i-c/)） - Tommy
 1. [親切與親切](https://blog.tatsutomo.site/blog/2026/09/28/sinsetu) - Tomo
-1. [谁有资格被称作台湾台语](https://eddielv.com/musings/taiwanese-taiwanese/) - Eddie Lv
+1. [如何考過N1](https://yangbear.bearblog.dev/n1-goukaku-suru-niwa/) - YangBear
+1. [臺灣人學注音](https://route110.blog/posts/learning-bopomofo-as-taiwanese/) - 拍拍
+1. [語言是人類絕無僅有的能力！嗎？](https://blog.tatsutomo.site/blog/2026/10/03/i-can-understand-bird-language) - Tomo
+1. [誰有資格被稱作臺灣台語](https://eddielv.com/musings/taiwanese-taiwanese/) - Eddie Lv
+1. [文言文和古诗的现代教学问题及前途](https://blog.xinsl.xin/posts/problems-of-classical-chinese/) - 心是灵 Xinsl
 
-<small>Last update: 2026-10-05</small>
+- <small>Last update: 2026-10-05</small>
 
 [^1]: 別以為是只有台灣是這樣，其實大陸甚至香港都有。
 [^2]: 請注意，本人用於發送回郵的電郵地址將與接收郵件的地址不同。各位要再回覆郵件的話，可以在兩個郵件地址之間任擇其一。
