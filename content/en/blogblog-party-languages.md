@@ -135,8 +135,8 @@ This is the title I originally drafted. After discussing it with others, I felt 
 1. [Importance of Studying Classical Chinese](/blog/studying-classical-chinese/) - AngeCI
 1. [About Chinese Calligraphy Education](/blog/chinese-calligraphy/) - AngeCI
 1. [Multilingual Blog](/blog//multilingual-blog/) - AngeCI
-1. [Unifying Names](/blog//unifying-names/) - AngeCI
-1. [Alex Hsu Suppresses Local Languages](/blog/alex-hsu-suppresses-local-languages/) - AngeCI
+1. [Unifying Names](/blog//unifying-names/) - AngeCI **⚠️ Content warning**
+1. [Alex Hsu Suppresses Local Languages](/blog/alex-hsu-suppresses-local-languages/) - AngeCI **⚠️ Content warning**
 1. [二十年前部落格圈的簡體繁體議論](https://e89295.com/blog/2026-09-20.html) - 我
 1. [有關片名翻譯的問題3](https://e89295.com/blog/2026-09-06.html) - 我
 1. [失語症患者重新學會說話，算是重新學一種語言嗎？](https://drchiuneuro.com/aphasia-language-recovery/) - 神經沒問題

@@ -131,8 +131,8 @@ tags:
 1. [論學習文言嘅必要性](/blog/yue/studying-classical-chinese/) - AngeCI
 1. [論漢字書法教育](/blog/yue/chinese-calligraphy/) - AngeCI
 1. [多語部落格](/blog/yue/multilingual-blog/) - AngeCI
-1. [統一譯名](/blog/yue/unifying-names/) - AngeCI
-1. [Alex Hsu 打壓本土語言](/blog/yue/alex-hsu-suppresses-local-languages/) - AngeCI
+1. [統一譯名](/blog/yue/unifying-names/) - AngeCI **⚠️ 內容偏激注意**
+1. [Alex Hsu 打壓本土語言](/blog/yue/alex-hsu-suppresses-local-languages/) - AngeCI **⚠️ 內容偏激注意**
 1. [二十年前部落格圈的簡體繁體議論](https://e89295.com/blog/2026-09-20.html) - 我
 1. [有關片名翻譯的問題3](https://e89295.com/blog/2026-09-06.html) - 我
 1. [失語症患者重新學會說話，算是重新學一種語言嗎？](https://drchiuneuro.com/aphasia-language-recovery/) - 神經沒問題
