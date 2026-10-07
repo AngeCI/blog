@@ -124,7 +124,7 @@ This is the title I originally drafted. After discussing it with others, I felt 
     **A6**：在初期文章不太多的時候，我可能會積攢夠一定的篇數或者等到部落格有其他內容更新的時候才一併更新這裏。但我會盡快回覆郵件確認收件。到後期投稿速度變高的時候我想我就會每天更新這裏的投稿名單了，除非有哪天我不太有空。
 - **Q7**：可不可以投稿立場較為偏激嘅文章？
 
-    **A7**：我**不會自動拒絕**立場偏激嘅文章投稿，但我可能會喺文章連結側邊標示立場激進，**請各位讀者做好心理準備**。與本人立場相左的文章可能會被我在回顧文中以嘲諷的口吻敘述，**後果自負**。
+    **A7**：我**不會自動拒絕**立場偏激嘅文章投稿，但我可能會喺文章連結側邊標示立場激進，**請各位讀者做好心理準備**。與本人立場相左的文章<!--可能會被我在回顧文中以嘲諷或批評的口吻敘述，**後果自負**-->未必能獲得來自本人的深度回應。
 
 # 已經投稿的作者清單（持續更新）
 活動期間，這裡會持續更新已投稿的文章連結，歡迎大家互相閱讀、交流、訂閱！最終整理與回顧文章會在 11 月初發布。
@@ -136,7 +136,7 @@ This is the title I originally drafted. After discussing it with others, I felt 
 1. [About Chinese Calligraphy Education](/blog/chinese-calligraphy/) - AngeCI
 1. [Multilingual Blog](/blog/multilingual-blog/) - AngeCI
 1. Unifying Names ([Mild version](/blog/unifying-names/), [aggressive version](/blog/unifying-names-aggressive-version/)) - AngeCI
-1. [Alex Hsu Suppresses Local Languages](/blog/alex-hsu-suppresses-local-languages/) - AngeCI **⚠️ Content warning**
+<!--1. [Alex Hsu Suppresses Local Languages](/blog/alex-hsu-suppresses-local-languages/) - AngeCI **⚠️ Content warning**-->
 1. [二十年前部落格圈的簡體繁體議論](https://e89295.com/blog/2026-09-20.html) - 我
 1. [有關片名翻譯的問題3](https://e89295.com/blog/2026-09-06.html) - 我
 1. [失語症患者重新學會說話，算是重新學一種語言嗎？](https://drchiuneuro.com/aphasia-language-recovery/) - 神經沒問題
@@ -148,14 +148,16 @@ This is the title I originally drafted. After discussing it with others, I felt 
 1. [語言是人類絕無僅有的能力！嗎？](https://blog.tatsutomo.site/blog/2026/10/03/i-can-understand-bird-language) - Tomo
 1. [誰有資格被稱作臺灣台語](https://eddielv.com/musings/taiwanese-taiwanese/) - Eddie Lv
 1. [文言文和古诗的现代教学问题及前途](https://blog.xinsl.xin/posts/problems-of-classical-chinese/) - 心是灵 Xinsl
+1. [賽德克語](https://my-blog.worldofwheat.cc/blog/2026/09/kari-seediq) - 小麥
+1. [靠腰 feat. BlogBlogParty 10](https://niugnep.idv.tw/posts/languages-bbp10.html) - Niugnep
 
-- <small>Last update: 2026-10-07</small>
+- <small>Last update: 2026-10-08</small>
 
 [^1]: 別以為是只有台灣是這樣，其實大陸甚至香港都有。
 [^2]: 請注意，本人用於發送回郵的電郵地址將與接收郵件的地址不同。各位要再回覆郵件的話，可以在兩個郵件地址之間任擇其一。
 [^3]: 由於「[BlogBlog 同樂會主持人手冊](https://blogblog.club/docs/guides/blogblog-party-host-guide)」裏面沒有指明截稿日所依據的時區，我可能會從寬認定。目前地球上正在使用的最晚的時區是 UTC-12，比台灣時間晚了 20 小時，我個人的截稿時間可能以這個為準，稱作 [AoE（anywhere on earth）時間](https://zh.wikipedia.org/wiki/AoE%E6%97%B6%E9%97%B4)（順帶一提最早的時區是 UTC+14）。如果閣下在截稿時間過後、回顧文發佈前投稿，我有可能會接受閣下的逾期投稿，但不保證我會趕及在回顧文發佈前將閣下的逾期投稿整理進去。
 [^4]: 本人是香港人，我家也沒有祖籍是閩南或者潮汕的親戚，因此閩南語其實不算是我的 heritage language[^7]，我也不會有在童年自然習得閩南語的環境。我僅有的閩南語能力都是在我長大之後基於對外語的興趣才開始學習的。<!--另外網絡上的閩南語的正字法狀況一團糟，似乎讓 AI 看了都無所適從 ~~，所以也別指望我會嘗試透過機器翻譯服務理解台文了……~~-->
 [^5]: <span class="hovers-blur">對，我就是個比較急性子的人。我比較喜歡可以掌控一切的感覺，而不太喜歡無了期等待的[不確定性](https://wiwi.blog/blog/uncertainty-is-okay/)。</span>
-[^6]: <span class="hovers-blur">如果我長時間未有回覆閣下的郵件，而我又有將閣下的投稿更新到投稿列表中，那你大概率是幹了什麼齷齪事讓我選擇刻意延遲回覆了。同理，如果你提交原文是繁體，但本頁列出的文章標題被強制轉換成簡體的話，那麼你可以好好思考一下你做了什麼讓我決定這麼做。</span>
+<!--[^6]: <span class="hovers-blur">如果我長時間未有回覆閣下的郵件，而我又有將閣下的投稿更新到投稿列表中，那你大概率是幹了什麼齷齪事讓我選擇刻意延遲回覆了。同理，如果你提交原文是繁體，但本頁列出的文章標題被強制轉換成簡體的話，那麼你可以好好思考一下你做了什麼讓我決定這麼做。</span>-->
 [^7]: 其實香港人祖籍在潮汕或閩南的比例其實不低（但不至於壓倒性優勢），但我自己剛好不是。實際上香港中老年人能講這些 heritage langauge 的比例已經不多，年輕一代連聽懂都成問題。有關香港的語言發展史，我日後也許會再出一篇專題文章。
 [^8]: 但是不排除會因為本人的突發事件而收緊。

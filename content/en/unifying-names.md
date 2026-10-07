@@ -1,7 +1,7 @@
 ---
 date: "2026-05-12T18:14:54+00:00"
 type: "post"
-title: "Unifying Names (Mild version)"
+title: "Unifying Names (Mild Version)"
 description: ""
 categories:
   - "Linguistics 語言學"

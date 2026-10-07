@@ -1,7 +1,7 @@
 ---
 date: "2026-05-28T20:28:10+00:00"
 type: "post"
-title: "Unifying Names"
+title: "Unifying Names (Aggressive Version)"
 description: ""
 categories:
   - "Linguistics 語言學"
