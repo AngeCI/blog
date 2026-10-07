@@ -1,7 +1,7 @@
 ---
-date: "2026-05-12T18:14:54+00:00"
+date: "2026-05-28T20:28:10+00:00"
 type: "post"
-title: "Unifying Names (Mild version)"
+title: "Unifying Names"
 description: ""
 categories:
   - "Linguistics 語言學"
@@ -12,11 +12,8 @@ tags:
 > [!WARNING] Notice
 > This post is a draft translation from [the Chinese version](/blog/zh/unifying-names/) which have not yet been thoroughly proofread.
 
-> [!TIP] BlogBlog Club!
-> This is my submission article for “[BlogBlog Club Party - October 2026](https://blogblog.club/party)”. This month’s topic is “[Acquisition, Transmission, and Promotion of Languages](https://angeci.github.io/blog/zh/blogblog-party-languages/)”, hosted by [AngeCI](https://angeci.github.io/blog/). If you have your own blog, feel free to join us together!
-
 > [!TIP] This post has two versions.
-> Click here to see the [aggressive version](/blog/unifying-names-aggressive-version/).
+> Click here to see the [mild version](/blog/unifying-names/).
 
 [Alex Hsu](https://alexhsu.com) recently published two posts in a row discussing the topic of regional variations in Chinese.
 

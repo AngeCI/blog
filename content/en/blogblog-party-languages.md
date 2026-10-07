@@ -134,8 +134,8 @@ This is the title I originally drafted. After discussing it with others, I felt 
 1. [A Brief Discussion on Several Chinese Dialectal Phenomena](/blog/chinese-dialectal-phenomena/) - AngeCI
 1. [Importance of Studying Classical Chinese](/blog/studying-classical-chinese/) - AngeCI
 1. [About Chinese Calligraphy Education](/blog/chinese-calligraphy/) - AngeCI
-1. [Multilingual Blog](/blog//multilingual-blog/) - AngeCI
-1. [Unifying Names](/blog//unifying-names/) - AngeCI **⚠️ Content warning**
+1. [Multilingual Blog](/blog/multilingual-blog/) - AngeCI
+1. Unifying Names ([Mild version](/blog/unifying-names/), [aggressive version](/blog/unifying-names-aggressive-version/)) - AngeCI
 1. [Alex Hsu Suppresses Local Languages](/blog/alex-hsu-suppresses-local-languages/) - AngeCI **⚠️ Content warning**
 1. [二十年前部落格圈的簡體繁體議論](https://e89295.com/blog/2026-09-20.html) - 我
 1. [有關片名翻譯的問題3](https://e89295.com/blog/2026-09-06.html) - 我
@@ -149,7 +149,7 @@ This is the title I originally drafted. After discussing it with others, I felt 
 1. [誰有資格被稱作臺灣台語](https://eddielv.com/musings/taiwanese-taiwanese/) - Eddie Lv
 1. [文言文和古诗的现代教学问题及前途](https://blog.xinsl.xin/posts/problems-of-classical-chinese/) - 心是灵 Xinsl
 
-- <small>Last update: 2026-10-05</small>
+- <small>Last update: 2026-10-07</small>
 
 [^1]: 別以為是只有台灣是這樣，其實大陸甚至香港都有。
 [^2]: 請注意，本人用於發送回郵的電郵地址將與接收郵件的地址不同。各位要再回覆郵件的話，可以在兩個郵件地址之間任擇其一。

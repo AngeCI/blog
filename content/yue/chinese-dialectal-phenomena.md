@@ -11,7 +11,7 @@ categories:
 ---
 
 > [!TIP] BlogBlog 同樂會！
-> 呢篇係我嘅「[BlogBlog 同樂會 - 2026 年 7 月](https://blogblog.club/party)」嘅投稿文章。今個月嘅主題係「[有趣的小知識或冷門概念](https://shuaixin.cc/Fun-Fact/)」，由[劉昕](https://shuaixin.cc)主持。如果你有自己嘅部落格，歡迎一起嚟參加！
+> 呢篇係我同時為「[BlogBlog 同樂會 - 2026 年 7 月 - 有趣的小知識或冷門概念](https://shuaixin.cc/Fun-Fact/)」同「[BlogBlog 同樂會 - 2026 年 10 月 - 語言嘅習得、傳承同推廣](/blog/yue/blogblog-party-languages)」嘅投稿文章。如果你有自己嘅部落格，歡迎一起嚟參加！
 
 以下講吓幾個奇怪嘅漢語方言[^1]現象。
 

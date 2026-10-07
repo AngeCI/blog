@@ -131,7 +131,7 @@ tags:
 1. [論學習文言嘅必要性](/blog/yue/studying-classical-chinese/) - AngeCI
 1. [論漢字書法教育](/blog/yue/chinese-calligraphy/) - AngeCI
 1. [多語部落格](/blog/yue/multilingual-blog/) - AngeCI
-1. [統一譯名](/blog/yue/unifying-names/) - AngeCI **⚠️ 內容偏激注意**
+1. 統一譯名 （[溫和版](/blog/yue/unifying-names/)、[激進版](/blog/yue/unifying-names-aggressive-version/)） - AngeCI
 1. [Alex Hsu 打壓本土語言](/blog/yue/alex-hsu-suppresses-local-languages/) - AngeCI **⚠️ 內容偏激注意**
 1. [二十年前部落格圈的簡體繁體議論](https://e89295.com/blog/2026-09-20.html) - 我
 1. [有關片名翻譯的問題3](https://e89295.com/blog/2026-09-06.html) - 我
@@ -145,7 +145,7 @@ tags:
 1. [誰有資格被稱作臺灣台語](https://eddielv.com/musings/taiwanese-taiwanese/) - Eddie Lv
 1. [文言文和古诗的现代教学问题及前途](https://blog.xinsl.xin/posts/problems-of-classical-chinese/) - 心是灵 Xinsl
 
-- <small>最後更新：2026-10-05</small>
+- <small>最後更新：2026-10-07</small>
 
 [^1]: 咪以為得台灣係咁，其實大陸甚至香港都有。
 [^2]: 請注意，本人用於發送回郵的電郵地址將與接收郵件的地址不同。各位要再回覆郵件的話，可以在兩個郵件地址之間任擇其一。
