@@ -132,12 +132,12 @@ tags:
 1. [論漢字書法教育](/blog/zh/chinese-calligraphy/) - AngeCI
 1. [多語部落格](/blog/zh/multilingual-blog/) - AngeCI
 1. 統一譯名 （[溫和版](/blog/zh/unifying-names/)、[激進版](/blog/zh/unifying-names-aggressive-version/)） - AngeCI
-<!-- 1. [Alex Hsu 打壓本土語言](/blog/zh/alex-hsu-suppresses-local-languages/) - AngeCI **⚠️ 內容偏激注意** -->
+1. ~~[Alex Hsu 打壓本土語言](/blog/zh/alex-hsu-suppresses-local-languages/) - AngeCI **⚠️ 內容偏激注意**~~
 1. [二十年前部落格圈的簡體繁體議論](https://e89295.com/blog/2026-09-20.html) - 我
 1. [有關片名翻譯的問題3](https://e89295.com/blog/2026-09-06.html) - 我
 1. [失語症患者重新學會說話，算是重新學一種語言嗎？](https://drchiuneuro.com/aphasia-language-recovery/) - 神經沒問題
 1. [跌跌撞撞的台語學習歷程](https://www.wen-lab.tw/learn-taiwanese/) - Wen
-1. 學「台語」，真的好嗎？（[偏激A版](https://calke.bearblog.dev/tai-i-a/)、[偏激B版](https://calke.bearblog.dev/tai-i-b/)、[中性版](https://calke.bearblog.dev/tai-i-c/)） - Tommy
+1. ~~學「台語」，真的好嗎？（[偏激A版](https://calke.bearblog.dev/tai-i-a/)、[偏激B版](https://calke.bearblog.dev/tai-i-b/)、[中性版](https://calke.bearblog.dev/tai-i-c/)） - Tommy~~
 1. [親切與親切](https://blog.tatsutomo.site/blog/2026/09/28/sinsetu) - Tomo
 1. [如何考過N1](https://yangbear.bearblog.dev/n1-goukaku-suru-niwa/) - YangBear
 1. [臺灣人學注音](https://route110.blog/posts/learning-bopomofo-as-taiwanese/) - 拍拍
@@ -146,8 +146,9 @@ tags:
 1. [文言文和古诗的现代教学问题及前途](https://blog.xinsl.xin/posts/problems-of-classical-chinese/) - 心是灵 Xinsl
 1. [賽德克語](https://my-blog.worldofwheat.cc/blog/2026/09/kari-seediq) - 小麥
 1. [靠腰 feat. BlogBlogParty 10](https://niugnep.idv.tw/posts/languages-bbp10.html) - Niugnep
+1. [My linguistic history](https://matling.fit/blog/my-linguistic-history/) - 物靈
 
-- <small>最後更新：2026-10-08</small><!-- AngeCI ([1](https://angeci.github.io/blog/zh/chinese-dialectal-phenomena/) [2](https://angeci.github.io/blog/zh/studying-classical-chinese/) [3](https://angeci.github.io/blog/zh/chinese-calligraphy/) [4](https://angeci.github.io/blog/zh/multilingual-blog/) [5](https://angeci.github.io/blog/zh/unifying-names/) [6](https://angeci.github.io/blog/zh/alex-hsu-suppresses-local-languages/))、我 ([1](https://e89295.com/blog/2026-09-20.html) [2](https://e89295.com/blog/2026-09-06.html))、[神經沒問題](https://drchiuneuro.com/aphasia-language-recovery/)、[Wen](https://www.wen-lab.tw/learn-taiwanese/)、Tommy ([偏激A版](https://calke.bearblog.dev/tai-i-a/)、[偏激B版](https://calke.bearblog.dev/tai-i-b/)、[中性版](https://calke.bearblog.dev/tai-i-c/))、Tomo ([1](https://blog.tatsutomo.site/blog/2026/09/28/sinsetu) [2](https://blog.tatsutomo.site/blog/2026/10/03/i-can-understand-bird-language))、[YangBear](https://yangbear.bearblog.dev/n1-goukaku-suru-niwa/)、[拍拍](https://route110.blog/posts/learning-bopomofo-as-taiwanese/)、[Eddie Lv](https://eddielv.com/musings/taiwanese-taiwanese/)、[心是灵 Xinsl](https://blog.xinsl.xin/posts/problems-of-classical-chinese/)、[小麥](https://my-blog.worldofwheat.cc/blog/2026/09/kari-seediq)、[Niugnep](https://niugnep.idv.tw/posts/languages-bbp10.html) -->
+- <small>最後更新：2026-10-09</small><!-- AngeCI ([1](https://angeci.github.io/blog/zh/chinese-dialectal-phenomena/) [2](https://angeci.github.io/blog/zh/studying-classical-chinese/) [3](https://angeci.github.io/blog/zh/chinese-calligraphy/) [4](https://angeci.github.io/blog/zh/multilingual-blog/) [5](https://angeci.github.io/blog/zh/unifying-names/) [6](https://angeci.github.io/blog/zh/alex-hsu-suppresses-local-languages/))、我 ([1](https://e89295.com/blog/2026-09-20.html) [2](https://e89295.com/blog/2026-09-06.html))、[神經沒問題](https://drchiuneuro.com/aphasia-language-recovery/)、[Wen](https://www.wen-lab.tw/learn-taiwanese/)、Tommy ([偏激A版](https://calke.bearblog.dev/tai-i-a/)、[偏激B版](https://calke.bearblog.dev/tai-i-b/)、[中性版](https://calke.bearblog.dev/tai-i-c/))、Tomo ([1](https://blog.tatsutomo.site/blog/2026/09/28/sinsetu) [2](https://blog.tatsutomo.site/blog/2026/10/03/i-can-understand-bird-language))、[YangBear](https://yangbear.bearblog.dev/n1-goukaku-suru-niwa/)、[拍拍](https://route110.blog/posts/learning-bopomofo-as-taiwanese/)、[Eddie Lv](https://eddielv.com/musings/taiwanese-taiwanese/)、[心是灵 Xinsl](https://blog.xinsl.xin/posts/problems-of-classical-chinese/)、[小麥](https://my-blog.worldofwheat.cc/blog/2026/09/kari-seediq)、[Niugnep](https://niugnep.idv.tw/posts/languages-bbp10.html)、[物靈](https://matling.fit/blog/my-linguistic-history/) -->
 
 [^1]: 別以為是只有台灣是這樣，其實大陸甚至香港都有。
 [^2]: 請注意，本人用於發送回郵的電郵地址將與接收郵件的地址不同。各位要再回覆郵件的話，可以在兩個郵件地址之間任擇其一。

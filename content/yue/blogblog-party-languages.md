@@ -132,12 +132,12 @@ tags:
 1. [論漢字書法教育](/blog/yue/chinese-calligraphy/) - AngeCI
 1. [多語部落格](/blog/yue/multilingual-blog/) - AngeCI
 1. 統一譯名 （[溫和版](/blog/yue/unifying-names/)、[激進版](/blog/yue/unifying-names-aggressive-version/)） - AngeCI
-<!--1. [Alex Hsu 打壓本土語言](/blog/yue/alex-hsu-suppresses-local-languages/) - AngeCI **⚠️ 內容偏激注意**-->
+1. ~~[Alex Hsu 打壓本土語言](/blog/yue/alex-hsu-suppresses-local-languages/) - AngeCI **⚠️ 內容偏激注意**~~
 1. [二十年前部落格圈的簡體繁體議論](https://e89295.com/blog/2026-09-20.html) - 我
 1. [有關片名翻譯的問題3](https://e89295.com/blog/2026-09-06.html) - 我
 1. [失語症患者重新學會說話，算是重新學一種語言嗎？](https://drchiuneuro.com/aphasia-language-recovery/) - 神經沒問題
 1. [跌跌撞撞的台語學習歷程](https://www.wen-lab.tw/learn-taiwanese/) - Wen
-1. 學「台語」，真的好嗎？（[偏激A版](https://calke.bearblog.dev/tai-i-a/)、[偏激B版](https://calke.bearblog.dev/tai-i-b/)、[中性版](https://calke.bearblog.dev/tai-i-c/)） - Tommy
+1. ~~學「台語」，真的好嗎？（[偏激A版](https://calke.bearblog.dev/tai-i-a/)、[偏激B版](https://calke.bearblog.dev/tai-i-b/)、[中性版](https://calke.bearblog.dev/tai-i-c/)） - Tommy~~
 1. [親切與親切](https://blog.tatsutomo.site/blog/2026/09/28/sinsetu) - Tomo
 1. [如何考過N1](https://yangbear.bearblog.dev/n1-goukaku-suru-niwa/) - YangBear
 1. [臺灣人學注音](https://route110.blog/posts/learning-bopomofo-as-taiwanese/) - 拍拍
@@ -146,8 +146,9 @@ tags:
 1. [文言文和古诗的现代教学问题及前途](https://blog.xinsl.xin/posts/problems-of-classical-chinese/) - 心是灵 Xinsl
 1. [賽德克語](https://my-blog.worldofwheat.cc/blog/2026/09/kari-seediq) - 小麥
 1. [靠腰 feat. BlogBlogParty 10](https://niugnep.idv.tw/posts/languages-bbp10.html) - Niugnep
+1. [My linguistic history](https://matling.fit/blog/my-linguistic-history/) - 物靈
 
-- <small>最後更新：2026-10-08</small>
+- <small>最後更新：2026-10-09</small>
 
 [^1]: 咪以為得台灣係咁，其實大陸甚至香港都有。
 [^2]: 請注意，本人用於發送回郵的電郵地址將與接收郵件的地址不同。各位要再回覆郵件的話，可以在兩個郵件地址之間任擇其一。
