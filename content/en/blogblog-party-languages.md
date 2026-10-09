@@ -151,8 +151,10 @@ This is the title I originally drafted. After discussing it with others, I felt 
 1. [賽德克語](https://my-blog.worldofwheat.cc/blog/2026/09/kari-seediq) - 小麥
 1. [靠腰 feat. BlogBlogParty 10](https://niugnep.idv.tw/posts/languages-bbp10.html) - Niugnep
 1. [My linguistic history](https://matling.fit/blog/my-linguistic-history/) - Matling
+1. [從語言腐敗中長出詭辯機器](https://ex-tasty.com/posts/m070-language-decay/) - 開源 lib（
+1. [語言是工具，使用在意念](https://rayrrrrrrr.bearblog.dev/9896/) - RayrrrrrR
 
-- <small>Last update: 2026-10-09</small>
+- <small>Last update: 2026-10-10</small>
 
 [^1]: 別以為是只有台灣是這樣，其實大陸甚至香港都有。
 [^2]: 請注意，本人用於發送回郵的電郵地址將與接收郵件的地址不同。各位要再回覆郵件的話，可以在兩個郵件地址之間任擇其一。
