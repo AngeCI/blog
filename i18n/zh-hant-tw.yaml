@@ -1,0 +1,5 @@
+read_more_btn: "繼續閱讀 →"
+prev_post: "上一篇文章"
+next_post: "下一篇文章"
+random_post_btn: "🎲 或者，按這裏抽一篇隨機文章！"
+site_stats: "目前共有 {{ .Count }} 篇文章，總共 {{ .Words }} 萬字"

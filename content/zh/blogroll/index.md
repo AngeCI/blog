@@ -30,8 +30,8 @@ menu:
 | Shuo-jen Blog<br>![Shuo-jen Blog](shuojen_88x31.png) | https://shuojen.com |  |
 | Ivon 的部落格 | https://ivonblog.com | <!--有 NSFW 內容。--> |
 | LQ7 的創作與想像 | https://lq7.tw |  |
-| Eddie Lv | https://eddielv.com | [BlogBlog 同樂會](https://blogblog.club/party)主持人之一。 |
 | Matrix67: The Aha Moments | https://matrix67.com/blog/ | 有許多硬核的數學內容。（簡體中文） |
+<!--| Eddie Lv | https://eddielv.com | [BlogBlog 同樂會](https://blogblog.club/party)主持人之一。 |-->
 
 <!--
 # 異端

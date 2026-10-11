@@ -1,0 +1,5 @@
+read_more_btn: "Continue reading →"
+prev_post: "Previous Post"
+next_post: "Next Post"
+random_post_btn: "🎲 Or click here for a random post!"
+site_stats: "{{ .Count }} posts, with {{ .Words }}k words in total"

@@ -6,6 +6,6 @@
         {{ .Content | replaceRE "(<table>(?:.|\n)+?</table>)" $wrappedTable | safeHTML }}
     </section>
     <div class="read-more-link">
-        <a href="{{ .RelPermalink }}"> 繼續閱讀 → </a>
+        <a href="{{ .RelPermalink }}">{{ i18n "read_more_btn" | default "繼續閱讀 →" }}</a>
     </div>
 </article>

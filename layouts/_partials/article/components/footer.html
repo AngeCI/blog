@@ -1,17 +1,21 @@
 <footer class="article-meta article-footer">
     {{ partial "article/components/tags" . }}
 
-    {{- if or .Prev .Next -}}
+    {{- if eq .Type "post" -}}
+    {{- $posts := where .Site.RegularPages "Type" "post" -}}
+    {{- $prev := $posts.Prev . -}}
+    {{- $next := $posts.Next . -}}
+
     <hr style="width: 100px; margin: 0 auto; background: var(--card-text-color-tertiary); height: 2px; border: 0; opacity: .55;">
     <ul class="pagination-nav">
-    {{- with .Prev -}}
-        <li class="pagination-nav-prev"><a href="{{ .RelPermalink }}">上一篇文章<span class="pagination-nav-label">{{ .LinkTitle }}</span></a></li>
+    {{- with $prev -}}
+        <li class="pagination-nav-prev"><a href="{{ .RelPermalink }}">{{ i18n "prev_post" | default "上一篇文章" }}<span class="pagination-nav-label">{{ .LinkTitle }}</span></a></li>
     {{- end -}}
-    {{- with .Next -}}
-        <li class="pagination-nav-next"><a href="{{ .RelPermalink }}">下一篇文章<span class="pagination-nav-label">{{ .LinkTitle }}</span></a></li>
+    {{- with $next -}}
+        <li class="pagination-nav-next"><a href="{{ .RelPermalink }}">{{ i18n "next_post" | default "下一篇文章" }}<span class="pagination-nav-label">{{ .LinkTitle }}</span></a></li>
     {{- end -}}
     </ul>
-    <a id="footer-random-post" href="#">🎲 或者，按這裏抽一篇隨機文章！</a>
+    <a id="footer-random-post" href="#">{{ i18n "random_post_btn" | default "🎲 或者，按這裏抽一篇隨機文章！" }}</a>
 
 <script>
 "use strict";

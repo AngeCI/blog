@@ -2,10 +2,21 @@
 <footer class="site-footer">
     <section class="totalcount">
     {{- $wordcount := newScratch -}}
-    {{- range where .Site.RegularPages "Type" "post" -}}
+    {{- $posts := where .Site.RegularPages "Type" "post" -}}
+    {{- range $posts -}}
       {{- $wordcount.Add "total" .WordCount -}}
     {{- end -}}
-        目前共有 {{ len (where .Site.RegularPages "Type" "post") }} 篇文章，總共 {{ div ($wordcount.Get "total") 10000.0 | lang.FormatNumber 1 }} 萬字
+    {{- $count := len $posts -}}
+    {{- $totalWords := $wordcount.Get "total" -}}
+    {{- if eq .Site.Language.Lang "en" -}}
+      {{- $kWords := div $totalWords 1000.0 | lang.FormatNumber 1 -}}
+      {{ $count }} posts, with {{ $kWords }}k words in total
+      <!-- {{ i18n "site_stats" (dict "Count" $count "Words" $kWords) | default (printf "%d posts, with %sk words in total" $count $kWords) }} -->
+    {{- else -}}
+      {{- $myriadWords := div $totalWords 10000.0 | lang.FormatNumber 1 -}}
+        <!-- 目前共有 {{ len (where .Site.RegularPages "Type" "post") }} 篇文章，總共 {{ div ($wordcount.Get "total") 10000.0 | lang.FormatNumber 1 }} 萬字 -->
+        {{ i18n "site_stats" (dict "Count" $count "Words" $myriadWords) | default (printf "目前共有 %d 篇文章，總共 %s 萬字" $count $myriadWords) }}
+    {{- end -}}
     </section>
 
     <section class="copyright">
