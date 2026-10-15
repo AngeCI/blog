@@ -155,8 +155,9 @@ This is the title I originally drafted. After discussing it with others, I felt 
 1. [語言是工具，使用在意念](https://rayrrrrrrr.bearblog.dev/9896/) - RayrrrrrR
 1. [Lūn Tâi-oân Chèng-tī Jîn-bu̍t Tâi-gí Thêng-tō͘](https://wox080xow.github.io/2026/10/11/tai-oan-cheng-ti-jin-but-tai-gi-theng-too.html) - Lí Ka-io̍k
 1. [四種語言經驗](https://blog.andy-hu.com/4_languages) - Andy
+1. [去 AI 味](https://boringgame.codeberg.page/blog/20261015/) - Boring Game
 
-- <small>Last update: 2026-10-14</small>
+- <small>Last update: 2026-10-16</small>
 
 [^1]: 別以為是只有台灣是這樣，其實大陸甚至香港都有。
 [^2]: 請注意，本人用於發送回郵的電郵地址將與接收郵件的地址不同。各位要再回覆郵件的話，可以在兩個郵件地址之間任擇其一。
