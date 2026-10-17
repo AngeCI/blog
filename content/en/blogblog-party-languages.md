@@ -156,8 +156,10 @@ This is the title I originally drafted. After discussing it with others, I felt 
 1. [Lūn Tâi-oân Chèng-tī Jîn-bu̍t Tâi-gí Thêng-tō͘](https://wox080xow.github.io/2026/10/11/tai-oan-cheng-ti-jin-but-tai-gi-theng-too.html) - Lí Ka-io̍k
 1. [四種語言經驗](https://blog.andy-hu.com/4_languages) - Andy
 1. [去 AI 味](https://boringgame.codeberg.page/blog/20261015/) - Boring Game
+1. [Go！Go！語言城堡！](https://smallpeegueblog.bearblog.dev/gogo/) - 小皮球
+1. [Go！Go！語言城堡！New 改編！](https://smallpeegueblog.bearblog.dev/gogo-new/) - 小皮球
 
-- <small>Last update: 2026-10-16</small>
+- <small>Last update: 2026-10-18</small>
 
 [^1]: 別以為是只有台灣是這樣，其實大陸甚至香港都有。
 [^2]: 請注意，本人用於發送回郵的電郵地址將與接收郵件的地址不同。各位要再回覆郵件的話，可以在兩個郵件地址之間任擇其一。
