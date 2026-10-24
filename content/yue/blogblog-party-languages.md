@@ -156,8 +156,12 @@ tags:
 1. [Go！Go！語言城堡！New 改編！](https://smallpeegueblog.bearblog.dev/gogo-new/) - 小皮球
 1. [語言的習得、傳承與推廣](https://haruowang.vercel.app/about/lifelog/blogblog.html#語言的習得、傳承與推廣) - Haruo Wang
 1. [Bopomofo你知道嗎?](https://daisy27.bearblog.dev/bopomofo/) - Daisy黛西
+1. [學英文的工具推薦](https://ilovemovie.pika.page/posts/blogblog-2026-00678230-4820-4731-bb95-028ac23f71cf) - 阿標
+1. [我kap臺語之間ê關係——Holopedia (閩南語維基百科) kap故事創作](https://blog.kianting.info/2026/10/24/gua2-kap-tai5gi2/) - Yoxem
+1. [漢字存廢之辯](/blog/zh/arguments-on-the-abolishment-of-hanzi/) - AngeCI
+<!-- 1. [香港語言狀況發展史](/blog/zh//) - AngeCI -->
 
-- <small>最後更新：2026-10-22</small>
+- <small>最後更新：2026-10-25</small>
 
 [^1]: 咪以為得台灣係咁，其實大陸甚至香港都有。
 [^2]: 請注意，本人用於發送回郵的電郵地址將與接收郵件的地址不同。各位要再回覆郵件的話，可以在兩個郵件地址之間任擇其一。
