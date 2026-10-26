@@ -164,8 +164,9 @@ This is the title I originally drafted. After discussing it with others, I felt 
 1. [我kap臺語之間ê關係——Holopedia (閩南語維基百科) kap故事創作](https://blog.kianting.info/2026/10/24/gua2-kap-tai5gi2/) - Yoxem
 1. [越來越大陸？](https://cheuk.blog/posts/languages/) - Cheuk
 1. [我喜歡聽的那些台語歌曲](https://j2hongming.com/2026/10/26/taiwanese-playlist-daily-picks/) - j2hongming
+1. [食道？](https://jsdurand.xyz/annagati.html) - 李俊緯
 1. [漢字存廢之辯](/blog/zh/arguments-on-the-abolishment-of-hanzi/) - AngeCI
-<!-- 1. [香港語言狀況發展史](/blog/zh//) - AngeCI -->
+<!-- 1. [香港語言狀況發展史](/blog/zh/history-of-the-linguistic-situation-hong-kong/) - AngeCI -->
 
 - <small>Last update: 2026-10-26</small>
 
