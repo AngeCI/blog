@@ -161,10 +161,12 @@ tags:
 1. [越來越大陸？](https://cheuk.blog/posts/languages/) - Cheuk
 1. [我喜歡聽的那些台語歌曲](https://j2hongming.com/2026/10/26/taiwanese-playlist-daily-picks/) - j2hongming
 1. [食道？](https://jsdurand.xyz/annagati.html) - 李俊緯
-1. [漢字存廢之辯](/blog/zh/arguments-on-the-abolishment-of-hanzi/) - AngeCI
-<!-- 1. [香港語言狀況發展史](/blog/zh/history-of-the-linguistic-situation-hong-kong/) - AngeCI -->
+1. [窄式學習法](https://tianyanfeng.blog/narrow-reading/) - Tian-Yan
+1. [語言學習](https://blog.giveanornot.com/language-learning/) - JN
+1. [漢字存廢之辯](/blog/yue/arguments-on-the-abolishment-of-hanzi/) - AngeCI
+<!-- 1. [香港語言狀況發展史](/blog/yue/history-of-the-linguistic-situation-in-hong-kong/) - AngeCI -->
 
-- <small>最後更新：2026-10-26</small>
+- <small>最後更新：2026-10-28</small>
 
 [^1]: 咪以為得台灣係咁，其實大陸甚至香港都有。
 [^2]: 請注意，本人用於發送回郵嘅電郵地址同接收郵件嘅地址唔一樣。各位要再回覆郵件嘅話，可以喺兩個郵件地址之間任擇其一。

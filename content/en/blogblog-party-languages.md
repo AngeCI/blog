@@ -165,10 +165,12 @@ This is the title I originally drafted. After discussing it with others, I felt 
 1. [越來越大陸？](https://cheuk.blog/posts/languages/) - Cheuk
 1. [我喜歡聽的那些台語歌曲](https://j2hongming.com/2026/10/26/taiwanese-playlist-daily-picks/) - j2hongming
 1. [食道？](https://jsdurand.xyz/annagati.html) - 李俊緯
-1. [漢字存廢之辯](/blog/zh/arguments-on-the-abolishment-of-hanzi/) - AngeCI
-<!-- 1. [香港語言狀況發展史](/blog/zh/history-of-the-linguistic-situation-hong-kong/) - AngeCI -->
+1. [窄式學習法](https://tianyanfeng.blog/narrow-reading/) - Tian-Yan
+1. [語言學習](https://blog.giveanornot.com/language-learning/) - JN
+1. [Arguments on the Abolishment of Hanzi](/blog/arguments-on-the-abolishment-of-hanzi/) - AngeCI
+<!-- 1. [History of the Linguistic Situation in Hong Kong](/blog/history-of-the-linguistic-situation-in-hong-kong/) - AngeCI -->
 
-- <small>Last update: 2026-10-26</small>
+- <small>Last update: 2026-10-28</small>
 
 [^1]: 別以為是只有台灣是這樣，其實大陸甚至香港都有。
 [^2]: 請注意，本人用於發送回郵的電郵地址將與接收郵件的地址不同。各位要再回覆郵件的話，可以在兩個郵件地址之間任擇其一。
