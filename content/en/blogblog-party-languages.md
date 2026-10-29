@@ -167,10 +167,13 @@ This is the title I originally drafted. After discussing it with others, I felt 
 1. [食道？](https://jsdurand.xyz/annagati.html) - 李俊緯
 1. [窄式學習法](https://tianyanfeng.blog/narrow-reading/) - Tian-Yan
 1. [語言學習](https://blog.giveanornot.com/language-learning/) - JN
+1. [重修中文？](https://blog.supergrey.uk/relearn-chinese/) - SuperGrey
+1. [Anki-複習的力量，語言學習工具，影響我的一生](https://fgzblog.com/zh-tw/posts/anki/) - 范剛哲
+1. [耳朵看不見](https://oohmemen.com/blog/babbling/) - O’Oh 麵麵
 1. [Arguments on the Abolishment of Hanzi](/blog/arguments-on-the-abolishment-of-hanzi/) - AngeCI
-<!-- 1. [History of the Linguistic Situation in Hong Kong](/blog/history-of-the-linguistic-situation-in-hong-kong/) - AngeCI -->
+1. [History of the Linguistic Situation in Hong Kong](/blog/history-of-the-linguistic-situation-in-hong-kong/) - AngeCI
 
-- <small>Last update: 2026-10-28</small>
+- <small>Last update: 2026-10-30</small>
 
 [^1]: 別以為是只有台灣是這樣，其實大陸甚至香港都有。
 [^2]: 請注意，本人用於發送回郵的電郵地址將與接收郵件的地址不同。各位要再回覆郵件的話，可以在兩個郵件地址之間任擇其一。

@@ -163,10 +163,13 @@ tags:
 1. [食道？](https://jsdurand.xyz/annagati.html) - 李俊緯
 1. [窄式學習法](https://tianyanfeng.blog/narrow-reading/) - Tian-Yan
 1. [語言學習](https://blog.giveanornot.com/language-learning/) - JN
+1. [重修中文？](https://blog.supergrey.uk/relearn-chinese/) - SuperGrey
+1. [Anki-複習的力量，語言學習工具，影響我的一生](https://fgzblog.com/zh-tw/posts/anki/) - 范剛哲
+1. [耳朵看不見](https://oohmemen.com/blog/babbling/) - O’Oh 麵麵
 1. [漢字存廢之辯](/blog/yue/arguments-on-the-abolishment-of-hanzi/) - AngeCI
-<!-- 1. [香港語言狀況發展史](/blog/yue/history-of-the-linguistic-situation-in-hong-kong/) - AngeCI -->
+1. [香港語言狀況發展史](/blog/yue/history-of-the-linguistic-situation-in-hong-kong/) - AngeCI
 
-- <small>最後更新：2026-10-28</small>
+- <small>最後更新：2026-10-30</small>
 
 [^1]: 咪以為得台灣係咁，其實大陸甚至香港都有。
 [^2]: 請注意，本人用於發送回郵嘅電郵地址同接收郵件嘅地址唔一樣。各位要再回覆郵件嘅話，可以喺兩個郵件地址之間任擇其一。
