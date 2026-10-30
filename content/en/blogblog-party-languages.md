@@ -172,6 +172,9 @@ This is the title I originally drafted. After discussing it with others, I felt 
 1. [耳朵看不見](https://oohmemen.com/blog/babbling/) - O’Oh 麵麵
 1. [Arguments on the Abolishment of Hanzi](/blog/arguments-on-the-abolishment-of-hanzi/) - AngeCI
 1. [History of the Linguistic Situation in Hong Kong](/blog/history-of-the-linguistic-situation-in-hong-kong/) - AngeCI
+1. [多元文化的马来西亚人](https://mrkeat.bearblog.dev/%E5%A4%9A%E5%85%83%E6%96%87%E5%8C%96%E7%9A%84%E9%A9%AC%E6%9D%A5%E8%A5%BF%E4%BA%9A%E4%BA%BA/) - mrkeat
+1. [本名、つばさ、Tim與鴕鳥](https://chs-li.com/posts/82a3537f) - 鴕鳥
+1. [如果國三那年就有翻譯機](https://chs-li.com/posts/c9698791/) - 鴕鳥
 
 - <small>Last update: 2026-10-30</small>
 

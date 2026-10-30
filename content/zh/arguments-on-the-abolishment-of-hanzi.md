@@ -1,5 +1,5 @@
 ---
-date: "2026-10-25"
+date: "2026-10-29T19:59:59+00:00"
 type: "post"
 title: "漢字存廢之辯"
 description: ""
