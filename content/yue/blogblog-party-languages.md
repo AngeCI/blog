@@ -171,8 +171,12 @@ tags:
 1. [多元文化的马来西亚人](https://mrkeat.bearblog.dev/%E5%A4%9A%E5%85%83%E6%96%87%E5%8C%96%E7%9A%84%E9%A9%AC%E6%9D%A5%E8%A5%BF%E4%BA%9A%E4%BA%BA/) - mrkeat
 1. [本名、つばさ、Tim與鴕鳥](https://chs-li.com/posts/82a3537f) - 鴕鳥
 1. [如果國三那年就有翻譯機](https://chs-li.com/posts/c9698791/) - 鴕鳥
+1. [我學英文單字的方法](https://carrot.tw/posts/bbp-10/) - 蘿蔔
+1. [中國用語過敏](https://plog.bearblog.dev/bbp10/) - ㄅㄨ
+1. [語言的習得、傳承與推廣](https://puzelee.cc/posts/language-acquisition-transmission-and-promotion/) - PuzeLee
+1. [一些現實語言文化雜談](https://erne.bearblog.dev/261028) - ERNE
 
-- <small>最後更新：2026-10-30</small>
+- <small>最後更新：2026-10-31</small>
 
 [^1]: 咪以為得台灣係咁，其實大陸甚至香港都有。
 [^2]: 請注意，本人用於發送回郵嘅電郵地址同接收郵件嘅地址唔一樣。各位要再回覆郵件嘅話，可以喺兩個郵件地址之間任擇其一。
