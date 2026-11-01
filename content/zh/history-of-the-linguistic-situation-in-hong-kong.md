@@ -11,6 +11,9 @@ tags:
   - "Hakka 客家話"
 ---
 
+> [!TIP] BlogBlog 同樂會！
+> 這是我的「[BlogBlog 同樂會 - 2026 年 10 月](https://blogblog.club/party)」的投稿文章。本月主題是「[語言的習得、傳承與推廣](https://angeci.github.io/blog/zh/blogblog-party-languages/)」，由 [AngeCI](https://angeci.github.io/blog/zh/) 主持。如果你有自己的部落格，歡迎一起來參加！
+
 長話短說，香港開埠前的原居民主要說圍頭話和客家話，開埠後從廣東各地遷入了說廣府話的人，並在 1960-1980 年代左右取得主導地位，1997 年主權移交後普通話逐漸開始在香港擴散。可造成這些轉變過程和因素究竟為何？
 
 # 第一次換血

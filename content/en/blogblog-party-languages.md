@@ -180,7 +180,7 @@ This is the title I originally drafted. After discussing it with others, I felt 
 1. [語言的習得、傳承與推廣](https://puzelee.cc/posts/language-acquisition-transmission-and-promotion/) - PuzeLee
 1. [一些現實語言文化雜談](https://erne.bearblog.dev/261028) - ERNE
 
-- <small>Last update: 2026-10-31</small>
+- <small>Last update: 2026-11-02</small>
 
 [^1]: 別以為是只有台灣是這樣，其實大陸甚至香港都有。
 [^2]: 請注意，本人用於發送回郵的電郵地址將與接收郵件的地址不同。各位要再回覆郵件的話，可以在兩個郵件地址之間任擇其一。

@@ -176,7 +176,7 @@ tags:
 1. [語言的習得、傳承與推廣](https://puzelee.cc/posts/language-acquisition-transmission-and-promotion/) - PuzeLee
 1. [一些現實語言文化雜談](https://erne.bearblog.dev/261028) - ERNE
 
-- <small>最後更新：2026-10-31</small>
+- <small>最後更新：2026-11-02</small>
 
 [^1]: 咪以為得台灣係咁，其實大陸甚至香港都有。
 [^2]: 請注意，本人用於發送回郵嘅電郵地址同接收郵件嘅地址唔一樣。各位要再回覆郵件嘅話，可以喺兩個郵件地址之間任擇其一。
