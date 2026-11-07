@@ -1,6 +1,5 @@
 ---
 date: "2026-11-07T20:12:06+00:00"
-draft: true
 type: "post"
 title: "Conversion algorithm from Wylie Transliteration to Tibetan Alphabet"
 description: ""
