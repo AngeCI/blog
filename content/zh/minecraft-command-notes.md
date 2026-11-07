@@ -14,6 +14,20 @@ categories:
 /effect give @p instant_health 999999 15 true
 ```
 
+<!--
+```
+/give @p spawner{BlockEntityTag:{auto:1b,SpawnData:{id:"<mob_id>"}}}
+```
+-->
+
+```
+/give @p command_block{BlockEntityTag:{auto:1b,Command:"setblock ~ ~ ~ grass_block"}}
+```
+
+```
+/give @p command_block{BlockEntityTag:{auto:1b,Command:"setblock ~ ~ ~ spawner{SpawnData:{entity:{id:\"minecraft:frog\"}}}"}}
+```
+
 ```
 /give @p minecraft:villager_spawn_egg{EntityTag:{NoAI:1b,PersistenceRequired:1b,VillagerData:{type:"minecraft:plains",profession:"minecraft:librarian",lvl:5},Brain:{memories:{job_site:{pos:[I;0,0,0],dimension:"minecraft:overworld"}}},Offers:{Recipes:[{rewardExp:true,maxUses:114514,uses:0,max:null,buy:{id:"minecraft:emerald",Count:12b},sell:{id:"minecraft:enchanted_book",Count:1b,tag:{Enchantments:[{id:"minecraft:mending",lvl:1}]}}}]},id:"minecraft:villager"}} 64
 ```
