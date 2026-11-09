@@ -15,13 +15,15 @@ tags:
 1. Convert digraphs to monographs.
 1. Process all the force stackings.
 1. If there exists at least one vowel letter `aeiou`, split the input into onset and codas first.
-    a. If a syllable has a structure of `CCa`, put an extra `འ` at the end of the syllable.
+    1. If a syllable has a structure of `CCa`, put an extra `འ` at the end of the syllable.
 1. If there exists no vowel letters:
-    a. Insert `a` between the two consonants when the whole syllable has exactly two consonants.
-    b. Insert `a` between the first and second consonant when the whole syllable has four consonants.
-    c. When there are three consonant in the whole syllable:
+    1. If there exist a `w`, this `w` would be the last letter of the prefix.
+    1. Insert `a` between the two consonants when the whole syllable has exactly two consonants.
+    1. Insert `a` between the first and second consonant when the whole syllable has four consonants.
+    1. When there are three consonant in the whole syllable:
         1. Insert `a` between the first and second consonant, if the second and third consonant is one of the following combinations: `[gŋbm]s|[nrl]d`.
         1. Otherwise, insert `a` between the second and third consonant.
+1. If `w` doesn’t come at the beginning of a syllable or a force non-stacking flag, convert it to a subscript form.
 1. Process subscript letters.
 1. Process superscript letters.
 1. Process suffix letters.
